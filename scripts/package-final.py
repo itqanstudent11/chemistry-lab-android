@@ -21,9 +21,19 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--apk', type=Path, default=ROOT / 'app/build/outputs/apk/debug/app-debug.apk')
     parser.add_argument('--output', type=Path, default=ROOT / 'dist' / f'{NAME}-final.zip')
+    parser.add_argument('--git-bundle', type=Path, help='Optional complete Git backup to include in the delivery ZIP')
     args = parser.parse_args()
     if not args.apk.is_file():
         parser.error(f'APK missing: {args.apk}')
+    with zipfile.ZipFile(args.apk) as apk_archive:
+        if apk_archive.testzip() is not None:
+            parser.error('APK ZIP integrity check failed.')
+        asset_root = ROOT / 'app/src/main/assets'
+        for asset in asset_root.rglob('*'):
+            if asset.is_file():
+                entry = 'assets/' + asset.relative_to(asset_root).as_posix()
+                if entry not in apk_archive.namelist() or apk_archive.read(entry) != asset.read_bytes():
+                    parser.error(f'APK contains outdated or missing content: {entry}')
     report = ROOT / 'docs/VERIFICATION.md'
     if not report.is_file():
         parser.error('docs/VERIFICATION.md must record the final checks and limitations first.')
@@ -43,6 +53,12 @@ def main():
             target = source / rel
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(file, target)
+        if args.git_bundle:
+            subprocess.run(['git', 'bundle', 'verify', str(args.git_bundle.resolve())], cwd=ROOT, check=True, capture_output=True)
+            shutil.copy2(args.git_bundle, package / 'checkpoint.bundle')
+        head = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True)
+        if head.returncode == 0:
+            (package / 'SOURCE-COMMIT.txt').write_text(head.stdout.strip() + '\n', encoding='utf-8')
         shutil.copy2(args.apk, package / f'{NAME}.apk')
         shutil.copy2(ROOT / 'scripts/install-termux.sh', package / 'install-termux.sh')
         shutil.copy2(ROOT / 'README.md', package / 'README.md')

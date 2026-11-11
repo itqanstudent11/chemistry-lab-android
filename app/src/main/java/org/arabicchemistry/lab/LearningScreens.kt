@@ -24,7 +24,7 @@ import kotlinx.coroutines.launch
 @Composable internal fun InfoCard(title: String, body: String) {
     Card(Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
         Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            Text(title, style = MaterialTheme.typography.titleLarge, color = Blue)
+            Text(title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
             Text(body, style = MaterialTheme.typography.bodyLarge)
         }
     }
@@ -65,7 +65,7 @@ import kotlinx.coroutines.launch
         item { Text(s.text("${visible.size} درسًا • تكتمل الدروس عند إجابة جميع أسئلتها", "${visible.size} lessons • complete every question to finish a lesson")) }
         if (visible.isEmpty()) item { InfoCard(s.text("لا توجد نتائج", "No results"), s.text("عدّل البحث أو المستوى، أو أضف درسًا إلى المفضلة.", "Change the search or level, or save a lesson first.")) }
         visible.groupBy { it.section }.forEach { (section, entries) ->
-            item(key = "section-$section") { Text(section, style = MaterialTheme.typography.titleMedium, color = Blue) }
+            item(key = "section-$section") { Text(section, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary) }
             items(entries, key = { it.id }) { lesson ->
                 NavCard(lesson.title, "${lesson.level} • ${if (lesson.id in done) s.text("مكتمل ✓", "Completed ✓") else s.text("ابدأ القراءة", "Read lesson")}") { onLesson(lesson.id) }
             }
@@ -82,7 +82,7 @@ import kotlinx.coroutines.launch
     val index = lessons.indexOfFirst { it.id == lesson.id }
     LazyColumn(state = state, modifier = Modifier.fillMaxSize().testTag("lesson-content"), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item(key = "header-${lesson.id}") {
-            Text("${lesson.level} • ${lesson.section}", color = Blue)
+            Text("${lesson.level} • ${lesson.section}", color = MaterialTheme.colorScheme.primary)
             Heading(lesson.title)
             TextButton(onClick = onFavorite) { Text(if (favorite) s.text("إزالة من المفضلة", "Remove from saved") else s.text("إضافة إلى المفضلة", "Save lesson")) }
             InfoCard(s.text("أهداف التعلم", "Learning objectives"), lesson.objectives.joinToString("\n") { "• $it" })
@@ -109,7 +109,7 @@ import kotlinx.coroutines.launch
         item {
             Heading(s.text("اختبار الدرس", "Lesson quiz"))
             Text(s.text("${passed.size} / ${lesson.questions.size} إجابات صحيحة", "${passed.size} / ${lesson.questions.size} questions passed"))
-            if (completed) Text(if (passed.size == lesson.questions.size) s.text("الدرس مكتمل ✓", "Lesson completed ✓") else s.text("إنجاز محفوظ من الإصدار السابق؛ يمكنك إكمال أسئلة المنهج الموسع.", "Completion retained from the previous version; you can also complete the expanded quiz."), color = Blue)
+            if (completed) Text(if (passed.size == lesson.questions.size) s.text("الدرس مكتمل ✓", "Lesson completed ✓") else s.text("إنجاز محفوظ من الإصدار السابق؛ يمكنك إكمال أسئلة المنهج الموسع.", "Completion retained from the previous version; you can also complete the expanded quiz."), color = MaterialTheme.colorScheme.primary)
         }
         lesson.questions.forEachIndexed { qi, question ->
             item(key = "${lesson.id}-q-$qi") {
@@ -131,7 +131,7 @@ import kotlinx.coroutines.launch
                             }
                         }
                         if (choice >= 0 || alreadyPassed) {
-                            Text(if (alreadyPassed) s.text("إجابة صحيحة", "Correct") else s.text("راجع التفسير ثم حاول مجددًا", "Review the explanation and try again"), color = Blue)
+                            Text(if (alreadyPassed) s.text("إجابة صحيحة", "Correct") else s.text("راجع التفسير ثم حاول مجددًا", "Review the explanation and try again"), color = MaterialTheme.colorScheme.primary)
                             Text(question.explanation)
                         }
                     }

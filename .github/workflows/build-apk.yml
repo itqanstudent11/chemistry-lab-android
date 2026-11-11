@@ -6,6 +6,10 @@ on:
   push:
     branches:
       - native-v1
+      - codex/chemistry-encyclopedia-v4-checkpoint
+  pull_request:
+    branches:
+      - native-v1
 
 jobs:
   build:
@@ -40,6 +44,30 @@ jobs:
 
       - name: Build and verify
         run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug assembleDebugAndroidTest
+
+      - name: Enable KVM
+        run: sudo chmod 666 /dev/kvm
+
+      - name: Test on Android API 24
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 24
+          target: default
+          arch: x86
+          profile: pixel_2
+          disable-animations: true
+          script: ./gradlew --no-daemon connectedDebugAndroidTest
+
+      - name: Upload verification reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chemistry-verification
+          path: |
+            app/build/reports/tests/testDebugUnitTest/
+            app/build/reports/androidTests/connected/
+            app/build/reports/lint-results-debug.html
+          if-no-files-found: warn
 
       - name: Package final bundle
         run: python3 scripts/package-final.py

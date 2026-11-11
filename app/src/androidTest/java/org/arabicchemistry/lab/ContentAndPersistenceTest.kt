@@ -24,6 +24,8 @@ class ContentAndPersistenceTest {
         assertEquals((1..118).toList(), library.elements.map { it.number })
         assertEquals("Au", library.elements.single { it.number == 79 }.symbol)
         assertEquals(library.guidesAr.map { it.id }, library.guidesEn.map { it.id })
+        assertEquals(32, library.glossary.size)
+        assertTrue(library.glossary.all { entry -> library.lessonsAr.any { it.id == entry.lessonId } })
         assertEquals(setOf("geology", "gold", "safety"), library.guidesAr.map { it.section }.toSet())
         assertTrue(library.lessonsAr.all { it.questions.size >= 3 && it.objectives.isNotEmpty() })
         assertTrue(library.lessonsEn.all { it.questions.all { q -> q.answer in q.options.indices } })

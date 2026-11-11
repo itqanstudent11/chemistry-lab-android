@@ -21,8 +21,9 @@ data class Topic(val id: String, val title: String, val body: String)
 data class Reference(val title: String, val url: String)
 data class Guide(val id: String, val section: String, val title: String, val intro: String,
     val topics: List<Topic>, val sources: List<Reference>, val reviewStatus: String)
+data class GlossaryEntry(val id: String, val ar: String, val en: String, val definitionAr: String, val definitionEn: String, val lessonId: String)
 data class Library(val lessonsAr: List<Lesson>, val lessonsEn: List<Lesson>, val elements: List<Element>,
-    val guidesAr: List<Guide>, val guidesEn: List<Guide>) {
+    val guidesAr: List<Guide>, val guidesEn: List<Guide>, val glossary: List<GlossaryEntry>) {
     fun lessons(english: Boolean) = if (english) lessonsEn else lessonsAr
     fun guides(english: Boolean) = if (english) guidesEn else guidesAr
 }
@@ -52,7 +53,9 @@ object ContentRepository {
             Element(o.getInt("number"), o.getString("symbol"), o.getString("name"), o.getString("nameEn"), o.getString("mass"),
                 o.getInt("period"), o.getInt("group"), o.getString("category"), o.getString("block"),
                 o.getString("stateAr"), o.getString("stateEn"), o.getString("descriptionAr"), o.getString("descriptionEn"), o.getString("sourceUrl"), o.getString("massKind"), o.optString("massUncertainty"), o.getString("massSourceUrl"))
-        }, guides("guides_ar.json"), guides("guides_en.json"))
+        }, guides("guides_ar.json"), guides("guides_en.json"), array("glossary.json").objects { o ->
+            GlossaryEntry(o.getString("id"), o.getString("ar"), o.getString("en"), o.getString("definitionAr"), o.getString("definitionEn"), o.getString("lessonId"))
+        })
     }
 }
 

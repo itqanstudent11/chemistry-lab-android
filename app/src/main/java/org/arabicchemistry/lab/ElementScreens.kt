@@ -108,8 +108,8 @@ private fun categoryColor(key: String) = when(key) {
     Card(onClick = { onElement(e.number) }, modifier = Modifier.size(62.dp, 74.dp).semantics { contentDescription = "${e.number} $name ${e.symbol}" },
         colors = CardDefaults.cardColors(containerColor = categoryColor(e.category))) {
         Column(Modifier.fillMaxSize().padding(4.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
-            Text("${e.number}", style = MaterialTheme.typography.labelSmall)
-            Text(e.symbol, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+            Text("${e.number}", style = MaterialTheme.typography.labelSmall, color = Ink)
+            Text(e.symbol, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = Ink)
         }
     }
 }

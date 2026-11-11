@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.arabicchemistry.lab.EquationBalancerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-11T18:14:12" hostname="6ef668503e34" time="0.066">
+  <properties/>
+  <testcase name="rejectsInvalidAmbiguousOrUnsupportedEquations" classname="org.arabicchemistry.lab.EquationBalancerTest" time="0.055"/>
+  <testcase name="canonicalIntegerSolutionsConserveAtoms" classname="org.arabicchemistry.lab.EquationBalancerTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

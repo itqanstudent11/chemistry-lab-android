@@ -4,14 +4,18 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.saveable.rememberSaveableStateHolder
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
@@ -24,6 +28,7 @@ internal data class Words(val english: Boolean) {
     fun text(ar: String, en: String) = if (english) en else ar
 }
 internal val LocalWords = staticCompositionLocalOf { Words(false) }
+internal val LocalReducedMotion = staticCompositionLocalOf { false }
 internal val Blue = Color(0xFF08649A)
 internal val Ink = Color(0xFF153249)
 
@@ -60,14 +65,20 @@ class MainActivity : ComponentActivity() {
     var elementNumber by rememberSaveable { mutableIntStateOf(1) }
     var guideId by rememberSaveable { mutableStateOf("") }
     var guideSection by rememberSaveable { mutableStateOf("geology") }
+    val holder = rememberSaveableStateHolder()
+    val appearance = remember { context.getSharedPreferences("appearance", 0) }
+    var themeMode by remember { mutableIntStateOf(appearance.getInt("theme", 0)) }
+    var reducedMotion by remember { mutableStateOf(appearance.getBoolean("reduce_motion", false)) }
+    val dark = when(themeMode) { 1 -> false; 2 -> true; else -> isSystemInDarkTheme() }
     val s = Words(english)
     val lessons = library.lessons(english)
     val guides = library.guides(english)
-    fun openLesson(id: String) { if (page != "lesson") lessonReturn = if (page == "favorites") "favorites" else "lessons"; lessonId = id; page = "lesson" }
+    fun openLesson(id: String) { if (page != "lesson") lessonReturn = if (page in setOf("favorites", "glossary")) page else "lessons"; lessonId = id; page = "lesson" }
     fun openGuideSection(section: String) { guideSection = section; page = "guides" }
     fun goBack() { page = when (page) { "lesson" -> lessonReturn; "element" -> "elements"; "guide" -> "guides"; else -> "home" } }
     BackHandler(page != "home") { goBack() }
-    CompositionLocalProvider(LocalWords provides s, LocalLayoutDirection provides if (english) LayoutDirection.Ltr else LayoutDirection.Rtl) {
+    MaterialTheme(colorScheme = if (dark) darkColorScheme(primary = Color(0xFF8BCDFF), secondary = Color(0xFFE8C36C)) else lightColorScheme(primary = Blue, secondary = Color(0xFF805800), background = Color(0xFFF1F6FA), surface = Color.White, onSurface = Ink, onBackground = Ink)) {
+    CompositionLocalProvider(LocalWords provides s, LocalReducedMotion provides reducedMotion, LocalLayoutDirection provides if (english) LayoutDirection.Ltr else LayoutDirection.Rtl) {
         Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).windowInsetsPadding(WindowInsets.safeDrawing)) {
             Surface(shadowElevation = 1.dp) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -80,7 +91,7 @@ class MainActivity : ComponentActivity() {
                 Box(Modifier.widthIn(max = 960.dp).fillMaxSize()) {
                     when (page) {
                         "home" -> HomeScreen(done.size, lessons.size, onPage = { page = it }, onSection = { openGuideSection(it) })
-                        "lessons", "favorites" -> CurriculumScreen(lessons, done, favorites, page == "favorites", ::openLesson)
+                        "lessons", "favorites" -> holder.SaveableStateProvider("$page-$english") { CurriculumScreen(lessons, done, favorites, page == "favorites", ::openLesson) }
                         "lesson" -> lessons.find { it.id == lessonId }?.let { lesson ->
                             key(lesson.id) { LessonScreen(lesson, lessons, lesson.id in favorites, lesson.id in done, store,
                                 onFavorite = {
@@ -88,12 +99,13 @@ class MainActivity : ComponentActivity() {
                                     store.saveFavorites(favorites)
                                 }, onComplete = { done = done + lesson.id; store.saveCompleted(done) }, onLesson = ::openLesson) }
                         }
-                        "elements" -> ElementsScreen(library.elements) { elementNumber = it; page = "element" }
+                        "glossary" -> holder.SaveableStateProvider("glossary-$english") { GlossaryScreen(library.glossary, lessons, ::openLesson) }
+                        "elements" -> holder.SaveableStateProvider("elements-$english") { ElementsScreen(library.elements) { elementNumber = it; page = "element" } }
                         "element" -> library.elements.find { it.number == elementNumber }?.let { key(it.number) { ElementScreen(it) } }
-                        "lab" -> LabScreen()
+                        "lab" -> LabScreen(library.elements)
                         "guides" -> GuidesScreen(guides.filter { it.section == guideSection }, guideSection) { guideId = it; page = "guide" }
                         "guide" -> guides.find { it.id == guideId }?.let { key(it.id) { GuideScreen(it) } }
-                        "settings" -> SettingsScreen(english) { english = it; store.saveEnglish(it) }
+                        "settings" -> SettingsScreen(english, themeMode, reducedMotion, { english = it; store.saveEnglish(it) }, { themeMode = it; appearance.edit().putInt("theme", it).apply() }, { reducedMotion = it; appearance.edit().putBoolean("reduce_motion", it).apply() })
                     }
                 }
             }
@@ -110,6 +122,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+}
+
 @Composable private fun HomeScreen(completed: Int, total: Int, onPage: (String) -> Unit, onSection: (String) -> Unit) {
     val s = LocalWords.current
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -118,6 +132,7 @@ class MainActivity : ComponentActivity() {
         item { InfoCard(s.text("مسارك التعليمي", "Your learning path"), s.text("$completed من $total درسًا مكتملًا", "$completed of $total lessons completed"))
             LinearProgressIndicator(progress = { completed.toFloat() / total.coerceAtLeast(1) }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) }
         item { NavCard(s.text("فهرس المنهج", "Curriculum index"), s.text("أربعة مستويات • أهداف ومسائل واختبار لكل درس", "Four levels • objectives, worked examples and lesson quizzes")) { onPage("lessons") } }
+        item { NavCard(s.text("معجم المصطلحات", "Chemistry glossary"), s.text("تعريفات مترابطة مع دروس المنهج", "Definitions linked to curriculum lessons")) { onPage("glossary") } }
         item { NavCard(s.text("الجدول الدوري", "Periodic table"), s.text("118 عنصرًا • شبكة وبحث وخصائص موثقة", "118 elements • grid, search and referenced properties")) { onPage("elements") } }
         item { NavCard(s.text("المحاكاة الآمنة", "Safe simulations"), s.text("حفظ الذرات والتخفيف والغازات والحموضة", "Atom conservation, dilution, gases and acidity")) { onPage("lab") } }
         item { NavCard(s.text("جيولوجيا اليمن", "Geology of Yemen"), s.text("سياق جيولوجي وحدود البيانات المحلية", "Geological context and limits of local evidence")) { onSection("geology") } }
@@ -127,7 +142,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable private fun SettingsScreen(english: Boolean, onEnglish: (Boolean) -> Unit) {
+@Composable private fun SettingsScreen(english: Boolean, themeMode: Int, reducedMotion: Boolean, onEnglish: (Boolean) -> Unit, onTheme: (Int) -> Unit, onReducedMotion: (Boolean) -> Unit) {
     val s = LocalWords.current
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item { Heading(s.text("الإعدادات والمعلومات", "Settings and information")) }
@@ -137,12 +152,22 @@ class MainActivity : ComponentActivity() {
             TextButton(onClick = { onEnglish(false) }) { Text("العربية") }
             TextButton(onClick = { onEnglish(true) }) { Text("English") }
         }
+        item {
+            Text(s.text("المظهر", "Appearance"), style = MaterialTheme.typography.titleLarge)
+            listOf(s.text("حسب النظام", "System"), s.text("فاتح", "Light"), s.text("داكن", "Dark")).forEachIndexed { i, label ->
+                FilterChip(selected = themeMode == i, onClick = { onTheme(i) }, label = { Text(label) })
+            }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(s.text("تقليل الحركة", "Reduce motion"), modifier = Modifier.weight(1f))
+                Switch(checked = reducedMotion, onCheckedChange = onReducedMotion, modifier = Modifier.semantics { contentDescription = s.text("تقليل الحركة", "Reduce motion") })
+            }
+        }
         item { InfoCard(s.text("الخصوصية والعمل دون اتصال", "Privacy and offline use"), s.text(
             "المحتوى والحسابات محلية. يحفظ الجهاز اللغة والمفضلة والتقدم. فتح المراجع اختياري ويحتاج متصفحًا واتصالًا. لا يطلب التطبيق إذن الإنترنت أو الموقع أو التخزين.",
             "Content and calculations stay on the device. Language, saved lessons and progress are stored locally. References open optionally in a browser and need a connection. The app requests no Internet, location or storage permissions.")) }
         item { InfoCard(s.text("حدود الإصدار", "Scope and limits"), s.text(
-            "نماذج ثنائية الأبعاد وحسابات مثالية، وليست محاكاة ثلاثية الأبعاد أو تنبؤًا بتفاعلات عشوائية. لا توجد بيانات عينات معتمدة تثبت مواقع الذهب في كعيدنة وكشر وبني قيس، ولا يغني المحتوى عن دراسة موقع أو ترخيص. يلزم اختبار على أجهزة فعلية قبل النشر العام.",
-            "Two-dimensional educational models and ideal calculations, without 3D or prediction of arbitrary reactions. Certified sample data establishing gold occurrences in Kaidana, Kushar and Bani Qais are unavailable here. Site studies and permits remain necessary. Physical-device testing is required before general publication.")) }
+            "نماذج تعليمية وحسابات مثالية وعرض فراغي للجزيئات؛ لا تتنبأ بتفاعلات عشوائية أو حركية جزيئية. لا توجد بيانات عينات معتمدة تثبت مواقع الذهب في كعيدنة وكشر وبني قيس، ولا يغني المحتوى عن دراسة موقع أو ترخيص. يلزم اختبار على أجهزة فعلية قبل النشر العام.",
+            "Educational models, ideal calculations and spatial molecular views; no arbitrary reaction prediction or molecular dynamics. Certified sample data establishing gold occurrences in Kaidana, Kushar and Bani Qais are unavailable here. Site studies and permits remain necessary. Physical-device testing is required before general publication.")) }
         item { InfoCard(s.text("الإصدار والتوقيع", "Version and signing"), s.text(
             "4.0.0 • حزمة اختبار بتوقيع تطوير. للتوزيع المستمر يلزم مفتاح إصدار ثابت لدى مالك المشروع.",
             "4.0.0 • development-signed test package. Continuing distribution requires a stable release key held by the project owner.")) }

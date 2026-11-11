@@ -23,6 +23,7 @@ class AppNavigationTest {
 
     @Before fun launchArabicApp() {
         assertTrue(context.getSharedPreferences("chemistry", Context.MODE_PRIVATE).edit().clear().commit())
+        context.getSharedPreferences("appearance", Context.MODE_PRIVATE).edit().clear().commit()
         scenario = ActivityScenario.launch(MainActivity::class.java)
         compose.waitUntil(60_000) { compose.onAllNodesWithText("مختبر الكيمياء").fetchSemanticsNodes().isNotEmpty() }
     }
@@ -42,8 +43,9 @@ class AppNavigationTest {
         val arabicTitle = library.lessonsAr.first().title
         compose.onNode(hasSetTextAction()).performTextInput(arabicTitle)
         closeSoftKeyboard()
-        scrollToText(arabicTitle)
-        compose.onNodeWithText(arabicTitle).assertIsDisplayed()
+        val lessonTitleNode = hasText(arabicTitle) and !hasSetTextAction()
+        compose.onNodeWithTag("lesson-list").performScrollToNode(lessonTitleNode)
+        compose.onNode(lessonTitleNode).assertIsDisplayed()
         compose.onNodeWithText("الإعدادات").performClick()
         compose.onNodeWithText("English").performClick()
         compose.onNodeWithText("Chemistry Lab").assertIsDisplayed()
@@ -126,4 +128,70 @@ class AppNavigationTest {
             compose.onAllNodesWithText(guide.topics.first().title).onFirst().assertExists()
         }
     }
+    @Test fun glossaryAllSafeModelsAndGoldCalculatorWork() {
+        val library = ContentRepository.load(context)
+        compose.onNodeWithText("الإعدادات").performClick()
+        compose.onNodeWithText("English").performClick()
+        compose.onNodeWithText("Home").performClick()
+        scrollToText("Chemistry glossary")
+        compose.onNodeWithText("Chemistry glossary").performClick()
+        compose.onNode(hasSetTextAction()).performTextInput("mole")
+        closeSoftKeyboard()
+        scrollToText("Mole")
+        compose.onNodeWithText("Mole").assertIsDisplayed()
+        val lesson = library.lessonsEn.single { it.id == "lesson-005" }
+        val link = "Lesson and reference: " + lesson.title
+        compose.onAllNodesWithText(link).onFirst().performScrollTo().performClick()
+        compose.onNodeWithText(lesson.title).assertIsDisplayed()
+        compose.onNodeWithText("Lab").performClick()
+        fun select(title: String) { compose.onNodeWithText(title).performScrollTo().performClick() }
+        fun fill(label: String, value: String) {
+            scrollToText(label)
+            compose.onNode(hasSetTextAction() and hasText(label)).performScrollTo().performTextReplacement(value)
+            closeSoftKeyboard()
+        }
+        select("Dissolution")
+        scrollToText("Particle model of dissolution")
+        compose.onNodeWithText("Particle model of dissolution").assertIsDisplayed()
+        select("Ideal gas")
+        fill("Amount (mol)","1"); fill("Absolute temperature (K)","300"); fill("Volume (L)","1")
+        scrollToText("P = 2494.338785 kPa")
+        compose.onNodeWithText("P = 2494.338785 kPa").assertIsDisplayed()
+        select("Acidity")
+        fill("Acid concentration (mol/L)","0")
+        scrollToText("pH = 7")
+        compose.onNodeWithText("pH = 7").assertIsDisplayed()
+        select("Molecules 3D")
+        scrollToText("3D molecular geometry")
+        compose.onNodeWithText("3D molecular geometry").assertIsDisplayed()
+        compose.onNodeWithText("CH₄").performScrollTo().performClick()
+        compose.onNodeWithText("Rotate 30°").performScrollTo().performClick()
+        compose.onNodeWithText("Reset view").performScrollTo().performClick()
+        select("Balance")
+        fill("Neutral equation", "Fe + O2 -> Fe2O3")
+        compose.onNodeWithText("Balance equation").performScrollTo().performClick()
+        scrollToText("4 Fe + 3 O2 → 2 Fe2O3")
+        compose.onNodeWithText("4 Fe + 3 O2 → 2 Fe2O3").assertIsDisplayed()
+        compose.onNodeWithText("Home").performClick()
+        scrollToText("Gold and minerals")
+        compose.onNodeWithText("Gold and minerals").performClick()
+        compose.onNodeWithText("Contained-gold calculator").performClick()
+        fill("Ore mass (metric tonnes)","10"); fill("Grade (g/t)","2"); fill("Hypothetical recovery (%)","60")
+        val gold="Theoretical contained gold: 20 g\nHypothetically recovered: 12 g"
+        scrollToText(gold)
+        compose.onNodeWithText(gold).assertIsDisplayed()
+        fill("Hypothetical recovery (%)","101")
+        scrollToText("Invalid values. Check the limits and units above.")
+        compose.onNodeWithText("Invalid values. Check the limits and units above.").assertIsDisplayed()
+        compose.onNodeWithText("Settings").performClick()
+        scrollToText("Dark")
+        compose.onNodeWithText("Dark").performScrollTo().performClick()
+        compose.onNodeWithContentDescription("Reduce motion").performScrollTo().performClick()
+        scenario.recreate()
+        compose.waitUntil(60_000) { compose.onAllNodesWithText("Chemistry Lab").fetchSemanticsNodes().isNotEmpty() }
+        scrollToText("Dark")
+        compose.onNodeWithText("Dark").assertIsSelected()
+        compose.onNodeWithContentDescription("Reduce motion").assertIsOn()
+    }
+
 }

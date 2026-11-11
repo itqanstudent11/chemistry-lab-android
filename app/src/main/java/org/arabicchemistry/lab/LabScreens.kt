@@ -26,17 +26,17 @@ import kotlin.math.sin
 
 private fun number(x: Double): String = DecimalFormat(if (x != 0.0 && (kotlin.math.abs(x) < 0.00001 || kotlin.math.abs(x) >= 1e9)) "0.######E0" else "0.######", DecimalFormatSymbols(Locale.US)).format(x)
 
-@Composable internal fun LabScreen() {
+@Composable internal fun LabScreen(elements: List<Element>) {
     val s = LocalWords.current
     var mode by rememberSaveable { mutableIntStateOf(0) }
-    val titles = listOf(s.text("حفظ الذرات", "Atom conservation"), s.text("الذوبان", "Dissolution"), s.text("التخفيف", "Dilution"), s.text("الغاز المثالي", "Ideal gas"), s.text("الحموضة", "Acidity"))
+    val titles = listOf(s.text("حفظ الذرات", "Atom conservation"), s.text("الذوبان", "Dissolution"), s.text("التخفيف", "Dilution"), s.text("الغاز المثالي", "Ideal gas"), s.text("الحموضة", "Acidity"), s.text("الجزيئات 3D", "Molecules 3D"), s.text("الموازنة", "Balance"))
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
         item { Heading(s.text("المختبر الافتراضي الآمن", "Safe virtual laboratory")) }
         item { Text(s.text("نماذج رقمية تعليمية؛ ليست تعليمات لإجراء تجارب أو خلط مواد.", "Digital educational models; no instructions for performing experiments or mixing substances.")) }
         item { Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             titles.forEachIndexed { i, title -> FilterChip(selected = mode == i, onClick = { mode = i }, label = { Text(title) }) }
         } }
-        item { when(mode) { 0 -> ParticleModel(false); 1 -> ParticleModel(true); 2 -> ModelCalculator("dilution"); 3 -> ModelCalculator("gas"); 4 -> ModelCalculator("ph") } }
+        item { when(mode) { 0 -> ParticleModel(false); 1 -> ParticleModel(true); 2 -> ModelCalculator("dilution"); 3 -> ModelCalculator("gas"); 4 -> ModelCalculator("ph"); 5 -> MoleculeViewer(); 6 -> BalanceScreen(elements.map { it.symbol }.toSet()) } }
     }
 }
 
@@ -62,8 +62,11 @@ private fun number(x: Double): String = DecimalFormat(if (x != 0.0 && (kotlin.ma
         Text(secondLabel)
         Slider(value = b.toFloat(), onValueChange = { b = it.toInt() }, valueRange = if (dissolution) 1f..10f else 0f..10f,
             steps = if (dissolution) 8 else 9, modifier = Modifier.semantics { contentDescription = secondLabel })
-        val transition = rememberInfiniteTransition(label = "particle motion")
-        val phase by transition.animateFloat(0f, 6.283185f, infiniteRepeatable(tween(6000, easing = LinearEasing), RepeatMode.Restart), label = "phase")
+        val phase = if (LocalReducedMotion.current) 0f else {
+            val transition = rememberInfiniteTransition(label = "particle motion")
+            val animated by transition.animateFloat(0f, 6.283185f, infiniteRepeatable(tween(6000, easing = LinearEasing), RepeatMode.Restart), label = "phase")
+            animated
+        }
         val count = if (dissolution) a else result.water
         Canvas(Modifier.fillMaxWidth().height(220.dp).background(Color(0xFFE2F0FA)).semantics { contentDescription = summary }) {
             repeat(count) { i ->

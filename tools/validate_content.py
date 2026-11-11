@@ -177,6 +177,15 @@ def main():
         for x, y in zip(aq, eq):
             check(x.get('answer') == y.get('answer'), f'{where}: translated answer mismatch')
             check(len(x.get('options', [])) == len(y.get('options', [])), f'{where}: translated options mismatch')
+    glossary = load('glossary.json')
+    ids(glossary, 'glossary.json')
+    check(len(glossary) >= 32, 'Glossary: core definitions missing')
+    for entry in glossary:
+        for key in ('ar','definitionAr'):
+            text(entry.get(key), 'Glossary:' + key)
+        for key in ('en','definitionEn'):
+            text(entry.get(key), 'Glossary:' + key, True)
+        check(entry.get('lessonId') in ar_ids, 'Glossary: missing lesson reference')
     ga, ge = load('guides_ar.json'), load('guides_en.json')
     check(validate_guides(ga, False) == validate_guides(ge, True), 'Guides: translation IDs/order mismatch')
     for a, e in zip(ga, ge):

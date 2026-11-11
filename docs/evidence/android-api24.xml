@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="org.arabicchemistry.lab.AppNavigationTest" tests="6" failures="0" errors="0" skipped="0" time="142.766" timestamp="2026-11-11T18:18:41" hostname="localhost">
+  <properties>
+    <property name="device" value="chemistry-api24(AVD) - 7.0" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="glossaryAllSafeModelsAndGoldCalculatorWork" classname="org.arabicchemistry.lab.AppNavigationTest" time="75.585" />
+  <testcase name="arabicToEnglishLibraryQuizElementSearchAndDilutionWorkAfterRestart" classname="org.arabicchemistry.lab.AppNavigationTest" time="40.126" />
+  <testcase name="arabicRegionalGuideIndexesOpenTheirContent" classname="org.arabicchemistry.lab.AppNavigationTest" time="9.756" />
+  <testcase name="originalIndexProgressMigratesExactlyOnceWithoutInvalidEntries" classname="org.arabicchemistry.lab.ContentAndPersistenceTest" time="1.569" />
+  <testcase name="bundledContentLoadsBothLanguagesAndEveryPeriodicElement" classname="org.arabicchemistry.lab.ContentAndPersistenceTest" time="0.781" />
+  <testcase name="stableProgressFavoritesLanguageAndQuizPassesSurviveNewStoreInstances" classname="org.arabicchemistry.lab.ContentAndPersistenceTest" time="0.713" />
+</testsuite>
