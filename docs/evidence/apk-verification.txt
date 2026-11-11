@@ -1,0 +1,26 @@
+APK SHA256: 9d6a0fd9e9a3c5e3c5c30e3d6c6f45329bc486dc4b5db99167c042aaeebbc8ac
+Size: 9729167 bytes
+16KB ZIP alignment: PASS
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: a90579ba0058ba64d393b4917d0776b61bc252f3c353ff8685e49d07736f8712
+Signer #1 certificate SHA-1 digest: 7509bc528bc68af22d17c2719b1d798394e06b54
+Signer #1 certificate MD5 digest: afda17bad9947150341f6a11be42deee
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: aeb91e09e5c0da3cf17ff5f5a962aebc8145299abe9961a11e91c9840f6f4cd7
+Signer #1 public key SHA-1 digest: 0cd8bd4f3714608cb4a54958b28f02997e1343b7
+Signer #1 public key MD5 digest: 3ecb4a5eda0d516fc43fe256177c09f4
+
+ELF alignment:
+lib/arm64-v8a/libandroidx.graphics.path.so: PT_LOAD 0x4000,0x4000,0x4000
+lib/armeabi-v7a/libandroidx.graphics.path.so: PT_LOAD 0x4000,0x4000,0x4000
+lib/x86/libandroidx.graphics.path.so: PT_LOAD 0x4000,0x4000,0x4000
+lib/x86_64/libandroidx.graphics.path.so: PT_LOAD 0x4000,0x4000,0x4000

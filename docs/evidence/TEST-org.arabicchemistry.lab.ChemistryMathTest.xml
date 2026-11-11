@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.arabicchemistry.lab.ChemistryMathTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-11T05:50:44" hostname="6ef668503e34" time="0.195">
+  <properties/>
+  <testcase name="dilutionConservesSoluteAndNeverIncreasesConcentration" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.085"/>
+  <testcase name="acidIncludesWaterAndSatisfiesChargeBalance" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.005"/>
+  <testcase name="containedGoldHasConsistentUnitsAndRecoveryBounds" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.003"/>
+  <testcase name="idealGasUsesKpaUnitsAndObeysProportionality" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.001"/>
+  <testcase name="numberInputSupportsArabicPersianAndScientificForms" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.063"/>
+  <testcase name="waterRejectsUnsupportedCountsAndPreservesOddHydrogen" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.006"/>
+  <testcase name="waterConservesBothAtomTypesAndStopsAtALimitingReactant" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.011"/>
+  <testcase name="modelInputsRejectNonfiniteAndNegativeNumbers" classname="org.arabicchemistry.lab.ChemistryMathTest" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
