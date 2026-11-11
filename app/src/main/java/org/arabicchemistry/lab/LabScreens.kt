@@ -33,7 +33,7 @@ private fun number(x: Double): String = DecimalFormat(if (x != 0.0 && (kotlin.ma
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
         item { Heading(s.text("المختبر الافتراضي الآمن", "Safe virtual laboratory")) }
         item { Text(s.text("نماذج رقمية تعليمية؛ ليست تعليمات لإجراء تجارب أو خلط مواد.", "Digital educational models; no instructions for performing experiments or mixing substances.")) }
-        item { Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+        item { FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             titles.forEachIndexed { i, title -> FilterChip(selected = mode == i, onClick = { mode = i }, label = { Text(title) }) }
         } }
         item { when(mode) { 0 -> ParticleModel(false); 1 -> ParticleModel(true); 2 -> ModelCalculator("dilution"); 3 -> ModelCalculator("gas"); 4 -> ModelCalculator("ph"); 5 -> MoleculeViewer(); 6 -> BalanceScreen(elements.map { it.symbol }.toSet()) } }
