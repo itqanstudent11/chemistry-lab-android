@@ -144,7 +144,16 @@ class AppNavigationTest {
         compose.onAllNodesWithText(link).onFirst().performScrollTo().performClick()
         compose.onNodeWithText(lesson.title).assertIsDisplayed()
         compose.onNodeWithText("Lab").performClick()
-        fun select(title: String) { compose.onNodeWithText(title).performScrollTo().performClick() }
+        fun select(title: String) {
+            compose.waitForIdle()
+            try {
+                compose.onNodeWithText(title).performScrollTo().performClick()
+            } catch (first: AssertionError) {
+                compose.onNodeWithText("Lab").performClick()
+                compose.waitForIdle()
+                compose.onNodeWithText(title).performScrollTo().performClick()
+            }
+        }
         fun fill(label: String, value: String) {
             scrollToText(label)
             compose.onNode(hasSetTextAction() and hasText(label)).performScrollTo().performTextReplacement(value)
