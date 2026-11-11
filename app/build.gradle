@@ -3,7 +3,7 @@ android {
     namespace 'org.arabicchemistry.lab'
     compileSdk 35
     defaultConfig {
-        applicationId 'org.arabicchemistry.lab'
+        applicationId 'org.arabicchemistry.lab.v2'
         minSdk 23
         targetSdk 28
         versionCode 2
