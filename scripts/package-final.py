@@ -7,6 +7,8 @@ import shutil
 import subprocess
 import tempfile
 import zipfile
+import os
+from verification import validate
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = 'chemistry-lab-4.0.0'
@@ -22,6 +24,8 @@ def main():
     parser.add_argument('--apk', type=Path, default=ROOT / 'app/build/outputs/apk/debug/app-debug.apk')
     parser.add_argument('--output', type=Path, default=ROOT / 'dist' / f'{NAME}-final.zip')
     parser.add_argument('--git-bundle', type=Path, help='Optional complete Git backup to include in the delivery ZIP')
+    parser.add_argument('--verification-dir', type=Path, default=ROOT / 'build/verification')
+    parser.add_argument('--run-id', default=os.environ.get('VERIFICATION_RUN_ID'))
     args = parser.parse_args()
     if not args.apk.is_file():
         parser.error(f'APK missing: {args.apk}')
@@ -34,12 +38,15 @@ def main():
                 entry = 'assets/' + asset.relative_to(asset_root).as_posix()
                 if entry not in apk_archive.namelist() or apk_archive.read(entry) != asset.read_bytes():
                     parser.error(f'APK contains outdated or missing content: {entry}')
-    report = ROOT / 'docs/VERIFICATION.md'
+    report = args.verification_dir / 'VERIFICATION.md'
     if not report.is_file():
-        parser.error('docs/VERIFICATION.md must record the final checks and limitations first.')
+        parser.error('Current-run verification report missing. Run verification.py begin, build/tests, then verification.py report.')
     report_text = report.read_text(encoding='utf-8')
     if any(pending in report_text for pending in ('قيد التحقق على محاكي', 'يجب استبدال هذه الفقرة')):
         parser.error('Verification report still contains a pending Android test placeholder.')
+    evidence_errors = validate(ROOT, args.verification_dir, args.apk, args.run_id)
+    if evidence_errors:
+        parser.error('Current execution is not verified: ' + '; '.join(evidence_errors))
     with tempfile.TemporaryDirectory(prefix='chemistry-package-') as temporary:
         package = Path(temporary) / NAME
         source = package / 'source'
@@ -63,6 +70,10 @@ def main():
         shutil.copy2(ROOT / 'scripts/install-termux.sh', package / 'install-termux.sh')
         shutil.copy2(ROOT / 'README.md', package / 'README.md')
         shutil.copytree(source / 'docs', package / 'docs')
+        # Keep historical source docs, but the delivery's primary report/evidence is current-run output.
+        shutil.copy2(report, package / 'docs/VERIFICATION.md')
+        shutil.rmtree(package / 'docs/evidence', ignore_errors=True)
+        shutil.copytree(args.verification_dir, package / 'docs/evidence/current')
         shutil.copy2(report, package / 'VERIFICATION.md')
         files = sorted(p for p in package.rglob('*') if p.is_file())
         (package / 'SHA256SUMS').write_text(''.join(f'{sha256(p)}  {p.relative_to(package).as_posix()}\n' for p in files), encoding='utf-8')

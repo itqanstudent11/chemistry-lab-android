@@ -21,7 +21,7 @@ python3 scripts/test-installer.py
 
 ## حزمة واحدة
 
-بعد اجتياز التحقق وتحديث `docs/VERIFICATION.md`:
+بعد تنفيذ جولة التحقق وتوليد دليلها الحالي كما في [VERIFICATION_PIPELINE.md](VERIFICATION_PIPELINE.md)، مع إبقاء `VERIFICATION_RUN_ID` نفسه:
 
 ```sh
 python3 scripts/package-final.py
@@ -40,3 +40,5 @@ APK التسليم مبني بنوع `debug` وموقّع بمفتاح بيئة 
 Build requirements: JDK 17, Android SDK 35 / Build Tools 35.0.0, Gradle 8.10.2 (verified wrapper). Run the commands above from `source`. The final ZIP includes the signed debug APK, sources, checksums, installer, and actual verification record. Termux opens Android's package installer after checksum verification; the user must confirm installation. Production release signing and durable upgrade keys remain deployment responsibilities.
 
 تشغيل GitHub Actions بعد رفع هذا التغيير سيستخدم محاكي API 24 مع KVM، ويرفع تقارير الاختبارات حتى عند الإخفاق. لم يُدّع تشغيل هذه النسخة من workflow في GitHub خلال التحقق المحلي. لإرفاق نسخة Git احتياطية كاملة بالحزمة: `python3 scripts/package-final.py --git-bundle /path/to/checkpoint.bundle`.
+
+فشل تجهيز الحزمة عند غياب `build/verification/verification.json` أو اختلاف الالتزام/المصدر/APK/معرّف الجولة مقصود. لا تحذف شرط التقرير المعلّق؛ شغّل مراحل توليد الدليل. التقرير داخل الحزمة يولد من XML الجولة الحالية، ولا تستخدم نتائج السجل المحلي التاريخي مكانها.

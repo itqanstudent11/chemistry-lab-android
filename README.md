@@ -43,7 +43,7 @@ python3 tools/validate_elements.py
 python3 scripts/test-installer.py
 ```
 
-تشغيل اختبارات Android فعليًا يحتاج جهازًا أو محاكيًا: `./gradlew connectedDebugAndroidTest`. توليد الحزمة بعد إكمال التحقق: `python3 scripts/package-final.py`.
+تشغيل اختبارات Android فعليًا يحتاج جهازًا أو محاكيًا: `./gradlew connectedDebugAndroidTest`. توليد الحزمة يحتاج جولة تحقق موثقة وتقريرًا آليًا من XML الفعلي؛ اتبع [مسار التحقق](docs/VERIFICATION_PIPELINE.md) ثم شغّل `python3 scripts/package-final.py` بمعرّف الجولة نفسه.
 
 التفاصيل: [البناء والتوقيع](docs/BUILD.md)، [المنهج](docs/CURRICULUM.md)، [مصادر العناصر](docs/ELEMENTS.md)، [مصادر الجيولوجيا والسلامة](docs/SOURCES.md)، [الاختبارات](docs/TESTING.md).
 
