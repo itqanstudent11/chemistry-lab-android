@@ -1,0 +1,710 @@
+[
+ {
+  "number": 1,
+  "symbol": "H",
+  "name": "هيدروجين",
+  "mass": 1.008
+ },
+ {
+  "number": 2,
+  "symbol": "He",
+  "name": "هيليوم",
+  "mass": 4.003
+ },
+ {
+  "number": 3,
+  "symbol": "Li",
+  "name": "ليثيوم",
+  "mass": 6.941
+ },
+ {
+  "number": 4,
+  "symbol": "Be",
+  "name": "بيريليوم",
+  "mass": 9.012
+ },
+ {
+  "number": 5,
+  "symbol": "B",
+  "name": "بورون",
+  "mass": 10.812
+ },
+ {
+  "number": 6,
+  "symbol": "C",
+  "name": "كربون",
+  "mass": 12.011
+ },
+ {
+  "number": 7,
+  "symbol": "N",
+  "name": "نيتروجين",
+  "mass": 14.007
+ },
+ {
+  "number": 8,
+  "symbol": "O",
+  "name": "أكسجين",
+  "mass": 15.999
+ },
+ {
+  "number": 9,
+  "symbol": "F",
+  "name": "فلور",
+  "mass": 18.998
+ },
+ {
+  "number": 10,
+  "symbol": "Ne",
+  "name": "نيون",
+  "mass": 20.18
+ },
+ {
+  "number": 11,
+  "symbol": "Na",
+  "name": "صوديوم",
+  "mass": 22.99
+ },
+ {
+  "number": 12,
+  "symbol": "Mg",
+  "name": "مغنيسيوم",
+  "mass": 24.305
+ },
+ {
+  "number": 13,
+  "symbol": "Al",
+  "name": "ألومنيوم",
+  "mass": 26.982
+ },
+ {
+  "number": 14,
+  "symbol": "Si",
+  "name": "سيليكون",
+  "mass": 28.086
+ },
+ {
+  "number": 15,
+  "symbol": "P",
+  "name": "فوسفور",
+  "mass": 30.974
+ },
+ {
+  "number": 16,
+  "symbol": "S",
+  "name": "كبريت",
+  "mass": 32.067
+ },
+ {
+  "number": 17,
+  "symbol": "Cl",
+  "name": "كلور",
+  "mass": 35.453
+ },
+ {
+  "number": 18,
+  "symbol": "Ar",
+  "name": "أرجون",
+  "mass": 39.948
+ },
+ {
+  "number": 19,
+  "symbol": "K",
+  "name": "بوتاسيوم",
+  "mass": 39.098
+ },
+ {
+  "number": 20,
+  "symbol": "Ca",
+  "name": "كالسيوم",
+  "mass": 40.078
+ },
+ {
+  "number": 21,
+  "symbol": "Sc",
+  "name": "سكانديوم",
+  "mass": 44.956
+ },
+ {
+  "number": 22,
+  "symbol": "Ti",
+  "name": "تيتانيوم",
+  "mass": 47.867
+ },
+ {
+  "number": 23,
+  "symbol": "V",
+  "name": "فاناديوم",
+  "mass": 50.944
+ },
+ {
+  "number": 24,
+  "symbol": "Cr",
+  "name": "كروم",
+  "mass": 51.996
+ },
+ {
+  "number": 25,
+  "symbol": "Mn",
+  "name": "منغنيز",
+  "mass": 54.938
+ },
+ {
+  "number": 26,
+  "symbol": "Fe",
+  "name": "حديد",
+  "mass": 55.845
+ },
+ {
+  "number": 27,
+  "symbol": "Co",
+  "name": "كوبالت",
+  "mass": 58.933
+ },
+ {
+  "number": 28,
+  "symbol": "Ni",
+  "name": "نيكل",
+  "mass": 58.693
+ },
+ {
+  "number": 29,
+  "symbol": "Cu",
+  "name": "نحاس",
+  "mass": 63.546
+ },
+ {
+  "number": 30,
+  "symbol": "Zn",
+  "name": "زنك",
+  "mass": 65.39
+ },
+ {
+  "number": 31,
+  "symbol": "Ga",
+  "name": "غاليوم",
+  "mass": 69.723
+ },
+ {
+  "number": 32,
+  "symbol": "Ge",
+  "name": "جرمانيوم",
+  "mass": 72.61
+ },
+ {
+  "number": 33,
+  "symbol": "As",
+  "name": "زرنيخ",
+  "mass": 74.922
+ },
+ {
+  "number": 34,
+  "symbol": "Se",
+  "name": "سيلينيوم",
+  "mass": 78.96
+ },
+ {
+  "number": 35,
+  "symbol": "Br",
+  "name": "بروم",
+  "mass": 79.904
+ },
+ {
+  "number": 36,
+  "symbol": "Kr",
+  "name": "كريبتون",
+  "mass": 83.8
+ },
+ {
+  "number": 37,
+  "symbol": "Rb",
+  "name": "روبيديوم",
+  "mass": 85.468
+ },
+ {
+  "number": 38,
+  "symbol": "Sr",
+  "name": "سترونشيوم",
+  "mass": 87.62
+ },
+ {
+  "number": 39,
+  "symbol": "Y",
+  "name": "إيتريوم",
+  "mass": 88.906
+ },
+ {
+  "number": 40,
+  "symbol": "Zr",
+  "name": "زركونيوم",
+  "mass": 91.224
+ },
+ {
+  "number": 41,
+  "symbol": "Nb",
+  "name": "نيوبيوم",
+  "mass": 92.906
+ },
+ {
+  "number": 42,
+  "symbol": "Mo",
+  "name": "موليبدينوم",
+  "mass": 95.94
+ },
+ {
+  "number": 43,
+  "symbol": "Tc",
+  "name": "تكنيشيوم",
+  "mass": 98.0
+ },
+ {
+  "number": 44,
+  "symbol": "Ru",
+  "name": "روثينيوم",
+  "mass": 101.07
+ },
+ {
+  "number": 45,
+  "symbol": "Rh",
+  "name": "روديوم",
+  "mass": 102.906
+ },
+ {
+  "number": 46,
+  "symbol": "Pd",
+  "name": "بلاديوم",
+  "mass": 106.42
+ },
+ {
+  "number": 47,
+  "symbol": "Ag",
+  "name": "فضة",
+  "mass": 107.868
+ },
+ {
+  "number": 48,
+  "symbol": "Cd",
+  "name": "كادميوم",
+  "mass": 112.412
+ },
+ {
+  "number": 49,
+  "symbol": "In",
+  "name": "إنديوم",
+  "mass": 114.818
+ },
+ {
+  "number": 50,
+  "symbol": "Sn",
+  "name": "قصدير",
+  "mass": 118.711
+ },
+ {
+  "number": 51,
+  "symbol": "Sb",
+  "name": "أنتيمون",
+  "mass": 121.76
+ },
+ {
+  "number": 52,
+  "symbol": "Te",
+  "name": "تيلوريوم",
+  "mass": 127.6
+ },
+ {
+  "number": 53,
+  "symbol": "I",
+  "name": "يود",
+  "mass": 126.904
+ },
+ {
+  "number": 54,
+  "symbol": "Xe",
+  "name": "زينون",
+  "mass": 131.29
+ },
+ {
+  "number": 55,
+  "symbol": "Cs",
+  "name": "سيزيوم",
+  "mass": 132.905
+ },
+ {
+  "number": 56,
+  "symbol": "Ba",
+  "name": "باريوم",
+  "mass": 137.328
+ },
+ {
+  "number": 57,
+  "symbol": "La",
+  "name": "لانثانوم",
+  "mass": 138.906
+ },
+ {
+  "number": 58,
+  "symbol": "Ce",
+  "name": "سيريوم",
+  "mass": 140.116
+ },
+ {
+  "number": 59,
+  "symbol": "Pr",
+  "name": "براسيوديميوم",
+  "mass": 140.908
+ },
+ {
+  "number": 60,
+  "symbol": "Nd",
+  "name": "نيوديميوم",
+  "mass": 144.24
+ },
+ {
+  "number": 61,
+  "symbol": "Pm",
+  "name": "بروميثيوم",
+  "mass": 145.0
+ },
+ {
+  "number": 62,
+  "symbol": "Sm",
+  "name": "ساماريوم",
+  "mass": 150.36
+ },
+ {
+  "number": 63,
+  "symbol": "Eu",
+  "name": "يوروبيوم",
+  "mass": 151.964
+ },
+ {
+  "number": 64,
+  "symbol": "Gd",
+  "name": "غادولينيوم",
+  "mass": 157.25
+ },
+ {
+  "number": 65,
+  "symbol": "Tb",
+  "name": "تيربيوم",
+  "mass": 158.925
+ },
+ {
+  "number": 66,
+  "symbol": "Dy",
+  "name": "ديسبروسيوم",
+  "mass": 162.5
+ },
+ {
+  "number": 67,
+  "symbol": "Ho",
+  "name": "هولميوم",
+  "mass": 164.93
+ },
+ {
+  "number": 68,
+  "symbol": "Er",
+  "name": "إربيوم",
+  "mass": 167.26
+ },
+ {
+  "number": 69,
+  "symbol": "Tm",
+  "name": "ثوليوم",
+  "mass": 168.934
+ },
+ {
+  "number": 70,
+  "symbol": "Yb",
+  "name": "إيتربيوم",
+  "mass": 173.04
+ },
+ {
+  "number": 71,
+  "symbol": "Lu",
+  "name": "لوتيتيوم",
+  "mass": 174.967
+ },
+ {
+  "number": 72,
+  "symbol": "Hf",
+  "name": "هافنيوم",
+  "mass": 178.49
+ },
+ {
+  "number": 73,
+  "symbol": "Ta",
+  "name": "تانتالوم",
+  "mass": 180.948
+ },
+ {
+  "number": 74,
+  "symbol": "W",
+  "name": "تنغستن",
+  "mass": 183.84
+ },
+ {
+  "number": 75,
+  "symbol": "Re",
+  "name": "رينيوم",
+  "mass": 186.207
+ },
+ {
+  "number": 76,
+  "symbol": "Os",
+  "name": "أوزميوم",
+  "mass": 190.23
+ },
+ {
+  "number": 77,
+  "symbol": "Ir",
+  "name": "إيريديوم",
+  "mass": 192.217
+ },
+ {
+  "number": 78,
+  "symbol": "Pt",
+  "name": "بلاتين",
+  "mass": 195.078
+ },
+ {
+  "number": 79,
+  "symbol": "Au",
+  "name": "ذهب",
+  "mass": 196.967
+ },
+ {
+  "number": 80,
+  "symbol": "Hg",
+  "name": "زئبق",
+  "mass": 200.59
+ },
+ {
+  "number": 81,
+  "symbol": "Tl",
+  "name": "ثاليوم",
+  "mass": 204.383
+ },
+ {
+  "number": 82,
+  "symbol": "Pb",
+  "name": "رصاص",
+  "mass": 207.2
+ },
+ {
+  "number": 83,
+  "symbol": "Bi",
+  "name": "بزموت",
+  "mass": 208.98
+ },
+ {
+  "number": 84,
+  "symbol": "Po",
+  "name": "بولونيوم",
+  "mass": 209.0
+ },
+ {
+  "number": 85,
+  "symbol": "At",
+  "name": "أستاتين",
+  "mass": 210.0
+ },
+ {
+  "number": 86,
+  "symbol": "Rn",
+  "name": "رادون",
+  "mass": 222.0
+ },
+ {
+  "number": 87,
+  "symbol": "Fr",
+  "name": "فرانسيوم",
+  "mass": 223.0
+ },
+ {
+  "number": 88,
+  "symbol": "Ra",
+  "name": "راديوم",
+  "mass": 226.0
+ },
+ {
+  "number": 89,
+  "symbol": "Ac",
+  "name": "أكتينيوم",
+  "mass": 227.0
+ },
+ {
+  "number": 90,
+  "symbol": "Th",
+  "name": "ثوريوم",
+  "mass": 232.038
+ },
+ {
+  "number": 91,
+  "symbol": "Pa",
+  "name": "بروتكتينيوم",
+  "mass": 231.036
+ },
+ {
+  "number": 92,
+  "symbol": "U",
+  "name": "يورانيوم",
+  "mass": 238.029
+ },
+ {
+  "number": 93,
+  "symbol": "Np",
+  "name": "نبتونيوم",
+  "mass": 237.0
+ },
+ {
+  "number": 94,
+  "symbol": "Pu",
+  "name": "بلوتونيوم",
+  "mass": 244.0
+ },
+ {
+  "number": 95,
+  "symbol": "Am",
+  "name": "أمريسيوم",
+  "mass": 243.0
+ },
+ {
+  "number": 96,
+  "symbol": "Cm",
+  "name": "كوريوم",
+  "mass": 247.0
+ },
+ {
+  "number": 97,
+  "symbol": "Bk",
+  "name": "بركيليوم",
+  "mass": 247.0
+ },
+ {
+  "number": 98,
+  "symbol": "Cf",
+  "name": "كاليفورنيوم",
+  "mass": 251.0
+ },
+ {
+  "number": 99,
+  "symbol": "Es",
+  "name": "أينشتاينيوم",
+  "mass": 252.0
+ },
+ {
+  "number": 100,
+  "symbol": "Fm",
+  "name": "فيرميوم",
+  "mass": 257.0
+ },
+ {
+  "number": 101,
+  "symbol": "Md",
+  "name": "مندليفيوم",
+  "mass": 258.0
+ },
+ {
+  "number": 102,
+  "symbol": "No",
+  "name": "نوبليوم",
+  "mass": 259.0
+ },
+ {
+  "number": 103,
+  "symbol": "Lr",
+  "name": "لورنسيوم",
+  "mass": 262.0
+ },
+ {
+  "number": 104,
+  "symbol": "Rf",
+  "name": "رذرفورديوم",
+  "mass": 267.0
+ },
+ {
+  "number": 105,
+  "symbol": "Db",
+  "name": "دوبنيوم",
+  "mass": 268.0
+ },
+ {
+  "number": 106,
+  "symbol": "Sg",
+  "name": "سيبورغيوم",
+  "mass": 269.0
+ },
+ {
+  "number": 107,
+  "symbol": "Bh",
+  "name": "بوهريوم",
+  "mass": 270.0
+ },
+ {
+  "number": 108,
+  "symbol": "Hs",
+  "name": "هاسيوم",
+  "mass": 269.0
+ },
+ {
+  "number": 109,
+  "symbol": "Mt",
+  "name": "مايتنريوم",
+  "mass": 278.0
+ },
+ {
+  "number": 110,
+  "symbol": "Ds",
+  "name": "دارمشتاتيوم",
+  "mass": 281.0
+ },
+ {
+  "number": 111,
+  "symbol": "Rg",
+  "name": "رونتجينيوم",
+  "mass": 281.0
+ },
+ {
+  "number": 112,
+  "symbol": "Cn",
+  "name": "كوبرنيسيوم",
+  "mass": 285.0
+ },
+ {
+  "number": 113,
+  "symbol": "Nh",
+  "name": "نيهونيوم",
+  "mass": 284.0
+ },
+ {
+  "number": 114,
+  "symbol": "Fl",
+  "name": "فليروفيوم",
+  "mass": 289.0
+ },
+ {
+  "number": 115,
+  "symbol": "Mc",
+  "name": "موسكوفيوم",
+  "mass": 288.0
+ },
+ {
+  "number": 116,
+  "symbol": "Lv",
+  "name": "ليفرموريوم",
+  "mass": 293.0
+ },
+ {
+  "number": 117,
+  "symbol": "Ts",
+  "name": "تينيسين",
+  "mass": 292.0
+ },
+ {
+  "number": 118,
+  "symbol": "Og",
+  "name": "أوغانيسون",
+  "mass": 294.0
+ }
+]
