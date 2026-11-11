@@ -1,0 +1,12 @@
+package: name='org.arabicchemistry.lab.nativeedition' versionCode='2' versionName='4.0.0' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'
+sdkVersion:'24'
+targetSdkVersion:'35'
+uses-permission: name='org.arabicchemistry.lab.nativeedition.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+launchable-activity: name='org.arabicchemistry.lab.MainActivity'  label='' icon=''
+
+Merged manifest:
+A: android:allowBackup(0x01010280)=(type 0x12)0x0
+A: android:supportsRtl(0x010103af)=(type 0x12)0xffffffff
+A: android:fullBackupContent(0x010104eb)=(type 0x12)0x0
+A: android:usesCleartextTraffic(0x010104ec)=(type 0x12)0x0
+A: android:dataExtractionRules(0x0101063e)=@0x7f0b0000

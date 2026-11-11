@@ -1,0 +1,437 @@
+[
+  {
+    "id": "geology-framework",
+    "section": "geology",
+    "title": "Yemen’s geological framework",
+    "intro": "Rock ages and origins help explain the landscape. They do not establish an economic mineral deposit at a particular site.",
+    "topics": [
+      {
+        "id": "geology-framework-1",
+        "title": "Basement and cover",
+        "body": "Yemen includes old metamorphic and igneous basement, younger sedimentary rocks, and volcanic sequences. Basement refers to older underlying rocks; exposed rocks within one governorate need not all share an age."
+      },
+      {
+        "id": "geology-framework-2",
+        "title": "Sedimentary succession",
+        "body": "Sandstone, limestone and other strata record deposition, erosion and changing environments. Geological units are identified from their characteristics, relationships and map correlation; colour alone cannot establish age or composition."
+      },
+      {
+        "id": "geology-framework-3",
+        "title": "Volcanism and faulting",
+        "body": "Major volcanic episodes in western Yemen relate to the tectonic evolution of the Red Sea and Gulf of Aden region. The record spans distinct events; volcanic rock at a site does not imply a currently active volcano."
+      },
+      {
+        "id": "geology-framework-4",
+        "title": "Using this overview",
+        "body": "The 1966 reference is historical and regional, not a detailed survey of all modern Yemen. Compare it with newer maps at an appropriate scale before interpreting a site. This section supplies neither a digital geological map nor licence boundaries."
+      }
+    ],
+    "sources": [
+      {
+        "title": "USGS — Geology of the Arabian Peninsula: Yemen (Geukens, 1966)",
+        "url": "https://pubs.usgs.gov/publication/pp560B"
+      },
+      {
+        "title": "USGS — Cenozoic distributed volcanism of the Arabia Plate (2026)",
+        "url": "https://pubs.usgs.gov/publication/pp1890J"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "geology-evidence",
+    "section": "geology",
+    "title": "Reading maps and documenting samples",
+    "intro": "Useful geological information records its source, location, date and precision. Separating observation from interpretation makes it reviewable.",
+    "topics": [
+      {
+        "id": "geology-evidence-1",
+        "title": "Mineral, rock and ore",
+        "body": "A mineral has characteristic composition and crystal structure within defined limits. A rock is an aggregate of minerals or geological material. Ore has potential economic value under particular conditions; a mineral-bearing rock is not automatically economic ore."
+      },
+      {
+        "id": "geology-evidence-2",
+        "title": "Map scale and limits",
+        "body": "Read the title, legend, publication year, scale and coordinate system. A regional map generalises a wide area; its lines are not property boundaries or drilling locations. Conclusions cannot be more precise than the underlying data."
+      },
+      {
+        "id": "geology-evidence-3",
+        "title": "Sample record",
+        "body": "In authorised work supervised by a specialist, a sample record links a unique identifier to rock description, photographs, date, location source, sampling method and custody to the laboratory. Preserve the original description and add interpretation separately."
+      },
+      {
+        "id": "geology-evidence-4",
+        "title": "Results and their date",
+        "body": "A mineral-industry report describes a particular year and economic sector; it is not a catalogue of every occurrence. Distinguish surface observations, sample assays, resource estimates and reported production. Absence from a general report does not prove absence in the ground."
+      }
+    ],
+    "sources": [
+      {
+        "title": "USGS — What is the difference between a rock and a mineral?",
+        "url": "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral"
+      },
+      {
+        "title": "USGS — Yemen mineral industry country reports",
+        "url": "https://www.usgs.gov/centers/national-minerals-information-center/yemen"
+      },
+      {
+        "title": "USGS — The Mineral Industry of Yemen in 2019",
+        "url": "https://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf"
+      },
+      {
+        "title": "CRIRSCO — International Reporting Template",
+        "url": "https://crirsco.com/product/crirsco-template-v2/"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "geology-hajjah",
+    "section": "geology",
+    "title": "Hajjah: evidence and unresolved claims",
+    "intro": "Kaidana, Kushar and Bani Qais are requested localities for investigation. This edition contains no verified primary sample results establishing gold deposits or reserves there.",
+    "topics": [
+      {
+        "id": "geology-hajjah-1",
+        "title": "Local information status",
+        "body": "Status for Kaidana, Kushar and Bani Qais: unverified at site level. Each name has not been tied here to reliable sample coordinates and an assay report with documented custody. This status establishes neither presence nor absence."
+      },
+      {
+        "id": "geology-hajjah-2",
+        "title": "A place name is not deposit evidence",
+        "body": "Place names have variant spellings and may repeat. Results elsewhere in Hajjah cannot be transferred to these localities simply because they share a governorate. A rock photograph or description of lustre determines neither grade nor mineralisation extent."
+      },
+      {
+        "id": "geology-hajjah-3",
+        "title": "Evidence needed to review a claim",
+        "body": "Review needs the report identifier, issuer and date, a site map and coordinate system, sampling description, laboratory certificate, units, detection limit and quality controls. A specialist should examine original documents and consistency before a local conclusion is published."
+      },
+      {
+        "id": "geology-hajjah-4",
+        "title": "Limits of regional information",
+        "body": "Regional references support scientific questions about rocks and structures. They authorise neither exploration nor entry to land or mines. This edition provides no target coordinates, ore grades or reserve quantities for these localities."
+      }
+    ],
+    "sources": [
+      {
+        "title": "USGS — Geology of the Arabian Peninsula: Yemen (Geukens, 1966)",
+        "url": "https://pubs.usgs.gov/publication/pp560B"
+      },
+      {
+        "title": "USGS — Yemen mineral industry country reports",
+        "url": "https://www.usgs.gov/centers/national-minerals-information-center/yemen"
+      },
+      {
+        "title": "CRIRSCO — International Reporting Template",
+        "url": "https://crirsco.com/product/crirsco-template-v2/"
+      }
+    ],
+    "reviewStatus": "Locally unverified: site-specific primary evidence and independent geological review are required."
+  },
+  {
+    "id": "gold-identification",
+    "section": "gold",
+    "title": "Gold and minerals: identification and limits",
+    "intro": "Gold is the element Au, atomic number 79. Visual observation helps describe a specimen; it cannot establish economic gold content.",
+    "topics": [
+      {
+        "id": "gold-identification-1",
+        "title": "Free and associated gold",
+        "body": "Gold can occur as metallic grains or in association with other minerals, including at sizes invisible to the eye. A shiny grain establishes no average grade, while lack of visible gold does not rule out a trace concentration."
+      },
+      {
+        "id": "gold-identification-2",
+        "title": "Pyrite and visual confusion",
+        "body": "Pyrite, FeS₂, is commonly mistaken for gold; other minerals can also look shiny and yellow. Lustre and colour are descriptive properties, not assay certificates. Correct identification of an associated mineral still does not establish recoverable gold."
+      },
+      {
+        "id": "gold-identification-3",
+        "title": "Composition is not mineral identity",
+        "body": "Elemental analysis measures elements within a method’s limits. Mineral-phase identification may require specialist microscopy or X-ray diffraction, XRD. Detecting iron and sulfur alone does not identify every phase in a complex specimen."
+      },
+      {
+        "id": "gold-identification-4",
+        "title": "Safe observation",
+        "body": "Use photographs and description for home learning. Do not taste, crush, heat or acid-test an unknown specimen. Toxic minerals or harmful dust may accompany it. Refer specimens to a competent organisation rather than use an unassessed test."
+      }
+    ],
+    "sources": [
+      {
+        "title": "USGS — What is Fool’s Gold?",
+        "url": "https://www.usgs.gov/faqs/what-fools-gold"
+      },
+      {
+        "title": "USGS — What is the difference between a rock and a mineral?",
+        "url": "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral"
+      },
+      {
+        "title": "WHO — Environmental and occupational health hazards associated with artisanal and small-scale gold mining (2016)",
+        "url": "https://www.who.int/publications/i/item/9789241510271"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "gold-analysis",
+    "section": "gold",
+    "title": "Sampling and analytical quality",
+    "intro": "Instrument precision cannot repair an unrepresentative sample. Reliable reporting requires a sampling design, quality controls and a method suited to the element and sample matrix.",
+    "topics": [
+      {
+        "id": "gold-analysis-1",
+        "title": "Representativeness and the nugget effect",
+        "body": "Gold grains may be very unevenly distributed, so portions of the same material can differ. A specialist designs representative sampling for grain size and geological variation instead of selecting the brightest pieces. A selected specimen cannot represent a mountain or valley."
+      },
+      {
+        "id": "gold-analysis-2",
+        "title": "QA/QC: what to check",
+        "body": "Blanks help reveal contamination, duplicates assess variability, and certified reference materials assess bias. Each addresses a different question; one passing control does not replace the others. Unacceptable controls need investigation before a batch is relied upon."
+      },
+      {
+        "id": "gold-analysis-3",
+        "title": "Limits of portable XRF",
+        "body": "XRF results depend on matrix, moisture, surface heterogeneity, interferences and calibration. Sensitivity may be inadequate for trace gold. A single field reading does not establish a deposit; suitable laboratory confirmation and a stated detection limit are needed."
+      },
+      {
+        "id": "gold-analysis-4",
+        "title": "AAS and ICP",
+        "body": "AAS measures atomic absorption, ICP-OES optical emission, and ICP-MS ions by mass-to-charge ratio. A technique name is insufficient: the laboratory needs a validated method for gold and the sample matrix, calibration and quality controls. This app supplies no chemical preparation procedure."
+      },
+      {
+        "id": "gold-analysis-5",
+        "title": "Reading a laboratory certificate",
+        "body": "Check sample identifier, unit, dry or wet mass basis, method, reporting limit and uncertainty if supplied. “Below reporting limit” does not mean zero. Compare results using consistent units and mass basis, and retain the original certificate."
+      }
+    ],
+    "sources": [
+      {
+        "title": "USGS — Quality assurance/quality control, Pebble deposit geochemistry (2008)",
+        "url": "https://pubs.usgs.gov/of/2008/1132/pdf/Pebble_OFR_2008-1132.pdf"
+      },
+      {
+        "title": "US EPA — SW-846 Test Method 6200: Field Portable XRF",
+        "url": "https://www.epa.gov/hw-sw846/sw-846-test-method-6200-field-portable-x-ray-fluorescence-spectrometry-determination"
+      },
+      {
+        "title": "US EPA — SW-846 Test Method 6020B: ICP-MS",
+        "url": "https://www.epa.gov/hw-sw846/sw-846-test-method-6020b-inductively-coupled-plasma-mass-spectrometry"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "gold-quantities",
+    "section": "gold",
+    "title": "Grade, mass, resource and reserve",
+    "intro": "The educational calculation explains units. It establishes neither deposit size, recovery feasibility nor project profitability.",
+    "topics": [
+      {
+        "id": "gold-quantities-1",
+        "title": "Understanding g/t and ppm",
+        "body": "One gram per metric tonne is one gram in 1,000,000 grams: one part per million on the same mass basis. Do not equate ppm in rock with mg/L in solution without considering density and measurement basis."
+      },
+      {
+        "id": "gold-quantities-2",
+        "title": "Theoretical mass example",
+        "body": "For 10 tonnes at an assumed 2 g/t, calculated contained gold is 20 g. An assumed 60% recovery gives 12 g. These are teaching figures: they omit losses and sampling variability and describe neither an extraction process nor a guaranteed outcome."
+      },
+      {
+        "id": "gold-quantities-3",
+        "title": "An assay is not a resource",
+        "body": "A resource estimate depends on geological evidence, quantities, grades, continuity, defined confidence and reasonable prospects for eventual economic extraction. One high assay does not establish a resource and must not be multiplied by an assumed area to announce gold tonnage."
+      },
+      {
+        "id": "gold-quantities-4",
+        "title": "A resource is not a reserve",
+        "body": "A reserve is the economically mineable part of a suitable resource after studies and modifying factors, including mining, processing, environmental, legal, social and economic considerations. The app’s calculator produces no resource classification, reserve estimate or investment valuation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CRIRSCO — International Reporting Template",
+        "url": "https://crirsco.com/product/crirsco-template-v2/"
+      },
+      {
+        "title": "USGS — Quality assurance/quality control, Pebble deposit geochemistry (2008)",
+        "url": "https://pubs.usgs.gov/of/2008/1132/pdf/Pebble_OFR_2008-1132.pdf"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "safety-controls",
+    "section": "safety",
+    "title": "Risk assessment, SDS and protection",
+    "intro": "A hazard can cause harm; risk depends on exposure likelihood, severity and working conditions.",
+    "topics": [
+      {
+        "id": "safety-controls-1",
+        "title": "Assessment before work",
+        "body": "A task assessment identifies chemicals, energy, dust, noise, moving equipment, exposure routes and affected people. The responsible person documents controls and who verifies them, and reassesses when materials, equipment or site conditions change."
+      },
+      {
+        "id": "safety-controls-2",
+        "title": "Hierarchy of controls",
+        "body": "Preference runs from elimination to safer substitution after assessing the alternative, engineering controls, administrative controls and PPE. Training and gloves do not remove a gas or dust source. Verify controls’ effectiveness rather than merely their presence."
+      },
+      {
+        "id": "safety-controls-3",
+        "title": "Reading a safety data sheet",
+        "body": "Match the product, composition and revision. Read hazard identification, first aid, storage, exposure controls, incompatibilities and disposal. GHS pictograms flag hazard types without describing every condition. Another product’s SDS cannot substitute for the material actually present."
+      },
+      {
+        "id": "safety-controls-4",
+        "title": "Limits of personal protection",
+        "body": "Gloves, eye, hearing and respiratory protection are selected for the hazard and exposure. Tight-fitting respirators need selection, training, fit testing and a professional programme. Cloth masks do not protect against toxic gases, and no glove suits every chemical."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CDC/NIOSH — Hierarchy of Controls",
+        "url": "https://www.cdc.gov/niosh/hierarchy-of-controls/about/"
+      },
+      {
+        "title": "OSHA — Safety Data Sheets, Appendix D",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200AppD"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "safety-toxicants",
+    "section": "safety",
+    "title": "Cyanide, lead and mercury",
+    "intro": "This section supports hazard recognition and exposure prevention. It provides no operating concentrations, mixtures, pond designs or chemical waste-treatment instructions.",
+    "topics": [
+      {
+        "id": "safety-toxicants-1",
+        "title": "Cyanide: a potential emergency",
+        "body": "Cyanide can disrupt the body’s use of oxygen and cause rapid poisoning through inhalation, ingestion or skin exposure. Odour is unreliable. pH control or absence of smell does not establish safety. Move to safety and summon emergency help; untrained, unequipped people must not enter for rescue."
+      },
+      {
+        "id": "safety-toxicants-2",
+        "title": "Lead and lead nitrate",
+        "body": "Lead can harm the nervous system, kidneys and other organs; children and pregnant people are especially vulnerable. Lead nitrate is toxic and an oxidizer. Dust can travel home on clothing. Suspected exposure needs medical assessment, potentially including a blood lead measurement."
+      },
+      {
+        "id": "safety-toxicants-3",
+        "title": "Mercury and the food chain",
+        "body": "Inhaled mercury vapour threatens the nervous system and kidneys. Environmental mercury can become methylmercury and accumulate in food chains. Do not heat mercury or use it for learning or gold extraction. Spills need trained responders; do not touch them or use a household vacuum."
+      },
+      {
+        "id": "safety-toxicants-4",
+        "title": "Limits of this information",
+        "body": "Symptoms may be nonspecific and cannot establish a diagnosis. Do not self-administer antidotes or treatment based on this app. Avoid further exposure from a safe location and give clinicians the chemical name or SDS when obtainable without approaching the hazard."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CDC/NIOSH — Sodium Cyanide: Systemic Agent",
+        "url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750036.html"
+      },
+      {
+        "title": "WHO — Lead poisoning and health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
+      },
+      {
+        "title": "ILO/WHO — International Chemical Safety Card 1000: Lead nitrate",
+        "url": "https://chemicalsafety.ilo.org/dyn/icsc/showcard.display?p_card_id=1000&p_lang=en&p_version=2"
+      },
+      {
+        "title": "WHO — Mercury and health",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "safety-dust",
+    "section": "safety",
+    "title": "Rock dust and occupational health",
+    "intro": "Respirable dust may be difficult to see. Little visible dust does not establish a safe exposure.",
+    "topics": [
+      {
+        "id": "safety-dust-1",
+        "title": "Crystalline silica",
+        "body": "Cutting, grinding or drilling rock can generate crystalline-silica particles that reach deep into the lungs. Exposure can cause silicosis and other serious diseases, including lung cancer. Risk depends on material, task and exposure rather than the rock name alone."
+      },
+      {
+        "id": "safety-dust-2",
+        "title": "Controls and assessment",
+        "body": "Prefer removing or reducing dusty work, then dust containment, local exhaust and equipment-specific controls. A specialist assesses suppression methods and measures exposure. A fan that blows dust toward other people cannot substitute for occupational ventilation."
+      },
+      {
+        "id": "safety-dust-3",
+        "title": "Hygiene and take-home contamination",
+        "body": "Separate eating and drinking areas from contaminated work and provide handwashing, work clothing and suitable cleaning arrangements. Keep work dust away from children at home. Cleaning and disposal require material assessment; avoid stirring dust with dry sweeping or compressed air."
+      },
+      {
+        "id": "safety-dust-4",
+        "title": "Hazards accompanying dust",
+        "body": "Dusty work can also involve noise, vibration, heavy loads, machinery or excavation collapse. Occupational health programmes assess these factors, monitor appropriately and arrange medical review when needed. A mask cannot control unguarded machinery or an unstable excavation."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CDC/NIOSH — Silica and Worker Health",
+        "url": "https://www.cdc.gov/niosh/silica/about/"
+      },
+      {
+        "title": "CDC/NIOSH — Silica: Safe Work Practices",
+        "url": "https://www.cdc.gov/niosh/silica/work/index.html"
+      },
+      {
+        "title": "CDC/NIOSH — Hierarchy of Controls",
+        "url": "https://www.cdc.gov/niosh/hierarchy-of-controls/about/"
+      },
+      {
+        "title": "WHO — Environmental and occupational health hazards associated with artisanal and small-scale gold mining (2016)",
+        "url": "https://www.who.int/publications/i/item/9789241510271"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  },
+  {
+    "id": "safety-response",
+    "section": "safety",
+    "title": "Emergencies, environment and authorisation",
+    "intro": "A professional plan is prepared before an incident and reviewed with competent authorities. App content cannot replace a site plan or medical direction.",
+    "topics": [
+      {
+        "id": "safety-response-1",
+        "title": "When an incident is suspected",
+        "body": "Stop the task if possible from safety, leave the danger area, warn others and summon local emergency services. Do not approach to identify a smell or photograph a leak. Give responders a clear location, substance name and exposure type when known reliably."
+      },
+      {
+        "id": "safety-response-2",
+        "title": "First aid and responder protection",
+        "body": "Do not enter an area with an unknown atmosphere to rescue someone. Follow emergency advice and the substance SDS; response depends on exposure type. Do not induce vomiting, neutralise chemicals on skin or give home remedies. Urgent assessment may be needed despite apparent improvement."
+      },
+      {
+        "id": "safety-response-3",
+        "title": "Water and waste",
+        "body": "Clear appearance or neutral pH does not establish safe wastewater. Dissolved metals or toxic substances may remain. Classification, transport and treatment need specialists and authorised organisations. Do not discharge to streams, soil or drains on the basis of an app calculation or home test."
+      },
+      {
+        "id": "safety-response-4",
+        "title": "Authorisation and scope of references",
+        "body": "Verify local land rights, exploration and mining licences, environmental, water and worker-health requirements, closure and emergency planning. This app does not enumerate current Yemeni procedures, fees or a verified competent authority for every area. OSHA and NIOSH references are educational and are not Yemeni law."
+      }
+    ],
+    "sources": [
+      {
+        "title": "OSHA — Safety Data Sheets, Appendix D",
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200AppD"
+      },
+      {
+        "title": "CDC/NIOSH — Sodium Cyanide: Systemic Agent",
+        "url": "https://www.cdc.gov/niosh/ershdb/emergencyresponsecard_29750036.html"
+      },
+      {
+        "title": "WHO — Environmental and occupational health hazards associated with artisanal and small-scale gold mining (2016)",
+        "url": "https://www.who.int/publications/i/item/9789241510271"
+      }
+    ],
+    "reviewStatus": "Educational synthesis based on the references; not independently certified by a geologist or occupational specialist."
+  }
+]

@@ -1,0 +1,2977 @@
+[
+  {
+    "title": "Matter and changes",
+    "level": "Foundation",
+    "intro": "Matter has mass and occupies space. Composition distinguishes pure substances (elements and compounds) from mixtures; physical state distinguishes solids, liquids, gases and plasmas.",
+    "detail": "A physical change alters form or state while preserving chemical identity. A chemical change produces substances with different compositions or bonding. Mixtures can have variable proportions; a pure compound has a defined composition. Changes of colour, heat or gas are clues, but the whole observation and possible alternatives must be examined.",
+    "example": "Melting ice is physical because both ice and liquid water are H₂O. Burning wood is chemical because new substances form. Salt water is a mixture: removing water can separate its components without changing the salt into another substance.",
+    "question": "Which example is a chemical change?",
+    "options": [
+      "Melting ice",
+      "Burning wood",
+      "Cutting paper"
+    ],
+    "answer": 1,
+    "explanation": "Combustion forms new compounds, so it is a chemical change.",
+    "section": "General chemistry",
+    "summary": "Classify matter by composition before classifying its change. A visible change alone does not establish a chemical reaction.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter",
+    "id": "lesson-001",
+    "objectives": [
+      "Classify a sample as an element, compound or mixture",
+      "Explain the distinction between physical and chemical changes"
+    ],
+    "prerequisites": [],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/1-2-phases-and-classification-of-matter"
+    ],
+    "questions": [
+      {
+        "question": "Which example is a chemical change?",
+        "options": [
+          "Melting ice",
+          "Burning wood",
+          "Cutting paper"
+        ],
+        "answer": 1,
+        "explanation": "Combustion forms new compounds, so it is a chemical change."
+      },
+      {
+        "question": "How is homogeneous salt water classified?",
+        "options": [
+          "Element",
+          "Mixture",
+          "Pure compound"
+        ],
+        "answer": 1,
+        "explanation": "Salt water contains more than one substance and its proportions can vary."
+      },
+      {
+        "question": "Why do bubbles alone not prove a reaction?",
+        "options": [
+          "They may be vapour during boiling",
+          "Every gas is a new element",
+          "Bubbles contain no matter"
+        ],
+        "answer": 0,
+        "explanation": "Vaporisation is a physical change; the identities of the substances are needed to interpret the observation."
+      }
+    ]
+  },
+  {
+    "title": "Atoms and particles",
+    "level": "Foundation",
+    "intro": "An atom contains a nucleus of positively charged protons and uncharged neutrons, surrounded by negatively charged electrons. The nucleus contains nearly all the atomic mass.",
+    "detail": "Atomic number Z is the proton count and identifies the element. Mass number A is the total number of protons and neutrons in one isotope. A neutral atom has Z electrons. Losing electrons makes a positive ion; gaining electrons makes a negative ion without changing the element. Electrons are described by quantum states, not tiny planets on fixed classical paths.",
+    "example": "For sodium-23, Z=11 and A=23: neutrons = 23−11 = 12. Na⁺ still has 11 protons and 12 neutrons but has 10 electrons.",
+    "question": "How many neutrons are in sodium-23?",
+    "options": [
+      "11",
+      "12",
+      "23"
+    ],
+    "answer": 1,
+    "explanation": "Neutrons = mass number − atomic number = 23−11.",
+    "section": "General chemistry",
+    "summary": "Protons identify the element; neutrons distinguish isotopes; electron gain or loss produces ions.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "id": "lesson-002",
+    "objectives": [
+      "Calculate a neutron count from A and Z",
+      "Determine the electron count of a simple ion"
+    ],
+    "prerequisites": [
+      "lesson-001"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    ],
+    "questions": [
+      {
+        "question": "How many neutrons are in sodium-23?",
+        "options": [
+          "11",
+          "12",
+          "23"
+        ],
+        "answer": 1,
+        "explanation": "Neutrons = mass number − atomic number = 23−11."
+      },
+      {
+        "question": "How many electrons does Na⁺ have if Z=11?",
+        "options": [
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "A singly positive ion has lost one electron: 11−1=10."
+      },
+      {
+        "question": "Which change changes the element?",
+        "options": [
+          "Changing the proton count",
+          "Changing physical state",
+          "Losing just one electron"
+        ],
+        "answer": 0,
+        "explanation": "An element is identified by its atomic number, the number of protons."
+      }
+    ]
+  },
+  {
+    "title": "The periodic table and trends",
+    "level": "Foundation",
+    "intro": "The modern periodic table orders elements by increasing atomic number. Rows are periods and columns are groups. Electron configurations explain many recurring properties.",
+    "detail": "Atomic radius generally decreases across a main-group period because effective nuclear attraction increases. It generally increases down a group as occupied shells are added. Ionisation energy often follows the opposite pattern. These are trends with exceptions, not absolute rules. Elements in one main group have related valence electron configurations; hydrogen has distinctive behaviour.",
+    "example": "Sodium and potassium are alkali metals. Potassium generally has the larger atomic radius because its valence electron occupies a higher principal shell. Group 18 contains noble gases; their low reactivity is not a claim that every member forms no compounds.",
+    "question": "What determines the order in the modern table?",
+    "options": [
+      "Mass alone",
+      "Atomic number",
+      "Density"
+    ],
+    "answer": 1,
+    "explanation": "Elements are ordered by atomic number, their proton count.",
+    "section": "General chemistry",
+    "summary": "Use atomic number for ordering, groups for recurring valence behaviour, and qualified trends for comparing properties.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties",
+    "id": "lesson-003",
+    "objectives": [
+      "Identify groups and periods",
+      "Compare radii of elements in one group"
+    ],
+    "prerequisites": [
+      "lesson-002"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/6-5-periodic-variations-in-element-properties"
+    ],
+    "questions": [
+      {
+        "question": "What determines the order in the modern table?",
+        "options": [
+          "Mass alone",
+          "Atomic number",
+          "Density"
+        ],
+        "answer": 1,
+        "explanation": "Elements are ordered by atomic number, their proton count."
+      },
+      {
+        "question": "What are the columns of the periodic table called?",
+        "options": [
+          "Periods",
+          "Groups",
+          "Isotopes"
+        ],
+        "answer": 1,
+        "explanation": "Columns are groups and rows are periods."
+      },
+      {
+        "question": "Why is potassium generally larger than sodium?",
+        "options": [
+          "Its valence electron occupies a higher principal shell",
+          "It has just one proton",
+          "It is a noble gas"
+        ],
+        "answer": 0,
+        "explanation": "An additional occupied shell increases atomic extent despite the larger proton count."
+      }
+    ]
+  },
+  {
+    "title": "Chemical bonds",
+    "level": "Foundation",
+    "intro": "Ionic bonding is electrostatic attraction between oppositely charged ions. Covalent bonding involves shared valence electron density. Metals are often described using electrons delocalised across many atoms.",
+    "detail": "Electronegativity difference helps interpret bond polarity, but bonding lies on a continuum. A molecule’s overall polarity depends on bond dipoles and three-dimensional shape. Ionic solids are extended lattices rather than collections of discrete salt molecules; a formula such as NaCl gives the simplest ionic ratio.",
+    "example": "O–H bonds in water are polar covalent. Their dipoles do not cancel in water’s bent structure, so water is polar. The two C=O dipoles cancel in linear CO₂ even though each bond is polar.",
+    "question": "What type of bonds occur within a water molecule?",
+    "options": [
+      "Covalent",
+      "Metallic",
+      "Purely ionic"
+    ],
+    "answer": 0,
+    "explanation": "Hydrogen and oxygen share electron pairs.",
+    "section": "General chemistry",
+    "summary": "Distinguish the type of bonding from a molecule’s overall polarity; shape matters as well as the individual bonds.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+    "id": "lesson-004",
+    "objectives": [
+      "Distinguish ionic and covalent bonding",
+      "Relate molecular shape to molecular polarity"
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-003"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding"
+    ],
+    "questions": [
+      {
+        "question": "What type of bonds occur within a water molecule?",
+        "options": [
+          "Covalent",
+          "Metallic",
+          "Purely ionic"
+        ],
+        "answer": 0,
+        "explanation": "Hydrogen and oxygen share electron pairs."
+      },
+      {
+        "question": "Why is linear CO₂ nonpolar overall?",
+        "options": [
+          "Its opposite bond dipoles cancel",
+          "It has no electrons",
+          "Its C=O bonds are completely nonpolar"
+        ],
+        "answer": 0,
+        "explanation": "The bonds are polar, but equal opposite dipoles give a zero net dipole."
+      },
+      {
+        "question": "What does NaCl describe in a salt crystal?",
+        "options": [
+          "The simplest ionic ratio",
+          "One metallic molecule",
+          "The neutron count"
+        ],
+        "answer": 0,
+        "explanation": "The formula gives the 1:1 ratio of Na⁺ to Cl⁻ in the ionic lattice."
+      }
+    ]
+  },
+  {
+    "title": "The mole and chemical calculations",
+    "level": "Intermediate",
+    "intro": "The mole is the SI unit of amount of substance. One mole contains exactly 6.02214076×10²³ specified entities. Molar mass links mass to amount of substance.",
+    "detail": "Use n=m/M with n in mol, m in g and M in g/mol. State the entity being counted: atoms, molecules, ions or formula units. Coefficients in a balanced equation give mole ratios, not mass ratios. Keep units through the calculation and round the final result to the precision justified by the data.",
+    "example": "With the approximate molar mass of water 18 g/mol, 36 g represents 36/18=2 mol. This corresponds to about 1.20×10²⁴ water molecules, not that number of hydrogen atoms: there are two H atoms in each molecule.",
+    "question": "How many moles are in 36 g of water using a molar mass of approximately 18 g/mol?",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 1,
+    "explanation": "Using approximately 18 g/mol: 36/18=2 mol.",
+    "section": "General chemistry",
+    "summary": "Convert mass to moles before using a reaction ratio, and identify exactly which entities are counted.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+    "id": "lesson-005",
+    "objectives": [
+      "Convert between mass and amount of substance",
+      "Distinguish molecule counts from atom counts"
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-004"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+    ],
+    "questions": [
+      {
+        "question": "How many moles are in 36 g of water using a molar mass of approximately 18 g/mol?",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Using approximately 18 g/mol: 36/18=2 mol."
+      },
+      {
+        "question": "How many moles of H atoms are in 2 mol of H₂O?",
+        "options": [
+          "1 mol",
+          "2 mol",
+          "4 mol"
+        ],
+        "answer": 2,
+        "explanation": "Each water molecule has two H atoms: 2×2=4 mol of H atoms."
+      },
+      {
+        "question": "Which molar mass unit is appropriate when mass is in grams?",
+        "options": [
+          "g/mol",
+          "mol/g",
+          "g/L"
+        ],
+        "answer": 0,
+        "explanation": "Dividing g by g/mol gives mol, consistent with n=m/M."
+      }
+    ]
+  },
+  {
+    "title": "Solutions and dilution",
+    "level": "Intermediate",
+    "intro": "A solution is a homogeneous mixture of solute and solvent. Molarity is moles of solute per litre of final solution, not per litre of solvent alone.",
+    "detail": "For an ideal dilution with no solute loss or reaction, C₁V₁=C₂V₂. Use the same volume unit on both sides, and distinguish final solution volume from solvent added. Dilution increases solution volume and decreases concentration while preserving solute amount. The relation does not describe solubility limits or chemical reactions.",
+    "example": "Diluting 100 mL of a 1 M solution to a final volume of 500 mL gives C₂=1×100/500=0.2 M. Both solutions contain 0.1 mol of solute. The calculation uses final volume; it does not assume that mixing all liquids gives exactly additive volumes.",
+    "question": "What is the final concentration when 100 mL of 1 M solution is diluted to 500 mL final volume without loss or reaction?",
+    "options": [
+      "0.2 M",
+      "2 M",
+      "5 M"
+    ],
+    "answer": 0,
+    "explanation": "C₂=(1×100)/500=0.2 M.",
+    "section": "General chemistry",
+    "summary": "Dilution conserves dissolved solute in this model. Specify final volume, units and the assumption of no reaction or loss.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+    "id": "lesson-006",
+    "objectives": [
+      "Calculate a final concentration using solute conservation",
+      "Distinguish final solution volume from solvent added"
+    ],
+    "prerequisites": [
+      "lesson-005"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/3-3-molarity"
+    ],
+    "questions": [
+      {
+        "question": "What is the final concentration when 100 mL of 1 M solution is diluted to 500 mL final volume without loss or reaction?",
+        "options": [
+          "0.2 M",
+          "2 M",
+          "5 M"
+        ],
+        "answer": 0,
+        "explanation": "C₂=(1×100)/500=0.2 M."
+      },
+      {
+        "question": "What stays constant during an ideal dilution?",
+        "options": [
+          "Moles of solute",
+          "Concentration",
+          "Solution volume"
+        ],
+        "answer": 0,
+        "explanation": "Adding solvent without loss or reaction preserves the amount of solute."
+      },
+      {
+        "question": "In C₁V₁=C₂V₂, what does V₂ represent?",
+        "options": [
+          "Only the added solvent volume",
+          "Final solution volume",
+          "Empty container volume"
+        ],
+        "answer": 1,
+        "explanation": "V₂ is the total final solution volume after dilution."
+      }
+    ]
+  },
+  {
+    "title": "Acids and bases",
+    "level": "Intermediate",
+    "intro": "In the Brønsted–Lowry model, an acid donates a proton and a base accepts one. pH expresses hydrogen ion activity on a logarithmic scale; concentration is a useful approximation in sufficiently dilute solutions.",
+    "detail": "A conjugate acid–base pair differs by one proton. At 25 °C neutral pure water is near pH 7 because the water ionisation product is approximately 10⁻¹⁴. Neutrality means equal hydrogen and hydroxide activities, so neutral pH changes with temperature. Acid strength describes ionisation tendency; it is different from concentration.",
+    "example": "A dilute ideal solution with [H₃O⁺]=10⁻³ mol/L has pH≈3. A second solution at pH 4 has about one tenth that hydrogen ion concentration under the same approximation. A buffer resists small pH changes but has finite capacity.",
+    "question": "Which statement is more accurate?",
+    "options": [
+      "Any solution at pH 7 is neutral at every temperature",
+      "Neutral pH depends on temperature",
+      "pH is not logarithmic"
+    ],
+    "answer": 1,
+    "explanation": "The water ionisation constant changes with temperature, so neutral pH changes.",
+    "section": "General chemistry",
+    "summary": "Treat pH as logarithmic and temperature dependent. Distinguish a strong acid from a concentrated acid, and a buffer from unlimited protection against change.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases\nhttps://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+    "id": "lesson-007",
+    "objectives": [
+      "Calculate pH in a dilute ideal approximation",
+      "Distinguish acid strength from concentration"
+    ],
+    "prerequisites": [
+      "lesson-006"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+      "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+    ],
+    "questions": [
+      {
+        "question": "Which statement is more accurate?",
+        "options": [
+          "Any solution at pH 7 is neutral at every temperature",
+          "Neutral pH depends on temperature",
+          "pH is not logarithmic"
+        ],
+        "answer": 1,
+        "explanation": "The water ionisation constant changes with temperature, so neutral pH changes."
+      },
+      {
+        "question": "If pH rises from 3 to 4 in the dilute approximation, how does [H₃O⁺] change?",
+        "options": [
+          "It increases tenfold",
+          "It falls to one tenth",
+          "It stays constant"
+        ],
+        "answer": 1,
+        "explanation": "pH≈−log₁₀[H₃O⁺]; a one-unit rise corresponds to a tenfold decrease."
+      },
+      {
+        "question": "Which pair differs by one proton?",
+        "options": [
+          "An acid and its conjugate base",
+          "Two isotopes",
+          "Any acid and any base"
+        ],
+        "answer": 0,
+        "explanation": "Losing one proton converts an acid into its conjugate base."
+      }
+    ]
+  },
+  {
+    "title": "Chemical equilibrium",
+    "level": "University",
+    "intro": "A reversible reaction reaches dynamic equilibrium when forward and reverse rates are equal. Reactant and product concentrations need not be equal; microscopic reactions continue.",
+    "detail": "The equilibrium constant K describes an activity ratio at a specified temperature. For aA+bB⇌cC+dD, K=a(C)ᶜa(D)ᵈ/[a(A)ᵃa(B)ᵇ]. Pure solids and liquids have unit activity in the usual expression. The reaction quotient Q has the same form at any state. Compare Q with K to predict net direction; a catalyst changes the approach rate but not K.",
+    "example": "If K=10 and Q=2, net reaction forms products until Q approaches 10. If Q=20 the net direction is toward reactants. K alone does not say how quickly either change occurs.",
+    "question": "If Q is less than K, what is the net reaction direction?",
+    "options": [
+      "Products",
+      "Reactants",
+      "No change"
+    ],
+    "answer": 0,
+    "explanation": "Products form, increasing Q toward K.",
+    "section": "General chemistry",
+    "summary": "Equilibrium concerns equal rates, not equal concentrations. Temperature fixes K; comparison of Q and K predicts the net direction.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+    "id": "lesson-008",
+    "objectives": [
+      "Distinguish Q from K",
+      "Explain how a catalyst affects equilibrium"
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-006"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria"
+    ],
+    "questions": [
+      {
+        "question": "If Q is less than K, what is the net reaction direction?",
+        "options": [
+          "Products",
+          "Reactants",
+          "No change"
+        ],
+        "answer": 0,
+        "explanation": "Products form, increasing Q toward K."
+      },
+      {
+        "question": "If Q=20 and K=10, what is the net direction?",
+        "options": [
+          "Toward products",
+          "Toward reactants",
+          "No comparison is ever possible"
+        ],
+        "answer": 1,
+        "explanation": "Q must decrease to reach K, so net reaction forms reactants."
+      },
+      {
+        "question": "What does a catalyst do at fixed temperature?",
+        "options": [
+          "Changes K",
+          "Speeds approach to equilibrium without changing K",
+          "Stops reverse reaction"
+        ],
+        "answer": 1,
+        "explanation": "A catalyst lowers barriers for both directions without changing the free energy difference between states."
+      }
+    ]
+  },
+  {
+    "title": "Introduction to instrumental analysis",
+    "level": "Specialist",
+    "intro": "Instrumental analysis uses optical, electrical and separation measurements to identify substances or determine concentrations. A raw reading is not a validated result without calibration, blanks and quality control.",
+    "detail": "Method validation considers selectivity, range, precision, bias, detection and quantification limits, and measurement uncertainty. The relevant matrix and intended use determine what performance is needed. Repeatability describes agreement among repeats; agreement does not prove closeness to the true value. A calibration curve must not be extrapolated beyond its validated range without justification.",
+    "example": "Three readings of 9.9, 10.0 and 10.1 mg/L cluster closely, but all may be biased if a certified control is 12.0 mg/L. A blank assesses background or contamination; a control material with an assigned value checks performance independently.",
+    "question": "What is the purpose of a blank?",
+    "options": [
+      "Assess background signal",
+      "Increase concentration",
+      "Change the element"
+    ],
+    "answer": 0,
+    "explanation": "A blank helps assess background and contamination.",
+    "section": "Analytical chemistry",
+    "summary": "Interpret a number together with units, matrix, method range, quality controls and uncertainty. Precision and trueness are different properties.",
+    "source": "Review references: https://www.eurachem.org/index.php/publications/guides/mv",
+    "id": "lesson-009",
+    "objectives": [
+      "Distinguish repeatability from bias",
+      "Explain the roles of blanks and control materials"
+    ],
+    "prerequisites": [
+      "lesson-006"
+    ],
+    "sourceUrls": [
+      "https://www.eurachem.org/index.php/publications/guides/mv"
+    ],
+    "questions": [
+      {
+        "question": "What is the purpose of a blank?",
+        "options": [
+          "Assess background signal",
+          "Increase concentration",
+          "Change the element"
+        ],
+        "answer": 0,
+        "explanation": "A blank helps assess background and contamination."
+      },
+      {
+        "question": "Closely clustered results far from a reference value indicate what?",
+        "options": [
+          "Good repeatability with possible bias",
+          "Proven trueness",
+          "No need for calibration"
+        ],
+        "answer": 0,
+        "explanation": "Repeatability describes agreement among results; systematic bias can still displace them from the reference."
+      },
+      {
+        "question": "What should happen when a signal exceeds the validated calibration range?",
+        "options": [
+          "Extrapolate without checking",
+          "Follow a validated laboratory method to bring it into range",
+          "Report zero"
+        ],
+        "answer": 1,
+        "explanation": "Unvalidated extrapolation is unreliable; an approved procedure and appropriate remeasurement are needed."
+      }
+    ]
+  },
+  {
+    "title": "Mineralogy and gold ores",
+    "level": "Specialist",
+    "intro": "Ore characterisation examines mineral phases, grain textures and elemental distribution. Gold can occur as visible grains, microscopic particles or associated with other mineral phases; its appearance alone is not a reliable assay.",
+    "detail": "XRF assesses elemental composition, XRD identifies crystalline phases, and microscopy examines texture. These tools answer different questions and have matrix effects and detection limits. Sampling must represent the material: a rich isolated grain is not an average grade. Contained metal is a mass balance, while an ore designation additionally requires economic and technical assessment.",
+    "example": "A hypothetical 100 kg sample at 5 g/t contains 0.1 t×5 g/t=0.5 g of gold. This is theoretical contained metal before losses, not a recovery guarantee or extraction procedure. A separate mineralogical assessment is needed to understand the host phases.",
+    "question": "What is the theoretical gold content of 100 kg of material at a grade of 5 g/t?",
+    "options": [
+      "0.05 g",
+      "0.5 g",
+      "5 g"
+    ],
+    "answer": 1,
+    "explanation": "100 kg=0.1 metric tonne, and 0.1×5=0.5 g.",
+    "section": "Gold and minerals",
+    "summary": "Link a grade to a representative sample, analytical method and uncertainty. Elemental composition, mineral identity and economic viability are separate questions.",
+    "source": "Review references: https://pubs.usgs.gov/gip/prospect1/goldgip.html",
+    "id": "lesson-010",
+    "objectives": [
+      "Calculate theoretical contained metal from mass and grade",
+      "Distinguish elemental analysis from mineral phase identification"
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-009"
+    ],
+    "sourceUrls": [
+      "https://pubs.usgs.gov/gip/prospect1/goldgip.html"
+    ],
+    "questions": [
+      {
+        "question": "What is the theoretical gold content of 100 kg of material at a grade of 5 g/t?",
+        "options": [
+          "0.05 g",
+          "0.5 g",
+          "5 g"
+        ],
+        "answer": 1,
+        "explanation": "100 kg=0.1 metric tonne, and 0.1×5=0.5 g."
+      },
+      {
+        "question": "Which technique primarily identifies crystalline phases?",
+        "options": [
+          "XRD",
+          "Colour alone",
+          "Mass balance"
+        ],
+        "answer": 0,
+        "explanation": "X-ray diffraction distinguishes crystal structures; elemental analysis alone does not identify the phase."
+      },
+      {
+        "question": "Does one gold grain establish an area’s average grade?",
+        "options": [
+          "Yes",
+          "No; representative sampling is needed",
+          "If it is shiny"
+        ],
+        "answer": 1,
+        "explanation": "Spatial representation and grade variability matter; a selected grain may not represent the bulk."
+      }
+    ]
+  },
+  {
+    "title": "Organic chemistry",
+    "level": "University",
+    "intro": "Organic chemistry examines the structures, properties and transformations of carbon compounds. Carbon can form chains, branches and rings, while heteroatoms such as oxygen and nitrogen create many functional groups.",
+    "detail": "A molecular formula gives atom counts; a structural formula gives connections. Four bonds around neutral carbon is a useful starting rule for common molecules, but charge and bonding must also be checked. Functional groups explain characteristic patterns without determining every property: chain length, shape and the surrounding groups also matter.",
+    "example": "Ethanol, CH₃CH₂OH, is an alcohol. Ethanoic acid, CH₃COOH, contains a carboxyl group. Both contain O–H, but the adjacent carbonyl makes the acid chemically different; identifying one atom group in isolation can misclassify the compound.",
+    "question": "Which group identifies a carboxylic acid?",
+    "options": [
+      "COOH",
+      "OH alone",
+      "Na"
+    ],
+    "answer": 0,
+    "explanation": "A carboxyl group combines a carbonyl and hydroxyl on the same carbon: COOH.",
+    "section": "Organic chemistry",
+    "summary": "Read atom connectivity as well as formula. A carboxyl group is COOH; an alcohol hydroxyl is attached to saturated carbon.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+    "id": "lesson-011",
+    "objectives": [
+      "Distinguish molecular and structural formulae",
+      "Identify the carboxyl group"
+    ],
+    "prerequisites": [
+      "lesson-004"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    ],
+    "questions": [
+      {
+        "question": "Which group identifies a carboxylic acid?",
+        "options": [
+          "COOH",
+          "OH alone",
+          "Na"
+        ],
+        "answer": 0,
+        "explanation": "A carboxyl group combines a carbonyl and hydroxyl on the same carbon: COOH."
+      },
+      {
+        "question": "What does a structural formula add to atom counts?",
+        "options": [
+          "How atoms are connected",
+          "Every atom’s neutron count",
+          "Measured sample purity"
+        ],
+        "answer": 0,
+        "explanation": "A molecular formula supplies counts; a structural formula shows bonding and connectivity."
+      },
+      {
+        "question": "Which statement about a functional group is more accurate?",
+        "options": [
+          "It explains patterns, with the rest of the structure also important",
+          "It determines every property without exception",
+          "It is unrelated to properties"
+        ],
+        "answer": 0,
+        "explanation": "Functional groups matter greatly, but chain length, shape and structural context also matter."
+      }
+    ]
+  },
+  {
+    "title": "Thermodynamics",
+    "level": "University",
+    "intro": "Thermodynamics studies energy transfer and the constraints on chemical and physical changes. The system is the chosen material under study; everything else is its surroundings.",
+    "detail": "The first law expresses energy conservation: ΔU=q+w with heat entering the system and work done on it counted positive. At constant pressure and with only pressure–volume work, heat equals ΔH. Negative ΔH means exothermic change. Spontaneity at fixed temperature and pressure depends on ΔG=ΔH−TΔS, not enthalpy alone; a favourable process can still be slow.",
+    "example": "If ΔH=−20 kJ, the stated process releases 20 kJ at constant pressure under the usual assumptions. If ΔH=10 kJ and TΔS=15 kJ, ΔG=−5 kJ; an endothermic change can therefore be thermodynamically favourable.",
+    "question": "What does a negative ΔH indicate?",
+    "options": [
+      "Endothermic",
+      "Exothermic",
+      "No change"
+    ],
+    "answer": 1,
+    "explanation": "Under constant-pressure conditions with only pressure–volume work, a negative ΔH means heat leaves the system.",
+    "section": "Physical chemistry",
+    "summary": "Energy is conserved; heat depends on process conditions. Enthalpy, spontaneity and reaction rate answer different questions.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics\nhttps://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+    "id": "lesson-012",
+    "objectives": [
+      "Interpret the sign of an enthalpy change",
+      "Calculate ΔG using consistent units"
+    ],
+    "prerequisites": [
+      "lesson-005"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/5-1-energy-basics",
+      "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+    ],
+    "questions": [
+      {
+        "question": "What does a negative ΔH indicate?",
+        "options": [
+          "Endothermic",
+          "Exothermic",
+          "No change"
+        ],
+        "answer": 1,
+        "explanation": "Under constant-pressure conditions with only pressure–volume work, a negative ΔH means heat leaves the system."
+      },
+      {
+        "question": "If ΔH=10 kJ and TΔS=15 kJ, what is ΔG?",
+        "options": [
+          "25 kJ",
+          "−5 kJ",
+          "5 kJ"
+        ],
+        "answer": 1,
+        "explanation": "ΔG=ΔH−TΔS=10−15=−5 kJ."
+      },
+      {
+        "question": "Does a negative ΔG guarantee a fast reaction?",
+        "options": [
+          "Yes",
+          "No; rate depends on the activation barrier",
+          "It cancels energy conservation"
+        ],
+        "answer": 1,
+        "explanation": "Thermodynamics addresses favourability; kinetics addresses the rate of approach."
+      }
+    ]
+  },
+  {
+    "title": "Chemical kinetics",
+    "level": "University",
+    "intro": "Chemical kinetics studies how fast reactions occur and how rate depends on concentration, temperature and reaction pathways. Rate is distinct from the final equilibrium composition.",
+    "detail": "A rate law such as rate=k[A]² is determined experimentally, not read directly from the overall balanced equation unless a justified elementary step is involved. Increasing temperature often increases the fraction of collisions able to cross an activation barrier. A catalyst provides another pathway with lower barriers for both directions and does not change the equilibrium constant.",
+    "example": "For rate=k[A]² at fixed temperature, doubling [A] makes the rate four times larger. A process may be favourable thermodynamically but take a long time because its activation barrier is large.",
+    "question": "What does kinetics study?",
+    "options": [
+      "Reaction rate",
+      "Atomic number",
+      "Mass alone"
+    ],
+    "answer": 0,
+    "explanation": "Kinetics examines rates and pathways rather than only the final extent of change.",
+    "section": "Physical chemistry",
+    "summary": "Determine reaction orders from evidence, distinguish rate from equilibrium, and interpret catalysis as a pathway change.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+    "id": "lesson-013",
+    "objectives": [
+      "Calculate a concentration effect from a given rate law",
+      "Distinguish kinetics from equilibrium"
+    ],
+    "prerequisites": [
+      "lesson-008",
+      "lesson-012"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws"
+    ],
+    "questions": [
+      {
+        "question": "What does kinetics study?",
+        "options": [
+          "Reaction rate",
+          "Atomic number",
+          "Mass alone"
+        ],
+        "answer": 0,
+        "explanation": "Kinetics examines rates and pathways rather than only the final extent of change."
+      },
+      {
+        "question": "For rate=k[A]², what does doubling [A] do at fixed k?",
+        "options": [
+          "Doubles the rate",
+          "Quadruples the rate",
+          "Leaves it unchanged"
+        ],
+        "answer": 1,
+        "explanation": "(2[A])²=4[A]², so the rate increases fourfold."
+      },
+      {
+        "question": "How are rate-law orders for an overall reaction usually found?",
+        "options": [
+          "From rate experiments",
+          "Always from equation coefficients",
+          "From colour alone"
+        ],
+        "answer": 0,
+        "explanation": "An overall equation does not establish the mechanism; orders are measured experimentally."
+      }
+    ]
+  },
+  {
+    "title": "Spectroscopic analysis",
+    "level": "Specialist",
+    "intro": "Spectroscopy studies interactions between electromagnetic radiation and matter. Absorption, emission and scattering reveal different kinds of information about atoms and molecules.",
+    "detail": "Atomic spectra reflect transitions between electronic energy levels. Molecular spectra can also probe vibration and rotation. Quantitative interpretation requires suitable calibration, background correction, control of interferences and an established working range. A method’s detection limit belongs to a defined procedure and matrix; a signal below it does not establish zero concentration.",
+    "example": "If a validated method reports a sample below a detection limit of 0.02 mg/L, the appropriate conclusion is that it was not detected by that method at that limit. Reporting exactly 0 mg/L would discard the method’s limitation.",
+    "question": "Does a result below the detection limit prove complete absence?",
+    "options": [
+      "Yes; every instrument detects any amount",
+      "No; non-detection is limited by the method",
+      "It means concentration exactly equals the detection limit"
+    ],
+    "answer": 1,
+    "explanation": "A measurement below the detection limit does not establish a zero concentration.",
+    "section": "Analytical chemistry",
+    "summary": "Match the spectroscopic method to the question. Report units, interferences and detection limits together with the result.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy\nhttps://openstax.org/books/chemistry-2e/pages/6-2-the-bohr-model",
+    "id": "lesson-014",
+    "objectives": [
+      "Distinguish absorption from emission",
+      "Interpret a result below the detection limit"
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-009"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/6-1-electromagnetic-energy",
+      "https://openstax.org/books/chemistry-2e/pages/6-2-the-bohr-model"
+    ],
+    "questions": [
+      {
+        "question": "Does a result below the detection limit prove complete absence?",
+        "options": [
+          "Yes; every instrument detects any amount",
+          "No; non-detection is limited by the method",
+          "It means concentration exactly equals the detection limit"
+        ],
+        "answer": 1,
+        "explanation": "A measurement below the detection limit does not establish a zero concentration."
+      },
+      {
+        "question": "What does a result below a 0.02 mg/L detection limit mean?",
+        "options": [
+          "The concentration is certainly zero",
+          "The method did not detect it at that limit",
+          "It exceeds every standard"
+        ],
+        "answer": 1,
+        "explanation": "Non-detection is conditional on method sensitivity and measurement conditions, not proof of absolute absence."
+      },
+      {
+        "question": "What causes atomic spectral lines?",
+        "options": [
+          "Transitions between electronic energy levels",
+          "Only container size differences",
+          "The number of sand grains"
+        ],
+        "answer": 0,
+        "explanation": "An atom absorbs or emits a defined energy when its electronic state changes."
+      }
+    ]
+  },
+  {
+    "title": "Mineralogy",
+    "level": "Specialist",
+    "intro": "A mineral is generally a naturally occurring solid with an ordered internal structure and a characteristic chemical composition that may vary within defined limits. A rock is an aggregate of one or more minerals.",
+    "detail": "Hardness, streak, density, cleavage and crystal form are complementary observations. Hardness is resistance to scratching, not resistance to breaking. Colour may vary with impurities, and different minerals can share a colour. Definitive identification may require diffraction, microscopy or chemical analysis; visual identification is provisional.",
+    "example": "Pyrite, FeS₂, can have a gold-like colour but is not native gold. Diamond and graphite are both carbon minerals yet have very different properties because their bonding and crystal structures differ.",
+    "question": "Does a gold colour alone establish the presence of gold?",
+    "options": [
+      "Yes; colour alone identifies the element",
+      "No; it may be another mineral such as pyrite",
+      "It establishes gold purity but not quantity"
+    ],
+    "answer": 1,
+    "explanation": "Hardness, structure and appropriate analysis distinguish minerals; colour alone is insufficient.",
+    "section": "Mineralogy",
+    "summary": "Use several properties and the crystal structure to identify minerals. Appearance alone does not establish identity or economic value.",
+    "source": "Review references: https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
+    "id": "lesson-015",
+    "objectives": [
+      "Distinguish a mineral from a rock",
+      "Explain property differences in materials with the same elemental composition"
+    ],
+    "prerequisites": [
+      "lesson-004",
+      "lesson-010"
+    ],
+    "sourceUrls": [
+      "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral"
+    ],
+    "questions": [
+      {
+        "question": "Does a gold colour alone establish the presence of gold?",
+        "options": [
+          "Yes; colour alone identifies the element",
+          "No; it may be another mineral such as pyrite",
+          "It establishes gold purity but not quantity"
+        ],
+        "answer": 1,
+        "explanation": "Hardness, structure and appropriate analysis distinguish minerals; colour alone is insufficient."
+      },
+      {
+        "question": "What does hardness measure?",
+        "options": [
+          "Resistance to scratching",
+          "Resistance to every kind of fracture",
+          "Melting temperature"
+        ],
+        "answer": 0,
+        "explanation": "Hardness describes scratching resistance; toughness and fracture behaviour are different properties."
+      },
+      {
+        "question": "Why do diamond and graphite differ even though both are carbon?",
+        "options": [
+          "Different bonding and structure",
+          "Different carbon proton counts",
+          "One is not matter"
+        ],
+        "answer": 0,
+        "explanation": "Crystal arrangement and bonding strongly influence properties."
+      }
+    ]
+  },
+  {
+    "title": "Chemical safety",
+    "level": "Specialist",
+    "intro": "Chemical safety starts with identifying hazards and evaluating possible exposure. Hazard is the potential to cause harm; risk also depends on exposure, task conditions and controls.",
+    "detail": "The hierarchy of controls prioritises elimination and substitution, followed by engineering controls, administrative controls and personal protective equipment. An SDS describes hazards, first aid, storage and exposure controls, but must be applied by trained staff to the specific task. A pictogram signals a hazard category rather than a complete operating instruction.",
+    "example": "If a toxic release is suspected, move away from the affected area, warn others without entering danger and call the local emergency service or trained response team. Do not attempt an untrained rescue or improvise chemical treatment. The correct emergency contact is set locally.",
+    "question": "What is the priority during a toxic release?",
+    "options": [
+      "Approach it",
+      "Evacuate and request trained responders",
+      "Ignore it"
+    ],
+    "answer": 1,
+    "explanation": "Move away and call trained responders; personal protective equipment alone does not guarantee safety.",
+    "section": "Chemical safety",
+    "summary": "Prevent exposure before relying on personal protective equipment. Use current SDS information and a site-specific trained emergency plan.",
+    "source": "Review references: https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html",
+    "id": "lesson-016",
+    "objectives": [
+      "Distinguish hazard from risk",
+      "Order the hierarchy of controls"
+    ],
+    "prerequisites": [
+      "lesson-001"
+    ],
+    "sourceUrls": [
+      "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+    ],
+    "questions": [
+      {
+        "question": "What is the priority during a toxic release?",
+        "options": [
+          "Approach it",
+          "Evacuate and request trained responders",
+          "Ignore it"
+        ],
+        "answer": 1,
+        "explanation": "Move away and call trained responders; personal protective equipment alone does not guarantee safety."
+      },
+      {
+        "question": "Which control has highest priority in the hierarchy?",
+        "options": [
+          "Elimination",
+          "Gloves alone",
+          "A warning label alone"
+        ],
+        "answer": 0,
+        "explanation": "Elimination removes the hazard; personal protective equipment is lower in the hierarchy."
+      },
+      {
+        "question": "Does a hazard pictogram replace an SDS and task assessment?",
+        "options": [
+          "Yes",
+          "No",
+          "Only for colourless materials"
+        ],
+        "answer": 1,
+        "explanation": "A pictogram summarises a hazard class; detailed information and task-specific controls remain necessary."
+      }
+    ]
+  },
+  {
+    "title": "Measurement and units",
+    "level": "Foundation",
+    "section": "General chemistry",
+    "intro": "A measurement states a quantity with a unit and a limit to its certainty. Accuracy concerns closeness to a reference; precision concerns agreement among repeated measurements.",
+    "detail": "Unit conversion multiplies by ratios equal to one. Density is mass divided by volume. Significant figures communicate measurement precision, but do not replace an uncertainty estimate. In multiplication or division the least precise input limits the reported precision; keep extra digits during calculation and round once at the end.",
+    "example": "A sample with mass 24 g and volume 8.0 cm³ has density 24/8.0=3.0 g/cm³. Also 250 mL×(1 L/1000 mL)=0.250 L; units cancel explicitly. If the volume were written merely 8 cm³, a two-figure result would not be justified by that notation.",
+    "question": "What is the density of a sample with mass 24 g and volume 8 cm³?",
+    "options": [
+      "192 g/cm³",
+      "3 g/cm³",
+      "0.33 g/cm³"
+    ],
+    "answer": 1,
+    "explanation": "Density=mass/volume=24/8=3 g/cm³; the reported precision depends on the input precision.",
+    "summary": "Carry units through every step, distinguish accuracy from precision, and report only the precision supported by the inputs.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/1-4-measurements\nhttps://openstax.org/books/chemistry-2e/pages/1-6-mathematical-treatment-of-measurement-results",
+    "id": "lesson-017",
+    "objectives": [
+      "Convert volume using a correct conversion factor",
+      "Calculate density with units"
+    ],
+    "prerequisites": [
+      "lesson-001"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/1-4-measurements",
+      "https://openstax.org/books/chemistry-2e/pages/1-6-mathematical-treatment-of-measurement-results"
+    ],
+    "questions": [
+      {
+        "question": "What is the density of a sample with mass 24 g and volume 8 cm³?",
+        "options": [
+          "192 g/cm³",
+          "3 g/cm³",
+          "0.33 g/cm³"
+        ],
+        "answer": 1,
+        "explanation": "Density=mass/volume=24/8=3 g/cm³; the reported precision depends on the input precision."
+      },
+      {
+        "question": "How many litres equal 250 mL?",
+        "options": [
+          "0.250 L",
+          "250000 L",
+          "2.50 L"
+        ],
+        "answer": 0,
+        "explanation": "250/1000=0.250 L."
+      },
+      {
+        "question": "What does precision describe?",
+        "options": [
+          "Agreement among repeated measurements",
+          "Guaranteed agreement with a reference",
+          "Absence of every uncertainty"
+        ],
+        "answer": 0,
+        "explanation": "Repeated values can cluster despite bias; precision is not the same as accuracy."
+      }
+    ]
+  },
+  {
+    "title": "Isotopes and atomic mass",
+    "level": "Foundation",
+    "section": "General chemistry",
+    "intro": "Isotopes of an element have the same proton count but different neutron counts. Their chemical behaviour is often similar, while their masses and nuclear stability can differ.",
+    "detail": "Average atomic mass is a weighted average of isotope masses using their abundances. Fractions must add to one. Mass number is an integer count for a particular isotope, whereas isotope mass and average atomic mass are measured quantities and need not be integers. Some elements have no stable isotopes, so a bracketed mass number is commonly used instead of a standard atomic weight.",
+    "example": "For hypothetical isotopes with masses 10 u and 11 u at 20% and 80%, average mass=(10×0.20)+(11×0.80)=10.8 u. This does not mean that an individual atom has mass number 10.8.",
+    "question": "What is the same in isotopes of an element?",
+    "options": [
+      "Neutron count",
+      "Proton count",
+      "Mass number"
+    ],
+    "answer": 1,
+    "explanation": "Isotopes share the proton count that identifies the element, while their neutron counts differ.",
+    "summary": "Separate isotope mass, mass number and weighted atomic mass. An average does not describe an individual atom.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "id": "lesson-018",
+    "objectives": [
+      "Calculate a weighted atomic mass from abundance",
+      "Distinguish mass number from average atomic mass"
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-017"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+    ],
+    "questions": [
+      {
+        "question": "What is the same in isotopes of an element?",
+        "options": [
+          "Neutron count",
+          "Proton count",
+          "Mass number"
+        ],
+        "answer": 1,
+        "explanation": "Isotopes share the proton count that identifies the element, while their neutron counts differ."
+      },
+      {
+        "question": "What is the average of masses 10 and 11 at 20% and 80%?",
+        "options": [
+          "10.5 u",
+          "10.8 u",
+          "21 u"
+        ],
+        "answer": 1,
+        "explanation": "10×0.20+11×0.80=10.8 u."
+      },
+      {
+        "question": "Does an average of 10.8 mean an atom has mass number 10.8?",
+        "options": [
+          "Yes",
+          "No; mass number is an integer count",
+          "Only in a gas"
+        ],
+        "answer": 1,
+        "explanation": "The weighted average describes a population; mass number counts protons and neutrons in one atom."
+      }
+    ]
+  },
+  {
+    "title": "Balancing chemical equations",
+    "level": "Intermediate",
+    "section": "General chemistry",
+    "intro": "A chemical equation represents changes of substances while conserving atoms of each element. A balanced equation must also conserve net electric charge when ions are involved.",
+    "detail": "Change coefficients in front of formulae, never subscripts inside a formula. Use the smallest whole-number ratio conventionally. Coefficients give relative numbers of particles or moles; they do not establish a reaction mechanism or equal mass ratios. Count each element independently on both sides as a final check.",
+    "example": "The digital model 2H₂+O₂→2H₂O has four H atoms and two O atoms on each side. Writing H₂O₂ instead of H₂O would change the product identity rather than balance water formation. This is a numerical model, not an instruction to perform the reaction.",
+    "question": "What may be changed when balancing an equation?",
+    "options": [
+      "Chemical formulae",
+      "Coefficients",
+      "Atomic number"
+    ],
+    "answer": 1,
+    "explanation": "Change coefficients to conserve atoms without changing the identities of the substances.",
+    "summary": "Balance atoms and charge using coefficients. Preserve chemical identities and distinguish mole ratios from mass ratios.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "id": "lesson-019",
+    "objectives": [
+      "Check atom conservation in an equation",
+      "Distinguish coefficients from subscripts"
+    ],
+    "prerequisites": [
+      "lesson-004",
+      "lesson-005"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations"
+    ],
+    "questions": [
+      {
+        "question": "What may be changed when balancing an equation?",
+        "options": [
+          "Chemical formulae",
+          "Coefficients",
+          "Atomic number"
+        ],
+        "answer": 1,
+        "explanation": "Change coefficients to conserve atoms without changing the identities of the substances."
+      },
+      {
+        "question": "How many H atoms are represented by 2H₂O?",
+        "options": [
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "The coefficient 2 multiplies two H atoms per water molecule, giving 4."
+      },
+      {
+        "question": "What happens if H₂O is changed to H₂O₂ while balancing?",
+        "options": [
+          "The substance identity changes",
+          "Only the coefficient changes",
+          "The formula stays the same"
+        ],
+        "answer": 0,
+        "explanation": "A subscript is part of a compound’s identity; changing it gives another compound."
+      }
+    ]
+  },
+  {
+    "title": "The limiting reactant",
+    "level": "Intermediate",
+    "section": "General chemistry",
+    "intro": "The limiting reactant runs out first according to the stoichiometric proportions and sets the theoretical maximum product. An excess reactant remains after this idealised complete reaction.",
+    "detail": "Compare each available amount in moles divided by its coefficient. The smallest ratio gives the theoretical reaction extent; multiply that extent by a product coefficient to obtain its amount. Actual yield can be smaller because of incomplete reaction, side reactions or losses. Percent yield is actual/theoretical×100 and does not identify the limiting reactant by itself.",
+    "example": "For A+2B→C with 3 mol A and 4 mol B, the ratios are 3/1=3 and 4/2=2. B limits the extent to 2 mol. This yields at most 2 mol C and leaves 1 mol A. If 1.5 mol C is obtained, yield is 75%.",
+    "question": "For A+2B→C with 3 mol A and 4 mol B, which is the limiting reactant?",
+    "options": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answer": 1,
+    "explanation": "Available moles divided by coefficients are 3 for A and 2 for B, so B limits the reaction.",
+    "summary": "Use mole-to-coefficient ratios before deciding what runs out. Keep theoretical product, excess reactant and actual yield separate.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+    "id": "lesson-020",
+    "objectives": [
+      "Identify a limiting reactant using mole ratios",
+      "Calculate excess reactant and yield"
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-019"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields"
+    ],
+    "questions": [
+      {
+        "question": "For A+2B→C with 3 mol A and 4 mol B, which is the limiting reactant?",
+        "options": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answer": 1,
+        "explanation": "Available moles divided by coefficients are 3 for A and 2 for B, so B limits the reaction."
+      },
+      {
+        "question": "How much A remains in the example?",
+        "options": [
+          "0 mol",
+          "1 mol",
+          "3 mol"
+        ],
+        "answer": 1,
+        "explanation": "Forming 2 mol C consumes 2 mol A, leaving 3−2=1 mol."
+      },
+      {
+        "question": "If theoretical yield is 2 mol and actual yield is 1.5 mol, what is percent yield?",
+        "options": [
+          "75%",
+          "133%",
+          "50%"
+        ],
+        "answer": 0,
+        "explanation": "Percent yield=1.5/2×100=75%."
+      }
+    ]
+  },
+  {
+    "title": "Ideal gases",
+    "level": "Intermediate",
+    "section": "Physical chemistry",
+    "intro": "The ideal gas model relates pressure, volume, absolute temperature and amount of gas. It treats particles as having negligible volume and negligible intermolecular interactions except during collisions.",
+    "detail": "Use PV=nRT with temperature in kelvin and units consistent with R. Absolute pressure is required. At fixed n and T, pressure is inversely proportional to volume; at fixed n and P, volume is proportional to T. Real gases deviate more strongly at high pressure and low temperature, especially near condensation.",
+    "example": "At fixed n and T, doubling volume halves pressure. A gas initially at 300 K heated to 600 K at constant volume and amount doubles its pressure. Heating from 20 °C to 40 °C does not double absolute temperature because these are 293.15 K and 313.15 K.",
+    "question": "What happens to an ideal gas pressure when its volume doubles at fixed temperature and amount?",
+    "options": [
+      "It doubles",
+      "It halves",
+      "It stays unchanged"
+    ],
+    "answer": 1,
+    "explanation": "At fixed amount and temperature, PV is constant, so doubling volume halves pressure.",
+    "summary": "Use kelvin, absolute pressure and consistent units. State which variables are held fixed before applying a proportionality.",
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law",
+    "id": "lesson-021",
+    "objectives": [
+      "Apply pressure–volume proportionality with its conditions",
+      "Convert Celsius temperature to kelvin"
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-017"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/9-2-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law"
+    ],
+    "questions": [
+      {
+        "question": "What happens to an ideal gas pressure when its volume doubles at fixed temperature and amount?",
+        "options": [
+          "It doubles",
+          "It halves",
+          "It stays unchanged"
+        ],
+        "answer": 1,
+        "explanation": "At fixed amount and temperature, PV is constant, so doubling volume halves pressure."
+      },
+      {
+        "question": "Which temperature scale belongs in PV=nRT?",
+        "options": [
+          "Celsius directly",
+          "Kelvin",
+          "Any unconverted value"
+        ],
+        "answer": 1,
+        "explanation": "The law requires absolute temperature in kelvin."
+      },
+      {
+        "question": "At fixed volume and n, raising T from 300 K to 600 K does what to pressure?",
+        "options": [
+          "Halves it",
+          "Doubles it",
+          "Leaves it unchanged"
+        ],
+        "answer": 1,
+        "explanation": "P=nRT/V makes pressure directly proportional to T under these conditions."
+      }
+    ]
+  },
+  {
+    "id": "lesson-022",
+    "title": "Molecular geometry",
+    "intro": "Regions of electron density around a central atom determine electron-domain geometry; molecular shape describes the positions of atoms only. Prediction begins with a Lewis structure and a count of bonds and lone pairs.",
+    "detail": "In VSEPR, electron domains separate to reduce repulsion. A single, double, or triple bond counts as one domain. Two domains give a linear arrangement, three a trigonal planar arrangement, and four a tetrahedral arrangement. Lone pairs occupy space and affect bond angles, so water has different domain geometry and molecular shape. The model is qualitative and does not describe every metal complex.",
+    "example": "CH₄ has four bonds and no lone pairs on carbon: it is tetrahedral, with angles near 109.5°. H₂O has four domains around oxygen, including two lone pairs; its shape is bent and its angle is about 104.5°.",
+    "summary": "Count domains first, then omit lone pairs when naming molecular shape. Molecular polarity depends on both bond polarity and geometry.",
+    "level": "Intermediate",
+    "section": "Inorganic chemistry",
+    "objectives": [
+      "Count electron domains from a Lewis structure.",
+      "Distinguish a bent shape from tetrahedral domain geometry."
+    ],
+    "prerequisites": [
+      "lesson-004"
+    ],
+    "question": "What is the shape of methane?",
+    "options": [
+      "Linear",
+      "Tetrahedral",
+      "Bent"
+    ],
+    "explanation": "Four bonding domains and no lone pairs around carbon give a tetrahedral shape.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is the shape of methane?",
+        "options": [
+          "Linear",
+          "Tetrahedral",
+          "Bent"
+        ],
+        "answer": 1,
+        "explanation": "Four bonding domains and no lone pairs around carbon give a tetrahedral shape."
+      },
+      {
+        "question": "How many VSEPR domains does a double bond represent?",
+        "options": [
+          "One",
+          "Two",
+          "Four"
+        ],
+        "answer": 0,
+        "explanation": "Each bond between two atoms counts as one domain, regardless of bond order."
+      },
+      {
+        "question": "Why is the molecular shape of water not called tetrahedral?",
+        "options": [
+          "Its bonds are metallic",
+          "It contains no electrons",
+          "Shape names count atom positions, excluding lone pairs"
+        ],
+        "answer": 2,
+        "explanation": "Oxygen has four domains, but the two hydrogen positions define a bent molecular shape."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
+  },
+  {
+    "id": "lesson-023",
+    "title": "Intermolecular forces",
+    "intro": "Intermolecular forces attract separate molecules and differ from bonds within a molecule. They help explain boiling, condensation, and solution properties.",
+    "detail": "London dispersion forces occur in all atoms and molecules and generally increase with polarizability and contact area. Dipole–dipole forces act between polar molecules. Hydrogen bonded to N, O, or F can form hydrogen bonds with suitable lone pairs. Boiling generally separates molecules rather than breaking their internal covalent bonds. Molecular shape, mass, and structure must be considered together.",
+    "example": "Water forms hydrogen bonds between molecules; each O–H bond within a molecule is covalent. When water boils, most particles remain H₂O rather than becoming hydrogen and oxygen.",
+    "summary": "Distinguish internal bonds from attractions between molecules. Neither mass alone nor hydrogen bonding alone predicts every boiling point.",
+    "level": "Intermediate",
+    "section": "General chemistry",
+    "objectives": [
+      "Classify dispersion, dipole–dipole, and hydrogen-bonding interactions.",
+      "Explain why boiling is usually a physical change."
+    ],
+    "prerequisites": [
+      "lesson-004"
+    ],
+    "question": "Which interaction is prominent between water molecules?",
+    "options": [
+      "Metallic bonding",
+      "Hydrogen bonding",
+      "Purely ionic bonding"
+    ],
+    "explanation": "Water has O–H groups and lone pairs that support intermolecular hydrogen bonding.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Which interaction is prominent between water molecules?",
+        "options": [
+          "Metallic bonding",
+          "Hydrogen bonding",
+          "Purely ionic bonding"
+        ],
+        "answer": 1,
+        "explanation": "Water has O–H groups and lone pairs that support intermolecular hydrogen bonding."
+      },
+      {
+        "question": "Where do London dispersion forces occur?",
+        "options": [
+          "In all atoms and molecules",
+          "Only in metals",
+          "Only in polar molecules"
+        ],
+        "answer": 0,
+        "explanation": "Fluctuating electron distributions generate dispersion even in nonpolar particles."
+      },
+      {
+        "question": "What usually happens when pure water boils?",
+        "options": [
+          "All O–H bonds break",
+          "The atomic number of oxygen changes",
+          "Molecules separate while retaining identity"
+        ],
+        "answer": 2,
+        "explanation": "Intermolecular attractions are overcome without changing the chemical identity of water."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces"
+  },
+  {
+    "id": "lesson-024",
+    "title": "Oxidation and reduction",
+    "intro": "Oxidation is electron loss and reduction is electron gain. They occur together because electrons lost by one species are gained by another in the overall reaction.",
+    "detail": "An oxidation state is a bookkeeping quantity and is not always an actual atomic charge. It increases on oxidation and decreases on reduction. The oxidizing agent accepts electrons and is reduced; the reducing agent donates electrons and is oxidized. Oxidation states sum to the species charge, and a free element has oxidation state zero. Redox equations conserve both atoms and charge.",
+    "example": "Fe²⁺ → Fe³⁺ + e⁻ is oxidation because the oxidation state rises from +2 to +3. In Cu²⁺ + 2e⁻ → Cu, copper is reduced and Cu²⁺ acts as an oxidizing agent. These are electron-bookkeeping examples.",
+    "summary": "Track electron transfer or oxidation-state changes, and identify the oxidizing agent as the species reduced. Conserve charge as well as atoms.",
+    "level": "Intermediate",
+    "section": "Electrochemistry",
+    "objectives": [
+      "Identify oxidation and reduction from a half-equation.",
+      "Distinguish oxidizing and reducing agents."
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-019"
+    ],
+    "question": "Is losing an electron oxidation or reduction?",
+    "options": [
+      "Reduction",
+      "Oxidation",
+      "Dissolution"
+    ],
+    "explanation": "Loss of electrons raises the oxidation state and is oxidation.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Is losing an electron oxidation or reduction?",
+        "options": [
+          "Reduction",
+          "Oxidation",
+          "Dissolution"
+        ],
+        "answer": 1,
+        "explanation": "Loss of electrons raises the oxidation state and is oxidation."
+      },
+      {
+        "question": "What happens to an oxidizing agent?",
+        "options": [
+          "It is reduced by gaining electrons",
+          "It never changes in a reaction",
+          "It is always oxidized"
+        ],
+        "answer": 0,
+        "explanation": "An oxidizing agent oxidizes another species while accepting electrons itself."
+      },
+      {
+        "question": "What is the oxidation state of oxygen in free O₂?",
+        "options": [
+          "−2",
+          "+2",
+          "0"
+        ],
+        "answer": 2,
+        "explanation": "Every element in its elemental form has oxidation state zero."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+  },
+  {
+    "id": "lesson-025",
+    "title": "Electrochemical cells",
+    "intro": "A galvanic cell converts a spontaneous chemical reaction into electrical energy. Separating the half-reactions provides an electron path and an ion path to complete the circuit.",
+    "detail": "Oxidation occurs at the anode and reduction at the cathode in both galvanic and electrolytic cells. In a galvanic cell electrons travel externally from anode to cathode, while a salt bridge transports ions to maintain electrical neutrality. Using reduction potentials, E°cell = E°cathode − E°anode. Free energy is related by ΔG° = −nFE°. Actual voltage depends on activities and temperature; do not multiply potentials by equation coefficients.",
+    "example": "If the standard reduction potential is 0.80 V at the cathode and 0.20 V at the anode, E°cell = 0.60 V. The positive sign corresponds to negative ΔG° for the written reaction under standard conditions.",
+    "summary": "Remember oxidation at the anode and reduction at the cathode. Distinguish electron transport in a wire from ion transport in solution.",
+    "level": "University",
+    "section": "Electrochemistry",
+    "objectives": [
+      "Calculate cell voltage from two reduction potentials.",
+      "Explain the function of a salt bridge."
+    ],
+    "prerequisites": [
+      "lesson-024"
+    ],
+    "question": "Where does reduction occur?",
+    "options": [
+      "Anode",
+      "Cathode",
+      "Salt bridge"
+    ],
+    "explanation": "Reduction always occurs at the cathode.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Where does reduction occur?",
+        "options": [
+          "Anode",
+          "Cathode",
+          "Salt bridge"
+        ],
+        "answer": 1,
+        "explanation": "Reduction always occurs at the cathode."
+      },
+      {
+        "question": "What is the cell voltage for the 0.80 and 0.20 V reduction potentials in the example?",
+        "options": [
+          "0.60 V",
+          "−1.00 V",
+          "1.00 V"
+        ],
+        "answer": 0,
+        "explanation": "Subtract the anode reduction potential from the cathode reduction potential."
+      },
+      {
+        "question": "What is the main purpose of a salt bridge?",
+        "options": [
+          "Change atomic numbers",
+          "Transfer electrons between electrodes",
+          "Transport ions to maintain electrical neutrality"
+        ],
+        "answer": 2,
+        "explanation": "Electrons use the external circuit; the bridge allows ion transport."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+      "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells\nhttps://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+  },
+  {
+    "id": "lesson-026",
+    "title": "Titration and curves",
+    "intro": "Titration determines an unknown amount from a measured amount of standard reagent that reacts in a known stoichiometric ratio. A curve plots a response, such as pH, against added titrant volume.",
+    "detail": "The equivalence point is the stoichiometric point; the endpoint is an observed signal, such as an indicator change. Their difference can introduce systematic error. For aA + bB, equivalence requires nA/a = nB/b. Standard concentration, units, blank correction, and volume uncertainty affect the result. Equivalence pH is not always 7; it depends on acid/base chemistry and temperature.",
+    "example": "In a 1:1 calculation, 0.0020 mol of titrant corresponds to 0.0020 mol of analyte. If the analyte volume is 0.0200 L, its concentration is 0.10 mol/L. Convert mL to L when using n=CV. The result is rounded to two significant figures, limited by the amount of substance.",
+    "summary": "Use the mole ratio before calculating concentration, and distinguish equivalence from endpoint. Do not assume every curve has an equivalence pH of 7.",
+    "level": "University",
+    "section": "Analytical chemistry",
+    "objectives": [
+      "Calculate a concentration from a 1:1 titration model.",
+      "Explain the difference between equivalence point and endpoint."
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-007"
+    ],
+    "question": "Does an observed titration end point always coincide with the stoichiometric equivalence point?",
+    "options": [
+      "Yes; their definitions are identical",
+      "No; an experimental difference may occur",
+      "Equivalence is determined by solution colour alone"
+    ],
+    "explanation": "The endpoint is an observed signal and can differ from the exact stoichiometric point.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does an observed titration end point always coincide with the stoichiometric equivalence point?",
+        "options": [
+          "Yes; their definitions are identical",
+          "No; an experimental difference may occur",
+          "Equivalence is determined by solution colour alone"
+        ],
+        "answer": 1,
+        "explanation": "The endpoint is an observed signal and can differ from the exact stoichiometric point."
+      },
+      {
+        "question": "What is the concentration of 0.0020 mol in 0.0200 L?",
+        "options": [
+          "0.10 mol/L",
+          "10 mol/L",
+          "0.000040 mol/L"
+        ],
+        "answer": 0,
+        "explanation": "C=n/V=0.0020/0.0200=0.10 mol/L. Report two significant figures."
+      },
+      {
+        "question": "Is the equivalence pH 7 for every acid–base titration?",
+        "options": [
+          "Only because solution volume is constant",
+          "Yes under all conditions",
+          "No; it depends on the species and temperature"
+        ],
+        "answer": 2,
+        "explanation": "Ions may hydrolyze at equivalence, producing an acidic or basic solution."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+  },
+  {
+    "id": "lesson-027",
+    "title": "Chromatography",
+    "intro": "Chromatography separates mixture components through their different interactions with a stationary phase and a mobile phase. The mobile phase may be a liquid or gas, depending on the technique.",
+    "detail": "A component spending more time associated with the stationary phase generally moves more slowly. Column methods measure retention time; planar methods may use Rf, the component distance divided by solvent-front distance from the origin. Results depend on solvent, temperature, and phase type. Retention time alone does not prove identity: different substances can coelute. Peak area needs calibration before it represents an amount.",
+    "example": "In a paper-chromatography model, a component moves 3 cm and the solvent front moves 6 cm from the origin: Rf=0.50. Two resolved peaks show two separable responses but do not prove that each peak contains only one substance.",
+    "summary": "Separation reflects different distributions and interactions. Identification and quantification require standards and quality controls. Peak count is not always total component count.",
+    "level": "University",
+    "section": "Analytical chemistry",
+    "objectives": [
+      "Explain retention through interactions with the two phases.",
+      "Calculate Rf and state its identification limits."
+    ],
+    "prerequisites": [
+      "lesson-006",
+      "lesson-009"
+    ],
+    "question": "What is the basis of chromatographic separation?",
+    "options": [
+      "Atomic number alone",
+      "Different distribution between two phases",
+      "Sample color alone"
+    ],
+    "explanation": "Components interact differently with stationary and mobile phases.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is the basis of chromatographic separation?",
+        "options": [
+          "Atomic number alone",
+          "Different distribution between two phases",
+          "Sample color alone"
+        ],
+        "answer": 1,
+        "explanation": "Components interact differently with stationary and mobile phases."
+      },
+      {
+        "question": "What is Rf when a component moves 3 cm and the solvent front 6 cm?",
+        "options": [
+          "0.50",
+          "9.0",
+          "2.0"
+        ],
+        "answer": 0,
+        "explanation": "Rf=3/6=0.50; it is dimensionless."
+      },
+      {
+        "question": "Does one chromatographic peak guarantee a single substance?",
+        "options": [
+          "Yes if the peak is tall",
+          "Always",
+          "No; components can coelute"
+        ],
+        "answer": 2,
+        "explanation": "Different components can produce overlapping responses under the chosen separation conditions."
+      }
+    ],
+    "sourceUrls": [
+      "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/12%3A_Chromatographic_and_Electrophoretic_Methods"
+    ],
+    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/12%3A_Chromatographic_and_Electrophoretic_Methods"
+  },
+  {
+    "id": "lesson-028",
+    "title": "Beer–Lambert law",
+    "intro": "The Beer–Lambert law relates absorbance to absorbing-species concentration and path length under defined conditions. Absorbance does not represent every possible cause of reduced light intensity.",
+    "detail": "A=εbc, where dimensionless A=−log₁₀(T), T=I/I₀, b is path length, and ε is molar absorptivity. With b in cm and c in mol/L, ε has units L mol⁻¹ cm⁻¹. The model assumes suitable radiation and a stable absorbing species. Scattering, stray light, and changing chemical equilibria can cause deviations. A blank corrects solvent and cell contributions; a calibration curve is used within its validated range.",
+    "example": "For ε=100 L mol⁻¹ cm⁻¹, b=1 cm, and c=0.002 mol/L, A=0.2. Doubling concentration within the linear range, with b and ε fixed, gives A=0.4.",
+    "summary": "Record the units of ε, b, and c, and distinguish absorbance from transmittance. Linearity must be checked experimentally and does not justify unlimited extrapolation.",
+    "level": "University",
+    "section": "Analytical chemistry",
+    "objectives": [
+      "Calculate A from ε, b, and c with consistent units.",
+      "Identify a cause of nonlinearity."
+    ],
+    "prerequisites": [
+      "lesson-006",
+      "lesson-014"
+    ],
+    "question": "What is absorbance A for ε=100 L mol⁻¹ cm⁻¹, b=1 cm and c=0.002 mol/L within the Beer–Lambert law’s valid range?",
+    "options": [
+      "2",
+      "0.2",
+      "200"
+    ],
+    "explanation": "A=100×1×0.002=0.2, which is dimensionless.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is absorbance A for ε=100 L mol⁻¹ cm⁻¹, b=1 cm and c=0.002 mol/L within the Beer–Lambert law’s valid range?",
+        "options": [
+          "2",
+          "0.2",
+          "200"
+        ],
+        "answer": 1,
+        "explanation": "A=100×1×0.002=0.2, which is dimensionless."
+      },
+      {
+        "question": "How does A change when concentration doubles within the linear range and all else stays fixed?",
+        "options": [
+          "It doubles",
+          "It stays fixed",
+          "It halves"
+        ],
+        "answer": 0,
+        "explanation": "A=εbc makes A directly proportional to c under the model conditions."
+      },
+      {
+        "question": "Which effect can make reduced transmitted intensity misleading as pure absorption?",
+        "options": [
+          "Using consistent units",
+          "Measuring a blank",
+          "Scattering from turbidity"
+        ],
+        "answer": 2,
+        "explanation": "Scattering removes light from the measured beam and can appear as apparent absorbance."
+      }
+    ],
+    "sourceUrls": [
+      "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/10%3A_Spectroscopic_Methods"
+    ],
+    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/10%3A_Spectroscopic_Methods"
+  },
+  {
+    "id": "lesson-029",
+    "title": "Hydrocarbons",
+    "intro": "Hydrocarbons contain only carbon and hydrogen. Classifying their bonds and chain or ring structure helps explain their properties.",
+    "detail": "Alkanes have single carbon–carbon bonds; open-chain saturated alkanes have formula CnH₂n+₂. Alkenes contain a double bond and alkynes a triple bond. An open-chain compound with one double bond has formula CnH₂n, but the formula alone cannot distinguish an alkene from a saturated ring. Aromaticity involves a conjugated electron system and structural conditions, not simply odor. Within a comparable series, boiling points generally rise with size, while branching also matters.",
+    "example": "Ethane, C₂H₆, has a single C–C bond; ethene, C₂H₄, has a double bond. C₃H₆ can describe propene or cyclopropane, so a structural formula is needed to distinguish them.",
+    "summary": "Classify from structure rather than molecular formula alone. A hydrocarbon contains no oxygen or nitrogen in its composition.",
+    "level": "University",
+    "section": "Organic chemistry",
+    "objectives": [
+      "Distinguish alkanes, alkenes, and alkynes from their bonds.",
+      "Explain why CnH₂n alone does not prove a double bond."
+    ],
+    "prerequisites": [
+      "lesson-011"
+    ],
+    "question": "Which compound contains a double bond?",
+    "options": [
+      "Ethane",
+      "Ethene",
+      "Methane"
+    ],
+    "explanation": "Ethene is an alkene and contains a carbon–carbon double bond.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Which compound contains a double bond?",
+        "options": [
+          "Ethane",
+          "Ethene",
+          "Methane"
+        ],
+        "answer": 1,
+        "explanation": "Ethene is an alkene and contains a carbon–carbon double bond."
+      },
+      {
+        "question": "Which compound is a hydrocarbon?",
+        "options": [
+          "C₂H₆",
+          "C₂H₅OH",
+          "CH₃COOH"
+        ],
+        "answer": 0,
+        "explanation": "C₂H₆ contains only carbon and hydrogen; the other compounds contain oxygen."
+      },
+      {
+        "question": "What is the general formula of an open-chain saturated alkane?",
+        "options": [
+          "CnH₂n−₂",
+          "CnH₂n",
+          "CnH₂n+₂"
+        ],
+        "answer": 2,
+        "explanation": "A saturated acyclic carbon chain has formula CnH₂n+₂."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+  },
+  {
+    "id": "lesson-030",
+    "title": "Functional groups",
+    "intro": "A functional group is an arrangement of atoms and bonds that controls many reactions and properties of a compound. A molecule may contain more than one functional group.",
+    "detail": "An alcohol has OH attached to saturated carbon; a phenol has OH attached to an aromatic ring. The C=O carbonyl occurs in aldehydes and ketones: the aldehyde carbon is bonded to hydrogen, whereas the ketone carbon is bonded to two carbon groups. A carboxylic acid contains COOH, and an ester has a –C(=O)–O– linkage with an organic group on the singly bonded oxygen. Functional groups influence polarity, hydrogen bonding, and acidity, but chain length and the rest of the structure also matter.",
+    "example": "CH₃CH₂OH is ethanol, an alcohol, and CH₃COOH is ethanoic acid. The OH inside COOH does not make the acid simply an alcohol; the complete group determines its behavior.",
+    "summary": "Read the complete connectivity when identifying groups. Not every OH is a separate alcohol group.",
+    "level": "University",
+    "section": "Organic chemistry",
+    "objectives": [
+      "Recognize alcohol, carbonyl, and carboxyl groups.",
+      "Distinguish an aldehyde from a ketone by carbonyl connectivity."
+    ],
+    "prerequisites": [
+      "lesson-011",
+      "lesson-029"
+    ],
+    "question": "Which group identifies a carboxylic acid?",
+    "options": [
+      "CH₃",
+      "COOH",
+      "C=C"
+    ],
+    "explanation": "The carboxyl group COOH characterizes carboxylic acids.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Which group identifies a carboxylic acid?",
+        "options": [
+          "CH₃",
+          "COOH",
+          "C=C"
+        ],
+        "answer": 1,
+        "explanation": "The carboxyl group COOH characterizes carboxylic acids."
+      },
+      {
+        "question": "Which group is shared by aldehydes and ketones?",
+        "options": [
+          "Carbonyl C=O",
+          "Only C=C",
+          "Sodium ion"
+        ],
+        "answer": 0,
+        "explanation": "Both contain C=O, but the groups attached to its carbon differ."
+      },
+      {
+        "question": "Does OH within COOH necessarily make the compound an alcohol?",
+        "options": [
+          "Yes if it contains carbon",
+          "Yes",
+          "No; the whole group connectivity determines its classification"
+        ],
+        "answer": 2,
+        "explanation": "The OH is part of a carboxyl group, whose behavior differs from that of a simple alcohol."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
+      "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers\nhttps://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+  },
+  {
+    "id": "lesson-031",
+    "title": "Isomerism",
+    "intro": "Isomers have the same molecular formula but differ in atom connectivity or spatial arrangement. Matching formulas do not guarantee matching properties.",
+    "detail": "Constitutional isomers differ in connectivity: chain structure, group position, or group identity may change. Stereoisomers retain connectivity but differ spatially; examples include geometric isomers with restricted rotation and nonsuperimposable mirror images. Not every mirror image is a distinct chiral form. Isomers may interact differently with biological systems, so structural characterization matters beyond molecular formula.",
+    "example": "Ethanol, CH₃CH₂OH, and dimethyl ether, CH₃OCH₃, both have formula C₂H₆O, but their connectivity and functional groups differ. They are constitutional isomers.",
+    "summary": "Compare formula first, then connectivity, then spatial arrangement. The same formula does not establish the same toxicity or boiling point.",
+    "level": "University",
+    "section": "Organic chemistry",
+    "objectives": [
+      "Classify a connectivity difference versus a spatial difference.",
+      "Explain why formula alone does not identify a compound."
+    ],
+    "prerequisites": [
+      "lesson-030"
+    ],
+    "question": "What do ethanol and dimethyl ether share as isomers?",
+    "options": [
+      "Functional group",
+      "Molecular formula",
+      "Necessarily the same boiling point"
+    ],
+    "explanation": "Both have formula C₂H₆O but different connectivity.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What do ethanol and dimethyl ether share as isomers?",
+        "options": [
+          "Functional group",
+          "Molecular formula",
+          "Necessarily the same boiling point"
+        ],
+        "answer": 1,
+        "explanation": "Both have formula C₂H₆O but different connectivity."
+      },
+      {
+        "question": "What differs between constitutional isomers?",
+        "options": [
+          "Atom connectivity",
+          "Always the molecular formula",
+          "The number of protons in carbon"
+        ],
+        "answer": 0,
+        "explanation": "The formula stays the same while atom connectivity changes."
+      },
+      {
+        "question": "What remains the same between stereoisomers?",
+        "options": [
+          "Necessarily the spatial arrangement",
+          "Necessarily all biological properties",
+          "Atom connectivity"
+        ],
+        "answer": 2,
+        "explanation": "Spatial positions differ while the same pairs of atoms remain connected."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+  },
+  {
+    "id": "lesson-032",
+    "title": "Polymers",
+    "intro": "Polymers are large molecules with repeating structural units derived from smaller molecules called monomers. Polymers can be natural or synthetic.",
+    "detail": "In addition polymerization, suitable monomer bonds are converted into bonds linking a chain; condensation polymerization may release small molecules. Molecular mass distribution, branching, crosslinking, and crystallinity influence properties. Thermoplastics may soften on heating, whereas thermoset networks do not melt in the same way. Recycling depends on polymer type, additives, contamination, and local collection infrastructure; a resin code alone does not establish actual recyclability.",
+    "example": "Polyethylene contains repeated –CH₂–CH₂– units derived from ethene. The monomer is the ethene molecule before polymerization; the repeat unit is the segment within the linked chain.",
+    "summary": "Distinguish a monomer from a repeat unit and relate properties to chain structure. No single recycling route applies to every polymer.",
+    "level": "University",
+    "section": "Industrial chemistry",
+    "objectives": [
+      "Identify the monomer and repeat unit in polyethylene.",
+      "Relate crosslinking and branching to broad polymer properties."
+    ],
+    "prerequisites": [
+      "lesson-029"
+    ],
+    "question": "What is the small building-block molecule called?",
+    "options": [
+      "Isotope",
+      "Monomer",
+      "Metal ion"
+    ],
+    "explanation": "A monomer is a small molecule from which polymer chains can be formed.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is the small building-block molecule called?",
+        "options": [
+          "Isotope",
+          "Monomer",
+          "Metal ion"
+        ],
+        "answer": 1,
+        "explanation": "A monomer is a small molecule from which polymer chains can be formed."
+      },
+      {
+        "question": "Which monomer gives polyethylene?",
+        "options": [
+          "Ethene",
+          "Water",
+          "Sodium chloride"
+        ],
+        "answer": 0,
+        "explanation": "The ethene double bond is converted into links along the polyethylene chain."
+      },
+      {
+        "question": "Does a resin code prove that plastic will be recycled locally?",
+        "options": [
+          "Yes if it is transparent",
+          "Yes",
+          "No; it depends on local systems, material type, and condition"
+        ],
+        "answer": 2,
+        "explanation": "The code identifies a material category but does not guarantee collection or processing."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/organic-chemistry/pages/31-summary"
+    ],
+    "source": "Review references: https://openstax.org/books/organic-chemistry/pages/31-summary"
+  },
+  {
+    "id": "lesson-033",
+    "title": "Proteins and enzymes",
+    "intro": "Proteins are amino-acid chains linked by peptide bonds. They perform structural, transport, and regulatory roles, and many enzymes are proteins.",
+    "detail": "Primary structure is the amino-acid sequence; secondary structure is local organization; tertiary structure is overall folding; quaternary structure assembles multiple chains where present. Activity depends on active-site shape and environment. Enzymes lower activation barriers and accelerate approach to equilibrium in both directions without changing ΔG or the equilibrium constant. Temperature, pH, and inhibitors affect activity. Denaturation alters folding and may remove function without necessarily breaking peptide bonds.",
+    "example": "If an enzyme shortens the time needed to reach equilibrium, the equilibrium composition remains the same at the same temperature. Denaturation can change the active-site shape and reduce substrate binding.",
+    "summary": "Protein function depends on sequence, folding, and environment. Catalysis changes how fast equilibrium is reached, not where it lies.",
+    "level": "University",
+    "section": "Biochemistry",
+    "objectives": [
+      "Distinguish primary from tertiary protein structure.",
+      "Explain enzyme effects on activation energy and equilibrium."
+    ],
+    "prerequisites": [
+      "lesson-012",
+      "lesson-013"
+    ],
+    "question": "Does an enzyme change the equilibrium constant?",
+    "options": [
+      "Always",
+      "No",
+      "It prevents the reverse reaction"
+    ],
+    "explanation": "Enzymes lower activation barriers without changing the equilibrium constant at a fixed temperature.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does an enzyme change the equilibrium constant?",
+        "options": [
+          "Always",
+          "No",
+          "It prevents the reverse reaction"
+        ],
+        "answer": 1,
+        "explanation": "Enzymes lower activation barriers without changing the equilibrium constant at a fixed temperature."
+      },
+      {
+        "question": "What defines primary protein structure?",
+        "options": [
+          "Amino-acid sequence",
+          "Solution color",
+          "Number of neutrons"
+        ],
+        "answer": 0,
+        "explanation": "Primary structure is the sequence of amino acids in the chain."
+      },
+      {
+        "question": "What is the direct effect of enzyme catalysis?",
+        "options": [
+          "Changing mass conservation",
+          "Always increasing the equilibrium constant",
+          "Lowering the activation barrier"
+        ],
+        "answer": 2,
+        "explanation": "An enzyme provides a lower-barrier path without changing the free-energy difference between reactants and products."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+      "https://openstax.org/books/biology-2e/pages/6-5-enzymes"
+    ],
+    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-4-proteins\nhttps://openstax.org/books/biology-2e/pages/6-5-enzymes"
+  },
+  {
+    "id": "lesson-034",
+    "title": "Carbohydrates and lipids",
+    "intro": "Carbohydrates and lipids are diverse classes of biological molecules. They contribute to energy storage, structure, cell recognition, and membranes.",
+    "detail": "Monosaccharides such as glucose can join through glycosidic bonds into disaccharides and polysaccharides. Starch and cellulose are built from glucose, but different linkages change their properties and human digestibility. Lipids are not all polymers; they include triglycerides, phospholipids, and steroids. A phospholipid has hydrophilic and hydrophobic regions, which support membrane formation. Fatty-acid saturation and configuration affect packing.",
+    "example": "Glucose is a monosaccharide and starch a polysaccharide. A triglyceride contains glycerol and three fatty-acid chains, while phospholipid structure supports organization into membrane layers.",
+    "summary": "Properties depend on building blocks and linkages, not elemental composition alone. Distinguish energy storage by triglycerides from membrane roles of phospholipids.",
+    "level": "University",
+    "section": "Biochemistry",
+    "objectives": [
+      "Classify glucose and starch by carbohydrate size.",
+      "Explain the hydrophilic and hydrophobic regions of a phospholipid."
+    ],
+    "prerequisites": [
+      "lesson-030",
+      "lesson-032"
+    ],
+    "question": "How is starch classified?",
+    "options": [
+      "Amino acid",
+      "Polysaccharide",
+      "Metal"
+    ],
+    "explanation": "Starch is a polysaccharide built from many glucose units.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "How is starch classified?",
+        "options": [
+          "Amino acid",
+          "Polysaccharide",
+          "Metal"
+        ],
+        "answer": 1,
+        "explanation": "Starch is a polysaccharide built from many glucose units."
+      },
+      {
+        "question": "Why do starch and cellulose differ despite both containing glucose units?",
+        "options": [
+          "Their linkages and chain arrangements differ",
+          "Carbon has a different atomic number",
+          "Starch is a metal"
+        ],
+        "answer": 0,
+        "explanation": "Different linkage patterns affect structure and enzyme interactions."
+      },
+      {
+        "question": "Which property helps phospholipids form membranes?",
+        "options": [
+          "They are single atoms",
+          "They are entirely hydrophobic",
+          "They have both hydrophilic and hydrophobic regions"
+        ],
+        "answer": 2,
+        "explanation": "Their amphipathic nature directs their organization in water."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+      "https://openstax.org/books/biology-2e/pages/3-3-lipids"
+    ],
+    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-2-carbohydrates\nhttps://openstax.org/books/biology-2e/pages/3-3-lipids"
+  },
+  {
+    "id": "lesson-035",
+    "title": "Coordination complexes",
+    "intro": "A coordination complex has a central atom, often a metal, surrounded by ligands that donate electron pairs. Coordination chemistry explains the colors and properties of many compounds.",
+    "detail": "Coordination number counts donor atoms directly bonded to the center, not necessarily ligand molecules. A multidentate ligand can bind through several donor atoms. Overall charge equals the metal oxidation state plus ligand charges. Geometry, d-electron count, and ligand identity affect energy splitting, color, and magnetism. Color alone does not establish complex identity or concentration without an appropriate analytical method.",
+    "example": "In [Cu(H₂O)₆]²⁺, six oxygen donor atoms come from six water molecules, giving coordination number 6. Water is neutral, so copper has oxidation state +2. Many six-coordinate complexes have octahedral arrangements, sometimes distorted.",
+    "summary": "Count donor atoms and charge separately. Coordination number and oxidation state are different concepts.",
+    "level": "University",
+    "section": "Inorganic chemistry",
+    "objectives": [
+      "Calculate coordination number from donor atoms.",
+      "Infer the metal oxidation state from complex charge."
+    ],
+    "prerequisites": [
+      "lesson-004",
+      "lesson-024"
+    ],
+    "question": "What does coordination number count?",
+    "options": [
+      "Neutrons",
+      "Bonded donor atoms",
+      "Sample mass"
+    ],
+    "explanation": "It counts donor atoms directly attached to the central atom.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What does coordination number count?",
+        "options": [
+          "Neutrons",
+          "Bonded donor atoms",
+          "Sample mass"
+        ],
+        "answer": 1,
+        "explanation": "It counts donor atoms directly attached to the central atom."
+      },
+      {
+        "question": "What is the copper coordination number in [Cu(H₂O)₆]²⁺?",
+        "options": [
+          "6",
+          "12",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "Six oxygen atoms are directly bonded to the copper center."
+      },
+      {
+        "question": "What is the copper oxidation state in the same complex if water is neutral?",
+        "options": [
+          "0",
+          "+6",
+          "+2"
+        ],
+        "answer": 2,
+        "explanation": "Water contributes no charge, so the +2 complex charge equals the copper oxidation state."
+      }
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
+  },
+  {
+    "id": "lesson-036",
+    "title": "Water chemistry",
+    "intro": "Water-quality assessment requires chemical, physical, and microbial measurements linked to the intended use. Appearance and smell do not establish drinking-water safety.",
+    "detail": "Conductivity responds to dissolved ions but does not identify them or detect every organic or microbial contaminant. Turbidity measures light scattering, pH describes acidity, and hardness mainly reflects calcium and magnesium. Each indicator has its own method, units, and interpretation limits. Sample representativeness, time, location, preservation, and chain of custody affect validity. Comparison needs an applicable standard for the intended use rather than a single limit for all waters.",
+    "example": "Clear water with low turbidity can still contain invisible microbial contamination. High conductivity may indicate dissolved salts without showing whether they are chlorides, sulfates, or others; further qualitative and quantitative analysis is needed.",
+    "summary": "Link each result to an indicator, method, unit, and intended use. Neither conductivity nor visual clarity provides a comprehensive safety certificate.",
+    "level": "Specialist",
+    "section": "Environmental chemistry",
+    "objectives": [
+      "Distinguish conductivity, turbidity, and pH as different indicators.",
+      "Explain why microbial testing complements chemistry."
+    ],
+    "prerequisites": [
+      "lesson-006",
+      "lesson-009"
+    ],
+    "question": "Does clear appearance alone establish drinking-water safety?",
+    "options": [
+      "Yes; no contaminants are invisible",
+      "No; chemical or microbial contaminants may remain",
+      "Yes if it is also odourless"
+    ],
+    "explanation": "Invisible chemical or microbial contaminants may remain in clear water.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does clear appearance alone establish drinking-water safety?",
+        "options": [
+          "Yes; no contaminants are invisible",
+          "No; chemical or microbial contaminants may remain",
+          "Yes if it is also odourless"
+        ],
+        "answer": 1,
+        "explanation": "Invisible chemical or microbial contaminants may remain in clear water."
+      },
+      {
+        "question": "What does conductivity alone establish?",
+        "options": [
+          "An ion-related response without identifying the ions",
+          "Absence of microbes",
+          "The identity of every ion"
+        ],
+        "answer": 0,
+        "explanation": "Multiple ionic species contribute; a single conductivity reading does not identify them."
+      },
+      {
+        "question": "Why record sampling time and location?",
+        "options": [
+          "Because they change atomic numbers",
+          "To remove the need for an analytical method",
+          "To relate the result to sample representativeness"
+        ],
+        "answer": 2,
+        "explanation": "Water quality can vary in space and time; a result applies to the documented sample."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.who.int/publications/i/item/9789240045064",
+      "https://www.usgs.gov/special-topics/water-science-school/science/conductivity-electrical-conductance-and-water"
+    ],
+    "source": "Review references: https://www.who.int/publications/i/item/9789240045064\nhttps://www.usgs.gov/special-topics/water-science-school/science/conductivity-electrical-conductance-and-water"
+  },
+  {
+    "id": "lesson-037",
+    "title": "Minerals and ores",
+    "intro": "A mineral is a natural substance with a characteristic composition and crystal structure within defined ranges. An ore is material whose valuable constituent can be assessed for economic extraction under specific conditions; not every mineral is an ore.",
+    "detail": "Hardness is resistance to scratching, streak is powder color, and cleavage is splitting along structural planes. These properties, density, and structure support initial identification, but similarity, weathering, and mixed phases may require mineralogical analysis. Grade, quantity, infrastructure, cost, and environmental requirements affect economic ore status. XRD identifies crystalline phases, whereas XRF provides elemental composition under method-specific limits; neither fully replaces the other.",
+    "example": "Pyrite, FeS₂, and gold may look similar in color but differ in composition and structure. Quartz veins do not prove gold is present, and trace gold does not establish an economic ore.",
+    "summary": "Mineral identification needs multiple lines of evidence, and economic assessment needs more than one sample. Distinguish an element, mineral, rock, and ore.",
+    "level": "Specialist",
+    "section": "Mineralogy",
+    "objectives": [
+      "Distinguish mineral occurrence from an economic ore claim.",
+      "Compare the conceptual roles of XRD and XRF."
+    ],
+    "prerequisites": [
+      "lesson-015",
+      "lesson-010"
+    ],
+    "question": "Does a rock’s gold-like lustre alone prove that it contains gold?",
+    "options": [
+      "Yes; lustre is an elemental analysis",
+      "No; appropriate characterisation and analysis may be needed",
+      "Quartz makes such lustre conclusive evidence"
+    ],
+    "explanation": "Color and luster are insufficient; composition and mineralogical evidence are needed.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does a rock’s gold-like lustre alone prove that it contains gold?",
+        "options": [
+          "Yes; lustre is an elemental analysis",
+          "No; appropriate characterisation and analysis may be needed",
+          "Quartz makes such lustre conclusive evidence"
+        ],
+        "answer": 1,
+        "explanation": "Color and luster are insufficient; composition and mineralogical evidence are needed."
+      },
+      {
+        "question": "Which technique targets crystalline-phase identification?",
+        "options": [
+          "XRD",
+          "Color observation alone",
+          "Length measurement alone"
+        ],
+        "answer": 0,
+        "explanation": "X-ray diffraction depends on crystal arrangement and is used for phase identification."
+      },
+      {
+        "question": "Does a trace concentration of an element make a rock an economic ore?",
+        "options": [
+          "Yes if it shines",
+          "Automatically",
+          "No; quantitative, economic, and environmental evidence is needed"
+        ],
+        "answer": 2,
+        "explanation": "Chemical occurrence alone does not establish economic viability."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
+      "https://www.usgs.gov/centers/national-minerals-information-center"
+    ],
+    "source": "Review references: https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral\nhttps://www.usgs.gov/centers/national-minerals-information-center"
+  },
+  {
+    "id": "lesson-038",
+    "title": "Gold analysis",
+    "intro": "Gold grade in an ore differs from the fineness of a gold alloy. Grade describes element mass relative to sample mass; fineness describes its fraction in the alloy.",
+    "detail": "g/t means grams per metric tonne of 1000 kg and is mass-ratio equivalent to mg/kg. Theoretical content equals mass in tonnes multiplied by grade in g/t. Assumed recovery is a separate arithmetic fraction, not a process guarantee or treatment method. Sampling matters because gold can be unevenly distributed in sparse grains. An accredited laboratory should report a matrix-suitable method, detection limits, uncertainty, and quality controls. One sample assay does not establish a reserve.",
+    "example": "Hypothetical material of mass 2 t and grade 3 g/t contains a theoretical 6 g of gold. An arithmetic assumption of 80% recovery gives 4.8 g, but does not show that this can be achieved in practice.",
+    "summary": "Check mass units and distinguish grade, fineness, and recovery. The calculator is an educational mass balance and needs representative data to be meaningful.",
+    "level": "Specialist",
+    "section": "Gold and minerals",
+    "objectives": [
+      "Calculate theoretical content from tonnes and g/t.",
+      "Explain the difference between grade, fineness, and recovery."
+    ],
+    "prerequisites": [
+      "lesson-005",
+      "lesson-010",
+      "lesson-037"
+    ],
+    "question": "What is the theoretical gold content of 2 t of material at 3 g/t?",
+    "options": [
+      "1.5 g",
+      "6 g",
+      "6000 g"
+    ],
+    "explanation": "2 t × 3 g/t = 6 g before any processing losses.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is the theoretical gold content of 2 t of material at 3 g/t?",
+        "options": [
+          "1.5 g",
+          "6 g",
+          "6000 g"
+        ],
+        "answer": 1,
+        "explanation": "2 t × 3 g/t = 6 g before any processing losses."
+      },
+      {
+        "question": "Which mass ratio is equivalent to 1 g/t?",
+        "options": [
+          "1 mg/kg",
+          "1 g/kg",
+          "1 kg/t"
+        ],
+        "answer": 0,
+        "explanation": "1 g per 1000 kg is 1000 mg per 1000 kg, or 1 mg/kg."
+      },
+      {
+        "question": "What is 80% arithmetic recovery of a theoretical 6 g?",
+        "options": [
+          "480 g",
+          "7.5 g",
+          "4.8 g"
+        ],
+        "answer": 2,
+        "explanation": "6×0.80=4.8 g; this is a calculation assumption, not an operating guarantee."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.usgs.gov/centers/national-minerals-information-center/gold-statistics-and-information",
+      "https://www.nist.gov/pml/special-publication-811"
+    ],
+    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/gold-statistics-and-information\nhttps://www.nist.gov/pml/special-publication-811"
+  },
+  {
+    "id": "lesson-039",
+    "title": "Yemen geology and sample documentation",
+    "intro": "Claims of element occurrence require a geological source and a documented sample and location. Yemen includes old basement rocks, sedimentary cover, and volcanics; a regional label alone does not establish an ore deposit.",
+    "detail": "Distinguish a geological indication, a geochemical anomaly, a resource, and an economic reserve. Record sample ID, coordinates and reference system, rock type, collection date, organization, analytical method, detection limits, and uncertainty, linked to an auditable report. Regional surveys do not automatically assign a grade to a particular district. Kaʿaydinah, Kushar, and Bani Qays in Hajjah remain areas requiring verification; this version contains no confirmed assays for them or validated deposit coordinates.",
+    "example": "A national report mentioning gold is insufficient to assign it to a sample from Kushar. Auditable documentation links a site claim to sample ID, coordinates, laboratory method, and a primary source. Missing data leaves the claim unverified rather than proving absence of the element.",
+    "summary": "Use national references for context and primary reports for specific locations. Local Hajjah data remain unverified here; no documented reserve estimates are supplied.",
+    "level": "Specialist",
+    "section": "Geology of Yemen",
+    "objectives": [
+      "Identify the minimum documentation for a geological sample.",
+      "Distinguish absence of evidence from evidence of absence in a local claim."
+    ],
+    "prerequisites": [
+      "lesson-009",
+      "lesson-037",
+      "lesson-038"
+    ],
+    "question": "If documented assays are unavailable for a site, does that establish that an element is absent?",
+    "options": [
+      "It proves zero concentration throughout the site",
+      "No; occurrence or absence remains unverified",
+      "It establishes an economic ore deposit"
+    ],
+    "explanation": "Missing evidence leaves occurrence unverified; it does not establish absence.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "If documented assays are unavailable for a site, does that establish that an element is absent?",
+        "options": [
+          "It proves zero concentration throughout the site",
+          "No; occurrence or absence remains unverified",
+          "It establishes an economic ore deposit"
+        ],
+        "answer": 1,
+        "explanation": "Missing evidence leaves occurrence unverified; it does not establish absence."
+      },
+      {
+        "question": "Does a national report alone assign a gold grade to a particular district?",
+        "options": [
+          "No; local sample-linked documentation is needed",
+          "Yes if it mentions Yemen",
+          "Yes"
+        ],
+        "answer": 0,
+        "explanation": "The spatial scale matters; a general report does not establish a site-specific result."
+      },
+      {
+        "question": "Which record makes an assay easier to audit?",
+        "options": [
+          "Rock color alone",
+          "Only a shiny photograph",
+          "Sample ID, coordinates, analytical method, and report source"
+        ],
+        "answer": 2,
+        "explanation": "These data connect a result to a sample, location, and verifiable method."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.usgs.gov/centers/national-minerals-information-center/africa-and-middle-east",
+      "https://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf"
+    ],
+    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/africa-and-middle-east\nhttps://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf"
+  },
+  {
+    "id": "lesson-040",
+    "title": "Cyanide and lead hazards",
+    "intro": "Cyanide can cause life-threatening acute poisoning, while lead is toxic and can cause cumulative harm. Monitoring pH alone does not eliminate cyanide hazards.",
+    "detail": "Exposure can occur by inhalation, ingestion, or contact depending on chemical form. Lead can damage the nervous system, kidneys, and blood; children are especially vulnerable. Lead nitrate is an oxidizer and toxic, adding fire and lead-exposure hazards. If a release or exposure is suspected, leave the area, contact medical emergency services, and report the substance name if known from a safe location. Do not enter a contaminated area for rescue without specialist training and equipment, or attempt improvised neutralization or self-administered antidotes.",
+    "example": "A worker has breathing difficulty near a toxic material: move to safety, keep others from entering, and contact emergency services. Trained responders assess and treat the exposure; do not wait for a pH reading before seeking help.",
+    "summary": "Prevent further exposure and seek specialist response. This lesson provides no cyanide operating procedures, reagent doses, or treatment protocol.",
+    "level": "Specialist",
+    "section": "Chemical safety",
+    "objectives": [
+      "Recognize acute cyanide hazards and cumulative lead toxicity.",
+      "Choose a safe initial response to suspected exposure."
+    ],
+    "prerequisites": [
+      "lesson-016"
+    ],
+    "question": "What is the priority in the example?",
+    "options": [
+      "Continue working",
+      "Evacuate and contact emergency services",
+      "Approach without protection"
+    ],
+    "explanation": "Leave the hazardous area and seek trained emergency responders to avoid additional casualties.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "What is the priority in the example?",
+        "options": [
+          "Continue working",
+          "Evacuate and contact emergency services",
+          "Approach without protection"
+        ],
+        "answer": 1,
+        "explanation": "Leave the hazardous area and seek trained emergency responders to avoid additional casualties."
+      },
+      {
+        "question": "Does a reassuring pH reading prove that a cyanide-containing material is safe?",
+        "options": [
+          "No; pH is not a comprehensive exposure assessment",
+          "Yes if there is no odor",
+          "Yes"
+        ],
+        "answer": 0,
+        "explanation": "Toxicity, exposure routes, and other conditions still require specialist assessment."
+      },
+      {
+        "question": "Why should an untrained person not enter a contaminated area to rescue someone?",
+        "options": [
+          "Lead is not toxic",
+          "Rescue is unimportant",
+          "They may be exposed and become another casualty"
+        ],
+        "answer": 2,
+        "explanation": "Entry requires specialist assessment, equipment, and training; call responders from safety."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.atsdr.cdc.gov/toxfaqs/tfacts8.pdf",
+      "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
+    ],
+    "source": "Review references: https://www.atsdr.cdc.gov/toxfaqs/tfacts8.pdf\nhttps://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
+  },
+  {
+    "id": "lesson-041",
+    "title": "Respirable crystalline silica",
+    "intro": "Silica risk comes from inhaling fine crystalline particles that can be generated while crushing, cutting, or grinding silica-containing materials. Visible dust does not directly measure respirable exposure.",
+    "detail": "Exposure can cause silicosis, lung cancer, and chronic respiratory disease, and symptoms may be delayed. Occupational assessment considers tasks, exposure measurements, engineering controls, maintenance, training, and health surveillance under applicable standards. Elimination, substitution, and engineering controls take priority over relying solely on personal protective equipment. Respirator selection requires a professional program, fit assessment, and training; an unsuitable mask does not establish protection.",
+    "example": "A worker with repeated dust exposure needs occupational assessment even without symptoms or a visible cloud. Safety decisions depend on measurements, task assessment, and controls rather than sight or how the worker feels alone.",
+    "summary": "No symptoms or visible dust does not prove no exposure. Prevention is a specialist-assessed program rather than a mask alone.",
+    "level": "Specialist",
+    "section": "Chemical safety",
+    "objectives": [
+      "Explain why exposure can matter before symptoms appear.",
+      "Place engineering controls and PPE in the hierarchy of controls."
+    ],
+    "prerequisites": [
+      "lesson-016"
+    ],
+    "question": "Does absence of symptoms in a worker exposed to silica dust establish that exposure is safe?",
+    "options": [
+      "Yes; silica harm always appears immediately",
+      "No; harm may be delayed and exposure needs assessment",
+      "Yes if the worker cannot see the dust"
+    ],
+    "explanation": "Silica-related disease can have delayed symptoms; exposure must be assessed.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does absence of symptoms in a worker exposed to silica dust establish that exposure is safe?",
+        "options": [
+          "Yes; silica harm always appears immediately",
+          "No; harm may be delayed and exposure needs assessment",
+          "Yes if the worker cannot see the dust"
+        ],
+        "answer": 1,
+        "explanation": "Silica-related disease can have delayed symptoms; exposure must be assessed."
+      },
+      {
+        "question": "Which evidence is stronger than absence of visible dust for exposure assessment?",
+        "options": [
+          "Occupational assessment and task-appropriate measurements",
+          "Clothing color",
+          "A feeling that the air is clean"
+        ],
+        "answer": 0,
+        "explanation": "Hazardous particles may not be visible, so competent measurement and assessment are needed."
+      },
+      {
+        "question": "Where does PPE sit in the hierarchy of controls?",
+        "options": [
+          "It removes the need for training",
+          "It always replaces hazard elimination",
+          "Below higher-order controls such as elimination and engineering"
+        ],
+        "answer": 2,
+        "explanation": "PPE relies on fit and correct use and complements other controls."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.cdc.gov/niosh/silica/about/index.html",
+      "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+    ],
+    "source": "Review references: https://www.cdc.gov/niosh/silica/about/index.html\nhttps://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+  },
+  {
+    "id": "lesson-042",
+    "title": "Permits and environmental assessment",
+    "intro": "Permits and engineering and environmental review belong to the relevant authorities. Assessment identifies impacts, alternatives, and controls before activity decisions.",
+    "detail": "Assessment considers water sources, communities, biodiversity, waste, occupational exposure, and emergencies, with baseline conditions, potential impacts, mitigation, monitoring, and closure. Responsibilities and stakeholder engagement should be documented and current local legal requirements verified. Environmental assessment does not replace a permit, and a permit does not remove ongoing compliance duties. The app is not an official approval, facility design, or complete legal checklist for Yemen.",
+    "example": "A project without documented approvals requires review by competent authorities before activity begins. Completing an educational app form does not show that a permit has been issued or that a professional emergency plan is adequate.",
+    "summary": "Link each obligation to an authority, current rule, and verifiable document. General references support understanding but do not replace local law.",
+    "level": "Specialist",
+    "section": "Chemical safety",
+    "objectives": [
+      "Identify core components of environmental impact assessment.",
+      "Distinguish an educational checklist from a valid official approval."
+    ],
+    "prerequisites": [
+      "lesson-016"
+    ],
+    "question": "Does completing an awareness checklist in the app constitute official activity authorisation?",
+    "options": [
+      "Yes; it replaces the competent authority",
+      "No; official requirements and approvals must be checked",
+      "It grants environmental approval only"
+    ],
+    "explanation": "Only a competent authority can issue an applicable official approval.",
+    "answer": 1,
+    "questions": [
+      {
+        "question": "Does completing an awareness checklist in the app constitute official activity authorisation?",
+        "options": [
+          "Yes; it replaces the competent authority",
+          "No; official requirements and approvals must be checked",
+          "It grants environmental approval only"
+        ],
+        "answer": 1,
+        "explanation": "Only a competent authority can issue an applicable official approval."
+      },
+      {
+        "question": "Which item belongs in environmental assessment?",
+        "options": [
+          "Baseline conditions, monitoring, and closure planning",
+          "Only facility logo color",
+          "Only app visitor count"
+        ],
+        "answer": 0,
+        "explanation": "Existing conditions, impact tracking, and the end of operations must be considered."
+      },
+      {
+        "question": "Does a general international reference establish compliance with all current Yemeni laws?",
+        "options": [
+          "Yes if it is in English",
+          "Automatically",
+          "No; competent local legal verification is needed"
+        ],
+        "answer": 2,
+        "explanation": "Laws, procedures, and authorities vary; educational guidance is not official approval."
+      }
+    ],
+    "sourceUrls": [
+      "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1",
+      "https://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines"
+    ],
+    "source": "Review references: https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1\nhttps://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines"
+  },
+  {
+    "title": "Solubility and the solubility product",
+    "intro": "Solubility describes how much of a substance can remain dissolved at a specified equilibrium with a solid phase. Dissolution rate differs from the solubility limit: stirring can speed the approach without necessarily increasing the limit.",
+    "detail": "For hypothetical MX(s)⇌M⁺+X⁻, Ksp=a(M⁺)a(X⁻), approximated by the concentration product in a dilute ideal solution. If the salt is the only source of ions and other reactions are absent, molar solubility s gives Ksp≈s². An ion product Qsp greater than Ksp makes precipitation thermodynamically favourable, although nucleation depends on kinetics. Changes in pH or complex formation can change solubility.",
+    "example": "For hypothetical MX with Ksp=10⁻⁸ in the dilute model, s=√10⁻⁸=10⁻⁴ mol/L. Do not apply s² to MX₂ without stoichiometry: if MX₂ dissolves alone, [M²⁺]=s and [X⁻]=2s, so Ksp≈4s³.",
+    "summary": "Write the dissolution equilibrium and Ksp expression first. Distinguish dissolution rate from solubility equilibrium and state the approximation assumptions.",
+    "id": "lesson-043",
+    "level": "University",
+    "section": "General chemistry",
+    "objectives": [
+      "Write Ksp from a dissolution equation",
+      "Calculate solubility in a simple ideal example"
+    ],
+    "prerequisites": [
+      "lesson-006",
+      "lesson-008"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+    "questions": [
+      {
+        "question": "For MX alone with Ksp=10⁻⁸, what is s in the ideal approximation?",
+        "options": [
+          "10⁻⁴ mol/L",
+          "10⁻⁸ mol/L",
+          "10⁴ mol/L"
+        ],
+        "answer": 0,
+        "explanation": "Ksp≈s², so s=√10⁻⁸=10⁻⁴ mol/L."
+      },
+      {
+        "question": "What is the approximate Ksp expression for MX₂ dissolving alone?",
+        "options": [
+          "s²",
+          "2s²",
+          "4s³"
+        ],
+        "answer": 2,
+        "explanation": "[M²⁺]=s and [X⁻]=2s, giving s×(2s)²=4s³."
+      },
+      {
+        "question": "Does stirring always increase the solubility limit?",
+        "options": [
+          "Yes",
+          "No; it may speed the approach to equilibrium",
+          "It eliminates equilibrium"
+        ],
+        "answer": 1,
+        "explanation": "Stirring generally affects mass transfer and dissolution rate; it does not by itself change the equilibrium constant at the same temperature."
+      }
+    ],
+    "question": "For MX alone with Ksp=10⁻⁸, what is s in the ideal approximation?",
+    "options": [
+      "10⁻⁴ mol/L",
+      "10⁻⁸ mol/L",
+      "10⁴ mol/L"
+    ],
+    "answer": 0,
+    "explanation": "Ksp≈s², so s=√10⁻⁸=10⁻⁴ mol/L."
+  },
+  {
+    "title": "Nuclear chemistry and radiation",
+    "intro": "Nuclear processes change the nucleus, unlike ordinary chemical reactions that rearrange electrons and bonds. Some isotopes are unstable and undergo spontaneous radioactive decay.",
+    "detail": "Half-life is the time for the number of undecayed nuclei to fall by half in an exponential decay model. After n half-lives the remaining fraction is (1/2)ⁿ. Activity is measured in becquerels, Bq, meaning decays per second. Absorbed dose is measured in Gy, and equivalent or effective dose in Sv as appropriate; these quantities are not interchangeable. Radioactive materials require qualified assessment, controls and applicable authorisation.",
+    "example": "For a hypothetical isotope with a two-hour half-life, 8 units of original nuclei become 4 after two hours and 2 after four hours. This mathematical exercise does not establish handling safety or describe every exposure hazard.",
+    "summary": "Distinguish nuclear decay from chemical change and activity from dose. A calculation alone cannot establish the safety of an unknown material.",
+    "id": "lesson-044",
+    "level": "University",
+    "section": "Nuclear chemistry",
+    "objectives": [
+      "Calculate the fraction remaining after several half-lives",
+      "Distinguish activity from dose"
+    ],
+    "prerequisites": [
+      "lesson-002",
+      "lesson-018"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/21-3-radioactive-decay"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/21-3-radioactive-decay",
+    "questions": [
+      {
+        "question": "What fraction remains after three half-lives?",
+        "options": [
+          "1/3",
+          "1/6",
+          "1/8"
+        ],
+        "answer": 2,
+        "explanation": "(1/2)³=1/8 of the original nuclei remain undecayed."
+      },
+      {
+        "question": "What does Bq measure?",
+        "options": [
+          "Decays per second",
+          "Sample mass in grams",
+          "Effective dose"
+        ],
+        "answer": 0,
+        "explanation": "A becquerel is a unit of activity: one decay per second."
+      },
+      {
+        "question": "Is half-life alone enough to assess safety?",
+        "options": [
+          "Yes",
+          "No",
+          "If the isotope is invisible"
+        ],
+        "answer": 1,
+        "explanation": "Hazard also depends on radiation type, activity, exposure route and controls; qualified assessment is required."
+      }
+    ],
+    "question": "What fraction remains after three half-lives?",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/8"
+    ],
+    "answer": 2,
+    "explanation": "(1/2)³=1/8 of the original nuclei remain undecayed."
+  },
+  {
+    "title": "Solids and crystals",
+    "intro": "Solids differ in particle arrangement and bonding. A crystalline solid has long-range periodic order; an amorphous solid lacks that kind of order.",
+    "detail": "A unit cell describes a repeating motif used to build a lattice model. Properties depend on whether the solid is ionic, metallic, molecular or a covalent network, with more complex materials also possible. Crystal defects and impurities can make properties differ from the ideal model. A chemical formula alone does not fully specify structure or properties.",
+    "example": "NaCl is ionic, copper is metallic, molecular ice is held together by hydrogen bonding, and diamond is a covalent network. Diamond is not a collection of small isolated carbon molecules. Different arrangements and bonding explain differences in conductivity and hardness.",
+    "summary": "Connect solid classification to bonding and structure, and distinguish a unit cell from an isolated molecule.",
+    "id": "lesson-045",
+    "level": "University",
+    "section": "Materials chemistry",
+    "objectives": [
+      "Classify bonding in solids",
+      "Explain the meaning of a unit cell"
+    ],
+    "prerequisites": [
+      "lesson-004",
+      "lesson-015"
+    ],
+    "sourceUrls": [
+      "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter"
+    ],
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+    "questions": [
+      {
+        "question": "What kind of solid is diamond?",
+        "options": [
+          "Covalent network",
+          "Isolated C molecules",
+          "Ionic liquid"
+        ],
+        "answer": 0,
+        "explanation": "Carbon atoms form an extended network of covalent bonds."
+      },
+      {
+        "question": "What chiefly characterises a crystalline solid?",
+        "options": [
+          "Long-range periodic order",
+          "No arrangement at all",
+          "No mass"
+        ],
+        "answer": 0,
+        "explanation": "Long-range repeating order distinguishes a crystal from an amorphous solid."
+      },
+      {
+        "question": "Is a unit cell necessarily an isolated molecule?",
+        "options": [
+          "Yes",
+          "No; it is a lattice repeat motif",
+          "Only in metals"
+        ],
+        "answer": 1,
+        "explanation": "A unit cell describes structural periodicity and need not correspond to a separate molecule."
+      }
+    ],
+    "question": "What kind of solid is diamond?",
+    "options": [
+      "Covalent network",
+      "Isolated C molecules",
+      "Ionic liquid"
+    ],
+    "answer": 0,
+    "explanation": "Carbon atoms form an extended network of covalent bonds."
+  },
+  {
+    "title": "Measurement uncertainty and statistics",
+    "intro": "Every measurement result has uncertainty describing the dispersion of values reasonably attributable to the measured quantity. Uncertainty is not a known error or a reason to ignore a fault.",
+    "detail": "The arithmetic mean summarises repeated values and standard deviation describes their spread within an appropriate statistical model. More repetitions may reduce the influence of random variation, but systematic bias does not automatically disappear. An uncertainty budget considers calibration, volumetric and mass measurements, preparation, representation and other important sources. State the meaning of ± and the coverage level when reporting.",
+    "example": "The values 9, 10 and 11 mg/L have mean 10 mg/L. These readings alone cannot establish the absence of bias. A result of 10.0±0.5 mg/L needs an explanation of whether ± denotes standard deviation or expanded uncertainty and how it was obtained.",
+    "summary": "Report the result, unit and meaning of uncertainty; assess bias and representation rather than only repeating measurements.",
+    "id": "lesson-046",
+    "level": "Specialist",
+    "section": "Analytical chemistry",
+    "objectives": [
+      "Calculate a simple measurement mean",
+      "Distinguish spread, bias and uncertainty"
+    ],
+    "prerequisites": [
+      "lesson-009",
+      "lesson-017"
+    ],
+    "sourceUrls": [
+      "https://www.eurachem.org/index.php/publications/guides/quam"
+    ],
+    "source": "Review references: https://www.eurachem.org/index.php/publications/guides/quam",
+    "questions": [
+      {
+        "question": "What is the mean of 9, 10 and 11 mg/L?",
+        "options": [
+          "9 mg/L",
+          "10 mg/L",
+          "30 mg/L"
+        ],
+        "answer": 1,
+        "explanation": "The sum 30 divided by three readings is 10 mg/L."
+      },
+      {
+        "question": "Does repetition alone remove calibration bias?",
+        "options": [
+          "Yes",
+          "No",
+          "If there are more than three readings"
+        ],
+        "answer": 1,
+        "explanation": "Many results can cluster around a biased value; calibration and controls must be assessed."
+      },
+      {
+        "question": "What should be explained when reporting ±0.5?",
+        "options": [
+          "Its meaning, unit and estimation method",
+          "Only the instrument colour",
+          "Nothing else"
+        ],
+        "answer": 0,
+        "explanation": "The ± symbol can express different quantities; the uncertainty type and appropriate coverage information are needed."
+      }
+    ],
+    "question": "What is the mean of 9, 10 and 11 mg/L?",
+    "options": [
+      "9 mg/L",
+      "10 mg/L",
+      "30 mg/L"
+    ],
+    "answer": 1,
+    "explanation": "The sum 30 divided by three readings is 10 mg/L."
+  },
+  {
+    "title": "Green chemistry and life cycles",
+    "intro": "Green chemistry seeks to reduce hazards, waste and resource use at the design stage. Environmental assessment needs clear comparison boundaries and cannot be reduced to a product’s colour or a claim that it is natural.",
+    "detail": "Atom economy is the percentage of reactant atom mass retained in the desired product, calculated from a balanced equation. It differs from yield and does not by itself measure toxicity, energy or solvents. Life-cycle assessment considers sourcing, production, use and end of life within stated boundaries; an alternative may shift impacts from one stage to another.",
+    "example": "If the stoichiometric reactant molar masses in a balanced equation total 100 g and the desired product accounts for 60 g, theoretical atom economy is 60%. This does not mean the actual yield is 60% or that the process is safe; other factors need assessment.",
+    "summary": "Distinguish atom economy from yield. Compare alternatives using a common function, clear life-cycle boundaries and stated hazards.",
+    "id": "lesson-047",
+    "level": "University",
+    "section": "Environmental chemistry",
+    "objectives": [
+      "Calculate atom economy from given data",
+      "Explain the boundaries of an environmental comparison"
+    ],
+    "prerequisites": [
+      "lesson-019",
+      "lesson-020",
+      "lesson-036"
+    ],
+    "sourceUrls": [
+      "https://www.epa.gov/greenchemistry/basics-green-chemistry"
+    ],
+    "source": "Review references: https://www.epa.gov/greenchemistry/basics-green-chemistry",
+    "questions": [
+      {
+        "question": "What is atom economy in the example?",
+        "options": [
+          "60%",
+          "40%",
+          "100%"
+        ],
+        "answer": 0,
+        "explanation": "Atom economy=60/100×100=60%."
+      },
+      {
+        "question": "Does high atom economy prove low toxicity?",
+        "options": [
+          "Yes",
+          "No",
+          "If the product is solid"
+        ],
+        "answer": 1,
+        "explanation": "Toxicity is not part of that mass ratio and needs separate assessment."
+      },
+      {
+        "question": "Why state life-cycle boundaries?",
+        "options": [
+          "To show which stages the comparison includes",
+          "To remove energy accounting",
+          "To guarantee that any natural material is better"
+        ],
+        "answer": 0,
+        "explanation": "Conclusions may change with inclusion of production, use and end of life; transparency matters."
+      }
+    ],
+    "question": "What is atom economy in the example?",
+    "options": [
+      "60%",
+      "40%",
+      "100%"
+    ],
+    "answer": 0,
+    "explanation": "Atom economy=60/100×100=60%."
+  },
+  {
+    "title": "Integrated review: from sample to conclusion",
+    "intro": "A sound chemical conclusion connects a question to a representative sample, a suitable method, calculations with units and an interpretation that respects limitations. Correct arithmetic cannot repair unrepresentative data or uncontrolled measurement.",
+    "detail": "Start with the target quantity and sampling population. Check units, concentration, method limits and quality control. Calculate without premature rounding, assess uncertainty, and separate measured facts from assumptions. A result may be theoretical metal content, an analytical signal or geological evidence; it does not automatically establish an economic reserve or work authorisation.",
+    "example": "A hypothetical representative sample of 2.0 t at 3.0 g/t contains a theoretical 6.0 g. Assuming a mathematical recovery of 80% gives 4.8 g, but this is not a processing test or operating recommendation. If sampling is unrepresentative, the grade cannot be generalised to the entire site.",
+    "summary": "Separate measurement, assumption and conclusion. State units, references and data limits, and seek specialist verification for field questions.",
+    "id": "lesson-048",
+    "level": "Specialist",
+    "section": "Curriculum review",
+    "objectives": [
+      "Connect calculations to sampling and quality control",
+      "Distinguish contained metal, assumed recovery and reserves"
+    ],
+    "prerequisites": [
+      "lesson-010",
+      "lesson-038",
+      "lesson-039",
+      "lesson-046"
+    ],
+    "sourceUrls": [
+      "https://www.eurachem.org/index.php/publications/guides/ufds"
+    ],
+    "source": "Review references: https://www.eurachem.org/index.php/publications/guides/ufds",
+    "questions": [
+      {
+        "question": "What is theoretical content in 2.0 t at 3.0 g/t?",
+        "options": [
+          "1.5 g",
+          "6.0 g",
+          "6000 g"
+        ],
+        "answer": 1,
+        "explanation": "Tonnes cancel in 2.0 t×3.0 g/t, leaving 6.0 g."
+      },
+      {
+        "question": "What does 4.8 g from an assumed 80% recovery represent?",
+        "options": [
+          "A conditional mathematical result",
+          "A practical recovery guarantee",
+          "A confirmed economic reserve"
+        ],
+        "answer": 0,
+        "explanation": "6.0×0.80=4.8 g is conditional arithmetic, not evidence of process performance or site viability."
+      },
+      {
+        "question": "Does correct arithmetic justify generalising a selected sample to an area?",
+        "options": [
+          "Yes",
+          "No; representation is a separate requirement",
+          "If the sample is gold coloured"
+        ],
+        "answer": 1,
+        "explanation": "Generalisation requires an appropriate sampling plan and spatial evidence; arithmetic cannot fix selection bias."
+      }
+    ],
+    "question": "What is theoretical content in 2.0 t at 3.0 g/t?",
+    "options": [
+      "1.5 g",
+      "6.0 g",
+      "6000 g"
+    ],
+    "answer": 1,
+    "explanation": "Tonnes cancel in 2.0 t×3.0 g/t, leaving 6.0 g."
+  }
+]

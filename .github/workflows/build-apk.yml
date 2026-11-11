@@ -33,13 +33,21 @@ jobs:
         with:
           gradle-version: '8.10.2'
 
-      - name: Build APK
-        run: gradle --no-daemon assembleDebug
+      - name: Verify content and installer
+        run: |
+          python3 scripts/test-installer.py
+          python3 tools/validate_content.py
 
-      - name: Upload APK
+      - name: Build and verify
+        run: ./gradlew --no-daemon testDebugUnitTest lintDebug assembleDebug assembleDebugAndroidTest
+
+      - name: Package final bundle
+        run: python3 scripts/package-final.py
+
+      - name: Upload final bundle
         uses: actions/upload-artifact@v4
         with:
-          name: chemistry-native-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: chemistry-lab-final
+          path: dist/chemistry-lab-4.0.0-final.zip
           if-no-files-found: error
 
