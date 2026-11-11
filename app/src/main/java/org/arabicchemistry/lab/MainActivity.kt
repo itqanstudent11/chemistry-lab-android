@@ -30,12 +30,12 @@ private val Cyan = Color(0xFF086BBA)
 private val Gold = Color(0xFF936000)
 private val White = Color(0xFF142C49)
 
-private data class Lesson(val title:String,val level:String,val intro:String,val detail:String,val example:String,val question:String,val options:List<String>,val answer:Int,val explanation:String,val section:String,val summary:String,val source:String)
+private data class Lesson(val title:String,val level:String,val intro:String,val detail:String,val example:String,val question:String,val options:List<String>,val answer:Int,val explanation:String)
 private data class Element(val number:Int,val symbol:String,val name:String,val mass:String)
 
 class MainActivity : ComponentActivity() {
  override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState)
-  val lessons = JSONArray(assets.open("lessons.json").bufferedReader().use { it.readText() }).let { arr -> (0 until arr.length()).map { i -> val o=arr.getJSONObject(i); val opts=o.getJSONArray("options"); Lesson(o.getString("title"),o.getString("level"),o.getString("intro"),o.getString("detail"),o.getString("example"),o.getString("question"),(0 until opts.length()).map{opts.getString(it)},o.getInt("answer"),o.getString("explanation"),o.optString("section","الكيمياء العامة"),o.optString("summary"),o.optString("source")) } }
+  val lessons = JSONArray(assets.open("lessons.json").bufferedReader().use { it.readText() }).let { arr -> (0 until arr.length()).map { i -> val o=arr.getJSONObject(i); val opts=o.getJSONArray("options"); Lesson(o.getString("title"),o.getString("level"),o.getString("intro"),o.getString("detail"),o.getString("example"),o.getString("question"),(0 until opts.length()).map{opts.getString(it)},o.getInt("answer"),o.getString("explanation")) } }
   val elements = JSONArray(assets.open("elements.json").bufferedReader().use { it.readText() }).let { arr -> (0 until arr.length()).map { i -> val o=arr.getJSONObject(i); Element(o.getInt("number"),o.getString("symbol"),o.getString("name"),o.getString("mass")) } }
   setContent { ChemistryApp(lessons,elements) }
  }
@@ -76,18 +76,18 @@ class MainActivity : ComponentActivity() {
       item { Heading("المسارات التعليمية"); Text("اختر الدرس واقرأه كاملًا قبل الاختبار",color=Color(0xFF526A82)) }
       item { Section("فهرس المنهج", "تأسيسي ← متوسط ← جامعي ← تخصصي. اختر المستوى لعرض فهرس دروسه.") }
       item { Row(Modifier.horizontalScroll(rememberScrollState()),horizontalArrangement=Arrangement.spacedBy(6.dp)) { listOf("", "تأسيسي","متوسط","جامعي","تخصصي").forEach { k -> FilterChip(selected=level==k,onClick={level=k},label={Text(k.ifBlank { "الكل" })}) } } }
-      lessons.withIndex().filter { level.isBlank() || it.value.level.replace("متخصص","تخصصي")==level }.groupBy { it.value.section }.forEach { (group, entries) ->
+      lessons.withIndex().filter { level.isBlank() || it.value.level.replace("متخصص","تخصصي")==level }.groupBy { it.value.level.replace("متخصص","تخصصي") }.forEach { (group, entries) ->
        item { Heading(group) }
        itemsIndexed(entries) { _,entry -> val i=entry.index; val l=entry.value; NavCard("${i+1}. ${l.title}",if(i in done) "مكتمل ✓" else "ابدأ القراءة") { selected=i;choice=-1;showTest=false;page="lesson" } }
       }
     }
     "lesson" -> { val l=lessons[selected]; LazyColumn(Modifier.fillMaxSize().padding(18.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
-      item { Text("${l.level}  /  الدرس ${selected+1}",color=Cyan,fontSize=14.sp); Heading(l.title); Text(l.section); Section("هدف التعلم","فهم ${l.title} وتطبيق المفاهيم في المثال المحلول.") }
+      item { Text("${l.level}  /  الدرس ${selected+1}",color=Cyan,fontSize=14.sp); Heading(l.title) }
       item { Section("فهرس الدرس","١. مقدمة ومفاهيم\n٢. التفسير العلمي\n٣. مثال تطبيقي\n٤. خلاصة الدرس\n٥. اختبار نهاية الدرس"); TextButton(onClick={val k=selected.toString(); favorites=if(k in favorites) favorites-k else favorites+k}) { Text(if(selected.toString() in favorites) "إزالة من المفضلة" else "إضافة إلى المفضلة") } }
       item { Section("مقدمة ومفاهيم",l.intro) }
       item { Section("التفسير العلمي",l.detail) }
       item { Section("مثال تطبيقي",l.example) }
-      item { Section("خلاصة الدرس",l.summary); Section("مرجع للمراجعة",l.source) }
+      item { Section("خلاصة الدرس","راجع المفاهيم السابقة، ثم انتقل إلى الاختبار للتحقق من فهمك.") }
       item { Column(verticalArrangement=Arrangement.spacedBy(8.dp)){ Text("اختبار نهاية الدرس",fontWeight=FontWeight.Bold,fontSize=20.sp); Text(l.question); l.options.forEachIndexed { i,opt -> OutlinedButton(onClick={choice=i;if(i==l.answer && selected !in done)done.add(selected)},modifier=Modifier.fillMaxWidth()){Text(opt)} }; if(choice>=0) Section(if(choice==l.answer) "إجابة صحيحة" else "حاول مجددًا",if(choice==l.answer) l.explanation else "راجع الشرح ثم أعد المحاولة.") } }
       item { Row { TextButton(onClick={if(selected>0){selected--;choice=-1}},enabled=selected>0){Text("السابق")}; TextButton(onClick={page="lessons"}) { Text("الفهرس") }; TextButton(onClick={if(selected<lessons.lastIndex){selected++;choice=-1}},enabled=selected<lessons.lastIndex){Text("التالي")} } }
     } }
