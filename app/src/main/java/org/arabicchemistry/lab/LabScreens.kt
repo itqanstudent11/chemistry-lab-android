@@ -1,3 +1,4 @@
+@file:OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class)
 package org.arabicchemistry.lab
 
 import androidx.compose.animation.core.*
