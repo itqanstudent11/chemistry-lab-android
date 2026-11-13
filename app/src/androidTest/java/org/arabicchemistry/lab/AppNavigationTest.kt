@@ -145,6 +145,8 @@ class AppNavigationTest {
         compose.onNodeWithText(lesson.title).assertIsDisplayed()
         compose.onNodeWithText("Lab").performClick()
         fun select(title: String) {
+            try { compose.onNode(hasScrollToNodeAction()).performScrollToIndex(0) } catch (_: Throwable) {}
+            compose.waitForIdle()
             compose.waitForIdle()
             try {
                 compose.onNodeWithText(title).performScrollTo().performClick()
