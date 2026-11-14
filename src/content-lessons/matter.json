@@ -1,0 +1,356 @@
+{
+  "id": "matter",
+  "kind": "energy",
+  "ar": {
+    "title": "المادة وحالاتها والتغيرات الفيزيائية والكيميائية",
+    "subject": "الكيمياء: المادة والتغيرات",
+    "duration": "١٤ دقيقة",
+    "level": "ثانوي / مبتدئ",
+    "summary": "يساعد فهم حالات المادة والتغيرات على تفسير ظواهر مثل تكاثف بخار الماء، وتمدد المواد بالتسخين، وصدأ الحديد. كما يعلّمنا أن المظهر وحده لا يكفي دائماً للحكم على حدوث تفاعل؛ بل ينبغي البحث عن دليل على تغير تركيب المادة…",
+    "goal": "أن يصف المتعلم حالات المادة والتغيرات اعتماداً على أدلة مرئية، وأن يربط هذه الأدلة بتفسير جسيمي دقيق من دون الخلط بين تغير الشكل أو الحالة وتكوّن مادة جديدة.",
+    "why": "يساعد فهم حالات المادة والتغيرات على تفسير ظواهر مثل تكاثف بخار الماء، وتمدد المواد بالتسخين، وصدأ الحديد. كما يعلّمنا أن المظهر وحده لا يكفي دائماً للحكم على حدوث تفاعل؛ بل ينبغي البحث عن دليل على تغير تركيب المادة وهويتها.",
+    "prerequisite": "يكفي أن تعرف أن المادة تشغل حيزاً ولها كتلة، وأن المواد تتكون من جسيمات صغيرة لا تراها العين مباشرة. لا يلزم حفظ أسماء أنواع الذرات أو الروابط الكيميائية مسبقاً.",
+    "objectives": [
+      "قارن بين الصلب والسائل والغاز باستخدام الشكل والحجم وقابلية الانضغاط وترتيب الجسيمات وحركتها.",
+      "فسر تغيرات الحالة بوصفها تغيرات في حركة الجسيمات وتباعدها أو انتظامها، لا اختفاءً للجسيمات أو تحولها إلى مادة أخرى.",
+      "ميّز بين التغير الفيزيائي والتغير الكيميائي مستخدماً هوية المادة وتركيبها، لا المظهر وحده.",
+      "حلل مثالاً حياتياً وحدد الملاحظة، والتفسير الجسيمي الممكن، وحدود ما يمكن استنتاجه من الدليل المتاح."
+    ],
+    "conceptMap": [
+      {
+        "label": "المادة وحالتها",
+        "detail": "المادة تتكون من جسيمات؛ تحدد حركة الجسيمات وترتيباتها النسبية ما إذا كانت المادة صلبة أو سائلة أو غازية في الظروف المعينة."
+      },
+      {
+        "label": "التغير الفيزيائي",
+        "detail": "قد تتغير الحالة أو الهيئة أو الحجم، لكن نوع الجسيمات وتركيب المادة يبقيان كما هما؛ مثال ذلك انصهار الجليد إلى ماء."
+      },
+      {
+        "label": "التغير الكيميائي",
+        "detail": "يعاد تنظيم الذرات في الجسيمات المتفاعلة لتكوين مواد جديدة بتركيب وخواص مميزة؛ مثال ذلك تكون الصدأ من الحديد بمرور الزمن في وجود الأكسجين والرطوبة."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "من الملاحظة إلى فكرة المادة",
+        "body": "نستدل على المادة من آثار يمكن قياسها أو ملاحظتها: فللماء السائل حجم، ولحجر صغير كتلة، والهواء في بالون يشغل حيزاً ويؤثر في جدار البالون. المادة هي ما له كتلة ويشغل حيزاً؛ أما الضوء والصوت فليسا مادة بالمعنى الكيميائي المعتاد، مع أنهما ينقلان الطاقة.\n\nلفهم ما لا تراه العين نستخدم نموذج الجسيمات: نمثل المادة بجسيمات صغيرة جداً، مثل الذرات أو الجزيئات أو الأيونات، بحسب المادة. الجسيمات ليست كرات صلبة صغيرة بالضرورة، والرسم الذي يعرضها دوائر هو وسيلة للتفكير لا صورة حرفية لها. لا تكشف الملاحظة وحدها شكل الجسيم، لكن النموذج يساعد على تفسير سلوك المادة والتنبؤ به."
+      },
+      {
+        "heading": "الصلب والسائل والغاز: الحركة والترتيب",
+        "body": "في الصلب تكون الجسيمات متقاربة غالباً وذات ترتيب نسبي ثابت، وتهتز حول مواضعها بدلاً من الانتقال بحرية من مكان إلى آخر. لذلك يحافظ الصلب عادة على شكل وحجم محددين، ولا يسهل ضغطه. في السائل تبقى الجسيمات متقاربة، لكنها تستطيع الانزلاق وتغيير جيرانها؛ لذا يحتفظ السائل بحجم شبه ثابت، لكنه يأخذ شكل الجزء الذي يشغله من الوعاء.\n\nفي الغاز تكون الجسيمات متباعدة كثيراً مقارنة بالصلب والسائل، وتتحرك عشوائياً في الحيز المتاح. لذلك ينتشر الغاز ليملأ الوعاء، ولا يكون له شكل أو حجم ثابتان، ويمكن ضغطه أكثر نسبياً لأن المسافات بين جسيماته كبيرة. هذه أوصاف عامة: فالسلوك الفعلي يتأثر بدرجة الحرارة والضغط ونوع المادة، وهناك حالات أخرى للمادة لا يتناولها هذا الدرس."
+      },
+      {
+        "heading": "تغير الحالة: الطاقة والحركة",
+        "body": "عندما ينصهر الجليد، يصبح ماءً سائلاً؛ وعندما يتجمد الماء يعود صلباً. في كلا التغيرين تظل الجسيمات جزيئات ماء، لكن ترتيبها وحركتها يتغيران. كذلك يتحول السائل إلى غاز بالتبخر أو الغليان، ويتحول الغاز إلى سائل بالتكاثف. في التبخر تغادر بعض الجسيمات السطح من دون أن تبلغ كل أجزاء السائل حالة الغليان؛ أما الغليان فيحدث في السائل كله عند ظروف محددة.\n\nعلى مستوى الجسيمات، قد يؤدي اكتساب الطاقة إلى زيادة متوسط حركة الجسيمات، وقد يسمح ذلك لها بالتغلب جزئياً على التآثرات التي تبقيها متقاربة، فيحدث الانصهار أو التبخر. وعند إزالة الطاقة يمكن أن تقل الحركة فتتقارب الجسيمات أو تنتظم أكثر. أثناء تغير الحالة لمادة نقية عند ضغط ثابت، تبقى درجة الحرارة ثابتة عادة خلال التحول رغم استمرار انتقال الطاقة؛ إذ ترتبط الطاقة بتغيير ترتيب الجسيمات وتآثراتها. هذه الصورة مفيدة، لكنها لا تعني أن درجة الحرارة مقياس مباشر لطاقة كل جسيم على حدة."
+      },
+      {
+        "heading": "هل تغيرت المادة أم تغير مظهرها؟",
+        "body": "في التغير الفيزيائي يتبدل شكل المادة أو حجمها أو حالتها، لكن هوية المادة وتركيب جسيماتها يبقيان كما هما. تمزيق الورق إلى قطع أصغر تغير فيزيائي لأن القطع لا تزال ورقاً؛ وانصهار الجليد تغير فيزيائي لأن جزيئات الماء لا تزال H₂O. وقد يصعب عكس بعض التغيرات الفيزيائية عملياً، لذا فإن قابلية الرجوع ليست معياراً وحيداً لتصنيف التغير.\n\nفي التغير الكيميائي تتكون مادة واحدة جديدة أو أكثر ذات تركيب وخواص مختلفة. في الصدأ، مثلاً، تتفاعل ذرات الحديد مع الأكسجين ضمن ظروف مناسبة وتتكون مركبات أكسيد الحديد؛ فلا يكون الصدأ مجرد حديد ذاب أو تغير شكله. قد تشير فقاعات الغاز أو تغير اللون أو انطلاق حرارة أو تكون راسب إلى تغير كيميائي، لكنها ليست براهين منفردة قاطعة: فقد تنتج فقاعات من غليان فيزيائي، وقد يحدث تغير اللون بسبب مزج أو إضاءة. الحكم الأفضل يجمع الأدلة ويبحث عما إذا كان تركيب المادة قد تغير فعلاً."
+      }
+    ],
+    "equation": {
+      "heading": "علاقة مفاهيمية: حفظ الهوية أم تكوّن مواد جديدة؟",
+      "expression": "تغير فيزيائي: المادة قبل التغير ≡ المادة بعد التغير (الهوية والتركيب محفوظان)؛ تغير كيميائي: متفاعلات → نواتج (يعاد تنظيم الذرات وتتكون مواد جديدة)",
+      "note": "هذه علاقة تصنيفية وليست معادلة موزونة أو قانوناً كمياً. الرمز ≡ هنا يعني أن هوية المادة وتركيبها الكيميائي يظلان نفسيهما في التغير الفيزيائي، لا أن شكلها أو حالتها لا يتغيران. والسهم في التغير الكيميائي يمثل تكوّن نواتج؛ وتُحفظ الذرات في التفاعل الكيميائي المعتاد، لكنها ترتب في مواد مختلفة. لا تبيّن هذه الصيغة ظروف التفاعل أو سرعته أو كمياته.",
+      "symbols": [
+        {
+          "symbol": "≡",
+          "meaning": "هوية المادة وتركيبها محفوظان قبل التغير الفيزيائي وبعده، مع إمكان تغير الحالة أو الشكل.",
+          "unit": "لا وحدة؛ رمز مفاهيمي"
+        },
+        {
+          "symbol": "→",
+          "meaning": "تحول المتفاعلات إلى نواتج في تغير كيميائي، مع إعادة ترتيب الذرات.",
+          "unit": "لا وحدة؛ رمز مفاهيمي"
+        },
+        {
+          "symbol": "H₂O",
+          "meaning": "صيغة جزيء الماء: ذرتا هيدروجين وذرة أكسجين؛ تبقى جزيئات الماء نفسها عند تغير حالته.",
+          "unit": "لا وحدة؛ صيغة كيميائية"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "مثال محلول: تحليل ثلاث ملاحظات",
+      "problem": "نلاحظ أن مكعباً من الجليد صار سائلاً، وأن بخار ماء تكاثف على سطح بارد، وأن مسماراً حديدياً تكوّنت عليه طبقة صدأ بنية بعد تعرضه للهواء والرطوبة زمناً. صنّف كل تغير وفسر قرارك بالجسيمات.",
+      "steps": [
+        {
+          "label": "١. ابدأ بما نراه",
+          "body": "في الحالة الأولى تغيرت هيئة الماء من صلب إلى سائل. في الثانية ظهر سائل على السطح بعد وجود بخار. في الثالثة تكونت طبقة بنية على الحديد. هذه ملاحظات وصفية؛ لا نخلطها بعدُ بالتفسير أو بالاستنتاج عن الجسيمات."
+        },
+        {
+          "label": "٢. اسأل هل بقيت الهوية والتركيبات؟",
+          "body": "في انصهار الجليد وتكاثف بخار الماء، المادة هي الماء قبل التحول وبعده، وجسيماتها جزيئات H₂O. يتغير ترتيب الجزيئات وحركتها وحالتها، لا هويتها الكيميائية. أما الصدأ فيتكون بتفاعل الحديد مع الأكسجين، مع مساهمة الرطوبة في الظروف؛ وتنتج مركبات أكسيد الحديد، أي مواد تختلف عن الحديد الأصلي."
+        },
+        {
+          "label": "٣. صنّف مع مراعاة الدليل",
+          "body": "انصهار الجليد وتكاثف الماء تغيران فيزيائيان، لأن تغير الحالة لم ينشئ مادة جديدة. تكون الصدأ تغير كيميائي لأن مادة جديدة تكوّنت. اللون البني قرينة مرئية، لكن تفسيره الكيميائي يستند إلى معرفة التفاعل والتركيب الجديد، لا إلى اللون وحده."
+        }
+      ],
+      "answer": "انصهار الجليد: تغير فيزيائي؛ تكاثف بخار الماء: تغير فيزيائي؛ تكون الصدأ: تغير كيميائي.",
+      "takeaway": "ميّز بين وصف ما تراه وتفسيره. اسأل: هل بقيت الجسيمات والتركيب الكيميائي نفسيهما، أم أعيد ترتيب الذرات لتكوين مواد جديدة؟ تغير الحالة وحده لا يعني تفاعلاً كيميائياً."
+    },
+    "comparison": {
+      "heading": "مقارنة الحالات وأنواع التغير",
+      "columns": [
+        "الجانب",
+        "ما نلاحظه",
+        "التفسير أو الاستنتاج"
+      ],
+      "rows": [
+        {
+          "label": "الصلب / السائل / الغاز",
+          "values": [
+            "شكل وحجم ثابتان تقريباً للصلب؛ السائل يأخذ شكل الوعاء مع حجم شبه ثابت؛ الغاز ينتشر في الوعاء.",
+            "جسيمات الصلب تهتز حول مواضعها؛ جسيمات السائل تنزلق وهي متقاربة؛ جسيمات الغاز متباعدة وتتحرك عشوائياً.",
+            "الحالة ترتبط بحركة الجسيمات وترتيبها وتآثراتها، كما تتأثر بالضغط ودرجة الحرارة ونوع المادة."
+          ]
+        },
+        {
+          "label": "تغير فيزيائي",
+          "values": [
+            "قد يتغير الشكل أو الحجم أو الحالة؛ مثل ذوبان الجليد.",
+            "تتغير الحركة أو المسافات أو الترتيب بين الجسيمات، لا هوية الجزيئات الكيميائية.",
+            "لا تتكون مادة مختلفة لمجرد تغير الحالة؛ لا يشترط أن يكون التغير قابلاً للعكس بسهولة."
+          ]
+        },
+        {
+          "label": "تغير كيميائي",
+          "values": [
+            "قد يظهر لون جديد أو غاز أو حرارة أو راسب، بحسب التفاعل.",
+            "تعاد ترتيبات الذرات بين الجسيمات لتنشأ مواد ذات تركيب كيميائي جديد.",
+            "تكون مادة جديدة هو المعيار المركزي؛ العلامات المرئية قرائن يجب تفسيرها لا قواعد منفردة قاطعة."
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "الطقس ودورة الماء",
+        "body": "التبخر من المسطحات المائية والتكاثف في الغيوم تغيران فيزيائيان للماء. تساعد حركة الجسيمات وانتقال الطاقة على تفسير تكون بخار الماء ثم قطرات السائل. يتيح هذا التمييز فهم أن تشكل السحب لا يعني تكوّن مادة كيميائية جديدة، مع أن ظروف الجو تحدد أين ومتى يحدث التحول."
+      },
+      {
+        "title": "المواد والهندسة والصحة",
+        "body": "اختيار مادة لوعاء أو أنبوب يعتمد على خواصها في الحالة الصلبة أو السائلة أو الغازية، وعلى تغير خواصها عند التسخين أو الضغط. كما يفيد تمييز الصدأ عن تغير الشكل عند فحص تآكل المعادن: فتكون مركب جديد قد يضعف السطح ويغير أداءه. في الطب والأحياء، يساعد تصور حالات المواد على فهم السوائل والغازات في الجسم، لكن الأنظمة الحيوية أعقد من نموذج الجسيمات الأساسي."
+      }
+    ],
+    "misconception": {
+      "claim": "كل تغير يمكن عكسه تغير فيزيائي، وكل ظهور لفقاعات أو تغير لون يثبت حدوث تغير كيميائي.",
+      "correction": "سهولة عكس التغير ليست معياراً حاسماً؛ فقد يكون التغير الفيزيائي صعب العكس عملياً. والفقاعات أو اللون قرائن محتملة وليست دليلاً منفرداً، إذ قد تظهر الفقاعات عند الغليان من دون تكون مادة جديدة. المعيار الأهم هو ما إذا كانت الهوية والتركيبات الكيميائية قد تغيرت ونتجت مواد جديدة."
+    },
+    "quiz": {
+      "question": "في وعاء محكم، تحول مقدار من الماء السائل إلى بخار ماء. أي استنتاج هو الأدق؟",
+      "options": [
+        "حدث تغير كيميائي لأن الغاز مادة مختلفة عن السائل.",
+        "حدث تغير فيزيائي؛ تتغير حركة جزيئات الماء وتباعدها، لكن جزيئات H₂O تبقى هي نفسها.",
+        "اختفت جسيمات الماء عند التبخر، لذلك لم تعد هناك مادة."
+      ],
+      "correctIndex": 1,
+      "explanation": "تغير الحالة من سائل إلى غاز تغير فيزيائي. جزيئات الماء لا تختفي ولا تتحول إلى نوع كيميائي آخر؛ بل تتحرك بحرية أكبر وتتباعد في الغاز."
+    },
+    "safety": {
+      "title": "السلامة وحدود هذا الدرس",
+      "body": "هذا الدرس مفاهيمي ولا يتطلب تنفيذ تجربة. في المختبر المدرسي، اتبع تعليمات المعلم وإجراءات السلامة المؤسسية، واستخدم النظارات والوسائل الوقائية عند الحاجة، ولا تلمس المواد أو تستنشقها أو تتذوقها. لا تخلط مواد ولا تسخنها إلا ضمن نشاط مخبري معتمد وتحت إشراف مباشر. الرسوم والنماذج هنا أدوات تعليمية وليست وصفاً كاملاً لكل سلوك مادي أو توصية لإجراء عملي."
+    },
+    "glossary": [
+      {
+        "term": "المادة",
+        "definition": "كل ما له كتلة ويشغل حيزاً؛ تتكون المواد من جسيمات، وفق النموذج الكيميائي."
+      },
+      {
+        "term": "الحالة الفيزيائية",
+        "definition": "الصورة التي توجد عليها المادة، مثل الصلب أو السائل أو الغاز، ويرتبط سلوكها بحركة الجسيمات وترتيبها وظروفها."
+      },
+      {
+        "term": "التغير الفيزيائي",
+        "definition": "تغير في الشكل أو الحجم أو الحالة من دون تغير هوية المادة وتركيبها الكيميائي."
+      },
+      {
+        "term": "التغير الكيميائي",
+        "definition": "تغير تتكون فيه مادة جديدة أو أكثر بسبب إعادة تنظيم الذرات في المتفاعلات."
+      }
+    ],
+    "summaryPoints": [
+      "المادة لها كتلة وتشغل حيزاً؛ ونموذج الجسيمات أداة لتفسير سلوكها لا صورة حرفية لما نراه.",
+      "تختلف حالات المادة الشائعة في ترتيب الجسيمات وحركتها وتباعدها، فتختلف خواص الشكل والحجم والانضغاط.",
+      "في تغير الحالة تتبدل حركة الجسيمات وترتيباتها النسبية، بينما تبقى هوية المادة الكيميائية كما هي.",
+      "التغير الكيميائي ينشئ مواد جديدة عبر إعادة ترتيب الذرات؛ والملاحظات الظاهرة قرائن ينبغي تفسيرها ضمن السياق."
+    ]
+  },
+  "en": {
+    "title": "Matter, Its States, and Physical vs. Chemical Change",
+    "subject": "Chemistry: Matter and Change",
+    "duration": "14 minutes",
+    "level": "Secondary / beginner",
+    "summary": "Understanding states of matter and change helps explain phenomena such as water vapor condensing, materials expanding when heated, and iron rusting. It also shows why appearance alone is not always enough to decide…",
+    "goal": "By the end, learners should be able to describe states of matter and changes using observable evidence, and connect that evidence to a particle-level explanation without confusing a change in shape or state with the formation of a new substance.",
+    "why": "Understanding states of matter and change helps explain phenomena such as water vapor condensing, materials expanding when heated, and iron rusting. It also shows why appearance alone is not always enough to decide whether a reaction occurred: we should look for evidence that a substance’s composition and identity changed.",
+    "prerequisite": "You only need to know that matter has mass and occupies space, and that substances are made of tiny particles that cannot be seen directly. You do not need to memorize types of atoms or chemical bonds in advance.",
+    "objectives": [
+      "Compare solids, liquids, and gases by shape, volume, compressibility, and the arrangement and motion of their particles.",
+      "Explain changes of state in terms of particle motion, spacing, or order—not the disappearance of particles or their conversion into a different substance.",
+      "Distinguish physical from chemical change using substance identity and composition rather than appearance alone.",
+      "Analyze an everyday example by separating observation from a possible particle explanation and recognizing what the available evidence cannot establish."
+    ],
+    "conceptMap": [
+      {
+        "label": "Matter and its state",
+        "detail": "Matter consists of particles. Their motion and relative arrangement help determine whether a substance is solid, liquid, or gaseous under particular conditions."
+      },
+      {
+        "label": "Physical change",
+        "detail": "A substance’s state, shape, or size may change while its identity and particle composition remain the same; melting ice into water is an example."
+      },
+      {
+        "label": "Chemical change",
+        "detail": "Atoms in the interacting particles are rearranged to form new substances with distinct compositions and properties; rust forms from iron over time in the presence of oxygen and moisture."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "From observation to the idea of matter",
+        "body": "We infer that matter is present from effects we can observe or measure: liquid water has volume, a small stone has mass, and air inside a balloon occupies space and pushes on its walls. Matter is anything that has mass and occupies space. Light and sound are not matter in the usual chemical sense, even though they carry energy.\n\nTo think about what we cannot see, we use the particle model: we represent matter as tiny particles, such as atoms, molecules, or ions, depending on the substance. Particles are not necessarily tiny hard spheres, and a diagram showing dots is a thinking tool, not a literal picture. Observation alone does not reveal a particle’s shape, but the model helps explain how matter behaves and make predictions."
+      },
+      {
+        "heading": "Solids, liquids, and gases: motion and arrangement",
+        "body": "In a solid, particles are usually close together in a relatively fixed arrangement and vibrate around their positions rather than moving freely from place to place. A solid therefore usually keeps a definite shape and volume and is not easily compressed. In a liquid, particles remain close together but can slide past one another and change neighbors. A liquid therefore has a nearly fixed volume but takes the shape of the part of its container that it occupies.\n\nIn a gas, particles are much farther apart than in a solid or liquid and move randomly through the available space. A gas spreads out to fill its container, has no fixed shape or volume, and can be compressed more readily because there are large gaps between its particles. These are general descriptions: actual behavior depends on temperature, pressure, and the substance, and other states of matter are beyond this lesson."
+      },
+      {
+        "heading": "Changes of state: energy and motion",
+        "body": "When ice melts, it becomes liquid water; when water freezes, it becomes solid again. In both changes, the particles remain water molecules, but their arrangement and motion change. A liquid can also become a gas by evaporation or boiling, and a gas can become a liquid by condensation. During evaporation, some particles leave from the liquid’s surface without the entire liquid reaching its boiling condition; boiling occurs throughout the liquid under specified conditions.\n\nAt the particle level, gaining energy can increase the particles’ average motion and may let them partly overcome the interactions that keep them close, allowing melting or vaporization. Removing energy can reduce motion so particles become closer together or more ordered. During a state change of a pure substance at constant pressure, its temperature usually stays constant while the change proceeds even though energy continues to move; that energy is associated with changing particle arrangement and interactions. This account is useful, but it does not mean temperature is a direct measure of the energy of each individual particle."
+      },
+      {
+        "heading": "Did the substance change, or only its appearance?",
+        "body": "In a physical change, a material’s shape, size, or state changes, but its identity and particle composition remain the same. Tearing paper into smaller pieces is physical because the pieces are still paper; melting ice is physical because its particles are still H₂O molecules. Some physical changes may be difficult to reverse in practice, so reversibility alone is not a reliable classification test.\n\nIn a chemical change, one or more new substances form with different compositions and properties. In rusting, for example, iron atoms react with oxygen under suitable conditions to form iron oxide compounds; rust is not simply iron that melted or changed shape. Gas bubbles, color change, heat release, or a precipitate may point to chemical change, but none is conclusive by itself: bubbles can come from physical boiling, and color can change because of mixing or lighting. The best judgment combines evidence and asks whether the substance’s composition actually changed."
+      }
+    ],
+    "equation": {
+      "heading": "Conceptual relationship: identity preserved or new substances formed?",
+      "expression": "Physical change: substance before change ≡ substance after change (identity and composition preserved); chemical change: reactants → products (atoms rearrange and new substances form)",
+      "note": "This is a classification relationship, not a balanced or quantitative equation. Here ≡ means that a substance’s identity and chemical composition remain the same in a physical change; it does not mean its shape or state cannot change. The arrow in a chemical change represents the formation of products; atoms are conserved in an ordinary chemical reaction but are arranged into different substances. This expression does not specify reaction conditions, rate, or quantities.",
+      "symbols": [
+        {
+          "symbol": "≡",
+          "meaning": "The substance’s identity and composition are preserved before and after a physical change, although its state or shape may change.",
+          "unit": "No unit; conceptual symbol"
+        },
+        {
+          "symbol": "→",
+          "meaning": "Reactants form products in a chemical change as atoms are rearranged.",
+          "unit": "No unit; conceptual symbol"
+        },
+        {
+          "symbol": "H₂O",
+          "meaning": "The formula for a water molecule: two hydrogen atoms and one oxygen atom; the same water molecules remain when water changes state.",
+          "unit": "No unit; chemical formula"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Worked example: analyze three observations",
+      "problem": "We observe an ice cube becoming liquid, water vapor condensing on a cool surface, and a brown layer of rust forming on an iron nail after exposure to air and moisture over time. Classify each change and explain your reasoning at the particle level.",
+      "steps": [
+        {
+          "label": "1. Start with what we see",
+          "body": "In the first case, water changes from a solid to a liquid. In the second, liquid appears on a surface after vapor was present. In the third, a brown layer forms on iron. These are descriptive observations; for now, keep them separate from explanations or claims about particles."
+        },
+        {
+          "label": "2. Ask whether identity and composition stayed the same",
+          "body": "In melting ice and condensing water vapor, the substance is water before and after the change, and its particles are H₂O molecules. Their arrangement, motion, and state change, but their chemical identity does not. Rust forms when iron reacts with oxygen, with moisture contributing to the conditions; iron oxide compounds result, and these are substances different from the original iron."
+        },
+        {
+          "label": "3. Classify, taking the evidence into account",
+          "body": "Melting ice and condensing water are physical changes because the change of state does not create a new substance. Rust formation is a chemical change because a new substance forms. The brown color is a visible clue, but the chemical explanation rests on the reaction and new composition—not on color alone."
+        }
+      ],
+      "answer": "Melting ice: physical change; water-vapor condensation: physical change; rust formation: chemical change.",
+      "takeaway": "Separate what you observe from how you explain it. Ask whether the particles and chemical composition stayed the same, or whether atoms were rearranged to form new substances. A change of state alone is not a chemical reaction."
+    },
+    "comparison": {
+      "heading": "Comparing states and types of change",
+      "columns": [
+        "Aspect",
+        "What we observe",
+        "Explanation or inference"
+      ],
+      "rows": [
+        {
+          "label": "Solid / liquid / gas",
+          "values": [
+            "A solid has a nearly fixed shape and volume; a liquid takes its container’s shape while keeping nearly the same volume; a gas spreads through its container.",
+            "Solid particles vibrate around positions; liquid particles slide while remaining close; gas particles are far apart and move randomly.",
+            "State is related to particle motion, arrangement, and interactions, and is also affected by pressure, temperature, and substance type."
+          ]
+        },
+        {
+          "label": "Physical change",
+          "values": [
+            "Shape, size, or state may change; melting ice is an example.",
+            "Particle motion, spacing, or relative arrangement changes, but the chemical identity of the molecules does not.",
+            "A change of state alone does not form a different substance; the change does not have to be easy to reverse."
+          ]
+        },
+        {
+          "label": "Chemical change",
+          "values": [
+            "A new color, gas, heat, or precipitate may appear, depending on the reaction.",
+            "Atoms are rearranged among particles, producing substances with new chemical compositions.",
+            "Formation of a new substance is the central criterion; visible signs are clues to interpret, not conclusive rules on their own."
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Weather and the water cycle",
+        "body": "Evaporation from bodies of water and condensation in clouds are physical changes of water. Particle motion and energy transfer help explain how water vapor forms and later becomes liquid droplets. This distinction shows that cloud formation does not mean a new chemical substance has formed, although atmospheric conditions determine where and when the change occurs."
+      },
+      {
+        "title": "Materials, engineering, and health",
+        "body": "Choosing a material for a container or pipe depends on its properties in the solid, liquid, or gaseous state and on how those properties change with heating or pressure. Distinguishing rust from a change in shape also helps when assessing metal corrosion: formation of a new compound can weaken a surface and affect its performance. In medicine and biology, thinking about states of matter helps explain fluids and gases in the body, though biological systems are more complex than the basic particle model."
+      }
+    ],
+    "misconception": {
+      "claim": "Any change that can be reversed is physical, and any bubbles or color change proves that a chemical change occurred.",
+      "correction": "Ease of reversal is not a decisive test; a physical change may be difficult to reverse in practice. Bubbles and color are possible clues, not standalone proof: bubbles can appear during boiling without any new substance forming. The key question is whether chemical identity and composition changed and new substances were produced."
+    },
+    "quiz": {
+      "question": "In a sealed container, some liquid water changes into water vapor. Which conclusion is most accurate?",
+      "options": [
+        "A chemical change occurred because a gas is a different substance from a liquid.",
+        "A physical change occurred: water molecules move and spread farther apart, but the H₂O molecules remain the same.",
+        "The water particles disappeared during evaporation, so no matter remains."
+      ],
+      "correctIndex": 1,
+      "explanation": "A change of state from liquid to gas is physical. Water molecules neither disappear nor turn into a different chemical species; they move more freely and are farther apart in the gas."
+    },
+    "safety": {
+      "title": "Safety and the limits of this lesson",
+      "body": "This is a conceptual lesson and requires no experiment. In a school laboratory, follow the teacher’s instructions and institutional safety procedures, and use goggles and protective equipment when required. Do not touch, inhale, or taste substances. Do not mix or heat materials except as part of an approved laboratory activity under direct supervision. The diagrams and models here are learning tools, not a complete account of all material behavior or instructions for practical work."
+    },
+    "glossary": [
+      {
+        "term": "Matter",
+        "definition": "Anything that has mass and occupies space; in the chemical model, substances are made of particles."
+      },
+      {
+        "term": "Physical state",
+        "definition": "The form in which matter exists, such as solid, liquid, or gas; its behavior is related to particle motion and arrangement and to the conditions around it."
+      },
+      {
+        "term": "Physical change",
+        "definition": "A change in shape, size, or state that does not change a substance’s identity or chemical composition."
+      },
+      {
+        "term": "Chemical change",
+        "definition": "A change in which one or more new substances form because atoms in the reactants are rearranged."
+      }
+    ],
+    "summaryPoints": [
+      "Matter has mass and occupies space; the particle model is a tool for explaining its behavior, not a literal picture of what we see.",
+      "Common states differ in particle arrangement, motion, and spacing, producing differences in shape, volume, and compressibility.",
+      "During a change of state, particle motion and relative arrangement change while the substance’s chemical identity remains the same.",
+      "A chemical change forms new substances by rearranging atoms; visible observations are clues that must be interpreted in context."
+    ]
+  }
+}

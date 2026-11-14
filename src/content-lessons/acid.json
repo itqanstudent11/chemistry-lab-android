@@ -1,0 +1,360 @@
+{
+  "id": "acid",
+  "kind": "ph",
+  "ar": {
+    "title": "الأحماض والقواعد ومقياس الأس الهيدروجيني",
+    "subject": "الكيمياء — المحاليل المائية والأحماض والقواعد",
+    "duration": "١٦ دقيقة",
+    "level": "المرحلة الثانوية / مبتدئ",
+    "summary": "تساعد معرفة الحموضة والقاعدية على فهم عمليات حيوية وبيئية ومخبرية كثيرة، مثل عمل الإنزيمات، ومراقبة جودة المياه، وتفسير نتائج التحليل. كما يتيح pH مقارنة المحاليل بطريقة كمية، بشرط إدراك معنى مقياسه اللوغاريتمي وحدود…",
+    "goal": "أن تربط بين سلوك الحمض أو القاعدة في الماء وتركيب الجسيمات في المحلول، وأن تفسّر قيمة pH وتحسبها في حالة مبسطة من دون الخلط بين التركيز والقوة أو بين الرقم والخطورة.",
+    "why": "تساعد معرفة الحموضة والقاعدية على فهم عمليات حيوية وبيئية ومخبرية كثيرة، مثل عمل الإنزيمات، ومراقبة جودة المياه، وتفسير نتائج التحليل. كما يتيح pH مقارنة المحاليل بطريقة كمية، بشرط إدراك معنى مقياسه اللوغاريتمي وحدود القياس والتقريب.",
+    "prerequisite": "معرفة أن المحلول خليط متجانس، وأنه يحتوي على مذاب ومذيب، والقدرة على قراءة تراكيز بسيطة بوحدة mol L⁻¹ والتعامل مع قوى العدد عشرة.",
+    "objectives": [
+      "تميّز وصف الحمض والقاعدة وفق انتقال البروتون في نموذج برونستد–لوري، وتربط ذلك بما يحدث للجسيمات في الماء.",
+      "تفسّر معنى pH بوصفه مقياساً لوغاريتمياً يرتبط بنشاط أيونات الهيدرونيوم، وتستعمل التركيز تقريباً في المحاليل المخففة.",
+      "تحسب pH لمحلول حمض قوي أحادي البروتون في مثال مثالي مبسط، وتوضح لماذا لا ينطبق الحساب نفسه تلقائياً على كل حمض أو قاعدة.",
+      "تقارن بين المحاليل من حيث الحموضة والقاعدية وتصحح مفاهيم شائعة حول التعادل والقوة والخطورة."
+    ],
+    "conceptMap": [
+      {
+        "label": "الملاحظة والقياس",
+        "detail": "قد يكشف دليل لوني أو جهاز pH عن كون المحلول حمضياً أو قاعدياً، لكن اللون أو القراءة نتيجة قياس وليسا تفسيراً لما يحدث على مستوى الجسيمات."
+      },
+      {
+        "label": "تفسير الجسيمات في الماء",
+        "detail": "تتفاعل جزيئات الماء مع مواد مذابة؛ فالحمض يمنح بروتوناً، والقاعدة تستقبله وفق برونستد–لوري، فتتكون أنواع أيونية مميهة."
+      },
+      {
+        "label": "كمية pH",
+        "detail": "ترتبط قيمة pH بنشاط أيونات الهيدرونيوم H₃O⁺ بعلاقة لوغاريتمية؛ وكل انخفاض بمقدار وحدة واحدة يعني زيادة النشاط بنحو عشرة أضعاف."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "من الملاحظة إلى الدليل",
+        "body": "في المختبر، يمكن أن نلاحظ تغير لون دليل حمضي-قاعدي عند اختلاف المحلول، أو نحصل على قراءة رقمية باستخدام جهاز pH. الدليل اللوني يعطي عادة مجالاً تقريبياً، أما الجهاز فيقيس استجابة قطب كهربائي ويحوّلها إلى قراءة؛ ولكل طريقة معايرة ودقة وحدود استعمال. لا يُستدل على الحموضة من المظهر وحده، ولا يكفي اللون لمعرفة هوية المادة أو تركيزها.\n\nتصف قيمة pH المحلول المائي بأنه حمضي إذا كانت أقل من قيمة التعادل عند درجة الحرارة المعنية، وبأنه قاعدي إذا كانت أعلى منها. في الماء النقي عند 25 °C تكون قيمة التعادل قريبة من 7، لكن «7 دائماً تعادل» ليست قاعدة عامة لكل درجة حرارة أو كل وسط. القياس يخبرنا عن حالة المحلول، ثم نستخدم نموذج الجسيمات لتفسيرها."
+      },
+      {
+        "heading": "ما الذي تفعله الأحماض والقواعد في الماء؟",
+        "body": "وفق تعريف برونستد–لوري، الحمض مانح للبروتون H⁺، والقاعدة مستقبلة له. لا يوجد بروتون H⁺ حر ومستقر عادةً في الماء؛ إذ يرتبط بجزيئات الماء مكوّناً أيون الهيدرونيوم H₃O⁺، كما تحيط جزيئات الماء بالأيونات وتؤثر في سلوكها. لذلك، عندما يمنح الحمض بروتوناً للماء، تزداد كمية H₃O⁺ في المحلول.\n\nتستقبل القاعدة بروتوناً، وقد يؤدي ذلك إلى زيادة أيونات الهيدروكسيد OH⁻ أو إلى تقليل H₃O⁺ بحسب المادة والتفاعل. الماء نفسه يمكن أن يمنح بروتوناً أو يستقبله؛ لذا يوصف بأنه أمفوتيري. هذه الصورة تفسر السلوك المجهري، لكنها نموذج تعليمي: التفاعلات الفعلية تتضمن اتزانات، وجسيمات مميهة، ولا يعني تعريف الحمض والقاعدة أن كل مادة تتصرف بالطريقة ذاتها في جميع المذيبات."
+      },
+      {
+        "heading": "معنى مقياس pH اللوغاريتمي",
+        "body": "يُعرَّف pH بدقة على أنه سالب لوغاريتم نشاط أيونات الهيدرونيوم، وهو مقدار يرتبط بفعاليتها الكيميائية. في المحاليل المائية المخففة، كثيراً ما نستخدم تقريباً تعليمياً يستبدل النشاط بالتركيز المولي [H₃O⁺] بوحدة mol L⁻¹: pH ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹)). إدخال التركيز نسبةً إلى وحدة معيارية يجعل وسيط اللوغاريتم بلا وحدة، ولذلك يكون pH مقداراً بلا وحدة.\n\nاللوغاريتم يجعل المقياس غير خطي: عند ثبات الظروف، محلول pH يساوي 3 لديه نشاط H₃O⁺ يقارب عشرة أمثال ما لدى محلول pH يساوي 4، ومئة مثل ما لدى محلول pH يساوي 5. لا تعني زيادة pH بوحدة واحدة تغيراً صغيراً قدره «واحد» في التركيز؛ بل تعني تغيراً بعامل عشرة تقريباً. وقد تقع قراءات pH خارج المجال 0–14 في محاليل مركزة أو ظروف خاصة، لذا فالمجال 0–14 دليل شائع للمحاليل المائية المخففة وليس حداً مطلقاً."
+      },
+      {
+        "heading": "القوة والتركيز والتعادل ليست شيئاً واحداً",
+        "body": "قوة الحمض تصف مدى ميله إلى منح البروتون أو مدى تأينه في الماء، أما تركيزه فيصف كمية المادة الموجودة في حجم معين من المحلول. قد يكون حمض قوي مخففاً، وقد يكون حمض ضعيف مركزاً؛ لذلك لا تكفي تسمية «قوي» أو «ضعيف» للتنبؤ بـ pH من دون معلومات إضافية. وبالمثل، القاعدة القوية ليست بالضرورة أكثر تركيزاً من قاعدة ضعيفة.\n\nفي تفاعل التعادل، يتفاعل H₃O⁺ مع OH⁻ لتكوين الماء، لكن وصول خليط إلى pH متعادل يعتمد على كميات المواد، وقوتها، ودرجة الحرارة، والأنواع الأخرى الموجودة. لذلك، التعادل لا يعني دائماً مزج مقدارين متساويين من أي محلولين، ولا يعني أن كل آثار المواد قد اختفت. pH مقياس للحالة الحمضية-القاعدية، وليس مقياساً مباشراً للسمية أو التآكل أو السلامة؛ فهذه تعتمد على خواص أخرى أيضاً."
+      }
+    ],
+    "equation": {
+      "heading": "علاقة pH بالنشاط والتركيز التقريبي",
+      "expression": "pH = −log₁₀(a(H₃O⁺)) ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹))",
+      "note": "التعريف الدقيق يستعمل النشاط الكيميائي a، وهو بلا وحدة ويقيس الفعالية لا مجرد عدد الجسيمات في الحجم. للمحاليل المائية المخففة يمكن تقريب النشاط بالنسبة إلى الحالة القياسية بالتركيز المولي؛ وهذا التقريب يصبح أقل موثوقية في المحاليل المركزة أو ذات التآثرات القوية. قيمة pH بلا وحدة. عند 25 °C تقريباً، في الماء، pH + pOH ≈ 14؛ وهذه العلاقة تتغير مع درجة الحرارة.",
+      "symbols": [
+        {
+          "symbol": "pH",
+          "meaning": "مقياس لوغاريتمي للحموضة مرتبط بنشاط H₃O⁺",
+          "unit": "بلا وحدة"
+        },
+        {
+          "symbol": "a(H₃O⁺)",
+          "meaning": "النشاط الكيميائي النسبي لأيون الهيدرونيوم؛ مقدار بلا وحدة",
+          "unit": "بلا وحدة"
+        },
+        {
+          "symbol": "[H₃O⁺]",
+          "meaning": "التركيز المولي لأيون الهيدرونيوم في تقريب المحلول المخفف",
+          "unit": "mol L⁻¹"
+        },
+        {
+          "symbol": "pOH",
+          "meaning": "مقياس لوغاريتمي مرتبط بنشاط أيونات الهيدروكسيد",
+          "unit": "بلا وحدة"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "حساب pH لمحلول حمض قوي مخفف",
+      "problem": "لنفترض أن محلولاً مائياً مثالياً مخففاً لحمض قوي أحادي البروتون له تركيز تحليلي 1.0 × 10⁻³ mol L⁻¹، وأنه يتأين كلياً تقريباً، وأن مساهمة الماء وتأثير النشاط مهملان. قدّر قيمة pH.",
+      "steps": [
+        {
+          "label": "١. حدّد النموذج",
+          "body": "الحمض قوي وأحادي البروتون في هذا النموذج؛ لذلك نفترض أن كل مول منه يزوّد المحلول بمول واحد تقريباً من H₃O⁺. ينتج عن ذلك [H₃O⁺] ≈ 1.0 × 10⁻³ mol L⁻¹."
+        },
+        {
+          "label": "٢. عوّض في العلاقة التقريبية",
+          "body": "نستخدم pH ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹)). تصبح النسبة العددية 1.0 × 10⁻³، لذا pH ≈ −log₁₀(10⁻³)."
+        },
+        {
+          "label": "٣. احسب وفسّر",
+          "body": "بما أن log₁₀(10⁻³) = −3، فإن pH ≈ 3. يشير ذلك إلى محلول حمضي، ونشاط H₃O⁺ فيه أكبر بنحو عشرة أمثال من محلول له pH ≈ 4، ضمن شروط المقارنة نفسها."
+        }
+      ],
+      "answer": "القيمة التقديرية pH ≈ 3.0 في الفرضيات المذكورة.",
+      "takeaway": "الحساب صحيح فقط لأن المثال افترض حمضاً قوياً أحادي البروتون ومخففاً وتأيناً شبه كامل. للحمض الضعيف يجب أخذ الاتزان والتأين الجزئي في الحسبان، وللمحاليل المركزة لا يجوز اعتبار التركيز مساوياً للنشاط من دون تبرير."
+    },
+    "comparison": {
+      "heading": "مقارنة المحاليل في شروط مائية معتادة",
+      "columns": [
+        "الخاصية",
+        "محلول حمضي",
+        "محلول قاعدي"
+      ],
+      "rows": [
+        {
+          "label": "المؤشر الجسيمي في الماء",
+          "values": [
+            "زيادة نسبية في نشاط H₃O⁺",
+            "زيادة نسبية في نشاط OH⁻ أو استقبال البروتونات"
+          ]
+        },
+        {
+          "label": "علاقة pH بالتعادل عند 25 °C تقريباً",
+          "values": [
+            "أقل من 7 عادةً",
+            "أكبر من 7 عادةً"
+          ]
+        },
+        {
+          "label": "ما لا يمكن استنتاجه من الوصف وحده",
+          "values": [
+            "القوة أو التركيز أو الخطورة لا تحددها كلمة حمضي وحدها",
+            "القوة أو التركيز أو الخطورة لا تحددها كلمة قاعدي وحدها"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "الأنظمة الحيوية",
+        "body": "تعمل إنزيمات كثيرة بكفاءة ضمن مجال محدود من pH، لأن تغير تركيز البروتونات قد يغيّر الشحنات وتوزيع الروابط في الجزيئات الحيوية. لهذا تقيس المختبرات والبحوث pH في عينات مناسبة، مع ضبط ظروف القياس. الجسم ينظم بيئاته الداخلية بآليات متعددة؛ ولا يمكن اختزال الصحة أو وظيفة عضو كامل في قراءة pH واحدة."
+      },
+      {
+        "title": "المياه والبيئة والتحليل",
+        "body": "يستخدم قياس pH في متابعة المياه والتربة والعمليات الصناعية أو البحثية، إذ قد تؤثر الحموضة في ذوبانية المواد وفي الكائنات الحية. يجب تفسير القراءة ضمن سياقها، إلى جانب درجة الحرارة والمعايرة ومكونات العينة؛ فالقيمة وحدها لا تحدد مصدر التغير أو أثره البيئي."
+      }
+    ],
+    "misconception": {
+      "claim": "كلما كان الحمض قوياً كانت قيمة pH أقل حتماً، وكل محلول pH = 7 متعادل في كل الظروف.",
+      "correction": "القوة تعبر عن سلوك التأين أو منح البروتون، بينما pH يتأثر أيضاً بالتركيز ودرجة الحرارة ومكونات المحلول. كما أن قيمة التعادل تعتمد على درجة الحرارة والوسط؛ وقرب pH من 7 معيار شائع للماء عند 25 °C، لا قاعدة مطلقة لكل حالة."
+    },
+    "quiz": {
+      "question": "إذا انخفضت قيمة pH لمحلول من 5 إلى 4 مع بقاء شروط المقارنة مناسبة، فما الاستنتاج الأفضل؟",
+      "options": [
+        "يزداد نشاط أيونات H₃O⁺ بنحو عشرة أضعاف.",
+        "يقل نشاط أيونات H₃O⁺ إلى عُشر قيمته.",
+        "تزداد كمية الحمض الكلية حتماً عشرة أضعاف، مهما كان تركيب المحلول."
+      ],
+      "correctIndex": 0,
+      "explanation": "المقياس لوغاريتمي، لذا فإن انخفاض pH وحدة واحدة يعني زيادة النشاط بعامل عشرة تقريباً. لا يثبت ذلك أن كمية الحمض الكلية ازدادت عشرة أضعاف؛ فالتخفيف والاتزان ومكونات العينة تؤثر في العلاقة بين كمية المادة وpH."
+    },
+    "safety": {
+      "title": "السلامة في المختبر",
+      "body": "تُجرى أعمال الأحماض والقواعد في مختبر مجهز وتحت إشراف المعلم، مع اتباع بطاقة السلامة وتعليمات المؤسسة وارتداء معدات الوقاية الملائمة مثل النظارات والقفازات ومعطف المختبر عند طلبها. لا تلمس العينات ولا تتذوقها أو تشمها مباشرة، ولا تخلط مواداً من تلقاء نفسك. عند الانسكاب أو ملامسة الجلد أو العين، أبلغ المشرف فوراً واتبع إجراء الطوارئ المعتمد؛ ولا تعتمد على pH وحده لتقدير خطورة مادة."
+    },
+    "glossary": [
+      {
+        "term": "حمض",
+        "definition": "نوع كيميائي يمنح بروتوناً H⁺ وفق تعريف برونستد–لوري."
+      },
+      {
+        "term": "قاعدة",
+        "definition": "نوع كيميائي يستقبل بروتوناً H⁺ وفق تعريف برونستد–لوري."
+      },
+      {
+        "term": "أيون الهيدرونيوم (H₃O⁺)",
+        "definition": "أيون يتكون عندما يرتبط بروتون بجزيء ماء؛ وهو تمثيل مبسط للبروتون المميه في الماء."
+      },
+      {
+        "term": "النشاط الكيميائي",
+        "definition": "مقياس فعالية النوع الكيميائي في التفاعلات، ويأخذ تأثير التآثرات بين الجسيمات في الحسبان؛ وهو أساس التعريف الدقيق لـ pH."
+      }
+    ],
+    "summaryPoints": [
+      "الحمض مانح للبروتون والقاعدة مستقبلة له وفق برونستد–لوري؛ وفي الماء يظهر أثر ذلك في أنواع أيونية مميهة، منها H₃O⁺ وOH⁻.",
+      "يرتبط pH عكسياً وبصورة لوغاريتمية بنشاط H₃O⁺؛ تغير وحدة واحدة يقابل تغيراً بعامل عشرة تقريباً.",
+      "يمكن تقريب النشاط بالتركيز في المحاليل المائية المخففة، لكن هذا تبسيط لا يناسب كل الظروف، وpH مقدار بلا وحدة.",
+      "القوة والتركيز والتعادل والخطورة مفاهيم متمايزة؛ ويجب تفسير القياس مع مراعاة الحرارة والتركيب وطريقة القياس."
+    ]
+  },
+  "en": {
+    "title": "Acids, Bases, and the pH Scale",
+    "subject": "Chemistry — Aqueous Solutions, Acids, and Bases",
+    "duration": "16 minutes",
+    "level": "Secondary school / Beginner",
+    "summary": "Understanding acidity and basicity helps explain biological, environmental, and laboratory processes, including enzyme function, water monitoring, and analytical results. pH allows solutions to be compared…",
+    "goal": "Connect the behavior of an acid or base in water to the particles in solution, interpret pH, and calculate it in a simplified case without confusing concentration with strength or a numerical reading with safety.",
+    "why": "Understanding acidity and basicity helps explain biological, environmental, and laboratory processes, including enzyme function, water monitoring, and analytical results. pH allows solutions to be compared quantitatively, provided its logarithmic meaning and the limits of measurement and approximation are understood.",
+    "prerequisite": "Know that a solution is a homogeneous mixture containing a solute and a solvent; be able to read simple concentrations in mol L⁻¹ and work with powers of ten.",
+    "objectives": [
+      "Distinguish acids and bases using proton transfer in the Brønsted–Lowry model, and connect that definition to what happens to particles in water.",
+      "Explain pH as a logarithmic measure related to hydronium-ion activity, using concentration as an approximation for dilute solutions.",
+      "Calculate the pH of a strong monoprotic acid in a simplified ideal example and explain why the same calculation does not automatically apply to every acid or base.",
+      "Compare solutions by acidity and basicity and correct common misconceptions about neutrality, strength, and hazard."
+    ],
+    "conceptMap": [
+      {
+        "label": "Observation and measurement",
+        "detail": "A color indicator or pH meter can show whether a solution is acidic or basic, but a color or reading is a measurement result, not an explanation of particle behavior."
+      },
+      {
+        "label": "Particle-level explanation in water",
+        "detail": "Dissolved substances interact with water molecules. A Brønsted–Lowry acid donates a proton and a base accepts one, forming hydrated ionic species."
+      },
+      {
+        "label": "The pH quantity",
+        "detail": "pH is logarithmically related to the activity of hydronium ions, H₃O⁺; a decrease of one pH unit corresponds to about a tenfold increase in activity."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "From observation to evidence",
+        "body": "In a laboratory, an acid–base indicator may change color as the solution changes, or a pH meter may provide a numerical reading. An indicator usually gives an approximate range, while a meter measures an electrical response at an electrode and converts it into a reading. Each method has calibration requirements, a precision, and limits. Appearance alone does not establish acidity, and color alone does not identify a substance or its concentration.\n\nAqueous solutions are described as acidic when their pH is below the neutral value at the relevant temperature, and basic when it is above that value. In pure water at 25 °C, neutrality is close to pH 7, but “pH 7 is always neutral” is not a universal rule for every temperature or medium. Measurement describes the state of a solution; the particle model helps explain it."
+      },
+      {
+        "heading": "What do acids and bases do in water?",
+        "body": "In the Brønsted–Lowry definition, an acid donates a proton, H⁺, and a base accepts one. A free H⁺ ion is not usually stable in water; it associates with water molecules to form hydronium, H₃O⁺, while water molecules also surround ions and affect their behavior. When an acid donates a proton to water, the amount of H₃O⁺ in solution increases.\n\nA base accepts a proton; depending on the substance and reaction, this may increase hydroxide ions, OH⁻, or reduce H₃O⁺. Water itself can donate or accept a proton, so it is described as amphoteric. This picture explains behavior at the particle level, but it is an educational model: actual reactions involve equilibria and hydrated species, and the definition does not imply that every substance behaves identically in every solvent."
+      },
+      {
+        "heading": "The meaning of the logarithmic pH scale",
+        "body": "Strictly, pH is defined as the negative logarithm of hydronium-ion activity, a quantity related to its chemical effectiveness. In dilute aqueous solutions, a common teaching approximation replaces activity with the molar concentration [H₃O⁺] in mol L⁻¹: pH ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹)). Expressing concentration relative to a standard quantity makes the logarithm's argument dimensionless, so pH itself has no unit.\n\nThe logarithmic scale is nonlinear: under comparable conditions, a solution at pH 3 has about ten times the hydronium activity of one at pH 4, and about one hundred times that of one at pH 5. A one-unit increase in pH is not a small “one” change in concentration; it corresponds to about a tenfold change. pH readings can also fall outside 0–14 in concentrated solutions or special conditions, so 0–14 is a familiar guide for dilute aqueous solutions, not an absolute limit."
+      },
+      {
+        "heading": "Strength, concentration, and neutrality are different ideas",
+        "body": "Acid strength describes an acid's tendency to donate protons or its extent of ionization in water; concentration describes how much substance is present per volume of solution. A strong acid can be dilute, while a weak acid can be concentrated. Therefore, the label “strong” or “weak” alone is not enough to predict pH. Similarly, a strong base is not necessarily more concentrated than a weak base.\n\nIn a neutralization reaction, H₃O⁺ reacts with OH⁻ to form water, but whether a mixture reaches neutral pH depends on the amounts and strengths of the reactants, temperature, and other species present. Neutralization does not always mean mixing equal volumes of any two solutions, nor does it mean every trace of the substances has disappeared. pH describes acid–base condition; it is not a direct measure of toxicity, corrosiveness, or safety, which depend on other properties too."
+      }
+    ],
+    "equation": {
+      "heading": "The relationship between pH, activity, and approximate concentration",
+      "expression": "pH = −log₁₀(a(H₃O⁺)) ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹))",
+      "note": "The precise definition uses chemical activity a, which is dimensionless and describes effective chemical behavior rather than simply the number of particles per volume. For dilute aqueous solutions, activity relative to the standard state is often approximated using molar concentration; this approximation becomes less reliable in concentrated solutions or when particle interactions are strong. pH has no unit. At approximately 25 °C in water, pH + pOH ≈ 14; this relationship changes with temperature.",
+      "symbols": [
+        {
+          "symbol": "pH",
+          "meaning": "A logarithmic measure of acidity related to H₃O⁺ activity",
+          "unit": "dimensionless"
+        },
+        {
+          "symbol": "a(H₃O⁺)",
+          "meaning": "The relative chemical activity of hydronium ions; a dimensionless quantity",
+          "unit": "dimensionless"
+        },
+        {
+          "symbol": "[H₃O⁺]",
+          "meaning": "The molar concentration of hydronium ions used in the dilute-solution approximation",
+          "unit": "mol L⁻¹"
+        },
+        {
+          "symbol": "pOH",
+          "meaning": "A logarithmic measure related to hydroxide-ion activity",
+          "unit": "dimensionless"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Calculating pH for a dilute strong-acid solution",
+      "problem": "Suppose an ideal, dilute aqueous solution of a strong monoprotic acid has an analytical concentration of 1.0 × 10⁻³ mol L⁻¹. Assume it ionizes essentially completely, and neglect water's contribution and activity effects. Estimate the pH.",
+      "steps": [
+        {
+          "label": "1. Choose the model",
+          "body": "The acid is strong and monoprotic in this model, so we assume each mole supplies approximately one mole of H₃O⁺. Thus [H₃O⁺] ≈ 1.0 × 10⁻³ mol L⁻¹."
+        },
+        {
+          "label": "2. Substitute into the approximate relationship",
+          "body": "Use pH ≈ −log₁₀([H₃O⁺]/(1 mol L⁻¹)). The numerical ratio is 1.0 × 10⁻³, so pH ≈ −log₁₀(10⁻³)."
+        },
+        {
+          "label": "3. Calculate and interpret",
+          "body": "Since log₁₀(10⁻³) = −3, pH ≈ 3. This indicates an acidic solution. Under the same comparison conditions, its hydronium activity is about ten times that of a solution at pH ≈ 4."
+        }
+      ],
+      "answer": "The estimated value is pH ≈ 3.0 under the stated assumptions.",
+      "takeaway": "This calculation works because the example assumes a dilute, strong, monoprotic acid with nearly complete ionization. For a weak acid, equilibrium and partial ionization must be considered; for concentrated solutions, concentration cannot be treated as activity without justification."
+    },
+    "comparison": {
+      "heading": "Comparing solutions under ordinary aqueous conditions",
+      "columns": [
+        "Feature",
+        "Acidic solution",
+        "Basic solution"
+      ],
+      "rows": [
+        {
+          "label": "Particle-level indicator in water",
+          "values": [
+            "Relatively greater H₃O⁺ activity",
+            "Relatively greater OH⁻ activity or proton acceptance"
+          ]
+        },
+        {
+          "label": "Relation to neutrality at about 25 °C",
+          "values": [
+            "Usually below 7",
+            "Usually above 7"
+          ]
+        },
+        {
+          "label": "What the description alone cannot establish",
+          "values": [
+            "The word acidic alone does not determine strength, concentration, or hazard",
+            "The word basic alone does not determine strength, concentration, or hazard"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Biological systems",
+        "body": "Many enzymes function efficiently only within a limited pH range because changing proton activity can alter charges and bonding patterns in biomolecules. Laboratories and researchers therefore measure pH in appropriate samples while controlling measurement conditions. The body regulates its internal environments through multiple mechanisms; health or the function of an entire organ cannot be reduced to a single pH reading."
+      },
+      {
+        "title": "Water, the environment, and analysis",
+        "body": "pH is used to monitor water, soil, and industrial or research processes because acidity can affect solubility and living organisms. A reading must be interpreted in context, alongside temperature, calibration, and sample composition; the number alone does not identify the cause or environmental effect of a change."
+      }
+    ],
+    "misconception": {
+      "claim": "The stronger an acid is, the lower its pH must be; every solution at pH 7 is neutral under all conditions.",
+      "correction": "Strength describes ionization behavior or proton donation, while pH is also affected by concentration, temperature, and solution composition. The neutral value depends on temperature and medium. A pH near 7 is a common reference for water at 25 °C, not an absolute rule for every case."
+    },
+    "quiz": {
+      "question": "If a solution's pH decreases from 5 to 4 under comparable conditions, what is the best conclusion?",
+      "options": [
+        "Hydronium-ion activity increases by about a factor of ten.",
+        "Hydronium-ion activity falls to one tenth of its value.",
+        "The total amount of acid must increase tenfold, whatever the solution contains."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because pH is logarithmic, a decrease of one pH unit corresponds to about a tenfold increase in activity. It does not prove that the total amount of acid increased tenfold; dilution, equilibrium, and the other components of the sample affect the relationship between amount of substance and pH."
+    },
+    "safety": {
+      "title": "Laboratory safety",
+      "body": "Acid–base work belongs in a properly equipped laboratory under teacher supervision. Follow the safety data sheet and institutional instructions, and wear appropriate protective equipment such as goggles, gloves, and a lab coat when required. Do not touch or taste samples, smell them directly, or mix substances on your own. If a spill or skin or eye contact occurs, notify the supervisor immediately and follow the approved emergency procedure; do not use pH alone to judge a substance's hazard."
+    },
+    "glossary": [
+      {
+        "term": "Acid",
+        "definition": "A chemical species that donates a proton, H⁺, under the Brønsted–Lowry definition."
+      },
+      {
+        "term": "Base",
+        "definition": "A chemical species that accepts a proton, H⁺, under the Brønsted–Lowry definition."
+      },
+      {
+        "term": "Hydronium ion (H₃O⁺)",
+        "definition": "An ion formed when a proton associates with a water molecule; it is a simplified representation of hydrated protons in water."
+      },
+      {
+        "term": "Chemical activity",
+        "definition": "A measure of a chemical species' effective behavior in reactions that accounts for particle interactions; it underlies the precise definition of pH."
+      }
+    ],
+    "summaryPoints": [
+      "A Brønsted–Lowry acid donates a proton and a base accepts one; in water, their behavior involves hydrated ionic species, including H₃O⁺ and OH⁻.",
+      "pH is logarithmically and inversely related to H₃O⁺ activity; a one-unit change corresponds to about a tenfold change in activity.",
+      "Activity can be approximated by concentration in dilute aqueous solutions, but that is a simplification that does not fit every condition; pH is dimensionless.",
+      "Strength, concentration, neutrality, and hazard are distinct concepts; interpret measurements with temperature, composition, and measurement method in mind."
+    ]
+  }
+}

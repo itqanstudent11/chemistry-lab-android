@@ -35,6 +35,11 @@ jobs:
           distribution: temurin
           java-version: 21
 
+      - name: Verify Java compiler
+        run: |
+          java -version
+          javac -version
+
       - name: Prepare preinstalled Android SDK
         run: |
           echo "$ANDROID_HOME/cmdline-tools/latest/bin" >> "$GITHUB_PATH"

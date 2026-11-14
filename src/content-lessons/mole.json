@@ -1,0 +1,366 @@
+{
+  "id": "mole",
+  "kind": "mole",
+  "ar": {
+    "title": "المول والكتلة المولية والحسابات الستوكيومترية",
+    "subject": "الكيمياء — كمية المادة والتفاعلات الكيميائية",
+    "duration": "١٨ دقيقة",
+    "level": "الثانوي / مبتدئ",
+    "summary": "لا يمكن عدّ ذرات أو جزيئات عينة عادية واحدةً واحدة، لكن يمكن قياس كتلتها. يوفر المول جسراً حسابياً بين الكتلة المرصودة وعدد الجسيمات، وتتيح الستوكيومترية تحويل هذا العدد إلى كميات متفاعلات أو نواتج وفق نسب المعادلة.…",
+    "goal": "أن يفهم المتعلم المول بوصفه وحدة لكمية المادة، وأن يحسب كمية المادة من الكتلة، ثم يستخدم النسب المولية في معادلة موزونة لتقدير كمية ناتج تفاعل معلوم.",
+    "why": "لا يمكن عدّ ذرات أو جزيئات عينة عادية واحدةً واحدة، لكن يمكن قياس كتلتها. يوفر المول جسراً حسابياً بين الكتلة المرصودة وعدد الجسيمات، وتتيح الستوكيومترية تحويل هذا العدد إلى كميات متفاعلات أو نواتج وفق نسب المعادلة. لذلك تدخل هذه الأفكار في فهم التحليل الكيميائي وتصميم المواد ومراقبة العمليات الصناعية.",
+    "prerequisite": "معرفة معنى الذرة والجزيء والعنصر والمركب، وقراءة الصيغ الكيميائية، والتمييز بين الكتلة والعدد، وإجراء القسمة والنسبة المئوية تقريباً. من المفيد معرفة أن المعادلة الكيميائية الموزونة تحفظ عدد ذرات كل عنصر.",
+    "objectives": [
+      "تعريف المول وذكر قيمة ثابت أفوغادرو ووحدته الصحيحة.",
+      "استخدام الكتلة المولية لتحويل كتلة عينة إلى كمية مادة أو العكس مع الوحدات المناسبة.",
+      "استخراج النسبة المولية من معاملات معادلة موزونة واستخدامها في حساب ستوكيومتري بسيط.",
+      "تفسير معنى الناتج المحسوب وبيان افتراضات الحساب والتمييز بين الناتج النظري والفعلي."
+    ],
+    "conceptMap": [
+      {
+        "label": "الجسيمات والكمية",
+        "detail": "عدد الجسيمات N يرتبط بكمية المادة n بثابت أفوغادرو: كل 1 mol يمثل 6.02214076 × 10²³ كياناً محدداً، مثل ذرات أو جزيئات أو أيونات."
+      },
+      {
+        "label": "الكمية والكتلة",
+        "detail": "الكتلة المولية M هي كتلة مول واحد من المادة؛ لذا تربط العلاقة n = m / M بين كمية المادة المقاسة بالمول والكتلة المقاسة بالغرام عند التعبير عن M بوحدة g/mol."
+      },
+      {
+        "label": "المعادلة والنسب",
+        "detail": "معاملات المعادلة الموزونة تعطي نسب كميات المادة للجسيمات المتفاعلة والناتجة، ومنها نحول مولات مادة معلومة إلى مولات مادة أخرى."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "من الملاحظة إلى فكرة المول",
+        "body": "في المختبر نضع عينة على ميزان فنحصل على كتلتها، لكن الميزان لا يخبرنا مباشرة بعدد ذراتها أو جزيئاتها. كما أن الجسيمات صغيرة جداً وكثيرة جداً بحيث لا يمكن عدّها فردياً في عينة مألوفة. نحتاج لذلك إلى طريقة تربط مقداراً قابلاً للقياس بعدد الجسيمات على مقياس ذري.\n\nالمول هو وحدة النظام الدولي لكمية المادة، مثلما أن الدزينة وحدة عدّ مألوفة لكنها تحتوي 12 شيئاً. يحتوي مول واحد بالضبط على 6.02214076 × 10²³ كياناً أولياً محدداً؛ وهذا العدد هو ثابت أفوغادرو Nₐ، ووحدته mol⁻¹. يجب تحديد نوع الكيان المقصود: قد يكون ذرات أو جزيئات أو أيونات. فمول من جزيئات الماء يعني هذا العدد من جزيئات H₂O، لا العدد نفسه من ذرات الماء."
+      },
+      {
+        "heading": "الكتلة المولية: جسر بين الكتلة والكمية",
+        "body": "تسمى كتلة مول واحد من مادة ما كتلتها المولية، ويرمز إليها عادةً بالحرف M. وحدتها الشائعة g/mol، ويمكن تقديرها من الكتل الذرية النسبية في الجدول الدوري مع جمع مساهمات الذرات في الصيغة. فصيغة H₂O تضم ذرتي هيدروجين وذرة أكسجين، وتكون كتلتها المولية نحو 18.015 g/mol باستخدام القيم المعتادة. أما H₂ فكتلته المولية نحو 2.016 g/mol.\n\nإذا كانت كتلة العينة m بالغرام، فإن قسمة m على M تعطي كمية المادة n بالمول: n = m/M. والتحقق من الوحدات جزء من الحل: g ÷ (g/mol) = mol. والعكس، إذا عُرفت كمية المادة، فالكتلة m = nM. لا تعني الكتلة المولية أن كل جزيء يزن هذا المقدار؛ إنها كتلة عدد أفوغادرو من الكيانات، أي مول كامل."
+      },
+      {
+        "heading": "المعادلة الموزونة والنسبة الستوكيومترية",
+        "body": "تصف المعادلة الكيميائية المواد التي تتفاعل والمواد التي تتكون. يجب أن تكون موزونة قبل إجراء الحساب، لأن الذرات لا تُخلق ولا تفنى في التفاعل الكيميائي المعتاد. في المعادلة 2H₂ + O₂ → 2H₂O، تعني المعاملات أن كل 2 mol من جزيئات الهيدروجين تتفاعل وفق النسبة مع 1 mol من جزيئات الأكسجين، وينتج عنها 2 mol من جزيئات الماء إذا تم التفاعل كما تمثله المعادلة.\n\nالمعاملات نسب بين كميات المادة، وليست نسباً مباشرة بين الكتل ولا أعداداً ثابتة من الغرامات. للحساب، نحوّل كتلة المادة المعطاة إلى مولات، ثم نضرب بنسبة المعاملات للحصول على مولات المادة المطلوبة، وأخيراً نحوّل إلى كتلة أو عدد جسيمات عند الحاجة. قبل استعمال النسبة، نتحقق من أن المعادلة موزونة وأن الصيغ والحالة المقصودة مناسبتان للسؤال."
+      },
+      {
+        "heading": "سلسلة الحساب وحدود الناتج",
+        "body": "يمكن تصور الحساب الستوكيومتري كسلسلة تحويلات وحدات: غرامات المادة المعروفة ← مولات المادة المعروفة ← مولات المادة المطلوبة ← غرامات المادة المطلوبة. في كل خطوة نكتب عامل التحويل بحيث تُلغى الوحدة السابقة وتبقى الوحدة المرغوبة. هذه الطريقة تقلل أخطاء قلب النسبة أو خلط معاملات المعادلة بالكتل المولية.\n\nالناتج الحسابي في المسائل المدرسية غالباً ناتج نظري يفترض اكتمال التفاعل، ونقاء المواد، وصحة المعادلة، وعدم فقد أي مادة. في تجربة حقيقية قد يكون الناتج الفعلي أقل بسبب تفاعل غير مكتمل أو تفاعلات جانبية أو فقد أثناء الفصل والقياس. وعند وجود كميات محددة من أكثر من متفاعل، يجب تحديد المتفاعل المحدِّد قبل حساب الناتج؛ لا يجوز افتراض أن كل المتفاعلات متوافرة بزيادة ما لم يذكر السؤال ذلك."
+      }
+    ],
+    "equation": {
+      "heading": "العلاقة الأساسية وسلسلة النسب المولية",
+      "expression": "n = m / M;  n(B) = n(A) × ν(B) / ν(A)",
+      "note": "في العلاقة الأولى، عندما تكون m بالغرام وM بوحدة g/mol تكون n بالمول. وفي الثانية، A وB مادتان في معادلة موزونة، وν معامل كل مادة فيها؛ النسبة ν(B)/ν(A) نسبة مولية بلا وحدة. تُستخدم معاملات المعادلة الموزونة لا الكتل مباشرة.",
+      "symbols": [
+        {
+          "symbol": "n",
+          "meaning": "كمية المادة",
+          "unit": "mol"
+        },
+        {
+          "symbol": "m",
+          "meaning": "كتلة العينة",
+          "unit": "g"
+        },
+        {
+          "symbol": "M",
+          "meaning": "الكتلة المولية للمادة",
+          "unit": "g/mol"
+        },
+        {
+          "symbol": "ν(A), ν(B)",
+          "meaning": "المعاملان الستوكيومتريان للمادتين A وB في المعادلة الموزونة",
+          "unit": "بلا وحدة"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "مثال محلول: كتلة الماء الناتجة نظرياً",
+      "problem": "وفق المعادلة الموزونة 2H₂ + O₂ → 2H₂O، احسب كتلة الماء التي يمكن أن تنتج نظرياً من 4.00 g من H₂ إذا كان O₂ متوافراً بزيادة. استخدم M(H₂) = 2.016 g/mol وM(H₂O) = 18.015 g/mol، وافترض اكتمال التفاعل.",
+      "steps": [
+        {
+          "label": "١. تحويل كتلة الهيدروجين إلى مولات",
+          "body": "n(H₂) = m/M = 4.00 g ÷ 2.016 g/mol = 1.984… mol. وبثلاثة أرقام معنوية، n(H₂) = 1.98 mol. تُلغى وحدة g ويبقى mol."
+        },
+        {
+          "label": "٢. تطبيق النسبة المولية",
+          "body": "من المعادلة الموزونة، نسبة H₂ إلى H₂O هي 2:2، أي 1:1. لذلك ينتج نظرياً 1.984… mol من H₂O من 1.984… mol من H₂، ما دام الأكسجين بزيادة والتفاعل كاملاً."
+        },
+        {
+          "label": "٣. تحويل مولات الماء إلى كتلة",
+          "body": "m(H₂O) = nM = 1.984… mol × 18.015 g/mol = 35.745… g. بالتقريب إلى ثلاثة أرقام معنوية، تكون الكتلة 35.7 g من الماء."
+        }
+      ],
+      "answer": "الناتج النظري هو 35.7 g من H₂O، وفق الافتراضات المذكورة.",
+      "takeaway": "تساوي معاملات H₂ وH₂O هنا لا يعني تساوي كتلتيهما؛ فلكل مول كتلة مختلفة. تبدأ المسألة بتحويل الكتلة إلى مولات، ثم تستخدم نسبة المعادلة، وتنتهي بالتحويل إلى كتلة الناتج."
+    },
+    "comparison": {
+      "heading": "تمييز الكمية والكتلة والكتلة المولية",
+      "columns": [
+        "المفهوم",
+        "ما الذي يصفه؟",
+        "الوحدة الشائعة"
+      ],
+      "rows": [
+        {
+          "label": "كمية المادة n",
+          "values": [
+            "عدد أفوغادرو من الكيانات أو مضاعفاته",
+            "مقدار المادة على مقياس الجسيمات",
+            "mol"
+          ]
+        },
+        {
+          "label": "الكتلة m",
+          "values": [
+            "مقدار المادة الذي يقيسه الميزان",
+            "كتلة العينة الموجودة فعلياً",
+            "g أو kg"
+          ]
+        },
+        {
+          "label": "الكتلة المولية M",
+          "values": [
+            "كتلة مول واحد من مادة محددة",
+            "عامل تحويل بين الكتلة وكمية المادة",
+            "g/mol"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "التحليل الكيميائي",
+        "body": "يستفيد المحللون من التحويل بين الكتلة والمولات لتحديد مقدار مادة في عينة أو لمقارنة التركيب المتوقع بنتائج القياس. وتساعد المعادلات الموزونة على تفسير كميات المواد التي تتفاعل أو تتكون، مع مراعاة دقة القياس ونقاء العينة."
+      },
+      {
+        "title": "تصميم العمليات والمواد",
+        "body": "تتيح النسب الستوكيومترية للمهندسين تقدير احتياجات المواد الأولية وكميات النواتج المتوقعة في العمليات الكيميائية. ويكون الحساب النظري نقطة انطلاق؛ ثم تُراجع الكفاءة والنقاوة والفواقد والقيود الواقعية قبل اعتماد أي عملية."
+      }
+    ],
+    "misconception": {
+      "claim": "المعامل 2 في معادلة موزونة يعني أن الكتلة أو الغرامات تتضاعف، أو أن كل معامل يحدد كمية ثابتة من المادة.",
+      "correction": "المعاملات تمثل نسباً بين أعداد الجسيمات، وبالتالي بين كميات المادة بالمول. لتحويل هذه النسب إلى كتل، يجب استعمال الكتل المولية لكل مادة؛ لذلك قد تكون الكتل غير متساوية حتى عندما تتساوى المعاملات."
+    },
+    "quiz": {
+      "question": "كمية مادة عينة كتلتها 9.00 g وكتلتها المولية 18.0 g/mol تساوي تقريباً:",
+      "options": [
+        "0.500 mol",
+        "2.00 mol",
+        "162 mol"
+      ],
+      "correctIndex": 0,
+      "explanation": "نستخدم n = m/M: ‏9.00 g ÷ 18.0 g/mol = 0.500 mol. تلغى وحدة الغرام ويبقى المول؛ أما ضرب الكتلة في الكتلة المولية فلا يعطي كمية المادة."
+    },
+    "safety": {
+      "title": "السلامة وحدود الاستخدام",
+      "body": "هذا درس حسابي مفاهيمي، ولا يتطلب تنفيذ تفاعل أو خلط مواد. عند إجراء أي عمل مخبري ضمن إشراف مؤهل، تُتبع تعليمات المختبر ونشرات السلامة وإجراءات التخلص المعتمدة، ولا تُستخدم نتائج الحساب وحدها لتقرير إجراء عملي."
+    },
+    "glossary": [
+      {
+        "term": "المول (mol)",
+        "definition": "وحدة كمية المادة؛ يحتوي مول واحد على 6.02214076 × 10²³ كياناً أولياً محدداً."
+      },
+      {
+        "term": "ثابت أفوغادرو (Nₐ)",
+        "definition": "عدد الكيانات في مول واحد، وقيمته 6.02214076 × 10²³ mol⁻¹."
+      },
+      {
+        "term": "الكتلة المولية (M)",
+        "definition": "كتلة مول واحد من مادة معينة؛ يشيع التعبير عنها بوحدة g/mol."
+      },
+      {
+        "term": "النسبة الستوكيومترية",
+        "definition": "نسبة كميات المواد بالمول المستنتجة من معاملات المعادلة الكيميائية الموزونة."
+      }
+    ],
+    "summaryPoints": [
+      "المول وحدة لكمية المادة، ويحتوي بالضبط على 6.02214076 × 10²³ كياناً محدداً.",
+      "الكتلة المولية M تربط كتلة مول واحد بالكتلة المقاسة؛ n = m/M وm = nM.",
+      "تحدد معاملات المعادلة الموزونة نسب المولات، لا نسب الكتل مباشرة.",
+      "الناتج المحسوب نظري، ويعتمد على افتراضات مثل اكتمال التفاعل وتوافر المتفاعل الآخر بزيادة."
+    ]
+  },
+  "en": {
+    "title": "The Mole, Molar Mass, and Stoichiometric Calculations",
+    "subject": "Chemistry — amount of substance and chemical reactions",
+    "duration": "18 minutes",
+    "level": "Secondary school / beginner",
+    "summary": "Atoms and molecules in an ordinary sample cannot be counted one by one, but their mass can be measured. The mole provides a mathematical bridge between observable mass and particle number, while stoichiometry uses that…",
+    "goal": "Understand the mole as a unit of amount of substance, calculate amount from mass, and use mole ratios in a balanced equation to estimate the amount of a product.",
+    "why": "Atoms and molecules in an ordinary sample cannot be counted one by one, but their mass can be measured. The mole provides a mathematical bridge between observable mass and particle number, while stoichiometry uses that bridge and reaction ratios to relate reactants to products. These ideas support chemical analysis, materials design, and the monitoring of industrial processes.",
+    "prerequisite": "Know the meanings of atom, molecule, element, and compound; be able to read chemical formulas and distinguish mass from count; and be comfortable with division and ratios. It is helpful to know that a balanced chemical equation conserves the number of atoms of each element.",
+    "objectives": [
+      "Define the mole and state the value and correct unit of the Avogadro constant.",
+      "Use molar mass to convert a sample's mass to amount of substance, or the reverse, with appropriate units.",
+      "Read a mole ratio from a balanced equation and use it in a simple stoichiometric calculation.",
+      "Interpret a calculated result, state its assumptions, and distinguish theoretical from actual yield."
+    ],
+    "conceptMap": [
+      {
+        "label": "Particles and amount",
+        "detail": "Particle number N is related to amount of substance n through the Avogadro constant: 1 mol represents 6.02214076 × 10²³ specified entities, such as atoms, molecules, or ions."
+      },
+      {
+        "label": "Amount and mass",
+        "detail": "Molar mass M is the mass of one mole of a substance. Thus n = m / M relates amount in moles to mass in grams when M is expressed in g/mol."
+      },
+      {
+        "label": "Equation and ratios",
+        "detail": "The coefficients in a balanced equation give ratios of amounts of reacting and produced particles, allowing moles of one substance to be converted to moles of another."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "From observation to the idea of the mole",
+        "body": "In a laboratory, a balance gives the mass of a sample, but it does not directly tell us how many atoms or molecules the sample contains. Particles are far too small and too numerous to count individually in an ordinary sample. We therefore need a way to connect a measurable quantity to particle numbers on the atomic scale.\n\nThe mole is the SI unit for amount of substance, much as a dozen is a familiar counting unit containing 12 items. One mole contains exactly 6.02214076 × 10²³ specified elementary entities; this number is the Avogadro constant Nₐ, with unit mol⁻¹. The kind of entity must be specified: it could be atoms, molecules, or ions. A mole of water molecules means that many H₂O molecules, not that many water atoms."
+      },
+      {
+        "heading": "Molar mass: a bridge between mass and amount",
+        "body": "The mass of one mole of a substance is its molar mass, usually written M. A common unit is g/mol. It can be estimated from the relative atomic masses in the periodic table by adding the contributions of the atoms in the formula. H₂O contains two hydrogen atoms and one oxygen atom, and has a molar mass of about 18.015 g/mol using commonly tabulated values. H₂ has a molar mass of about 2.016 g/mol.\n\nFor a sample with mass m in grams, divide m by M to obtain amount of substance n in moles: n = m/M. Checking units is part of the calculation: g ÷ (g/mol) = mol. Conversely, if the amount is known, mass is m = nM. Molar mass does not mean that an individual molecule has this mass; it is the mass of an Avogadro-sized collection of entities, that is, one mole."
+      },
+      {
+        "heading": "Balanced equations and stoichiometric ratios",
+        "body": "A chemical equation identifies the substances that react and those that form. It must be balanced before calculations because atoms are not created or destroyed in an ordinary chemical reaction. In 2H₂ + O₂ → 2H₂O, the coefficients mean that every 2 mol of hydrogen molecules reacts in the stated ratio with 1 mol of oxygen molecules, forming 2 mol of water molecules if the reaction proceeds as represented.\n\nThe coefficients are ratios of amounts of substance, not direct ratios of masses and not fixed numbers of grams. To calculate, convert the given substance's mass to moles, multiply by the coefficient ratio to get moles of the required substance, and then convert to mass or particle number if needed. Before using the ratio, check that the equation is balanced and that the formulas and intended conditions match the question."
+      },
+      {
+        "heading": "The calculation chain and what the result means",
+        "body": "A stoichiometric calculation can be viewed as a unit-conversion chain: grams of the known substance → moles of the known substance → moles of the required substance → grams of the required substance. At each step, write the conversion factor so that the old unit cancels and the desired unit remains. This helps prevent errors such as inverting a ratio or confusing equation coefficients with molar masses.\n\nIn school problems, the calculated result is often a theoretical yield that assumes a complete reaction, pure materials, a correct equation, and no material loss. In a real experiment, actual yield can be lower because of incomplete reaction, side reactions, or losses during separation and measurement. If amounts of more than one reactant are specified, identify the limiting reactant before calculating product; do not assume the other reactants are in excess unless the problem says so."
+      }
+    ],
+    "equation": {
+      "heading": "The core relationship and the mole-ratio step",
+      "expression": "n = m / M;  n(B) = n(A) × ν(B) / ν(A)",
+      "note": "In the first relationship, if m is in grams and M is in g/mol, n is in moles. In the second, A and B are substances in a balanced equation and ν is each substance's coefficient; ν(B)/ν(A) is a dimensionless mole ratio. Use coefficients from the balanced equation, not masses directly.",
+      "symbols": [
+        {
+          "symbol": "n",
+          "meaning": "amount of substance",
+          "unit": "mol"
+        },
+        {
+          "symbol": "m",
+          "meaning": "sample mass",
+          "unit": "g"
+        },
+        {
+          "symbol": "M",
+          "meaning": "molar mass of the substance",
+          "unit": "g/mol"
+        },
+        {
+          "symbol": "ν(A), ν(B)",
+          "meaning": "stoichiometric coefficients of substances A and B in the balanced equation",
+          "unit": "dimensionless"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Worked example: theoretical mass of water",
+      "problem": "For the balanced equation 2H₂ + O₂ → 2H₂O, calculate the theoretical mass of water that can form from 4.00 g of H₂ when O₂ is available in excess. Use M(H₂) = 2.016 g/mol and M(H₂O) = 18.015 g/mol, and assume the reaction is complete.",
+      "steps": [
+        {
+          "label": "1. Convert hydrogen mass to moles",
+          "body": "n(H₂) = m/M = 4.00 g ÷ 2.016 g/mol = 1.984… mol. To three significant figures, n(H₂) = 1.98 mol. The gram unit cancels, leaving mol."
+        },
+        {
+          "label": "2. Apply the mole ratio",
+          "body": "From the balanced equation, the H₂:H₂O ratio is 2:2, or 1:1. Thus 1.984… mol of H₂ can theoretically form 1.984… mol of H₂O, provided oxygen is in excess and the reaction is complete."
+        },
+        {
+          "label": "3. Convert water moles to mass",
+          "body": "m(H₂O) = nM = 1.984… mol × 18.015 g/mol = 35.745… g. Rounded to three significant figures, the mass is 35.7 g of water."
+        }
+      ],
+      "answer": "The theoretical yield is 35.7 g of H₂O, under the stated assumptions.",
+      "takeaway": "Equal coefficients for H₂ and H₂O do not mean equal masses; each mole has a different mass. Start by converting mass to moles, apply the equation ratio, and finish by converting the product amount to mass."
+    },
+    "comparison": {
+      "heading": "Distinguishing amount, mass, and molar mass",
+      "columns": [
+        "Quantity",
+        "What does it describe?",
+        "Common unit"
+      ],
+      "rows": [
+        {
+          "label": "Amount of substance n",
+          "values": [
+            "A count of entities in Avogadro-sized groups",
+            "Amount on the particle scale",
+            "mol"
+          ]
+        },
+        {
+          "label": "Mass m",
+          "values": [
+            "The quantity of material measured by a balance",
+            "Mass of the sample actually present",
+            "g or kg"
+          ]
+        },
+        {
+          "label": "Molar mass M",
+          "values": [
+            "Mass of one mole of a specified substance",
+            "Conversion factor between mass and amount",
+            "g/mol"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Chemical analysis",
+        "body": "Analysts use conversions between mass and moles to determine how much of a substance is in a sample or to compare an expected composition with measured results. Balanced equations help interpret the amounts of substances consumed or formed, while measurement uncertainty and sample purity must also be considered."
+      },
+      {
+        "title": "Process and materials design",
+        "body": "Stoichiometric ratios help engineers estimate feedstock requirements and expected product amounts in chemical processes. The theoretical calculation is a starting point; efficiency, purity, losses, and practical constraints must be assessed before a process is adopted."
+      }
+    ],
+    "misconception": {
+      "claim": "A coefficient of 2 in a balanced equation means that the mass or number of grams doubles, or that each coefficient specifies a fixed mass of substance.",
+      "correction": "Coefficients represent ratios of particle counts and therefore ratios of amounts in moles. To convert those ratios to masses, use each substance's molar mass; masses need not be equal even when coefficients are equal."
+    },
+    "quiz": {
+      "question": "The amount of substance in a 9.00 g sample with molar mass 18.0 g/mol is approximately:",
+      "options": [
+        "0.500 mol",
+        "2.00 mol",
+        "162 mol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Use n = m/M: 9.00 g ÷ 18.0 g/mol = 0.500 mol. The gram unit cancels and leaves moles; multiplying mass by molar mass would not give amount of substance."
+    },
+    "safety": {
+      "title": "Safety and scope",
+      "body": "This is a conceptual calculation lesson and does not require carrying out a reaction or mixing materials. For any laboratory work under qualified supervision, follow the laboratory instructions, safety data, and approved disposal procedures; calculations alone should not be used to decide on a practical procedure."
+    },
+    "glossary": [
+      {
+        "term": "Mole (mol)",
+        "definition": "The unit of amount of substance; one mole contains 6.02214076 × 10²³ specified elementary entities."
+      },
+      {
+        "term": "Avogadro constant (Nₐ)",
+        "definition": "The number of entities in one mole, equal to 6.02214076 × 10²³ mol⁻¹."
+      },
+      {
+        "term": "Molar mass (M)",
+        "definition": "The mass of one mole of a particular substance, commonly expressed in g/mol."
+      },
+      {
+        "term": "Stoichiometric ratio",
+        "definition": "A ratio of amounts in moles derived from the coefficients of a balanced chemical equation."
+      }
+    ],
+    "summaryPoints": [
+      "The mole is a unit of amount of substance and contains exactly 6.02214076 × 10²³ specified entities.",
+      "Molar mass M links the mass of one mole to measured mass; n = m/M and m = nM.",
+      "Coefficients in a balanced equation specify mole ratios, not direct mass ratios.",
+      "A calculated yield is theoretical and depends on assumptions such as complete reaction and excess of the other reactant."
+    ]
+  }
+}

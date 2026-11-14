@@ -1,0 +1,366 @@
+{
+  "id": "balance",
+  "kind": "equilibrium",
+  "ar": {
+    "title": "الاتزان الكيميائي ومبدأ لوشاتيليه",
+    "subject": "الكيمياء — الاتزان الكيميائي",
+    "duration": "١٨ دقيقة",
+    "level": "الثانوي / مبتدئ",
+    "summary": "الاتزان ليس توقفاً للتفاعل؛ إنه حالة مستمرة تتساوى فيها سرعتا التفاعل الأمامي والعكسي. يساعد فهمه على تفسير تراكيز المواد في التفاعلات الصناعية والأنظمة الحيوية، وعلى تجنّب الاستنتاج الخاطئ بأن إضافة مادة أو استخدام…",
+    "goal": "أن تفسّر الاتزان الكيميائي على مستوى الجسيمات، وتستدل على اتجاه التغيّر عند اضطراب النظام، مع التمييز بين العوامل التي تغيّر قيمة ثابت الاتزان والعوامل التي لا تغيّرها.",
+    "why": "الاتزان ليس توقفاً للتفاعل؛ إنه حالة مستمرة تتساوى فيها سرعتا التفاعل الأمامي والعكسي. يساعد فهمه على تفسير تراكيز المواد في التفاعلات الصناعية والأنظمة الحيوية، وعلى تجنّب الاستنتاج الخاطئ بأن إضافة مادة أو استخدام محفّز يغيّر ثابت الاتزان بالطريقة نفسها.",
+    "prerequisite": "معرفة معنى التفاعل العكوس، وقراءة المعادلة الكيميائية الموزونة، وفهم أن التركيز يصف كمية المادة في حجم معين. لا يلزم إتقان الحسابات اللوغاريتمية.",
+    "objectives": [
+      "تمييز الاتزان الديناميكي من توقف التفاعل باستخدام تساوي السرعتين الأمامية والعكسية.",
+      "كتابة تعبير ثابت الاتزان من معادلة موزونة، وبيان دور الأسس ومعنى استبعاد المواد الصلبة والسوائل النقية.",
+      "استخدام Q مقارنةً بـ K لاستنتاج اتجاه التغيّر بعد اضطراب التركيز.",
+      "التنبؤ نوعياً بأثر التركيز والضغط والحجم ودرجة الحرارة، وبيان أثر المحفّز والغاز الخامل في الحالات المحددة."
+    ],
+    "conceptMap": [
+      {
+        "label": "التفاعل العكوس",
+        "detail": "تتحول المواد المتفاعلة إلى نواتج، ويمكن للنواتج أيضاً أن تعود إلى متفاعلات؛ لذلك يستمر الاتجاهان معاً عند وجود المواد المناسبة."
+      },
+      {
+        "label": "الاتزان الديناميكي وثابت K",
+        "detail": "في نظام مغلق وعند درجة حرارة ثابتة، تتساوى السرعتان الأمامية والعكسية، وتبقى التراكيز العيانية ثابتة. تحدد درجة الحرارة قيمة K للتفاعل المكتوب."
+      },
+      {
+        "label": "الاضطراب والاستجابة",
+        "detail": "تغيّر التركيز أو الضغط أو الحرارة قد يزيح تركيب الاتزان. نقارن Q بـ K لتحديد الاتجاه، ثم يستقر النظام عند اتزان جديد؛ أما المحفّز فيسرّع الوصول ولا يغيّر K."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "من الملاحظة: ثبات التراكيز لا يعني السكون",
+        "body": "في تفاعل عكوس مثل تكوّن الأمونيا، تبدأ الجسيمات المتفاعلة بالتصادم والتحول إلى نواتج، فيما تستطيع جزيئات الناتج أن تتفاعل عكسياً. في البداية قد تكون السرعة الأمامية أكبر لأن المتفاعلات وفيرة، ثم تتكون النواتج فتزداد فرص التفاعل العكسي.\n\nفي نظام مغلق وعند درجة حرارة ثابتة، تبلغ السرعتان قيمة متساوية. عندها لا نلاحظ تغيراً صافياً في تركيز كل مادة مع الزمن، مع أن التحولات المجهرية مستمرة في الاتجاهين. هذه هي حالة الاتزان الديناميكي؛ ولا تعني بالضرورة تساوي كميات المتفاعلات والنواتج، ولا اكتمال التفاعل."
+      },
+      {
+        "heading": "من الجسيمات إلى التعبير عن ثابت الاتزان",
+        "body": "للتفاعل الموزون aA + bB ⇌ cC + dD، يكتب التعبير المدرسي للتركيز على الصورة Kc = [C]^c[D]^d / ([A]^a[B]^b). الأقواس المربعة تعني تركيز المادة، والأسس هي معاملات المعادلة الموزونة؛ فلا تُكتب المعاملات أمام التركيز ولا تُخلط بالأسس.\n\nيعبر K عن تركيب الاتزان عند درجة حرارة محددة، وليس عن سرعة التفاعل. في الصياغة الحرارية الدقيقة، يبنى الثابت من الأنشطة ويكون بلا أبعاد؛ أما تعبير Kc المدرسي باستخدام التراكيز فقد تبدو له وحدات بحسب اصطلاح الكتاب وطريقة كتابة التركيز. لا تدخل المواد الصلبة النقية والسوائل النقية في التعبير لأن نشاطها يبقى ثابتاً تقريباً، لكن ذلك لا يعني أنها غير موجودة أو غير مهمة للتفاعل."
+      },
+      {
+        "heading": "توقّع الاتجاه: Q ومبدأ لوشاتيليه",
+        "body": "يشبه حاصل التفاعل Q تعبير K، لكنه يحسب من التركيب الموجود في اللحظة الراهنة، سواء أكان النظام عند الاتزان أم لا. عند درجة الحرارة نفسها، إذا كان Q أصغر من K فهناك نواتج أقل مما يتطلبه الاتزان، فيكون التغيّر الصافي نحو تكوين النواتج. وإذا كان Q أكبر من K يكون التغيّر الصافي نحو المتفاعلات. وعندما Q = K يكون التركيب عند الاتزان.\n\nيعبّر مبدأ لوشاتيليه نوعياً عن أن النظام عند الاتزان يستجيب للاضطراب بطريقة تحد من أثره: إضافة متفاعل أو إزالة ناتج تميل إلى دفع التفاعل نحو النواتج، وإضافة ناتج أو إزالة متفاعل تميل إلى دفعه نحو المتفاعلات. هذه عبارة عن اتجاه الاستجابة لا عن محو الاضطراب كلياً؛ فبعد الاستجابة قد تختلف تراكيز الاتزان الجديدة عن القديمة، بينما تبقى K نفسها ما دامت درجة الحرارة لم تتغير."
+      },
+      {
+        "heading": "الضغط والحرارة والمحفّز: ما الذي يتغير؟",
+        "body": "في الاتزانات الغازية، يؤدي خفض الحجم إلى رفع الضغط الجزئي للغازات. إذا كان عدد مولات الغاز مختلفاً بين جانبي المعادلة، يميل الاتزان بعد ضغط النظام إلى الجانب ذي مولات الغاز الأقل، والعكس عند زيادة الحجم. لا تُحسب المواد الصلبة والسوائل النقية ضمن عدد مولات الغاز. وإذا تساوى عدد مولات الغاز على الجانبين، فلا يتنبأ هذا التبسيط بانزياح بسبب الضغط وحده. كما أن إضافة غاز خامل عند حجم ثابت لا تغيّر الضغوط الجزئية للمواد المتفاعلة، ولذلك لا تزيح الاتزان في هذا النموذج.\n\nتُعامل الحرارة كأنها متفاعل في الاتجاه الماص للحرارة، وكأنها ناتج في الاتجاه الطارد لها: رفع الحرارة يميل بالاتزان إلى الاتجاه الماص، وخفضها إلى الاتجاه الطارد. وحدها الحرارة تغيّر قيمة K للتفاعل. أما المحفّز فيخفض حاجز التنشيط للاتجاهين، فيسرّع بلوغ الاتزان دون تغيير تركيب الاتزان أو قيمة K. هذه قواعد نوعية لنظام مثالي؛ وقد تتطلب الأنظمة الواقعية وصفاً أدق للأنشطة أو الأطوار أو القيود الحركية."
+      }
+    ],
+    "equation": {
+      "heading": "تعبير Kc لتكوّن الأمونيا",
+      "expression": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)؛ Kc = [NH₃]² / ([N₂][H₂]³)",
+      "note": "المعادلة موزونة، ولذلك تظهر معاملات المواد كأسس في التعبير. عند درجة حرارة ثابتة، تقارن Qc المحسوبة من التركيب الحالي بـ Kc: إذا Qc < Kc فالاتجاه الصافي نحو NH₃، وإذا Qc > Kc فالاتجاه الصافي نحو N₂ وH₂. في العرض المدرسي قد تظهر لـ Kc وحدات تعتمد على اصطلاح التراكيز؛ والصياغة الحرارية بالأنشطة تجعل ثابت الاتزان بلا أبعاد.",
+      "symbols": [
+        {
+          "symbol": "⇌",
+          "meaning": "تفاعل عكوس يمكن أن يحدث في الاتجاهين",
+          "unit": "لا وحدة"
+        },
+        {
+          "symbol": "[X]",
+          "meaning": "تركيز المادة X عند الاتزان عند استخدام Kc، أو في التركيب الراهن عند حساب Qc",
+          "unit": "mol·L⁻¹ في اصطلاح التركيز المولي"
+        },
+        {
+          "symbol": "Kc",
+          "meaning": "ثابت الاتزان المكتوب بدلالة التراكيز للتفاعل كما كُتب وعند درجة حرارة محددة",
+          "unit": "تعتمد وحداته الظاهرية على اصطلاح التركيز؛ ثابت الأنشطة الحراري بلا أبعاد"
+        },
+        {
+          "symbol": "Qc",
+          "meaning": "حاصل التفاعل المحسوب من التراكيز الحالية وبالصيغة نفسها لـ Kc",
+          "unit": "مثل اصطلاح Kc المستخدم"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "مثال محلول: إزالة جزء من الأمونيا عند الاتزان",
+      "problem": "يوجد تفاعل N₂(g) + 3H₂(g) ⇌ 2NH₃(g) عند اتزان ودرجة حرارة ثابتة. أزيل جزء من NH₃ من النظام مع بقاء N₂ وH₂ دون تغيير لحظياً. ما اتجاه التغيّر الصافي قبل بلوغ اتزان جديد؟ لا تُعطى تراكيز عددية.",
+      "steps": [
+        {
+          "label": "١. اكتب معيار المقارنة",
+          "body": "قبل الإزالة كان النظام عند الاتزان، لذلك Qc = Kc. نستخدم الصيغة Qc = [NH₃]² / ([N₂][H₂]³)."
+        },
+        {
+          "label": "٢. حدّد أثر الاضطراب في Q",
+          "body": "إزالة NH₃ تخفض بسط Qc فوراً، بينما لا تتغير تراكيز N₂ وH₂ لحظياً. لذلك يصبح Qc أصغر من Kc."
+        },
+        {
+          "label": "٣. استنتج اتجاه الاستجابة",
+          "body": "لأن Qc < Kc، يحدث تغير صافٍ نحو اليمين: تستهلك الجسيمات N₂ وH₂ ويتكوّن مزيد من NH₃ حتى يعود Qc إلى Kc عند الاتزان الجديد."
+        }
+      ],
+      "answer": "يتجه التفاعل الصافي نحو تكوين الأمونيا. هذا لا يعني أن كل المتفاعلات تتحول إليها؛ بل يعيد النظام الوصول إلى اتزان جديد عند درجة الحرارة نفسها، لذا تبقى قيمة Kc كما هي.",
+      "takeaway": "ابدأ بتركيب الاتزان (Qc = Kc)، حدّد ما تغيّر لحظياً، ثم قارن Qc بـ Kc بدلاً من تخمين الاتجاه من حفظ الكتلة وحده."
+    },
+    "comparison": {
+      "heading": "مقارنة آثار التغيّرات على الاتزان",
+      "columns": [
+        "التغيير",
+        "الاستجابة النوعية",
+        "هل تتغير K؟"
+      ],
+      "rows": [
+        {
+          "label": "إضافة متفاعل عند ثبوت الحرارة",
+          "values": [
+            "يميل الاتجاه الصافي إلى استهلاك المتفاعل المضاف",
+            "تتغير التراكيز وموضع الاتزان",
+            "لا"
+          ]
+        },
+        {
+          "label": "رفع درجة الحرارة",
+          "values": [
+            "يميل الاتزان إلى الاتجاه الماص للحرارة",
+            "يتغير تركيب الاتزان",
+            "نعم"
+          ]
+        },
+        {
+          "label": "إضافة محفّز",
+          "values": [
+            "تزداد سرعتا الاتجاهين؛ لا انزياح صافياً في موضع الاتزان",
+            "يُبلَغ الاتزان أسرع",
+            "لا"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "صناعة الأمونيا",
+        "body": "في تفاعل تكوين الأمونيا من النيتروجين والهيدروجين، تُستخدم مبادئ الاتزان لفهم أثر الضغط والحرارة والتركيب على المردود عند الاتزان. لكن اختيار ظروف التشغيل لا يعتمد على الاتزان وحده؛ فالسرعة واستهلاك الطاقة والسلامة عوامل مهمة أيضاً، لذا لا تعني قاعدة الاتجاه أن زيادة أي عامل مناسبة بلا حدود."
+      },
+      {
+        "title": "الأنظمة الحيوية والمحاليل",
+        "body": "تتضمن سوائل الجسم توازنات عكوسة، ومنها توازنات حمض-قاعدة تتأثر بتركيب الوسط. يساعد التفكير بالاتزان على تفسير كيف تستجيب الأنظمة لتغير التركيز، مع الانتباه إلى أن الكائن الحي ليس وعاءً مغلقاً مثالياً وأن النقل والتفاعلات المتعددة والتنظيم الحيوي تتداخل."
+      }
+    ],
+    "misconception": {
+      "claim": "عند الاتزان يتوقف التفاعل، أو تصبح كميات المتفاعلات والنواتج متساوية.",
+      "correction": "عند الاتزان تتساوى سرعتا التفاعل الأمامي والعكسي، فتظل التراكيز ثابتة ظاهرياً بينما تستمر التحولات الجسيمية. ولا يلزم تساوي كميات الطرفين؛ يحدد K تركيب الاتزان بالنسبة إلى المعادلة ودرجة الحرارة."
+    },
+    "quiz": {
+      "question": "لنظام عند اتزان ودرجة حرارة ثابتة، أزيل جزء من أحد النواتج. ما الاستنتاج الصحيح مباشرة بعد الإزالة؟",
+      "options": [
+        "يصير Q أصغر من K، ويميل التفاعل الصافي إلى تكوين النواتج",
+        "تتغير K فوراً لأن التركيز تغير",
+        "يتوقف التفاعل العكسي نهائياً"
+      ],
+      "correctIndex": 0,
+      "explanation": "إزالة ناتج تخفض قيمة حاصل التفاعل Q مقارنةً بقيمته عند الاتزان، فتصير Q < K ويتجه التغير الصافي إلى جهة النواتج. عند ثبوت درجة الحرارة لا تتغير K، ويستمر الاتجاه العكسي أيضاً."
+    },
+    "safety": {
+      "title": "السلامة وحدود هذا الدرس",
+      "body": "هذا درس مفاهيمي ولا يتضمن إجراء تجربة أو التعامل مع مواد. لا تخلط مواد أو تنفذ تطبيقاً عملياً اعتماداً على هذا الشرح وحده. في المختبر، اتبع تعليمات المعلّم وإجراءات السلامة المعتمدة، واستخدم معدات الوقاية المناسبة، ولا تتعامل مع الغاز المضغوط أو مصادر الحرارة إلا بتدريب وإشراف مناسبين."
+    },
+    "glossary": [
+      {
+        "term": "تفاعل عكوس",
+        "definition": "تفاعل يمكن أن يحدث في الاتجاه الأمامي والاتجاه العكسي."
+      },
+      {
+        "term": "اتزان ديناميكي",
+        "definition": "حالة تتساوى فيها سرعتا التفاعلين المتعاكسين في نظام مناسب، مع استمرار التحولات المجهرية وثبات التراكيز ظاهرياً."
+      },
+      {
+        "term": "ثابت الاتزان K",
+        "definition": "قيمة تربط كميات المواد عند الاتزان لتفاعل محدد وعند درجة حرارة محددة."
+      },
+      {
+        "term": "حاصل التفاعل Q",
+        "definition": "قيمة تحسب بصيغة ثابت الاتزان نفسها لكن باستخدام تركيب النظام الحالي، وتُقارن بـ K لاستنتاج اتجاه التغير."
+      }
+    ],
+    "summaryPoints": [
+      "الاتزان ديناميكي: سرعتا التفاعل الأمامي والعكسي متساويتان، والتراكيز الكلية ثابتة ظاهرياً.",
+      "يصف K تركيب الاتزان لتفاعل مكتوب عند درجة حرارة محددة؛ الأسس في تعبيره تأتي من معاملات المعادلة الموزونة.",
+      "قارن Q بـ K: الأقل يتجه صافياً إلى النواتج، والأكبر إلى المتفاعلات، والتساوي يعني الاتزان.",
+      "التركيز والضغط قد يزيحان التركيب، والحرارة تغيّر K؛ المحفّز يسرّع الوصول ولا يغيّر K."
+    ]
+  },
+  "en": {
+    "title": "Chemical Equilibrium and Le Châtelier’s Principle",
+    "subject": "Chemistry — Chemical Equilibrium",
+    "duration": "18 minutes",
+    "level": "Secondary school / beginner",
+    "summary": "Equilibrium is not a stopped reaction: it is a continuing state in which the forward and reverse reaction rates are equal. Understanding it helps explain compositions in industrial reactions and biological systems, and…",
+    "goal": "Explain chemical equilibrium at the particle level and infer the direction of change after a disturbance, while distinguishing factors that change the equilibrium constant from those that do not.",
+    "why": "Equilibrium is not a stopped reaction: it is a continuing state in which the forward and reverse reaction rates are equal. Understanding it helps explain compositions in industrial reactions and biological systems, and prevents the mistaken idea that adding a substance or using a catalyst changes the equilibrium constant in the same way.",
+    "prerequisite": "Know what a reversible reaction is, how to read a balanced chemical equation, and that concentration describes the amount of a substance in a given volume. Advanced logarithmic calculations are not required.",
+    "objectives": [
+      "Distinguish dynamic equilibrium from a stopped reaction by using equality of the forward and reverse rates.",
+      "Write an equilibrium expression from a balanced equation and explain the role of exponents and why pure solids and liquids are omitted.",
+      "Use Q compared with K to infer the direction of change after a concentration disturbance.",
+      "Qualitatively predict the effects of concentration, pressure, volume, and temperature, and describe the effects of a catalyst and an inert gas in specified cases."
+    ],
+    "conceptMap": [
+      {
+        "label": "Reversible reaction",
+        "detail": "Reactants form products, and products can also return to reactants; both directions can continue when the appropriate substances are present."
+      },
+      {
+        "label": "Dynamic equilibrium and K",
+        "detail": "In a closed system at constant temperature, forward and reverse rates are equal and macroscopic concentrations remain constant. Temperature determines K for the reaction as written."
+      },
+      {
+        "label": "Disturbance and response",
+        "detail": "A change in concentration, pressure, or temperature can shift the equilibrium composition. Compare Q with K to identify the direction; the system then settles at a new equilibrium, while a catalyst changes neither K nor the equilibrium position."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "From observation: constant concentrations do not mean stillness",
+        "body": "In a reversible reaction such as ammonia formation, reactant particles collide and form products, while product molecules can react in the reverse direction. At first, the forward rate may be greater because reactants are abundant. As products form, opportunities for the reverse reaction increase.\n\nIn a closed system at constant temperature, the two rates eventually become equal. There is then no net change in the concentration of any substance over time, even though microscopic transformations continue in both directions. This is dynamic equilibrium. It does not necessarily mean that reactants and products are present in equal amounts, nor that the reaction is complete."
+      },
+      {
+        "heading": "From particles to the equilibrium-constant expression",
+        "body": "For the balanced reaction aA + bB ⇌ cC + dD, the introductory concentration expression is Kc = [C]^c[D]^d / ([A]^a[B]^b). Square brackets denote concentration, and the exponents are the coefficients in the balanced equation; coefficients become exponents, not factors in front of the concentrations.\n\nK describes the equilibrium composition at a specified temperature; it is not a reaction rate. In the rigorous thermodynamic formulation, the constant is built from activities and is dimensionless. The introductory Kc expression using concentrations can appear to have units depending on the textbook convention and how concentration is expressed. Pure solids and pure liquids are omitted because their activities remain approximately constant; this does not mean they are absent or unimportant to the reaction."
+      },
+      {
+        "heading": "Predicting direction: Q and Le Châtelier’s principle",
+        "body": "The reaction quotient Q has the same form as K, but it is calculated from the composition at the moment, whether or not the system is at equilibrium. At the same temperature, if Q is less than K, there are fewer products than the equilibrium composition calls for, so the net change is toward products. If Q is greater than K, the net change is toward reactants. When Q = K, the composition is at equilibrium.\n\nLe Châtelier’s principle is a qualitative statement: when an equilibrium system is disturbed, its response tends to lessen the disturbance’s effect. Adding reactant or removing product tends to drive the reaction toward products; adding product or removing reactant tends to drive it toward reactants. This describes the direction of response, not complete cancellation of the disturbance. After the response, the new equilibrium concentrations may differ from the old ones, while K remains unchanged as long as temperature does not change."
+      },
+      {
+        "heading": "Pressure, temperature, and catalysts: what changes?",
+        "body": "For gas equilibria, decreasing volume raises the gases’ partial pressures. If the number of moles of gas differs between the two sides of the equation, compressing the system shifts equilibrium toward the side with fewer gas moles; increasing volume has the opposite tendency. Pure solids and liquids are not counted as gas moles. If the number of gas moles is equal on both sides, this simple rule predicts no pressure-driven shift. Adding an inert gas at constant volume does not change the reactants’ partial pressures, so it does not shift equilibrium in this model.\n\nTreat heat as a reactant in the endothermic direction and as a product in the exothermic direction: raising temperature tends to shift equilibrium in the endothermic direction, while lowering it tends to shift it in the exothermic direction. Temperature is the factor among these that changes K. A catalyst lowers the activation barrier for both directions and speeds attainment of equilibrium without changing the equilibrium composition or K. These are qualitative rules for an idealized system; real systems can require a more detailed treatment of activities, phases, or kinetic constraints."
+      }
+    ],
+    "equation": {
+      "heading": "Kc expression for ammonia formation",
+      "expression": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g); Kc = [NH₃]² / ([N₂][H₂]³)",
+      "note": "The equation is balanced, so its coefficients appear as exponents in the expression. At constant temperature, compare Qc calculated from the current composition with Kc: if Qc < Kc, the net direction is toward NH₃; if Qc > Kc, the net direction is toward N₂ and H₂. In introductory treatments, the apparent units of Kc depend on the concentration convention; the thermodynamic activity-based equilibrium constant is dimensionless.",
+      "symbols": [
+        {
+          "symbol": "⇌",
+          "meaning": "A reversible reaction that can proceed in both directions",
+          "unit": "None"
+        },
+        {
+          "symbol": "[X]",
+          "meaning": "Concentration of substance X at equilibrium for Kc, or in the current composition for Qc",
+          "unit": "mol·L⁻¹ in the molar-concentration convention"
+        },
+        {
+          "symbol": "Kc",
+          "meaning": "The equilibrium constant written in terms of concentrations for the reaction as written at a specified temperature",
+          "unit": "Apparent units depend on the concentration convention; the activity-based thermodynamic constant is dimensionless"
+        },
+        {
+          "symbol": "Qc",
+          "meaning": "The reaction quotient calculated from current concentrations using the same form as Kc",
+          "unit": "Same convention as the Kc expression used"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Worked example: removing some ammonia at equilibrium",
+      "problem": "The reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g) is at equilibrium at constant temperature. Some NH₃ is removed while N₂ and H₂ are momentarily unchanged. What is the direction of net change before a new equilibrium is reached? No numerical concentrations are supplied.",
+      "steps": [
+        {
+          "label": "1. Write the comparison criterion",
+          "body": "Before removal, the system was at equilibrium, so Qc = Kc. Use Qc = [NH₃]² / ([N₂][H₂]³)."
+        },
+        {
+          "label": "2. Determine the effect on Q",
+          "body": "Removing NH₃ immediately lowers the numerator of Qc, while the concentrations of N₂ and H₂ do not change at that instant. Therefore Qc becomes less than Kc."
+        },
+        {
+          "label": "3. Infer the response direction",
+          "body": "Because Qc < Kc, the net change is to the right: N₂ and H₂ are consumed and more NH₃ forms until Qc again equals Kc at the new equilibrium."
+        }
+      ],
+      "answer": "The net reaction proceeds toward ammonia formation. This does not mean all reactants are converted; the system reaches a new equilibrium at the same temperature, so Kc retains its value.",
+      "takeaway": "Start from the equilibrium composition (Qc = Kc), identify what changes immediately, and then compare Qc with Kc instead of guessing from conservation of matter alone."
+    },
+    "comparison": {
+      "heading": "Comparing how changes affect equilibrium",
+      "columns": [
+        "Change",
+        "Qualitative response",
+        "Does K change?"
+      ],
+      "rows": [
+        {
+          "label": "Add a reactant at constant temperature",
+          "values": [
+            "The net reaction tends to consume the added reactant",
+            "Concentrations and equilibrium position change",
+            "No"
+          ]
+        },
+        {
+          "label": "Raise the temperature",
+          "values": [
+            "Equilibrium tends toward the endothermic direction",
+            "Equilibrium composition changes",
+            "Yes"
+          ]
+        },
+        {
+          "label": "Add a catalyst",
+          "values": [
+            "Both rates increase; there is no net shift in equilibrium position",
+            "Equilibrium is reached faster",
+            "No"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Ammonia production",
+        "body": "For ammonia formation from nitrogen and hydrogen, equilibrium principles help explain how pressure, temperature, and composition affect the equilibrium yield. Operating conditions do not depend on equilibrium alone: reaction rate, energy use, and safety also matter. A directional rule does not mean that increasing any factor is suitable without limit."
+      },
+      {
+        "title": "Biological systems and solutions",
+        "body": "Body fluids contain reversible equilibria, including acid–base equilibria affected by the composition of the medium. Equilibrium reasoning helps explain how systems respond to concentration changes, while recognizing that an organism is not a perfectly closed vessel and that transport, multiple reactions, and biological regulation also interact."
+      }
+    ],
+    "misconception": {
+      "claim": "At equilibrium, the reaction stops, or the amounts of reactants and products become equal.",
+      "correction": "At equilibrium, the forward and reverse reaction rates are equal, so concentrations remain macroscopically constant while particle-level transformations continue. The amounts on the two sides need not be equal; K describes the equilibrium composition for the equation as written and at a given temperature."
+    },
+    "quiz": {
+      "question": "A system is at equilibrium at constant temperature, and some product is removed. What is the correct immediate inference?",
+      "options": [
+        "Q becomes less than K, and the net reaction tends to form products",
+        "K changes immediately because the concentration changed",
+        "The reverse reaction stops permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "Removing a product lowers the reaction quotient Q relative to its equilibrium value, making Q < K; the net change is therefore toward products. At constant temperature K does not change, and the reverse reaction continues as well."
+    },
+    "safety": {
+      "title": "Safety and limits of this lesson",
+      "body": "This is a conceptual lesson and includes no experimental procedure or handling of substances. Do not mix materials or attempt a practical application based on this explanation alone. In a laboratory, follow the instructor’s directions and approved safety procedures, use appropriate protective equipment, and handle pressurized gas or heat sources only with suitable training and supervision."
+    },
+    "glossary": [
+      {
+        "term": "Reversible reaction",
+        "definition": "A reaction that can proceed in both the forward and reverse directions."
+      },
+      {
+        "term": "Dynamic equilibrium",
+        "definition": "A state in a suitable system where opposing reaction rates are equal, microscopic transformations continue, and concentrations remain macroscopically constant."
+      },
+      {
+        "term": "Equilibrium constant K",
+        "definition": "A value relating the amounts of substances at equilibrium for a specified reaction and temperature."
+      },
+      {
+        "term": "Reaction quotient Q",
+        "definition": "A value calculated in the same form as the equilibrium constant but from the system’s current composition, and compared with K to infer the direction of change."
+      }
+    ],
+    "summaryPoints": [
+      "Equilibrium is dynamic: forward and reverse rates are equal, and concentrations are macroscopically constant.",
+      "K describes the equilibrium composition for a reaction as written at a specified temperature; the exponents come from the balanced equation’s coefficients.",
+      "Compare Q with K: Q below K gives a net shift toward products, Q above K toward reactants, and equality means equilibrium.",
+      "Concentration and pressure can shift composition, temperature changes K, and a catalyst speeds attainment without changing K."
+    ]
+  }
+}

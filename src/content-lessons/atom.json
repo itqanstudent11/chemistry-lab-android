@@ -1,0 +1,376 @@
+{
+  "id": "atom",
+  "kind": "atomic-charge",
+  "ar": {
+    "title": "الذرات والأيونات والعدد الذري",
+    "subject": "الكيمياء — بنية المادة",
+    "duration": "١٢ دقيقة",
+    "level": "ثانوي / مبتدئ",
+    "summary": "نتتبع كيف تكشف الشحنة والرموز النووية عن عدد البروتونات والإلكترونات، ونميز الذرة المتعادلة عن الأيون، ونستخدم العدد الذري لتحديد هوية العنصر. يربط الدرس الملاحظات على المستوى المجهري بنموذج مبسط للنواة والسحابة الإلكترونية، مع بيان حدود هذا النموذج.",
+    "goal": "أن تفسر كيف يرتبط عدد البروتونات بهوية العنصر، وكيف ينشأ الأيون من تغير عدد الإلكترونات دون تغير عدد البروتونات في التحول الكيميائي المعتاد.",
+    "why": "تساعد هذه الأفكار على قراءة رموز العناصر والأيونات وفهم سبب اختلاف شحنة ذرات العنصر الواحد، وهي أساس لفهم الروابط والتفاعلات الكيميائية لاحقاً.",
+    "prerequisite": "معرفة أن المادة تتكون من ذرات، والتعرف إلى إشارات الشحنة الموجبة والسالبة والأعداد الصحيحة البسيطة.",
+    "objectives": [
+      "تعريف العدد الذري بوصفه عدد البروتونات في نواة الذرة، واستخدامه لتحديد العنصر.",
+      "تفسير تعادل الذرة عندما يتساوى عدد البروتونات الموجبة والإلكترونات السالبة.",
+      "تحديد ما إذا كان الجسيم أيوناً موجباً أم سالباً من مقارنة عدد البروتونات والإلكترونات.",
+      "حساب عدد الإلكترونات في ذرة أو أيون من رمز العنصر وعدده الذري وشحنته، مع توضيح حدود النموذج."
+    ],
+    "conceptMap": [
+      {
+        "label": "العدد الذري (Z)",
+        "detail": "يساوي عدد البروتونات في النواة؛ وهو الذي يحدد نوع العنصر."
+      },
+      {
+        "label": "التعادل والشحنة",
+        "detail": "تتساوى الشحنات الموجبة والسالبة في الذرة المتعادلة؛ واختلاف عدد الإلكترونات عنها ينتج شحنة صافية."
+      },
+      {
+        "label": "الأيون",
+        "detail": "ذرة أو مجموعة ذرات تحمل شحنة صافية؛ في الأيون الذري المعتاد يتغير عدد الإلكترونات ولا يتغير عدد البروتونات."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "١. من ملاحظة الشحنة إلى الجسيمات",
+        "body": "قد تعرض جداول الكيمياء رمز عنصر يتبعه عدد صغير علوي، مثل Na⁺ أو Cl⁻. هذه العلامة ليست وصفاً لحجم الذرة؛ إنها إشارة إلى أن الجسيم يحمل شحنة كهربائية صافية. وعندما لا تظهر شحنة على رمز ذرة منفردة، يكون المقصود عادة ذرة متعادلة كهربائياً.\n\nلتفسير ذلك نستخدم نموذجاً للجسيمات: البروتون شحنته موجبة، والإلكترون شحنته سالبة، والنيوترون متعادل. البروتونات والنيوترونات في نواة صغيرة كثيفة، والإلكترونات تشغل منطقة حولها تسمى السحابة الإلكترونية. مقدار شحنة البروتون يساوي مقدار شحنة الإلكترون، لكن إشارتها معاكسة؛ لذا تلغي أعداد متساوية منهما بعضها بعضاً عند حساب الشحنة الكلية.\n\nتبدأ الملاحظة إذن برمز الشحنة أو بقياس شحنة صافية، ثم نسأل عن عدد الجسيمات الموجبة والسالبة الذي يفسرها. لا ترى العين البروتونات أو الإلكترونات في عينة عادية، والرموز تمثل تفسيراً مجهرياً متفقاً عليه، لا صورة فوتوغرافية للذرات.\n\nالنموذج مفيد لأن جمع الشحنات يفسر التعادل والإشارات الموجبة والسالبة. لكنه مبسط: الإلكترونات ليست كرات صغيرة تدور في مسارات كوكبية ثابتة، كما أن حجم الرسم في الكتب لا يمثل مقياس الذرة الحقيقي أو شكل سحابة إلكترونية محددة بدقة."
+      },
+      {
+        "heading": "٢. العدد الذري: بطاقة هوية العنصر",
+        "body": "العدد الذري، ويرمز إليه غالباً بالحرف Z، هو عدد البروتونات في نواة الذرة. لكل عنصر عدد ذري خاص به: إذا كان في النواة بروتون واحد فالذرة هيدروجين، وإذا كان فيها ستة بروتونات فهي كربون. لذلك لا يحدد عدد الإلكترونات هوية العنصر، بل يحددها عدد البروتونات.\n\nتحتوي الذرة المتعادلة على العدد نفسه من الإلكترونات والبروتونات. من ثم، إذا عرفت أن ذرة متعادلة عددها الذري 11، عرفت أن فيها 11 بروتوناً و11 إلكتروناً. أما عدد النيوترونات فقد يختلف بين ذرات العنصر نفسه؛ وهذه صور تسمى نظائر، ولا يغير اختلاف النيوترونات العدد الذري أو اسم العنصر.\n\nتساعد هذه القاعدة في قراءة الجدول الدوري: ترتيب العناصر مرتبط بالعدد الذري المتزايد. وإذا تغير عدد البروتونات، فقد تغير العنصر نفسه، لا مجرد شحنته. وفي التغيرات الكيميائية المعتادة يعاد توزيع الإلكترونات أو تنتقل، بينما تظل نواة الذرة وعدد بروتوناتها دون تغير.\n\nينبغي عدم الخلط بين العدد الذري والعدد الكتلي. العدد الكتلي يساوي مجموع البروتونات والنيوترونات في نواة نظير معين، في حين أن العدد الذري يعد البروتونات فقط. ولا يمكن معرفة عدد النيوترونات من العدد الذري وحده ما لم تتوافر معلومة إضافية عن النظير أو عدده الكتلي."
+      },
+      {
+        "heading": "٣. كيف تتكون الأيونات؟",
+        "body": "إذا فقدت ذرة إلكتروناً أو أكثر، بقي عدد البروتونات أكبر من عدد الإلكترونات، فتكون محصلة الشحنة موجبة. يسمى الجسيم الناتج أيوناً موجباً أو كاتيوناً. مثال ذلك Na⁺: العدد الذري للصوديوم 11، لذا يحتوي الأيون على 11 بروتوناً؛ وتشير شحنته +1 إلى أن لديه إلكتروناً أقل من البروتونات، أي 10 إلكترونات.\n\nإذا اكتسبت ذرة إلكتروناً أو أكثر، صار عدد الإلكترونات أكبر من عدد البروتونات وأصبحت الشحنة الصافية سالبة. يسمى هذا الجسيم أيوناً سالباً أو أنيوناً. في Cl⁻ يوجد 17 بروتوناً لأن الكلور عدده الذري 17، وتدل الشحنة −1 على وجود 18 إلكتروناً.\n\nالشحنة المكتوبة بجانب الرمز هي فرق عدد البروتونات والإلكترونات بوحدات الشحنة الأولية. إشارة + تعني فائضاً بروتونياً مكافئاً، وإشارة − تعني فائضاً إلكترونياً مكافئاً. مثلاً، شحنة 2+ تعني أن عدد البروتونات يزيد على عدد الإلكترونات باثنين، ولا تعني وجود بروتونين فقط.\n\nفي الأيون الذري الناتج عن انتقال إلكترونات في سياق كيميائي، يبقى العدد الذري كما هو لأن عدد البروتونات لا يتغير. أما تغيير النواة فيتطلب عمليات نووية، وهو موضوع مختلف عن تكوّن الأيونات في الكيمياء الأساسية. وقد تتكون أيضاً أيونات متعددة الذرات، وهي مجموعات مترابطة تحمل شحنة كلية، لكن درسنا يركز على الأيونات الذرية."
+      },
+      {
+        "heading": "٤. قراءة الرموز وبناء تفسير متسق",
+        "body": "في ترميز نووي شائع يكتب رمز العنصر X، وقد يكتب العدد الكتلي A أعلى اليسار والعدد الذري Z أسفله، والشحنة أعلى اليمين: ²³₁₁Na⁺. يخبرنا الرمز Na أن العنصر صوديوم، ويؤكد Z = 11 عدد البروتونات، ويعني A = 23 أن مجموع البروتونات والنيوترونات 23. ومن ثم يكون عدد النيوترونات 23 − 11 = 12.\n\nللانتقال إلى عدد الإلكترونات، نقارن الشحنة بعدد البروتونات. في Na⁺ عدد البروتونات 11 والشحنة +1، إذن عدد الإلكترونات أقل بواحد ويساوي 10. وإذا كانت الشحنة −2، فعدد الإلكترونات يزيد على عدد البروتونات باثنين. أما الرمز الذي لا يحمل شحنة فيمثل ذرة متعادلة عادة، فيكون عدد إلكتروناتها مساوياً لعدد بروتوناتها.\n\nتحقق من معقولية النتيجة: العدد الذري يجب أن يساوي عدد البروتونات دائماً، ولا يتغير بتغير شحنة الأيون. والأيون الموجب يجب أن تكون إلكتروناته أقل من بروتوناته، بينما الأيون السالب يجب أن تكون إلكتروناته أكثر. إذا خالفت الأعداد هذه القواعد، فأعد قراءة إشارة الشحنة والحساب.\n\nهذه طريقة محاسبة للشحنات وليست وصفاً كاملاً لسلوك الذرات. فهي لا تحدد وحدها ترتيب الإلكترونات أو طاقة الذرة أو كيفية تفاعلها، ولا تكفي للتنبؤ بكل المركبات. كما أن الرمز A وZ قد يوضعان في تنسيق مختلف في بعض المصادر، لكن معاني العدد الكتلي والعدد الذري ثابتة."
+      }
+    ],
+    "equation": {
+      "heading": "علاقات العدد الذري والشحنة",
+      "expression": "Z = Nₚ ؛ q/e = Nₚ − Nₑ",
+      "note": "العدد الذري Z يساوي عدد البروتونات Nₚ. والشحنة الصافية q تساوي فرق عدد البروتونات والإلكترونات Nₑ مضروباً في الشحنة الأولية e. لذلك الذرة المتعادلة تحقق Nₚ = Nₑ. مثال: أيون شحنته +1 لديه إلكترون واحد أقل من عدد بروتوناته. هذه محاسبة للشحنة، ولا تصف مواقع الإلكترونات أو حركتها.",
+      "symbols": [
+        {
+          "symbol": "Z",
+          "meaning": "العدد الذري، ويساوي عدد البروتونات",
+          "unit": "بلا وحدة"
+        },
+        {
+          "symbol": "Nₚ",
+          "meaning": "عدد البروتونات في النواة",
+          "unit": "بلا وحدة (عدد جسيمات)"
+        },
+        {
+          "symbol": "Nₑ",
+          "meaning": "عدد الإلكترونات",
+          "unit": "بلا وحدة (عدد جسيمات)"
+        },
+        {
+          "symbol": "q",
+          "meaning": "الشحنة الكهربائية الصافية للجسيم",
+          "unit": "كولوم (C)"
+        },
+        {
+          "symbol": "e",
+          "meaning": "مقدار الشحنة الأولية؛ وحدة مقدار شحنة البروتون أو الإلكترون",
+          "unit": "كولوم (C)"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "مثال محلول: عدد جسيمات أيون المغنيسيوم",
+      "problem": "أيون المغنيسيوم ²⁴₁₂Mg²⁺. حدد عدد البروتونات والنيوترونات والإلكترونات، وفسر سبب شحنته.",
+      "steps": [
+        {
+          "label": "١. البروتونات",
+          "body": "العدد الذري Z = 12، لذلك يحتوي الأيون على 12 بروتوناً. الشحنة لا تغير هوية العنصر ولا عدد البروتونات."
+        },
+        {
+          "label": "٢. النيوترونات",
+          "body": "العدد الكتلي A = 24 هو مجموع البروتونات والنيوترونات؛ إذن عدد النيوترونات = A − Z = 24 − 12 = 12."
+        },
+        {
+          "label": "٣. الإلكترونات والشحنة",
+          "body": "الشحنة +2 تعني أن عدد البروتونات يزيد على عدد الإلكترونات باثنين. إذن الإلكترونات = 12 − 2 = 10، وهذا يفسر الإشارة الموجبة."
+        }
+      ],
+      "answer": "في ²⁴₁₂Mg²⁺ يوجد 12 بروتوناً و12 نيوتروناً و10 إلكترونات.",
+      "takeaway": "ابدأ بالعدد الذري للبروتونات، واستخدم A − Z للنيوترونات، ثم استخدم إشارة الشحنة لتحديد الإلكترونات. افصل دائماً بين هوية العنصر التي تحددها البروتونات وحالة الشحنة التي تحددها مقارنة البروتونات بالإلكترونات."
+    },
+    "comparison": {
+      "heading": "مقارنة الذرة المتعادلة والأيونين",
+      "columns": [
+        "نوع الجسيم",
+        "العلاقة بين البروتونات والإلكترونات",
+        "الشحنة الصافية"
+      ],
+      "rows": [
+        {
+          "label": "ذرة متعادلة",
+          "values": [
+            "عدد البروتونات يساوي عدد الإلكترونات",
+            "Nₚ = Nₑ",
+            "صفر"
+          ]
+        },
+        {
+          "label": "أيون موجب (كاتيون)",
+          "values": [
+            "عدد البروتونات أكبر من عدد الإلكترونات",
+            "Nₚ > Nₑ",
+            "موجبة؛ فقدت الذرة إلكترونات عادةً"
+          ]
+        },
+        {
+          "label": "أيون سالب (أنيون)",
+          "values": [
+            "عدد الإلكترونات أكبر من عدد البروتونات",
+            "Nₑ > Nₚ",
+            "سالبة؛ اكتسبت الذرة إلكترونات عادةً"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "قراءة الجدول الدوري",
+        "body": "يوفر العدد الذري وسيلة موثوقة لتمييز العناصر وترتيبها. عند قراءة رمز عنصر، تعرف من عدده الذري عدد البروتونات، وتعرف في الذرة المتعادلة عدد الإلكترونات أيضاً."
+      },
+      {
+        "title": "فهم الشحنات في الصيغ الكيميائية",
+        "body": "تساعد مقارنة أعداد البروتونات والإلكترونات على تفسير لماذا تحمل أيونات مثل Mg²⁺ وCl⁻ شحنات مختلفة. وهذا الفهم يمهد لقراءة المركبات الأيونية، من دون أن يعني أن الشحنة وحدها تشرح كل خصائص المركب."
+      }
+    ],
+    "misconception": {
+      "claim": "الأيون الموجب اكتسب بروتونات، والأيون السالب فقد بروتونات.",
+      "correction": "في تكوّن الأيونات في الكيمياء المعتادة، يتغير عدد الإلكترونات: فقد الإلكترونات ينتج شحنة موجبة، واكتسابها ينتج شحنة سالبة. عدد البروتونات هو العدد الذري ويظل ثابتاً، ولذلك يبقى العنصر نفسه."
+    },
+    "quiz": {
+      "question": "عنصر عدده الذري 8. كم إلكتروناً في أيونه ذي الشحنة 2−؟",
+      "options": [
+        "6 إلكترونات",
+        "8 إلكترونات",
+        "10 إلكترونات"
+      ],
+      "correctIndex": 2,
+      "explanation": "العدد الذري 8 يعني 8 بروتونات. الشحنة 2− تعني وجود إلكترونين أكثر من البروتونات، لذا عدد الإلكترونات 8 + 2 = 10."
+    },
+    "safety": {
+      "title": "سلامة التعلم",
+      "body": "هذا الدرس مفاهيمي ولا يتطلب إجراء تجربة أو التعامل مع مواد. عند استخدام مختبر تعليمي لاحقاً، اتبع تعليمات المعلم وقواعد المنشأة، ولا تخلط مواد أو تنفذ إجراءً غير مصرح به. الرسوم الذرية نماذج تعليمية وليست تعليمات للتعامل مع مادة فعلية."
+    },
+    "glossary": [
+      {
+        "term": "العدد الذري (Z)",
+        "definition": "عدد البروتونات في نواة الذرة، ويحدد هوية العنصر."
+      },
+      {
+        "term": "الأيون",
+        "definition": "ذرة أو مجموعة ذرات لها شحنة كهربائية صافية بسبب عدم تساوي الشحنات الموجبة والسالبة."
+      },
+      {
+        "term": "كاتيون",
+        "definition": "أيون موجب؛ في الأيون الذري المعتاد يكون عدد الإلكترونات أقل من عدد البروتونات."
+      },
+      {
+        "term": "أنيون",
+        "definition": "أيون سالب؛ في الأيون الذري المعتاد يكون عدد الإلكترونات أكبر من عدد البروتونات."
+      }
+    ],
+    "summaryPoints": [
+      "العدد الذري Z هو عدد البروتونات، وهو ما يحدد العنصر.",
+      "الذرة المتعادلة لها عدد متساوٍ من البروتونات والإلكترونات.",
+      "فقد الإلكترونات ينتج أيوناً موجباً، واكتسابها ينتج أيوناً سالباً؛ البروتونات لا تتغير في التأين الكيميائي المعتاد.",
+      "في الترميز النووي، عدد النيوترونات = العدد الكتلي − العدد الذري؛ والشحنة تقيس فرق البروتونات والإلكترونات."
+    ]
+  },
+  "en": {
+    "title": "Atoms, Ions, and Atomic Number",
+    "subject": "Chemistry — Structure of Matter",
+    "duration": "12 minutes",
+    "level": "Secondary school / beginner",
+    "summary": "Trace how charge and chemical notation reveal the numbers of protons and electrons. Distinguish a neutral atom from an ion, and use atomic number to identify an element. The lesson connects observable notation to a simplified model of the nucleus and electron cloud while explaining the model's limits.",
+    "goal": "Explain how proton number determines an element's identity and how an ion forms when the number of electrons changes without changing the number of protons in an ordinary chemical process.",
+    "why": "These ideas help you read element and ion symbols and understand why atoms of the same element can have different charges. They are a foundation for studying chemical bonding and reactions.",
+    "prerequisite": "Know that matter is made of atoms, recognize positive and negative charge signs, and be comfortable with simple whole-number arithmetic.",
+    "objectives": [
+      "Define atomic number as the number of protons in an atom's nucleus and use it to identify the element.",
+      "Explain why a neutral atom has equal numbers of positive protons and negative electrons.",
+      "Determine whether a particle is a positive or negative ion by comparing its proton and electron counts.",
+      "Calculate the number of electrons in an atom or ion from its element symbol, atomic number, and charge, while explaining the model's limits."
+    ],
+    "conceptMap": [
+      {
+        "label": "Atomic number (Z)",
+        "detail": "Equals the number of protons in the nucleus; it determines the element's identity."
+      },
+      {
+        "label": "Neutrality and charge",
+        "detail": "Positive and negative charges balance in a neutral atom; a difference in their counts gives a net charge."
+      },
+      {
+        "label": "Ion",
+        "detail": "An atom or group of atoms with a net charge; in an ordinary atomic ion, electron number changes while proton number does not."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "1. From charge notation to particles",
+        "body": "A chemistry table may show an element symbol followed by a small superscript, such as Na⁺ or Cl⁻. This mark does not describe the atom's size; it indicates that the particle has a net electrical charge. When no charge is shown for an isolated atom, it is usually understood to be electrically neutral.\n\nTo explain this, we use a particle model: a proton has positive charge, an electron has negative charge, and a neutron has no charge. Protons and neutrons are in a small, dense nucleus, while electrons occupy a region around it called the electron cloud. A proton's charge has the same magnitude as an electron's charge but the opposite sign, so equal numbers cancel when calculating the total charge.\n\nWe start with an observation—the charge symbol or a measured net charge—and ask what numbers of positive and negative particles could explain it. We do not see individual protons or electrons with our eyes in an ordinary sample; the symbols represent a useful microscopic explanation, not a photograph of atoms.\n\nThe model is useful because adding charges explains neutrality and positive or negative signs. However, it is simplified: electrons are not tiny balls traveling on fixed, planetary-style paths, and textbook drawings do not show the true scale of an atom or the precise shape of an electron cloud."
+      },
+      {
+        "heading": "2. Atomic number: an element's identity",
+        "body": "Atomic number, usually written Z, is the number of protons in an atom's nucleus. Each element has its own atomic number: a nucleus with one proton belongs to hydrogen, while one with six protons belongs to carbon. Electron number does not determine the element's identity; proton number does.\n\nA neutral atom contains the same number of electrons as protons. Therefore, if a neutral atom has atomic number 11, it has 11 protons and 11 electrons. The number of neutrons can vary among atoms of the same element; these forms are called isotopes. Changing neutron number does not change atomic number or the element's name.\n\nThis rule helps explain the periodic table: elements are arranged in order of increasing atomic number. If proton number changes, the element itself changes, not merely its charge. In ordinary chemical changes, electrons may be redistributed or transferred while the nucleus and its proton count remain unchanged.\n\nDo not confuse atomic number with mass number. Mass number is the total number of protons and neutrons in the nucleus of a particular isotope, whereas atomic number counts protons only. Atomic number alone cannot tell you the neutron count unless additional information about the isotope or its mass number is given."
+      },
+      {
+        "heading": "3. How ions form",
+        "body": "If an atom loses one or more electrons, it has more protons than electrons, so its net charge is positive. The resulting particle is a positive ion, or cation. For example, Na⁺ has 11 protons because sodium's atomic number is 11. Its +1 charge means it has one fewer electron than proton, so it has 10 electrons.\n\nIf an atom gains one or more electrons, it has more electrons than protons and a negative net charge. This particle is a negative ion, or anion. Cl⁻ has 17 protons because chlorine's atomic number is 17, and its −1 charge indicates 18 electrons.\n\nThe charge written beside the symbol is the difference between proton and electron counts, expressed in units of the elementary charge. A + sign means a corresponding excess of positive charge; a − sign means an excess of negative charge. For example, 2+ means that proton number exceeds electron number by two; it does not mean there are only two protons.\n\nIn an atomic ion formed by electron transfer in a chemical context, atomic number stays the same because the proton count does not change. Changing the nucleus requires nuclear processes, a different topic from ordinary ion formation in introductory chemistry. Polyatomic ions—bonded groups of atoms with an overall charge—also exist, but this lesson focuses on atomic ions."
+      },
+      {
+        "heading": "4. Reading symbols and building a consistent explanation",
+        "body": "In common nuclide notation, the element symbol X may have the mass number A at upper left, atomic number Z at lower left, and charge at upper right: ²³₁₁Na⁺. The symbol Na identifies sodium, Z = 11 gives the proton count, and A = 23 means that protons plus neutrons total 23. Therefore, the neutron count is 23 − 11 = 12.\n\nTo find electrons, compare the charge with the proton count. In Na⁺ there are 11 protons and a +1 charge, so there is one fewer electron: 10. A −2 charge means there are two more electrons than protons. A symbol with no charge usually represents a neutral atom, whose electron count equals its proton count.\n\nCheck that your answer makes sense: atomic number must always equal proton number, and an ion's charge does not change it. A positive ion must have fewer electrons than protons, while a negative ion must have more. If your counts contradict these rules, reread the charge sign and check the arithmetic.\n\nThis is a charge-counting method, not a complete description of atomic behavior. It does not by itself tell you electron arrangement, atomic energy, or how an atom will react, and it cannot predict every compound. Some sources place A and Z differently in the notation, but the meanings of mass number and atomic number remain the same."
+      }
+    ],
+    "equation": {
+      "heading": "Atomic-number and charge relationships",
+      "expression": "Z = Nₚ; q/e = Nₚ − Nₑ",
+      "note": "Atomic number Z equals proton count Nₚ. Net charge q equals the difference between proton and electron counts Nₑ multiplied by the elementary charge e. Thus, a neutral atom has Nₚ = Nₑ. For example, an ion with charge +1 has one fewer electron than protons. This is charge bookkeeping; it does not describe electron locations or motion.",
+      "symbols": [
+        {
+          "symbol": "Z",
+          "meaning": "Atomic number; equal to the number of protons",
+          "unit": "dimensionless"
+        },
+        {
+          "symbol": "Nₚ",
+          "meaning": "Number of protons in the nucleus",
+          "unit": "dimensionless (particle count)"
+        },
+        {
+          "symbol": "Nₑ",
+          "meaning": "Number of electrons",
+          "unit": "dimensionless (particle count)"
+        },
+        {
+          "symbol": "q",
+          "meaning": "Net electrical charge of the particle",
+          "unit": "coulomb (C)"
+        },
+        {
+          "symbol": "e",
+          "meaning": "Magnitude of the elementary charge; the magnitude of a proton's or electron's charge",
+          "unit": "coulomb (C)"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Worked example: particles in a magnesium ion",
+      "problem": "For the magnesium ion ²⁴₁₂Mg²⁺, determine the numbers of protons, neutrons, and electrons, and explain its charge.",
+      "steps": [
+        {
+          "label": "1. Protons",
+          "body": "Atomic number Z = 12, so the ion contains 12 protons. Charge does not change the element's identity or proton count."
+        },
+        {
+          "label": "2. Neutrons",
+          "body": "Mass number A = 24 is the total number of protons and neutrons; therefore, neutrons = A − Z = 24 − 12 = 12."
+        },
+        {
+          "label": "3. Electrons and charge",
+          "body": "A +2 charge means proton number exceeds electron number by two. Thus, electrons = 12 − 2 = 10, which accounts for the positive charge."
+        }
+      ],
+      "answer": "²⁴₁₂Mg²⁺ contains 12 protons, 12 neutrons, and 10 electrons.",
+      "takeaway": "Start with atomic number to find protons, use A − Z for neutrons, then use the charge sign to find electrons. Keep an element's identity, set by its protons, separate from its charge state, set by comparing protons and electrons."
+    },
+    "comparison": {
+      "heading": "Comparing a neutral atom and positive and negative ions",
+      "columns": [
+        "Particle type",
+        "Relationship between protons and electrons",
+        "Net charge"
+      ],
+      "rows": [
+        {
+          "label": "Neutral atom",
+          "values": [
+            "Proton and electron counts are equal",
+            "Nₚ = Nₑ",
+            "Zero"
+          ]
+        },
+        {
+          "label": "Positive ion (cation)",
+          "values": [
+            "There are more protons than electrons",
+            "Nₚ > Nₑ",
+            "Positive; the atom usually lost electrons"
+          ]
+        },
+        {
+          "label": "Negative ion (anion)",
+          "values": [
+            "There are more electrons than protons",
+            "Nₑ > Nₚ",
+            "Negative; the atom usually gained electrons"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Reading the periodic table",
+        "body": "Atomic number provides a reliable way to distinguish and order the elements. From an element's atomic number, you know its proton count; for a neutral atom, you also know its electron count."
+      },
+      {
+        "title": "Understanding charges in chemical formulas",
+        "body": "Comparing proton and electron counts helps explain why ions such as Mg²⁺ and Cl⁻ carry different charges. This understanding prepares you to read ionic compounds, although charge alone does not explain every property of a compound."
+      }
+    ],
+    "misconception": {
+      "claim": "A positive ion gained protons, and a negative ion lost protons.",
+      "correction": "In ordinary chemical ion formation, the number of electrons changes: losing electrons gives a positive charge, and gaining them gives a negative charge. Proton number is the atomic number and stays constant, so the element remains the same."
+    },
+    "quiz": {
+      "question": "An element has atomic number 8. How many electrons are in its 2− ion?",
+      "options": [
+        "6 electrons",
+        "8 electrons",
+        "10 electrons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Atomic number 8 means there are 8 protons. A 2− charge means there are two more electrons than protons, so the electron count is 8 + 2 = 10."
+    },
+    "safety": {
+      "title": "Learning safely",
+      "body": "This is a conceptual lesson and requires no experiment or handling of materials. In a teaching laboratory, follow the instructor's directions and the facility's rules; do not mix substances or carry out an unauthorized procedure. Atomic diagrams are learning models, not instructions for handling real substances."
+    },
+    "glossary": [
+      {
+        "term": "Atomic number (Z)",
+        "definition": "The number of protons in an atom's nucleus; it identifies the element."
+      },
+      {
+        "term": "Ion",
+        "definition": "An atom or group of atoms with a net electrical charge because positive and negative charges do not balance."
+      },
+      {
+        "term": "Cation",
+        "definition": "A positive ion; in an ordinary atomic ion, it has fewer electrons than protons."
+      },
+      {
+        "term": "Anion",
+        "definition": "A negative ion; in an ordinary atomic ion, it has more electrons than protons."
+      }
+    ],
+    "summaryPoints": [
+      "Atomic number Z is the number of protons and determines the element.",
+      "A neutral atom has equal numbers of protons and electrons.",
+      "Losing electrons forms a positive ion; gaining electrons forms a negative ion. Proton number does not change in ordinary chemical ionization.",
+      "In nuclide notation, neutron number = mass number − atomic number; charge measures the difference between proton and electron counts."
+    ]
+  }
+}

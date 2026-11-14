@@ -1,0 +1,366 @@
+{
+  "id": "bond",
+  "kind": "bond",
+  "ar": {
+    "title": "الروابط الأيونية والتساهمية والفلزية",
+    "subject": "الكيمياء: الروابط الكيميائية",
+    "duration": "١٦ دقيقة",
+    "level": "ثانوي / مبتدئ",
+    "summary": "تساعدنا الروابط على فهم سبب تماسك المواد، ولماذا تختلف خواصها. فبلورة ملح الطعام هشة ولا توصل الكهرباء وهي صلبة، بينما يوصل النحاس الكهرباء وهو صلب ويمكن تشكيله، كما توجد مواد تساهمية جزيئية تختلف في درجات الانصهار…",
+    "goal": "أن يفسّر المتعلم الروابط الأيونية والتساهمية والفلزية على مستوى الجسيمات، ويميّزها من أدلة مثل نوع الجسيمات والتوصيل الكهربائي، ويختار نموذجاً مناسباً لمادة مع ذكر حدود هذا النموذج.",
+    "why": "تساعدنا الروابط على فهم سبب تماسك المواد، ولماذا تختلف خواصها. فبلورة ملح الطعام هشة ولا توصل الكهرباء وهي صلبة، بينما يوصل النحاس الكهرباء وهو صلب ويمكن تشكيله، كما توجد مواد تساهمية جزيئية تختلف في درجات الانصهار والتوصيل. تفسير هذه الفروق يبدأ من ترتيب الجسيمات وطريقة تجاذبها، لا من حفظ أسماء المواد وحدها.",
+    "prerequisite": "يفيد أن تعرف أن الذرة تتكون من نواة وإلكترونات، وأن الذرة قد تفقد إلكترونات أو تكتسبها فتكوّن أيوناً ذا شحنة، وأن الشحنات المتعاكسة تتجاذب والمتشابهة تتنافر. لا يلزم حفظ أعداد إلكترونات التكافؤ مسبقاً؛ سنستخدم أمثلة بسيطة.",
+    "objectives": [
+      "يصف ما يحدث للإلكترونات والجسيمات في الروابط الأيونية والتساهمية والفلزية باستخدام مفردات دقيقة.",
+      "يربط بنية المادة بحالات التوصيل الكهربائي الأساسية: صلب أيوني، ومركب تساهمي جزيئي، وفلز.",
+      "يستنتج نوع الترابط الغالب في أمثلة مثل MgCl₂ وO₂ وCu، ويبرر استنتاجه من الجسيمات لا من المظهر وحده.",
+      "يشرح أن النماذج التعليمية تصف أنماطاً عامة، وأن المواد الحقيقية قد تُظهر ترابطاً مختلطاً أو خواصاً واستثناءات."
+    ],
+    "conceptMap": [
+      {
+        "label": "أيونية: شحنات متعاكسة تتجاذب",
+        "detail": "تنتقل إلكترونات من ذرات إلى أخرى في النموذج التمهيدي، فتتكون كاتيونات وأنيونات. تتجاذب الأيونات في شبكة ممتدة؛ وصيغة المركب تعبّر عن أبسط نسبة تحقق التعادل الكهربائي، لا عن جزيئات منفردة بالضرورة."
+      },
+      {
+        "label": "تساهمية: أزواج إلكترونية مشتركة",
+        "detail": "تتشارك ذرات لا فلزية إلكترونات في روابط اتجاهية. قد تنتج جزيئات منفصلة مثل O₂ أو شبكة تساهمية ممتدة مثل الماس؛ لذلك لا تكفي كلمة «تساهمية» وحدها للتنبؤ بكل الخواص."
+      },
+      {
+        "label": "فلزية: إلكترونات تكافؤ غير متمركزة",
+        "detail": "في النموذج المبسط، تشغل أيونات الفلز الموجبة مواقع في شبكة، وتكون إلكترونات التكافؤ موزعة على نطاق من البنية بدلاً من ارتباطها بزوج بين ذرتين بعينهما. يساعد ذلك على تفسير التوصيل وقابلية الطرق والسحب."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "من الملاحظة إلى السؤال عن الجسيمات",
+        "body": "قد نلاحظ أن مادة صلبة توصل الكهرباء وأخرى لا توصلها، أو أن إحداهما تنكسر عند الطرق بينما تنثني أخرى. هذه الملاحظات تصف سلوك العينة، لكنها لا تكشف مباشرةً كيف ترتبط الذرات أو الأيونات داخلها. لذلك نسأل: ما الجسيمات الموجودة؟ وما الذي يمسكها معاً؟ وهل توجد جسيمات مشحونة قادرة على الحركة؟\n\nالرابطة الكيميائية ليست خيطاً مادياً بين كرتين؛ إنها وصف للتجاذب الكهروستاتيكي وترتيب الإلكترونات الذي يخفض طاقة النظام. النماذج الثلاثة في هذا الدرس تركز على أنماط غالبية الترابط: أيونات متعاكسة الشحنة، أو أزواج إلكترونات مشتركة، أو إلكترونات تكافؤ ممتدة في الفلز. قد تتداخل الأنماط، لذا نحدد النموذج الغالب ولا نفترض أن كل مادة تنتمي إلى صورة مثالية واحدة."
+      },
+      {
+        "heading": "الرابطة الأيونية: شبكة من الأيونات",
+        "body": "في النموذج التمهيدي، قد تفقد ذرة فلز إلكتروناً أو أكثر وتصبح أيوناً موجباً، وقد تكتسب ذرة لا فلز إلكترونات فتصبح أيوناً سالباً. في كلوريد المغنيسيوم مثلاً، يتكون Mg²⁺ ويقابله أيونا Cl⁻؛ فالشحنة الكلية تساوي صفراً: (+2) + 2(−1) = 0. التجاذب بين الشحنات المتعاكسة يربط الأيونات في شبكة بلورية ممتدة، لا في جزيئات MgCl₂ منفصلة داخل البلورة.\n\nتفسر الشبكة كثيراً من السلوك المعتاد للمركبات الأيونية. تكون الأيونات مثبتة في مواضعها في الصلب، فلا تنتقل الشحنة عبر العينة كما تنتقل في مصهورها أو في محلول يحوي أيونات متحركة؛ لذلك غالباً لا يوصل الصلب الأيوني الكهرباء، بينما قد يوصل المصهور أو المحلول. وعند انزلاق طبقة بفعل قوة، قد تتقابل شحنات متماثلة في مواضع قريبة فتتنافر، فتتشقق البلورة. الذوبانية ودرجات الانصهار تختلفان بين المركبات ولا تُستنتجان من وصف الرابطة وحده."
+      },
+      {
+        "heading": "الرابطة التساهمية: مشاركة الإلكترونات",
+        "body": "عندما ترتبط ذرات لا فلزية، قد تشارك زوجاً أو أكثر من الإلكترونات. في جزيء الأكسجين O₂، مثلاً، ترتبط ذرتا أكسجين برابطة تساهمية مزدوجة في الوصف الشائع: يوجد زوجان مشتركان بين الذرتين. لا يعني ذلك أن الإلكترونات ساكنة بين النواتين؛ إنها توصف بتوزع احتمالي، ويجذب كل إلكترون النواتين الموجبتين. تشكل الروابط التساهمية جزيئات، مثل O₂ والماء، أو شبكات ممتدة، مثل الماس والسيليكا.\n\nفي كثير من المواد الجزيئية، تكون الروابط داخل الجزيء قوية، لكن قوى التجاذب بين الجزيئات أضعف نسبياً؛ ويساعد ذلك على تفسير أن كثيراً منها ينصهر أو يغلي عند درجات أقل من الشبكات الأيونية أو التساهمية العملاقة، مع وجود استثناءات. المركبات الجزيئية النقية لا تحتوي عادةً على أيونات حرة الحركة، ولذلك لا توصل الكهرباء جيداً. لكن الشبكات التساهمية لها خواص أخرى، وبعض المواد التساهمية أو المحاليل قد تتصرف على نحو مختلف؛ فلا يصح تعميم خاصية واحدة على كل ما يسمى تساهمياً."
+      },
+      {
+        "heading": "الرابطة الفلزية: شبكة وإلكترونات ممتدة",
+        "body": "تتكون الفلزات من ذرات فلزية متراصة. في نموذج «بحر الإلكترونات» المبسط، توصف مواقع الشبكة بأنها أيونات موجبة، بينما تكون إلكترونات التكافؤ متحركة أو غير متمركزة على رابطة بين ذرتين محددتين. التجاذب بين هذه الإلكترونات السالبة والشبكة الموجبة يحافظ على تماسك الفلز. وهذا ليس بحراً سائلاً حرفياً، بل تشبيه يساعد على تصور انتشار الإلكترونات في البنية.\n\nتستطيع الإلكترونات المتحركة حمل الشحنة عبر الفلز، ولذلك توصل الفلزات الصلبة الكهرباء والحرارة عادةً. كما أن ترابطها غير الاتجاهي نسبياً يسمح لطبقات الذرات بالانزلاق مع بقاء التجاذب العام، فتكون كثير من الفلزات قابلة للطرق والسحب بدلاً من أن تتفتت مباشرة. تختلف خواص الفلزات والسبائك، كما تختلف التفاصيل الإلكترونية؛ لذا يفسر النموذج الاتجاه العام ولا يتنبأ وحده بكل قيمة أو استثناء."
+      }
+    ],
+    "equation": {
+      "heading": "علاقة التجاذب الكهروستاتيكي بين شحنتين",
+      "expression": "F = k |q₁q₂| / r²",
+      "note": "توضح هذه الصيغة أن مقدار قوة التجاذب بين شحنتين نقطيتين يزداد بزيادة مقدار الشحنتين ويقل مع مربع المسافة بينهما. للشحنتين المتعاكستين تكون القوة تجاذباً. البلورة الأيونية ليست زوجاً معزولاً من الشحنات: تتفاعل فيها أيونات عديدة، ويتأثر الوصف بالترتيب والوسط؛ لذا تُستخدم العلاقة هنا لفهم الاتجاه العام لا لحساب خواص البلورة كاملة. أما الرابطة التساهمية والفلزية فتحتاجان أيضاً إلى وصف كمومي لتوزع الإلكترونات.",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "مقدار القوة الكهروستاتيكية بين الشحنتين في نموذج الشحنتين النقطيتين",
+          "unit": "نيوتن (N)"
+        },
+        {
+          "symbol": "k",
+          "meaning": "ثابت كولوم في الوسط المحدد",
+          "unit": "N·m²/C²"
+        },
+        {
+          "symbol": "q₁, q₂",
+          "meaning": "مقدارا الشحنتين الكهربائيتين؛ وتحدد إشارتاهما التجاذب أو التنافر",
+          "unit": "كولوم (C)"
+        },
+        {
+          "symbol": "r",
+          "meaning": "المسافة بين مركزي الشحنتين",
+          "unit": "متر (m)"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "مثال محلول: ما نوع الترابط الغالب؟",
+      "problem": "صنّف الترابط الغالب في MgCl₂(s) وO₂(g) وCu(s)، واذكر دليلاً على مستوى الجسيمات لكل اختيار.",
+      "steps": [
+        {
+          "label": "١. حدّد العناصر والجسيمات",
+          "body": "يتكون MgCl₂ من فلز (Mg) ولا فلز (Cl)، ويُمثّل الصلب شبكة Mg²⁺ وCl⁻ بنسبة 1:2. يتكون O₂ من ذرتين لا فلزيتين في جزيء. أما Cu فهو عنصر فلزي صلب."
+        },
+        {
+          "label": "٢. طبّق نموذج الترابط المناسب",
+          "body": "في MgCl₂ يكون التجاذب الأيوني بين الأيونات المتعاكسة هو النموذج الغالب، وتُظهر النسبة أن شحنة Mg²⁺ تتعادل مع شحنتي أيوني Cl⁻. في O₂ تتشارك ذرتا الأكسجين الإلكترونات في رابطة تساهمية. في النحاس يصف النموذج الفلزي شبكة فلزية مع إلكترونات تكافؤ غير متمركزة."
+        },
+        {
+          "label": "٣. اربط التصنيف بالخاصية المتوقعة",
+          "body": "لا يُتوقع أن تنقل أيونات MgCl₂ الصلب الشحنة عبر البلورة لأنها مثبتة، بينما يمكن للأيونات في المصهور أو المحلول أن تتحرك. جزيئات O₂ متعادلة ولا تحوي عادةً حوامل شحنة حرة في الحالة الغازية. إلكترونات النحاس المتحركة تفسر توصيله للكهرباء في الحالة الصلبة."
+        }
+      ],
+      "answer": "MgCl₂(s): ترابط أيوني غالب في شبكة من Mg²⁺ وCl⁻. O₂(g): رابطة تساهمية داخل كل جزيء. Cu(s): ترابط فلزي في بنية من ذرات/أيونات فلزية وإلكترونات تكافؤ ممتدة.",
+      "takeaway": "ابدأ بتحديد نوع العناصر والجسيمات، ثم اسأل كيف تتفاعل إلكترونات التكافؤ. لا تخلط بين صيغة وحدة الشبكة الأيونية وبين جزيء منفرد، ولا تجعل التوصيل وحده الدليل الوحيد على نوع الرابطة."
+    },
+    "comparison": {
+      "heading": "مقارنة النماذج الثلاثة",
+      "columns": [
+        "أيونية",
+        "تساهمية",
+        "فلزية"
+      ],
+      "rows": [
+        {
+          "label": "الجسيمات وطريقة الترابط",
+          "values": [
+            "أيونات موجبة وسالبة تتجاذب في شبكة",
+            "ذرات تشارك أزواجاً إلكترونية؛ في جزيئات أو شبكة ممتدة",
+            "شبكة فلزية موجبة مع إلكترونات تكافؤ غير متمركزة"
+          ]
+        },
+        {
+          "label": "التوصيل الكهربائي المعتاد",
+          "values": [
+            "الصلب غالباً لا يوصل؛ المصهور أو المحلول الأيوني قد يوصل",
+            "المواد الجزيئية النقية غالباً ضعيفة التوصيل؛ الشبكات لها حالات خاصة",
+            "الفلز الصلب غالباً موصل بسبب الإلكترونات المتحركة"
+          ]
+        },
+        {
+          "label": "استجابة ميكانيكية شائعة",
+          "values": [
+            "بلورات صلبة وهشة غالباً",
+            "تتباين بشدة بين المواد الجزيئية والشبكات التساهمية",
+            "كثير منها قابل للطرق والسحب، مع اختلاف الفلزات والسبائك"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "اختيار مواد للتوصيل والبناء",
+        "body": "يساعد فهم الترابط على تفسير اختيار النحاس في الأسلاك بسبب وجود حوامل شحنة متحركة، واختيار مواد أيونية أو شبكات تساهمية في استعمالات تتطلب الصلابة أو الثبات. لا يكفي نوع الرابطة وحده للتصميم؛ فالنقاء، والبنية الدقيقة، ودرجة الحرارة، والسبائك عوامل مؤثرة أيضاً."
+      },
+      {
+        "title": "فهم الذوبان والتوصيل في المحاليل",
+        "body": "عند تفسير اختبار توصيل لمادة، نبحث عن جسيمات مشحونة متحركة لا عن وجود روابط فقط. قد ينتج عن ذوبان مركب أيوني أيونات في المحلول، بينما لا تعطي مادة جزيئية متعادلة بالضرورة أيونات. توجد استثناءات كالمواد الجزيئية التي تتأين في الماء، لذا يجب ربط النتيجة بهوية المادة وظروفها."
+      }
+    ],
+    "misconception": {
+      "claim": "كل مركب تساهمي يتكون من جزيئات منفصلة، ولا يمكن لأي مادة ذات روابط تساهمية أن توصل الكهرباء.",
+      "correction": "قد تبني الروابط التساهمية شبكات ممتدة بدلاً من جزيئات منفصلة، كما في الماس. وتتوقف الناقلية على وجود حوامل شحنة متحركة وبنية المادة؛ فهناك مواد ذات روابط تساهمية لها سلوك كهربائي خاص، لذلك لا نعمم حكم المواد الجزيئية الشائعة على جميع المواد التساهمية."
+    },
+    "quiz": {
+      "question": "لماذا لا يوصل بلور كلوريد الصوديوم الصلب الكهرباء عادةً، مع أنه يحتوي على أيونات مشحونة؟",
+      "options": [
+        "لأن أيوناته مثبتة في مواقع الشبكة ولا تتحرك بحرية عبر البلورة",
+        "لأن الأيونات تختفي عندما يتكوّن الصلب",
+        "لأن الشحنة الكهربائية لا يمكن أن تنتقل في المواد الصلبة أبداً"
+      ],
+      "correctIndex": 0,
+      "explanation": "وجود الشحنات وحده لا يكفي؛ يجب أن تكون حوامل الشحنة قادرة على الحركة. في البلور الصلب تكون الأيونات مقيدة بمواضع الشبكة، بينما يمكنها الحركة في المصهور أو في محلول مناسب. والعبارة العامة عن كل المواد الصلبة خاطئة لأن الفلزات الصلبة توصل الكهرباء."
+    },
+    "safety": {
+      "title": "السلامة وحدود الدرس",
+      "body": "هذا درس تفسيري عن نماذج الجسيمات والخواص، ولا يتطلب خلط مواد أو إجراء تجربة. إذا دُرست لاحقاً قياسات التوصيل أو خواص المواد في مختبر، فاتبع تعليمات المعلم وإجراءات المختبر واستخدم الأجهزة والمواد المعتمدة فقط. لا تستنتج أن مادة آمنة أو مناسبة للاستعمال من نوع رابطتها وحده."
+    },
+    "glossary": [
+      {
+        "term": "أيون",
+        "definition": "ذرة أو مجموعة ذرات اكتسبت شحنة كهربائية بفقد إلكترونات أو اكتسابها."
+      },
+      {
+        "term": "شبكة بلورية",
+        "definition": "ترتيب منتظم ممتد للجسيمات في مادة صلبة، وليس مجموعة جزيئات منفردة بالضرورة."
+      },
+      {
+        "term": "إلكترونات التكافؤ",
+        "definition": "إلكترونات الغلاف الخارجي التي تشارك غالباً في الترابط الكيميائي وتؤثر في خواص العنصر."
+      },
+      {
+        "term": "التوصيل الكهربائي",
+        "definition": "انتقال الشحنة خلال مادة بفعل حوامل شحنة متحركة مثل الإلكترونات أو الأيونات."
+      }
+    ],
+    "summaryPoints": [
+      "الرابطة الأيونية تجاذب بين أيونات متعاكسة ضمن شبكة؛ وصيغة المركب الأيوني تعبّر عن نسبة تحقق التعادل الكهربائي.",
+      "الرابطة التساهمية مشاركة إلكترونات بين الذرات، وقد تكوّن جزيئات منفصلة أو شبكة تساهمية ممتدة.",
+      "الرابطة الفلزية تجاذب بين شبكة فلزية وإلكترونات تكافؤ غير متمركزة، ما يساعد على تفسير التوصيل وقابلية الطرق.",
+      "الخواص المرصودة أدلة على بنية الجسيمات وليست تعريفاً منفرداً للرابطة؛ والنماذج الثلاثة تبسيطات لها حدود واستثناءات."
+    ]
+  },
+  "en": {
+    "title": "Ionic, Covalent, and Metallic Bonding",
+    "subject": "Chemistry: Chemical Bonding",
+    "duration": "16 minutes",
+    "level": "Secondary / Beginner",
+    "summary": "Bonding helps us understand why materials hold together and why their properties differ. A salt crystal is brittle and does not conduct electricity as a solid, while copper conducts as a solid and can be shaped;…",
+    "goal": "Learners will explain ionic, covalent, and metallic bonding at the particle level, distinguish them using evidence such as particle types and electrical conductivity, and select an appropriate model for a material while stating the model's limits.",
+    "why": "Bonding helps us understand why materials hold together and why their properties differ. A salt crystal is brittle and does not conduct electricity as a solid, while copper conducts as a solid and can be shaped; molecular covalent substances also differ in melting point and conductivity. Explaining these differences starts with particle arrangement and attraction, rather than memorizing substance names alone.",
+    "prerequisite": "It helps to know that an atom contains a nucleus and electrons, and that an atom can lose or gain electrons to form a charged ion. Opposite charges attract and like charges repel. You do not need to have memorized valence-electron counts; we will use simple examples.",
+    "objectives": [
+      "Describe what happens to electrons and particles in ionic, covalent, and metallic bonding using precise vocabulary.",
+      "Connect material structure with basic electrical-conductivity patterns: an ionic solid, a molecular covalent substance, and a metal.",
+      "Identify the dominant bonding model in examples such as MgCl₂, O₂, and Cu, and justify the choice using particles rather than appearance alone.",
+      "Explain that teaching models describe broad patterns, and that real materials may have mixed bonding or properties and exceptions."
+    ],
+    "conceptMap": [
+      {
+        "label": "Ionic: oppositely charged ions attract",
+        "detail": "In the introductory model, electrons move from one atom to another, forming cations and anions. The ions attract in an extended lattice; a compound formula gives the simplest ratio that makes the total charge neutral, not necessarily separate molecules."
+      },
+      {
+        "label": "Covalent: shared electron pairs",
+        "detail": "Nonmetal atoms share electrons in directional bonds. They may form separate molecules such as O₂ or an extended network such as diamond, so the word “covalent” alone does not predict every property."
+      },
+      {
+        "label": "Metallic: delocalized valence electrons",
+        "detail": "In the simplified model, positive metal ions occupy lattice sites while valence electrons extend through the structure instead of belonging to a particular pair of atoms. This helps explain conductivity and malleability."
+      }
+    ],
+    "explanation": [
+      {
+        "heading": "From observation to a question about particles",
+        "body": "We may observe that one solid conducts electricity while another does not, or that one breaks when struck while another bends. These observations describe a sample's behavior, but they do not directly reveal how its atoms or ions are arranged and bonded. We therefore ask: What particles are present? What holds them together? Are there charged particles that can move?\n\nA chemical bond is not a physical string between two balls; it describes electrostatic attraction and electron arrangement that lower a system's energy. The three models in this lesson focus on common bonding patterns: oppositely charged ions, shared electron pairs, or valence electrons extending through a metal. Patterns can overlap, so we identify the dominant model rather than assuming every material is a perfect example of just one picture."
+      },
+      {
+        "heading": "Ionic bonding: a lattice of ions",
+        "body": "In the introductory model, a metal atom may lose one or more electrons and become a positive ion, while a nonmetal atom may gain electrons and become a negative ion. In magnesium chloride, for example, Mg²⁺ is balanced by two Cl⁻ ions; the total charge is zero: (+2) + 2(−1) = 0. Attraction between opposite charges holds the ions in an extended crystal lattice, not in separate MgCl₂ molecules within the crystal.\n\nThe lattice explains several common patterns. In a solid, ions are held in place, so charge cannot move through the sample as it can in a molten ionic compound or a solution containing mobile ions. Thus an ionic solid usually does not conduct electricity, while its melt or solution may conduct. If force shifts a layer, like charges may be brought into neighboring positions and repel, causing the crystal to crack. Solubility and melting points vary among compounds and cannot be inferred from the bond label alone."
+      },
+      {
+        "heading": "Covalent bonding: sharing electrons",
+        "body": "When nonmetal atoms bond, they may share one or more pairs of electrons. In an oxygen molecule, O₂, for example, the two oxygen atoms are commonly described as joined by a double covalent bond: two pairs are shared. This does not mean the electrons sit still between the nuclei; they are described by a probability distribution, and each electron is attracted to both positive nuclei. Covalent bonds form molecules, such as O₂ and water, or extended networks, such as diamond and silica.\n\nIn many molecular substances, the bonds within each molecule are strong, while attractions between molecules are relatively weaker. This helps explain why many have lower melting or boiling points than ionic or giant covalent networks, though there are exceptions. Pure molecular substances generally lack freely moving ions and therefore conduct electricity poorly. Covalent networks have different properties, and some covalent materials or solutions behave differently; it is not valid to generalize one property to everything called covalent."
+      },
+      {
+        "heading": "Metallic bonding: a lattice and extended electrons",
+        "body": "Metals consist of closely packed metal atoms. In the simplified “sea of electrons” model, lattice positions are described as positive ions, while valence electrons are mobile or delocalized rather than tied to a bond between two particular atoms. Attraction between these negative electrons and the positive lattice holds the metal together. The electrons are not literally in a liquid sea; the phrase is an analogy for their spread through the structure.\n\nMobile electrons can carry charge through a metal, so solid metals usually conduct electricity and heat. Their comparatively non-directional bonding also allows layers of atoms to slide while overall attraction remains, so many metals can be hammered or drawn into wire instead of immediately crumbling. Metals and alloys differ, as do their electronic details; the model explains broad patterns but does not by itself predict every value or exception."
+      }
+    ],
+    "equation": {
+      "heading": "Electrostatic attraction between two charges",
+      "expression": "F = k |q₁q₂| / r²",
+      "note": "This expression shows that the magnitude of the force between two point charges increases with the magnitudes of the charges and decreases with the square of the distance between them. Opposite charges attract. An ionic crystal is not an isolated pair of charges: many ions interact, and the arrangement and medium affect the description. This relation is therefore used here for the general trend, not to calculate a whole crystal's properties. Covalent and metallic bonding also require a quantum description of electron distributions.",
+      "symbols": [
+        {
+          "symbol": "F",
+          "meaning": "Magnitude of the electrostatic force between the charges in the two-point-charge model",
+          "unit": "newton (N)"
+        },
+        {
+          "symbol": "k",
+          "meaning": "Coulomb constant in the specified medium",
+          "unit": "N·m²/C²"
+        },
+        {
+          "symbol": "q₁, q₂",
+          "meaning": "Magnitudes of the electric charges; their signs determine attraction or repulsion",
+          "unit": "coulomb (C)"
+        },
+        {
+          "symbol": "r",
+          "meaning": "Distance between the centers of the charges",
+          "unit": "metre (m)"
+        }
+      ]
+    },
+    "workedExample": {
+      "heading": "Worked example: identify the dominant bonding model",
+      "problem": "Classify the dominant bonding in MgCl₂(s), O₂(g), and Cu(s), and give particle-level evidence for each choice.",
+      "steps": [
+        {
+          "label": "1. Identify the elements and particles",
+          "body": "MgCl₂ contains a metal (Mg) and a nonmetal (Cl), and the solid is represented as a lattice of Mg²⁺ and Cl⁻ in a 1:2 ratio. O₂ consists of two nonmetal atoms in a molecule. Cu is a solid metallic element."
+        },
+        {
+          "label": "2. Apply the appropriate bonding model",
+          "body": "For MgCl₂, ionic attraction between oppositely charged ions is dominant; one Mg²⁺ is balanced by two Cl⁻ ions. In O₂, the oxygen atoms share electrons in a covalent bond. In copper, the metallic model describes a lattice with delocalized valence electrons."
+        },
+        {
+          "label": "3. Connect the classification to an expected property",
+          "body": "The ions in solid MgCl₂ are not expected to carry charge through the crystal because they are fixed in place, though ions can move in a melt or solution. O₂ molecules are neutral and generally have no free charge carriers in the gas. Mobile electrons explain why solid copper conducts electricity."
+        }
+      ],
+      "answer": "MgCl₂(s): predominantly ionic bonding in a lattice of Mg²⁺ and Cl⁻. O₂(g): a covalent bond within each molecule. Cu(s): metallic bonding in a structure of metal atoms/ions and extended valence electrons.",
+      "takeaway": "Start by identifying the elements and particles, then ask how the valence electrons interact. Do not confuse the formula unit of an ionic lattice with a separate molecule, and do not use conductivity as the only evidence for bond type."
+    },
+    "comparison": {
+      "heading": "Comparing the three models",
+      "columns": [
+        "Ionic",
+        "Covalent",
+        "Metallic"
+      ],
+      "rows": [
+        {
+          "label": "Particles and bonding pattern",
+          "values": [
+            "Positive and negative ions attract in a lattice",
+            "Atoms share electron pairs; in molecules or an extended network",
+            "Positive metal lattice with delocalized valence electrons"
+          ]
+        },
+        {
+          "label": "Typical electrical conductivity",
+          "values": [
+            "Solid usually does not conduct; molten or dissolved ionic material may conduct",
+            "Pure molecular substances usually conduct poorly; networks have special cases",
+            "Solid metal usually conducts because of mobile electrons"
+          ]
+        },
+        {
+          "label": "Common mechanical behavior",
+          "values": [
+            "Often hard, crystalline, and brittle",
+            "Varies greatly between molecular substances and covalent networks",
+            "Many are malleable and ductile, though metals and alloys differ"
+          ]
+        }
+      ]
+    },
+    "applications": [
+      {
+        "title": "Choosing materials for conduction and construction",
+        "body": "Bonding helps explain why copper is used in wires because it has mobile charge carriers, and why ionic or covalent-network materials may be used where hardness or stability is important. Bond type alone is not enough for design; purity, microstructure, temperature, and alloy composition also matter."
+      },
+      {
+        "title": "Understanding dissolution and conductivity in solutions",
+        "body": "When interpreting a conductivity test, we look for mobile charged particles, not merely for the presence of bonds. Dissolving an ionic compound may produce ions in solution, whereas a neutral molecular substance does not necessarily produce ions. Some molecular substances ionize in water, so conclusions must be tied to the substance's identity and conditions."
+      }
+    ],
+    "misconception": {
+      "claim": "Every covalent compound consists of separate molecules, and no material with covalent bonds can conduct electricity.",
+      "correction": "Covalent bonds can build extended networks rather than separate molecules, as in diamond. Conductivity depends on the presence of mobile charge carriers and on the material's structure; some materials with covalent bonding have distinctive electrical behavior. Do not generalize from common molecular substances to every covalent material."
+    },
+    "quiz": {
+      "question": "Why does solid sodium chloride crystal usually not conduct electricity, even though it contains charged ions?",
+      "options": [
+        "Its ions are fixed in lattice positions and cannot move freely through the crystal",
+        "The ions disappear when the solid forms",
+        "Electric charge can never move through any solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having charges is not enough; charge carriers must be able to move. In the solid crystal, ions are constrained to lattice positions, while they can move in a melt or suitable solution. The broad claim about all solids is false because solid metals conduct electricity."
+    },
+    "safety": {
+      "title": "Safety and scope of this lesson",
+      "body": "This is a conceptual lesson about particle models and material properties; it does not require mixing substances or performing an experiment. If conductivity or material properties are investigated later in a laboratory, follow the teacher's directions and laboratory procedures, and use only approved equipment and materials. Do not infer that a substance is safe or suitable for use from its bond type alone."
+    },
+    "glossary": [
+      {
+        "term": "Ion",
+        "definition": "An atom or group of atoms with an electric charge after losing or gaining electrons."
+      },
+      {
+        "term": "Crystal lattice",
+        "definition": "An extended, regular arrangement of particles in a solid; it is not necessarily a collection of separate molecules."
+      },
+      {
+        "term": "Valence electrons",
+        "definition": "Electrons in the outer shell that commonly participate in chemical bonding and influence an element's properties."
+      },
+      {
+        "term": "Electrical conductivity",
+        "definition": "The movement of electric charge through a material by mobile carriers such as electrons or ions."
+      }
+    ],
+    "summaryPoints": [
+      "Ionic bonding is attraction between oppositely charged ions in a lattice; an ionic formula gives a ratio that makes the total charge neutral.",
+      "Covalent bonding involves shared electrons between atoms and may form separate molecules or an extended covalent network.",
+      "Metallic bonding is attraction between a metal lattice and delocalized valence electrons, helping explain conductivity and malleability.",
+      "Observed properties provide evidence about particle structure but do not alone define a bond; all three models are simplifications with limits and exceptions."
+    ]
+  }
+}
