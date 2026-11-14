@@ -59,7 +59,7 @@ export default function App() {
     document.documentElement.dir = settings.locale === 'ar' ? 'rtl' : 'ltr';
     document.documentElement.dataset.theme = settings.theme;
     document.documentElement.style.setProperty('--font-scale', String(settings.fontScale));
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', settings.theme === 'dark' ? '#111c25' : '#f6f7f6');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', settings.theme === 'dark' ? '#101827' : '#f3f7ff');
   }, [settings]);
   useEffect(() => { writeStore('chemistry-completed', completed); }, [completed]);
   useEffect(() => { writeStore('chemistry-saved', saved); }, [saved]);
@@ -146,14 +146,30 @@ function PageHeader({ eyebrow, title, description }: { eyebrow: string; title: s
 
 function LessonPage({ c, locale, lesson, text, done, saved, onComplete, onSave, onOpen, onBack }: { c: typeof copy.ar | typeof copy.en; locale: Locale; lesson: Lesson; text: LessonText; done: boolean; saved: boolean; onComplete: () => void; onSave: () => void; onOpen: (id: string) => void; onBack: () => void }) {
   const [choice, setChoice] = useState<number | null>(null);
+  const [activeAnchor, setActiveAnchor] = useState('intro');
   useEffect(() => setChoice(null), [lesson.id]);
   const anchors = ['intro', 'objectives', 'map', 'explanation', 'equation', 'example', 'compare', 'simulation', 'applications', 'misconception', 'quiz', 'safety', 'summary', 'glossary'];
   const labels = [c.common.why, c.common.objective, c.common.conceptMap, c.common.explanation, c.common.equation, c.common.workedExample, c.common.compare, c.common.simulation, c.common.applications, c.common.misconception, c.common.quiz, c.common.safety, c.common.summary, c.common.glossary];
+  useEffect(() => {
+    setActiveAnchor('intro');
+    if (!('IntersectionObserver' in window)) return;
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActiveAnchor(visible.target.id);
+    }, { rootMargin: '-18% 0px -68% 0px', threshold: [0, 0.15, 0.45] });
+    anchors.forEach((anchor) => {
+      const section = document.getElementById(anchor);
+      if (section) observer.observe(section);
+    });
+    return () => observer.disconnect();
+  }, [lesson.id]);
+  const activeSection = Math.max(0, anchors.indexOf(activeAnchor));
   const nextLesson = lessons[(lessons.findIndex((item) => item.id === lesson.id) + 1) % lessons.length];
   return <div className={`page page-lesson lesson-${lesson.kind}`}>
     <button className="back-button" onClick={onBack}><ArrowLeft size={17} />{c.common.back}</button>
     <div className="lesson-hero"><div className="lesson-hero-symbol">{lessonIcon(lesson.kind)}</div><div className="lesson-hero-copy"><div className="lesson-meta-line"><span>{text.subject}</span><i /><span>{text.level}</span><i /><span><Clock3 size={15} />{text.duration}</span></div><h1>{text.title}</h1><p>{text.summary}</p><div className="lesson-hero-actions"><button className={`button ${done ? 'button-complete' : 'button-primary'}`} onClick={onComplete}>{done ? <Check size={17} /> : <Target size={17} />}{done ? c.common.completed : c.common.markComplete}</button><button className={`button button-quiet ${saved ? 'is-saved' : ''}`} onClick={onSave}><Bookmark size={17} fill={saved ? 'currentColor' : 'none'} />{saved ? c.common.saved : c.common.save}</button></div></div></div>
-    <div className="lesson-layout"><aside className="lesson-toc"><strong>{c.lesson.tableContents}</strong><small>{c.lesson.jumpTo}</small>{anchors.map((anchor, index) => <a key={anchor} href={`#${anchor}`}><span>{String(index + 1).padStart(2, '0')}</span>{labels[index]}</a>)}</aside>
+    <div className="lesson-reading-progress" aria-live="polite"><div><span>{locale === 'ar' ? `القسم ${activeSection + 1} من ${anchors.length}` : `Section ${activeSection + 1} of ${anchors.length}`}</span><strong>{labels[activeSection]}</strong></div><div className="reading-progress-track"><span style={{ width: `${((activeSection + 1) / anchors.length) * 100}%` }} /></div></div>
+    <div className="lesson-layout"><aside className="lesson-toc"><strong>{c.lesson.tableContents}</strong><small>{c.lesson.jumpTo}</small>{anchors.map((anchor, index) => <a key={anchor} className={activeAnchor === anchor ? 'active' : ''} aria-current={activeAnchor === anchor ? 'location' : undefined} href={`#${anchor}`}><span>{String(index + 1).padStart(2, '0')}</span>{labels[index]}</a>)}</aside>
       <article className="lesson-body">
         <section id="intro" className="learning-card intro-card"><SectionLabel number="01" title={c.common.why} icon={<Sparkles />} /><h2>{text.goal}</h2><p className="lead-text">{text.why}</p><div className="prerequisite-box"><CircleHelp size={18} /><div><strong>{c.common.prerequisite}</strong><p>{text.prerequisite}</p></div></div></section>
         <section id="objectives" className="learning-card"><SectionLabel number="02" title={c.common.objective} icon={<Target />} /><h2>{c.common.takeaways}</h2><ul className="objective-list">{text.objectives.map((item, index) => <li key={item}><span>{String(index + 1).padStart(2, '0')}</span>{item}</li>)}</ul></section>

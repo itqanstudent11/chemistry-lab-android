@@ -42,9 +42,9 @@ export const copy = {
     },
     glossaryPage: { eyebrow: 'مرجع سريع', title: 'المفاهيم بكلمات واضحة.', intro: 'تعريفات موسعة للمصطلحات الأساسية، مع وصلها بالدرس والمسار المناسب.', count: 'مصطلحاً علمياً', category: 'المجال', related: 'الدرس المرتبط' },
     progressPage: {
-      eyebrow: 'مساحتك التعليمية', title: 'كل خطوة تصنع فرقاً.', intro: 'تقدّمك ومحفوظاتك محفوظة محلياً في هذا الجهاز فقط.', learner: 'متعلّم فضولي', hello: 'مرحباً بك في المختبر', continue: 'واصل التعلّم بوتيرتك الخاصة', completion: 'نسبة الإنجاز', finished: 'الدروس المكتملة', bookmarked: 'الدروس المحفوظة', reset: 'مسح تقدّمي', resetConfirm: 'هل تريد مسح التقدم والمحفواظات من هذا الجهاز؟', privacy: 'لا يحتاج التطبيق إلى حساب. لا يغادر سجلّ تعلمك هذا الجهاز.', emptyDone: 'رحلتك تبدأ من درس واحد.', emptySaved: 'لا توجد دروس محفوظة بعد.',
+      eyebrow: 'مساحتك التعليمية', title: 'كل خطوة تصنع فرقاً.', intro: 'تقدّمك ومحفوظاتك محفوظة محلياً في هذا الجهاز فقط.', learner: 'متعلّم فضولي', hello: 'مرحباً بك في المختبر', continue: 'واصل التعلّم بوتيرتك الخاصة', completion: 'نسبة الإنجاز', finished: 'الدروس المكتملة', bookmarked: 'الدروس المحفوظة', reset: 'مسح تقدّمي', resetConfirm: 'هل تريد مسح التقدم والمحفوظات من هذا الجهاز؟', privacy: 'لا يحتاج التطبيق إلى حساب. لا يغادر سجلّ تعلمك هذا الجهاز.', emptyDone: 'رحلتك تبدأ من درس واحد.', emptySaved: 'لا توجد دروس محفوظة بعد.',
     },
-    footer: { name: 'مختبر الكيمياء', tagline: 'فضول علمي · فهم عميق · تعلّم آمن', version: 'الإصدار التعليمي 2.0' },
+    footer: { name: 'مختبر الكيمياء', tagline: 'فضول علمي · فهم عميق · تعلّم آمن', version: 'الإصدار التعليمي 3.0' },
   },
   en: {
     brand: { name: 'Chemistry Lab', tagline: 'Understand the world around you' },
@@ -89,7 +89,7 @@ export const copy = {
     progressPage: {
       eyebrow: 'Your learning space', title: 'Every step makes a difference.', intro: 'Your progress and saved lessons are stored locally on this device only.', learner: 'Curious learner', hello: 'Welcome to the lab', continue: 'Learn at your own pace', completion: 'Progress', finished: 'Lessons completed', bookmarked: 'Saved lessons', reset: 'Clear my progress', resetConfirm: 'Clear progress and saved items from this device?', privacy: 'No account is required. Your learning history stays on this device.', emptyDone: 'Your journey begins with one lesson.', emptySaved: 'No saved lessons yet.',
     },
-    footer: { name: 'Chemistry Lab', tagline: 'Scientific curiosity · Deep understanding · Safe learning', version: 'Learning edition 2.0' },
+    footer: { name: 'Chemistry Lab', tagline: 'Scientific curiosity · Deep understanding · Safe learning', version: 'Learning edition 3.0' },
   },
 } as const;
 
