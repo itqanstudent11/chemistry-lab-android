@@ -39,8 +39,7 @@ class MainActivity : ComponentActivity() {
             val loaded by produceState<Result<Library>?>(null) {
                 value = withContext(Dispatchers.IO) { runCatching { ContentRepository.load(applicationContext) } }
             }
-            MaterialTheme(colorScheme = lightColorScheme(primary = Blue, secondary = Color(0xFF805800),
-                background = Color(0xFFF1F6FA), surface = Color.White, onSurface = Ink, onBackground = Ink)) {
+            ChemTheme(false) {
                 when {
                     loaded == null -> Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
                     loaded!!.isFailure -> Box(Modifier.fillMaxSize().padding(24.dp), contentAlignment = Alignment.Center) {
@@ -65,6 +64,7 @@ class MainActivity : ComponentActivity() {
     var elementNumber by rememberSaveable { mutableIntStateOf(1) }
     var guideId by rememberSaveable { mutableStateOf("") }
     var guideSection by rememberSaveable { mutableStateOf("geology") }
+    var mineralId by rememberSaveable { mutableStateOf("") }
     val holder = rememberSaveableStateHolder()
     val appearance = remember { context.getSharedPreferences("appearance", 0) }
     var themeMode by remember { mutableIntStateOf(appearance.getInt("theme", 0)) }
@@ -75,12 +75,12 @@ class MainActivity : ComponentActivity() {
     val guides = library.guides(english)
     fun openLesson(id: String) { if (page != "lesson") lessonReturn = if (page in setOf("favorites", "glossary")) page else "lessons"; lessonId = id; page = "lesson" }
     fun openGuideSection(section: String) { guideSection = section; page = "guides" }
-    fun goBack() { page = when (page) { "lesson" -> lessonReturn; "element" -> "elements"; "guide" -> "guides"; else -> "home" } }
+    fun goBack() { page = when (page) { "lesson" -> lessonReturn; "element" -> "elements"; "guide" -> "guides"; "mineral" -> "minerals"; else -> "home" } }
     BackHandler(page != "home") { goBack() }
-    MaterialTheme(colorScheme = if (dark) darkColorScheme(primary = Color(0xFF8BCDFF), secondary = Color(0xFFE8C36C)) else lightColorScheme(primary = Blue, secondary = Color(0xFF805800), background = Color(0xFFF1F6FA), surface = Color.White, onSurface = Ink, onBackground = Ink)) {
+    ChemTheme(dark) {
     CompositionLocalProvider(LocalWords provides s, LocalReducedMotion provides reducedMotion, LocalLayoutDirection provides if (english) LayoutDirection.Ltr else LayoutDirection.Rtl) {
         Column(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).windowInsetsPadding(WindowInsets.safeDrawing)) {
-            Surface(shadowElevation = 1.dp) {
+            Surface(shadowElevation = 3.dp, color = MaterialTheme.colorScheme.surface) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
                     if (page != "home") TextButton(onClick = { goBack() }) { Text(s.text("رجوع", "Back")) }
                     Text(s.text("مختبر الكيمياء", "Chemistry Lab"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
@@ -103,13 +103,15 @@ class MainActivity : ComponentActivity() {
                         "elements" -> holder.SaveableStateProvider("elements-$english") { ElementsScreen(library.elements) { elementNumber = it; page = "element" } }
                         "element" -> library.elements.find { it.number == elementNumber }?.let { key(it.number) { ElementScreen(it) } }
                         "lab" -> LabScreen(library.elements)
+                        "minerals" -> holder.SaveableStateProvider("minerals-$english") { MineralsScreen { mineralId = it; page = "mineral" } }
+                        "mineral" -> MineralDetailScreen(mineralId)
                         "guides" -> GuidesScreen(guides.filter { it.section == guideSection }, guideSection) { guideId = it; page = "guide" }
                         "guide" -> guides.find { it.id == guideId }?.let { key(it.id) { GuideScreen(it) } }
                         "settings" -> SettingsScreen(english, themeMode, reducedMotion, { english = it; store.saveEnglish(it) }, { themeMode = it; appearance.edit().putInt("theme", it).apply() }, { reducedMotion = it; appearance.edit().putBoolean("reduce_motion", it).apply() })
                     }
                 }
             }
-            NavigationBar {
+            NavigationBar(containerColor = MaterialTheme.colorScheme.surface) {
                 val nav = listOf("home" to s.text("الرئيسية", "Home"), "lessons" to s.text("الدروس", "Learn"),
                     "elements" to s.text("العناصر", "Elements"), "lab" to s.text("المختبر", "Lab"), "favorites" to s.text("المفضلة", "Saved"))
                 val icons = listOf("⌂", "≡", "He", "⚗", "☆")
@@ -127,11 +129,13 @@ class MainActivity : ComponentActivity() {
 @Composable private fun HomeScreen(completed: Int, total: Int, onPage: (String) -> Unit, onSection: (String) -> Unit) {
     val s = LocalWords.current
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        item { HeroArt() }
         item { Heading(s.text("من الذرة إلى علوم الأرض", "From atoms to Earth science"))
             Text(s.text("تعلم بالعربية والإنجليزية • محتوى محلي دون اتصال", "Learn in Arabic and English • available offline")) }
         item { InfoCard(s.text("مسارك التعليمي", "Your learning path"), s.text("$completed من $total درسًا مكتملًا", "$completed of $total lessons completed"))
             LinearProgressIndicator(progress = { completed.toFloat() / total.coerceAtLeast(1) }, modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) }
         item { NavCard(s.text("فهرس المنهج", "Curriculum index"), s.text("أربعة مستويات • أهداف ومسائل واختبار لكل درس", "Four levels • objectives, worked examples and lesson quizzes")) { onPage("lessons") } }
+        item { NavCard(s.text("موسوعة المعادن والخامات", "Minerals and ores encyclopedia"), s.text("33 معدنًا برسوم توضيحية وخصائص واستخدامات وسلامة", "33 minerals with illustrations, properties, uses and safety")) { onPage("minerals") } }
         item { NavCard(s.text("معجم المصطلحات", "Chemistry glossary"), s.text("تعريفات مترابطة مع دروس المنهج", "Definitions linked to curriculum lessons")) { onPage("glossary") } }
         item { NavCard(s.text("الجدول الدوري", "Periodic table"), s.text("118 عنصرًا • شبكة وبحث وخصائص موثقة", "118 elements • grid, search and referenced properties")) { onPage("elements") } }
         item { NavCard(s.text("المحاكاة الآمنة", "Safe simulations"), s.text("حفظ الذرات والتخفيف والغازات والحموضة", "Atom conservation, dilution, gases and acidity")) { onPage("lab") } }

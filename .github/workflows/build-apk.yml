@@ -8,6 +8,7 @@ on:
       - native-v1
       - codex/chemistry-encyclopedia-v4-checkpoint
       - chemistry-v4-test-fix
+      - chemistry-v5-design
   pull_request:
     branches:
       - native-v1
