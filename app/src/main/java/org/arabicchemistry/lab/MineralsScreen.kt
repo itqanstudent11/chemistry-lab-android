@@ -266,7 +266,7 @@ internal fun MineralArt(colorHex: String, habit: String, modifier: Modifier = Mo
         drawRect(
             Brush.radialGradient(colors = listOf(base.copy(alpha = 0.30f), Color.Transparent), center = Offset(cx, cy), radius = maxOf(w, h) * 0.6f)
         )
-        fun poly(c: Color, vararg p: Offset) {
+        fun poly(c: Color, p: List<Offset>) {
             val path = Path()
             path.moveTo(p[0].x, p[0].y)
             for (i in 1 until p.size) path.lineTo(p[i].x, p[i].y)
@@ -279,14 +279,14 @@ internal fun MineralArt(colorHex: String, habit: String, modifier: Modifier = Mo
             val m1 = x - half * 0.3f
             val m2 = x + half * 0.4f
             val r = x + half
-            poly(dark, Offset(l, yTop), Offset(m1, yTop), Offset(m1, yBot), Offset(l, yBot))
-            poly(base, Offset(m1, yTop), Offset(m2, yTop), Offset(m2, yBot), Offset(m1, yBot))
-            poly(light, Offset(m2, yTop), Offset(r, yTop), Offset(r, yBot), Offset(m2, yBot))
+            poly(dark, listOf(Offset(l, yTop), Offset(m1, yTop), Offset(m1, yBot), Offset(l, yBot)))
+            poly(base, listOf(Offset(m1, yTop), Offset(m2, yTop), Offset(m2, yBot), Offset(m1, yBot)))
+            poly(light, listOf(Offset(m2, yTop), Offset(r, yTop), Offset(r, yBot), Offset(m2, yBot)))
             if (tip > 0f) {
                 val ty = yTop - tip
-                poly(dark, Offset(l, yTop), Offset(m1, yTop), Offset(x, ty))
-                poly(light, Offset(m1, yTop), Offset(m2, yTop), Offset(x, ty))
-                poly(base, Offset(m2, yTop), Offset(r, yTop), Offset(x, ty))
+                poly(dark, listOf(Offset(l, yTop), Offset(m1, yTop), Offset(x, ty)))
+                poly(light, listOf(Offset(m1, yTop), Offset(m2, yTop), Offset(x, ty)))
+                poly(base, listOf(Offset(m2, yTop), Offset(r, yTop), Offset(x, ty)))
             }
         }
         when (habit) {
@@ -299,9 +299,9 @@ internal fun MineralArt(colorHex: String, habit: String, modifier: Modifier = Mo
                 val ll = Offset(cx - k * a, cy + a / 2f)
                 val ul = Offset(cx - k * a, cy - a / 2f)
                 val c = Offset(cx, cy)
-                poly(light, top, ur, c, ul)
-                poly(base, ul, c, bot, ll)
-                poly(dark, c, ur, lr, bot)
+                poly(light, listOf(top, ur, c, ul))
+                poly(base, listOf(ul, c, bot, ll))
+                poly(dark, listOf(c, ur, lr, bot))
             }
             "octa" -> {
                 val t = Offset(cx, cy - a * 1.25f)
@@ -309,10 +309,10 @@ internal fun MineralArt(colorHex: String, habit: String, modifier: Modifier = Mo
                 val l = Offset(cx - a * 1.05f, cy + a * 0.05f)
                 val r = Offset(cx + a * 1.05f, cy + a * 0.05f)
                 val f = Offset(cx + a * 0.15f, cy + a * 0.3f)
-                poly(base, t, l, f)
-                poly(light, t, r, f)
-                poly(dark, l, b, f)
-                poly(base, r, b, f)
+                poly(base, listOf(t, l, f))
+                poly(light, listOf(t, r, f))
+                poly(dark, listOf(l, b, f))
+                poly(base, listOf(r, b, f))
             }
             "hex" -> column(cx, cy - a * 0.3f, cy + a * 1.05f, a * 0.55f, a * 0.7f)
             "prism" -> {
@@ -328,16 +328,8 @@ internal fun MineralArt(colorHex: String, habit: String, modifier: Modifier = Mo
                 for (i in 0 until 4) {
                     val y = cy + a * 0.7f - i * a * 0.42f
                     val sh = a * 0.35f
-                    poly(
-                        if (i % 2 == 0) base else light,
-                        Offset(cx - a * 1.1f + sh, y - a * 0.25f), Offset(cx + a * 1.1f + sh, y - a * 0.25f),
-                        Offset(cx + a * 1.1f, y + a * 0.12f), Offset(cx - a * 1.1f, y + a * 0.12f)
-                    )
-                    poly(
-                        dark,
-                        Offset(cx - a * 1.1f, y + a * 0.12f), Offset(cx + a * 1.1f, y + a * 0.12f),
-                        Offset(cx + a * 1.1f, y + a * 0.27f), Offset(cx - a * 1.1f, y + a * 0.27f)
-                    )
+                    poly(if (i % 2 == 0) base else light, listOf(Offset(cx - a * 1.1f + sh, y - a * 0.25f), Offset(cx + a * 1.1f + sh, y - a * 0.25f), Offset(cx + a * 1.1f, y + a * 0.12f), Offset(cx - a * 1.1f, y + a * 0.12f)))
+                    poly(dark, listOf(Offset(cx - a * 1.1f, y + a * 0.12f), Offset(cx + a * 1.1f, y + a * 0.12f), Offset(cx + a * 1.1f, y + a * 0.27f), Offset(cx - a * 1.1f, y + a * 0.27f)))
                 }
             }
             "botryoidal" -> {
