@@ -1,0 +1,321 @@
+:root {
+  --gold: #e9bb56;
+  --cyan: #57e4ed;
+  --navy: #071323;
+}
+.phase2-card {
+  background: linear-gradient(145deg,#17324a,#0b182b);
+  border: 1px solid #36536b;
+  border-radius: 22px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 12px 30px #0005;
+  transition: transform .25s ease,box-shadow .25s ease;
+}
+.phase2-card:active {
+  transform: scale(.97);
+}
+.phase2-title {
+  color: var(--gold);
+  font-weight: 800;
+}
+@media (prefers-reduced-motion: reduce) {
+  .phase2-card { transition: none; }
+}
+
+.phase2-menu {
+  padding: 12px 4px 24px;
+  direction: rtl;
+}
+
+.phase2-menu h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.phase2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.phase2-grid .phase2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 145px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font: inherit;
+  transform: perspective(600px) rotateX(3deg);
+}
+
+.phase2-grid .phase2-card span {
+  font-size: 38px;
+}
+
+.phase2-grid .phase2-card strong {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.phase2-grid .phase2-card:active {
+  transform: perspective(600px) scale(.96);
+}
+
+.phase2-grid .phase2-card:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phase2-grid .phase2-card {
+    transform: none;
+  }
+}
+EOFcat >> app/src/main/assets/phase2/style.css <<'EOF'
+
+.phase2-menu {
+  padding: 12px 4px 24px;
+  direction: rtl;
+}
+
+.phase2-menu h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.phase2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.phase2-grid .phase2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 145px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font: inherit;
+  transform: perspective(600px) rotateX(3deg);
+}
+
+.phase2-grid .phase2-card span {
+  font-size: 38px;
+}
+
+.phase2-grid .phase2-card strong {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.phase2-grid .phase2-card:active {
+  transform: perspective(600px) scale(.96);
+}
+
+.phase2-grid .phase2-card:focus-visible {
+  outline: 3px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phase2-grid .phase2-card {
+    transform: none;
+  }
+}
+
+/* Phase 2 visual enhancements */
+.phase2-menu {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px 12px 28px;
+  box-sizing: border-box;
+  animation: p2Appear .35s ease-out;
+}
+
+.phase2-menu .phase2-title {
+  text-align: center;
+  margin: 16px 0 24px;
+  line-height: 1.5;
+}
+
+.phase2-menu .phase2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.phase2-menu .phase2-card {
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  transition:
+    transform .22s ease,
+    box-shadow .22s ease,
+    border-color .22s ease;
+}
+
+.phase2-menu button.phase2-card {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.phase2-menu button.phase2-card:active {
+  transform: perspective(700px)
+    rotateX(3deg) scale(.97);
+}
+
+.phase2-menu input,
+.phase2-menu select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0 18px;
+  padding: 13px;
+  font-size: 17px;
+  border: 1px solid #64748b;
+  border-radius: 12px;
+  background: #f8fafc;
+  color: #0f172a;
+  direction: ltr;
+  text-align: center;
+}
+
+.phase2-menu input:focus-visible,
+.phase2-menu button:focus-visible {
+  outline: 3px solid #06b6d4;
+  outline-offset: 3px;
+}
+
+.phase2-menu label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.phase2-menu h3 {
+  line-height: 1.6;
+  margin: 14px 0;
+}
+
+.phase2-menu p {
+  line-height: 1.9;
+}
+
+#gold-result,
+#sim-result {
+  margin-top: 18px;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(14,165,233,.09);
+}
+
+@keyframes p2Appear {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 720px) {
+  .phase2-menu .phase2-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 380px) {
+  .phase2-menu {
+    padding: 10px 6px 20px;
+  }
+
+  .phase2-menu .phase2-grid {
+    gap: 8px;
+  }
+
+  .phase2-menu .phase2-card {
+    padding: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phase2-menu,
+  .phase2-menu .phase2-card {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Appearance and accessibility preferences */
+:root[data-p2-theme="dark"] {
+  color-scheme: dark;
+  --gold: #facc15;
+  --cyan: #67e8f9;
+  --navy: #0f172a;
+}
+
+:root[data-p2-theme="dark"] body {
+  background: #080f1f !important;
+  color: #e2e8f0 !important;
+}
+
+:root[data-p2-theme="dark"] .phase2-card {
+  background: #17243a !important;
+  color: #f1f5f9 !important;
+  border-color: #334155 !important;
+}
+
+:root[data-p2-theme="dark"] .phase2-menu input,
+:root[data-p2-theme="dark"] .phase2-menu select {
+  background: #0f172a;
+  color: #f8fafc;
+  border-color: #64748b;
+}
+
+:root[data-p2-theme="dark"] #gold-result,
+:root[data-p2-theme="dark"] #sim-result {
+  background: #17324a;
+  color: #f1f5f9;
+}
+
+:root[data-p2-font="small"] .phase2-menu {
+  font-size: 14px;
+}
+
+:root[data-p2-font="medium"] .phase2-menu {
+  font-size: 16px;
+}
+
+:root[data-p2-font="large"] .phase2-menu {
+  font-size: 19px;
+}
+
+:root[data-p2-motion="off"] *,
+:root[data-p2-motion="off"] *::before,
+:root[data-p2-motion="off"] *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phase2-menu *,
+  .phase2-menu *::before,
+  .phase2-menu *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "atom",
+    "ar": "الذرة",
+    "en": "Atom",
+    "definitionAr": "أصغر وحدة من العنصر تحتفظ بهويته الكيميائية؛ يحدد عدد البروتونات نوع العنصر.",
+    "definitionEn": "Smallest unit of an element retaining its chemical identity; proton number defines the element.",
+    "lessonId": "lesson-002"
+  },
+  {
+    "id": "isotope",
+    "ar": "النظير",
+    "en": "Isotope",
+    "definitionAr": "ذرات لها العدد الذري نفسه وتختلف في عدد النيوترونات؛ ليست كل النظائر مشعة.",
+    "definitionEn": "Atoms with the same atomic number but different neutron numbers; not all isotopes are radioactive.",
+    "lessonId": "lesson-018"
+  },
+  {
+    "id": "mole",
+    "ar": "المول",
+    "en": "Mole",
+    "definitionAr": "وحدة كمية المادة؛ يحتوي مول واحد بالضبط على 6.02214076×10²³ من الكيانات المحددة.",
+    "definitionEn": "Unit of amount of substance; one mole contains exactly 6.02214076×10²³ specified entities.",
+    "lessonId": "lesson-005"
+  },
+  {
+    "id": "molar-mass",
+    "ar": "الكتلة المولية",
+    "en": "Molar mass",
+    "definitionAr": "كتلة المادة مقسومة على كمية المادة، وتستخدم عادة بوحدة g/mol.",
+    "definitionEn": "Mass divided by amount of substance, commonly expressed in g/mol.",
+    "lessonId": "lesson-005"
+  },
+  {
+    "id": "molarity",
+    "ar": "التركيز المولاري",
+    "en": "Molar concentration",
+    "definitionAr": "كمية المذاب بالمول لكل وحدة حجم من المحلول، وغالبًا mol/L؛ تتأثر القيمة بتغير الحجم الحراري.",
+    "definitionEn": "Amount of solute per solution volume, commonly mol/L; thermal volume changes affect the value.",
+    "lessonId": "lesson-006"
+  },
+  {
+    "id": "dilution",
+    "ar": "التخفيف",
+    "en": "Dilution",
+    "definitionAr": "خفض التركيز بزيادة حجم المحلول؛ يحفظ النموذج المثالي كمية المذاب دون تفاعل أو فقد.",
+    "definitionEn": "Reducing concentration by increasing solution volume; the ideal model conserves solute without reaction or loss.",
+    "lessonId": "lesson-006"
+  },
+  {
+    "id": "stoichiometry",
+    "ar": "الحساب الستوكيومتري",
+    "en": "Stoichiometry",
+    "definitionAr": "العلاقات الكمية المستنتجة من معاملات معادلة موزونة؛ لا تثبت وحدها أن التفاعل سيحدث.",
+    "definitionEn": "Quantitative relationships from balanced equation coefficients; these alone do not establish that a reaction occurs.",
+    "lessonId": "lesson-019"
+  },
+  {
+    "id": "limiting-reactant",
+    "ar": "المتفاعل المحدد",
+    "en": "Limiting reactant",
+    "definitionAr": "المتفاعل الذي يحد مقدار الناتج النظري وفق النسب في المعادلة الموزونة.",
+    "definitionEn": "Reactant that limits theoretical product according to the balanced equation ratios.",
+    "lessonId": "lesson-020"
+  },
+  {
+    "id": "equilibrium",
+    "ar": "الاتزان الديناميكي",
+    "en": "Dynamic equilibrium",
+    "definitionAr": "تتساوى سرعتا التفاعلين الأمامي والعكسي دون اشتراط تساوي تراكيز المواد.",
+    "definitionEn": "Forward and reverse reaction rates are equal; substance concentrations need not be equal.",
+    "lessonId": "lesson-008"
+  },
+  {
+    "id": "activity",
+    "ar": "النشاط الكيميائي",
+    "en": "Chemical activity",
+    "definitionAr": "كمية نسبية بلا وحدة تمثل التركيز الفعال نسبة إلى حالة معيارية؛ تساوي تقريبًا نسبة التركيز في التقريب المثالي.",
+    "definitionEn": "Dimensionless effective concentration relative to a standard state; approximated by a concentration ratio in an ideal model.",
+    "lessonId": "lesson-008"
+  },
+  {
+    "id": "ph",
+    "ar": "الأس الهيدروجيني",
+    "en": "pH",
+    "definitionAr": "يساوي سالب اللوغاريتم العشري لنشاط أيون الهيدروجين؛ استخدام التركيز مباشرة تقريب للمحلول المثالي.",
+    "definitionEn": "Negative base-ten logarithm of hydrogen-ion activity; direct use of concentration is an ideal-solution approximation.",
+    "lessonId": "lesson-007"
+  },
+  {
+    "id": "catalyst",
+    "ar": "المحفز",
+    "en": "Catalyst",
+    "definitionAr": "يوفر مسارًا بحاجز تنشيط مختلف ويؤثر في السرعة؛ لا يغير ثابت الاتزان عند الحرارة نفسها.",
+    "definitionEn": "Provides a pathway with a different activation barrier and affects rate; it does not change the equilibrium constant at fixed temperature.",
+    "lessonId": "lesson-013"
+  },
+  {
+    "id": "enthalpy",
+    "ar": "الإنثالبي",
+    "en": "Enthalpy",
+    "definitionAr": "دالة حالة H=U+pV؛ يساوي تغيرها الحرارة عند ضغط ثابت وشغل ضغط–حجم فقط.",
+    "definitionEn": "State function H=U+pV; its change equals heat at constant pressure with only pressure–volume work.",
+    "lessonId": "lesson-012"
+  },
+  {
+    "id": "gibbs-energy",
+    "ar": "طاقة غيبس",
+    "en": "Gibbs energy",
+    "definitionAr": "دالة حالة G=H−TS؛ عند ثبات الحرارة والضغط يدل انخفاضها على الاتجاه التلقائي ضمن القيود المناسبة.",
+    "definitionEn": "State function G=H−TS; at constant temperature and pressure, a decrease indicates spontaneous direction under appropriate constraints.",
+    "lessonId": "lesson-012"
+  },
+  {
+    "id": "oxidation",
+    "ar": "الأكسدة",
+    "en": "Oxidation",
+    "definitionAr": "فقد إلكترونات أو زيادة عدد التأكسد؛ لا تشترط وجود الأكسجين في التفاعل.",
+    "definitionEn": "Loss of electrons or increase in oxidation state; oxygen need not be involved.",
+    "lessonId": "lesson-024"
+  },
+  {
+    "id": "reduction",
+    "ar": "الاختزال",
+    "en": "Reduction",
+    "definitionAr": "اكتساب إلكترونات أو انخفاض عدد التأكسد، ويقترن بالأكسدة في تفاعل انتقال إلكترونات.",
+    "definitionEn": "Gain of electrons or decrease in oxidation state, paired with oxidation in electron-transfer reactions.",
+    "lessonId": "lesson-024"
+  },
+  {
+    "id": "anode",
+    "ar": "المصعد",
+    "en": "Anode",
+    "definitionAr": "القطب الذي تحدث عنده الأكسدة؛ تختلف إشارته بين الخلية الجلفانية والتحليلية.",
+    "definitionEn": "Electrode where oxidation occurs; its sign differs between galvanic and electrolytic cells.",
+    "lessonId": "lesson-025"
+  },
+  {
+    "id": "cathode",
+    "ar": "المهبط",
+    "en": "Cathode",
+    "definitionAr": "القطب الذي يحدث عنده الاختزال؛ لا تعرفه الإشارة الموجبة وحدها في كل أنواع الخلايا.",
+    "definitionEn": "Electrode where reduction occurs; a positive sign alone does not identify it in every cell type.",
+    "lessonId": "lesson-025"
+  },
+  {
+    "id": "solubility-product",
+    "ar": "حاصل الإذابة",
+    "en": "Solubility product",
+    "definitionAr": "ثابت اتزان إذابة مركب قليل الذوبان معبرًا بالأنشطة؛ يختلف التعبير باختلاف المعاملات.",
+    "definitionEn": "Equilibrium constant for dissolution of a sparingly soluble compound expressed using activities; the expression depends on stoichiometry.",
+    "lessonId": "lesson-043"
+  },
+  {
+    "id": "detection-limit",
+    "ar": "حد الكشف",
+    "en": "Detection limit",
+    "definitionAr": "مستوى يمكن عنده تمييز إشارة عن خلفيتها وفق معيار إحصائي محدد؛ ليس حدًا يضمن قياسًا كميًا دقيقًا.",
+    "definitionEn": "Level at which a signal is distinguishable from background under a specified statistical criterion; not a guarantee of reliable quantification.",
+    "lessonId": "lesson-009"
+  },
+  {
+    "id": "uncertainty",
+    "ar": "عدم يقين القياس",
+    "en": "Measurement uncertainty",
+    "definitionAr": "معلمة تصف تشتت القيم المنسوبة إلى الكمية المقيسة اعتمادًا على المعلومات المتاحة؛ ليست مجرد خطأ حسابي.",
+    "definitionEn": "Parameter characterising dispersion of values attributed to a measurand from available information; not simply an arithmetic mistake.",
+    "lessonId": "lesson-046"
+  },
+  {
+    "id": "precision",
+    "ar": "إحكام القياس",
+    "en": "Measurement precision",
+    "definitionAr": "تقارب نتائج القياسات المتكررة في ظروف محددة؛ قد تكون النتائج محكمة لكنها منحازة.",
+    "definitionEn": "Closeness of repeated measurements under specified conditions; precise results can still be biased.",
+    "lessonId": "lesson-046"
+  },
+  {
+    "id": "accuracy",
+    "ar": "صحة القياس",
+    "en": "Measurement accuracy",
+    "definitionAr": "قرب نتيجة القياس من القيمة الحقيقية؛ يرتبط بالتأثيرين العشوائي والمنهجي، وليس مرادفًا لتكرار النتائج.",
+    "definitionEn": "Closeness of a measurement result to the true value; involves random and systematic effects and is not synonymous with repeatability.",
+    "lessonId": "lesson-046"
+  },
+  {
+    "id": "mineral",
+    "ar": "المعدن الجيولوجي",
+    "en": "Mineral",
+    "definitionAr": "مادة طبيعية صلبة ذات تركيب وبنية داخلية مميزين ضمن تعريفات علم المعادن؛ يختلف عن معنى الفلز الكيميائي.",
+    "definitionEn": "Naturally occurring solid with characteristic composition and internal structure under mineralogical definitions; distinct from a chemical metal.",
+    "lessonId": "lesson-015"
+  },
+  {
+    "id": "ore",
+    "ar": "الخام",
+    "en": "Ore",
+    "definitionAr": "مادة جيولوجية يمكن أن يكون استخراج مكون ذي قيمة منها مجديًا في ظروف اقتصادية وتقنية محددة.",
+    "definitionEn": "Geological material from which a valuable constituent can be extracted economically under specified technical and economic conditions.",
+    "lessonId": "lesson-037"
+  },
+  {
+    "id": "resource",
+    "ar": "المورد المعدني",
+    "en": "Mineral resource",
+    "definitionAr": "تقدير لمادة ذات اهتمام اقتصادي له أساس جيولوجي وآفاق معقولة للاستخراج وفق معيار إبلاغ؛ ليس احتياطيًا تلقائيًا.",
+    "definitionEn": "Estimate of material of economic interest with geological evidence and reasonable prospects for extraction under a reporting standard; not automatically a reserve.",
+    "lessonId": "lesson-039"
+  },
+  {
+    "id": "reserve",
+    "ar": "الاحتياطي المعدني",
+    "en": "Mineral reserve",
+    "definitionAr": "الجزء القابل للاستخراج اقتصاديًا من مورد مناسب بعد تطبيق العوامل المعدلة والدراسات المطلوبة وفق معيار معتمد.",
+    "definitionEn": "Economically mineable part of an appropriate resource after required studies and modifying factors under an accepted reporting standard.",
+    "lessonId": "lesson-039"
+  },
+  {
+    "id": "grade",
+    "ar": "عيار الخام",
+    "en": "Ore grade",
+    "definitionAr": "نسبة أو تركيز المكون ذي القيمة، مع ضرورة ذكر الوحدة وأساس العينة؛ 1 g/t يساوي 1 mg/kg كنسبة كتلية.",
+    "definitionEn": "Proportion or concentration of a valuable constituent, requiring units and sample basis; 1 g/t equals 1 mg/kg as a mass ratio.",
+    "lessonId": "lesson-038"
+  },
+  {
+    "id": "recovery",
+    "ar": "الاسترداد",
+    "en": "Recovery",
+    "definitionAr": "نسبة كتلة المكون المسترد إلى كتلته في التغذية على أساس متسق؛ النسبة المفترضة لا تضمن أداءً فعليًا.",
+    "definitionEn": "Mass of constituent recovered divided by its mass in feed on a consistent basis; an assumed fraction does not guarantee actual performance.",
+    "lessonId": "lesson-038"
+  },
+  {
+    "id": "representative-sample",
+    "ar": "العينة الممثلة",
+    "en": "Representative sample",
+    "definitionAr": "عينة تدعم الاستدلال على المجتمع المستهدف ضمن خطة أخذ عينات ملائمة؛ لا يكفي اختيار القطعة الأعلى لمعانًا.",
+    "definitionEn": "Sample supporting inference about a target population through an appropriate sampling plan; selecting the shiniest piece is insufficient.",
+    "lessonId": "lesson-039"
+  },
+  {
+    "id": "exposure",
+    "ar": "التعرض المهني",
+    "en": "Occupational exposure",
+    "definitionAr": "تلامس العامل مع عامل خطر عبر مسار ومدة وشدة محددة؛ يختلف الخطر الذاتي للمادة عن مستوى المخاطرة الفعلي.",
+    "definitionEn": "Worker contact with a hazard through a defined route, duration and intensity; intrinsic hazard differs from actual risk.",
+    "lessonId": "lesson-016"
+  },
+  {
+    "id": "green-chemistry",
+    "ar": "الكيمياء الخضراء",
+    "en": "Green chemistry",
+    "definitionAr": "تصميم المواد والعمليات لتقليل استخدام وتوليد المواد الخطرة عبر دورة الحياة، مع تقييم الأدلة والمفاضلات.",
+    "definitionEn": "Design of substances and processes to reduce hazardous-substance use and generation across the life cycle, with evidence and trade-off assessment.",
+    "lessonId": "lesson-047"
+  }
+]
