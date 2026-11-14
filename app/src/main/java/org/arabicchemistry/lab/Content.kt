@@ -9,7 +9,10 @@ data class Lesson(
     val id: String, val title: String, val level: String, val section: String,
     val intro: String, val detail: String, val example: String, val summary: String,
     val objectives: List<String>, val prerequisites: List<String>, val questions: List<Question>,
-    val source: String, val sourceUrls: List<String>
+    val source: String, val sourceUrls: List<String>,
+    val whyMatters: String = "", val keyIdeas: List<String> = emptyList(),
+    val commonMistakes: List<String> = emptyList(), val safePractice: String = "",
+    val reflection: List<String> = emptyList(), val connections: List<String> = emptyList()
 )
 data class Element(
     val number: Int, val symbol: String, val name: String, val nameEn: String, val mass: String,
@@ -42,7 +45,9 @@ object ContentRepository {
                 o.getString("intro"), o.getString("detail"), o.getString("example"), o.getString("summary"),
                 o.strings("objectives"), o.strings("prerequisites"),
                 o.getJSONArray("questions").objects { q -> Question(q.getString("question"), q.strings("options"), q.getInt("answer"), q.getString("explanation")) },
-                o.optString("source"), o.strings("sourceUrls"))
+                o.optString("source"), o.strings("sourceUrls"),
+                o.optString("whyMatters"), o.strings("keyIdeas"), o.strings("commonMistakes"),
+                o.optString("safePractice"), o.strings("reflection"), o.strings("connections"))
         }
         fun guides(name: String) = array(name).objects { o ->
             Guide(o.getString("id"), o.getString("section"), o.getString("title"), o.getString("intro"),

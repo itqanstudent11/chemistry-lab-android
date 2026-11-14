@@ -1,0 +1,40 @@
+name: Build enriched native Android APK
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+      - uses: android-actions/setup-android@v3
+      - name: Install Android SDK
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
+      - name: Validate and build
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for n in ['lessons.json','lessons_en.json']:
+              x=json.loads(Path('app/src/main/assets',n).read_text())
+              assert len(x) >= 40 and all(i.get('enrichmentVersion') == 1 for i in x)
+              print(n, len(x), 'validated')
+          PY
+          chmod +x gradlew
+          ./gradlew --no-daemon assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chemistry-lab-enriched-debug-apk
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30

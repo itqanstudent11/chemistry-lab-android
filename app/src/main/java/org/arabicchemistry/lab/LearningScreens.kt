@@ -98,6 +98,12 @@ import kotlinx.coroutines.launch
         item { InfoCard(s.text("التفسير العلمي", "Explanation"), lesson.detail) }
         item { InfoCard(s.text("مثال محلول", "Worked example"), lesson.example) }
         item { InfoCard(s.text("الخلاصة", "Summary"), lesson.summary) }
+        if (lesson.whyMatters.isNotBlank()) item { InfoCard(s.text("لماذا يهمك؟", "Why this matters"), lesson.whyMatters) }
+        if (lesson.keyIdeas.isNotEmpty()) item { InfoCard(s.text("خريطة الأفكار", "Idea map"), lesson.keyIdeas.joinToString("\n") { "• $it" }) }
+        if (lesson.commonMistakes.isNotEmpty()) item { InfoCard(s.text("أخطاء شائعة", "Common mistakes"), lesson.commonMistakes.joinToString("\n") { "• $it" }) }
+        if (lesson.safePractice.isNotBlank()) item { InfoCard(s.text("تطبيق آمن", "Safe practice"), lesson.safePractice) }
+        if (lesson.reflection.isNotEmpty()) item { InfoCard(s.text("أسئلة للتفكير", "Reflection"), lesson.reflection.joinToString("\n") { "• $it" }) }
+        if (lesson.connections.isNotEmpty()) item { InfoCard(s.text("روابط مقترحة", "Connections"), lesson.connections.joinToString("\n") { "• $it" }) }
         item {
             Text(s.text("المتطلبات السابقة", "Prerequisites"), style = MaterialTheme.typography.titleLarge)
             if (lesson.prerequisites.isEmpty()) Text(s.text("لا توجد متطلبات سابقة.", "No prerequisites."))

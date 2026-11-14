@@ -56,7 +56,30 @@
         "answer": 0,
         "explanation": "Vaporisation is a physical change; the identities of the substances are needed to interpret the observation."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Matter and changes” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Atoms and particles",
@@ -117,7 +140,30 @@
         "answer": 0,
         "explanation": "An element is identified by its atomic number, the number of protons."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Atoms and particles” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "The periodic table and trends",
@@ -178,7 +224,30 @@
         "answer": 0,
         "explanation": "An additional occupied shell increases atomic extent despite the larger proton count."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “The periodic table and trends” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Chemical bonds",
@@ -240,7 +309,30 @@
         "answer": 0,
         "explanation": "The formula gives the 1:1 ratio of Na⁺ to Cl⁻ in the ionic lattice."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Chemical bonds” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "The mole and chemical calculations",
@@ -302,7 +394,30 @@
         "answer": 0,
         "explanation": "Dividing g by g/mol gives mol, consistent with n=m/M."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “The mole and chemical calculations” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Solutions and dilution",
@@ -363,7 +478,30 @@
         "answer": 1,
         "explanation": "V₂ is the total final solution volume after dilution."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Solutions and dilution” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Acids and bases",
@@ -425,7 +563,30 @@
         "answer": 0,
         "explanation": "Losing one proton converts an acid into its conjugate base."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Acids and bases” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Chemical equilibrium",
@@ -487,7 +648,30 @@
         "answer": 1,
         "explanation": "A catalyst lowers barriers for both directions without changing the free energy difference between states."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Chemical equilibrium” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Introduction to instrumental analysis",
@@ -548,7 +732,30 @@
         "answer": 1,
         "explanation": "Unvalidated extrapolation is unreliable; an approved procedure and appropriate remeasurement are needed."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Introduction to instrumental analysis” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Mineralogy and gold ores",
@@ -610,7 +817,30 @@
         "answer": 1,
         "explanation": "Spatial representation and grade variability matter; a selected grain may not represent the bulk."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Mineralogy and gold ores” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Organic chemistry",
@@ -671,7 +901,30 @@
         "answer": 0,
         "explanation": "Functional groups matter greatly, but chain length, shape and structural context also matter."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Organic chemistry” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Thermodynamics",
@@ -733,7 +986,30 @@
         "answer": 1,
         "explanation": "Thermodynamics addresses favourability; kinetics addresses the rate of approach."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Thermodynamics” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Chemical kinetics",
@@ -795,7 +1071,30 @@
         "answer": 0,
         "explanation": "An overall equation does not establish the mechanism; orders are measured experimentally."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Chemical kinetics” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Spectroscopic analysis",
@@ -858,7 +1157,30 @@
         "answer": 0,
         "explanation": "An atom absorbs or emits a defined energy when its electronic state changes."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Spectroscopic analysis” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Mineralogy",
@@ -920,7 +1242,30 @@
         "answer": 0,
         "explanation": "Crystal arrangement and bonding strongly influence properties."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Mineralogy” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Chemical safety",
@@ -981,7 +1326,30 @@
         "answer": 1,
         "explanation": "A pictogram summarises a hazard class; detailed information and task-specific controls remain necessary."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Chemical safety” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Measurement and units",
@@ -1043,7 +1411,30 @@
         "answer": 0,
         "explanation": "Repeated values can cluster despite bias; precision is not the same as accuracy."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Measurement and units” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Isotopes and atomic mass",
@@ -1105,7 +1496,30 @@
         "answer": 1,
         "explanation": "The weighted average describes a population; mass number counts protons and neutrons in one atom."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Isotopes and atomic mass” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Balancing chemical equations",
@@ -1167,7 +1581,30 @@
         "answer": 0,
         "explanation": "A subscript is part of a compound’s identity; changing it gives another compound."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Balancing chemical equations” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "The limiting reactant",
@@ -1229,7 +1666,30 @@
         "answer": 0,
         "explanation": "Percent yield=1.5/2×100=75%."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “The limiting reactant” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Ideal gases",
@@ -1291,7 +1751,30 @@
         "answer": 1,
         "explanation": "P=nRT/V makes pressure directly proportional to T under these conditions."
       }
-    ]
+    ],
+    "whyMatters": "This lesson turns “Ideal gases” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-022",
@@ -1352,7 +1835,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity",
+    "whyMatters": "This lesson turns “Molecular geometry” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-023",
@@ -1413,7 +1919,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+    "whyMatters": "This lesson turns “Intermolecular forces” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-024",
@@ -1475,7 +2004,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "whyMatters": "This lesson turns “Oxidation and reduction” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-025",
@@ -1537,7 +2089,30 @@
       "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
       "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells\nhttps://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells\nhttps://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+    "whyMatters": "This lesson turns “Electrochemical cells” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-026",
@@ -1599,7 +2174,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+    "whyMatters": "This lesson turns “Titration and curves” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-027",
@@ -1661,7 +2259,30 @@
     "sourceUrls": [
       "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/12%3A_Chromatographic_and_Electrophoretic_Methods"
     ],
-    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/12%3A_Chromatographic_and_Electrophoretic_Methods"
+    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/12%3A_Chromatographic_and_Electrophoretic_Methods",
+    "whyMatters": "This lesson turns “Chromatography” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-028",
@@ -1723,7 +2344,30 @@
     "sourceUrls": [
       "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/10%3A_Spectroscopic_Methods"
     ],
-    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/10%3A_Spectroscopic_Methods"
+    "source": "Review references: https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/10%3A_Spectroscopic_Methods",
+    "whyMatters": "This lesson turns “Beer–Lambert law” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-029",
@@ -1784,7 +2428,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+    "whyMatters": "This lesson turns “Hydrocarbons” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-030",
@@ -1847,7 +2514,30 @@
       "https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers",
       "https://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers\nhttps://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-2-alcohols-and-ethers\nhttps://openstax.org/books/chemistry-2e/pages/20-3-aldehydes-ketones-carboxylic-acids-and-esters",
+    "whyMatters": "This lesson turns “Functional groups” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-031",
@@ -1908,7 +2598,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/20-1-hydrocarbons",
+    "whyMatters": "This lesson turns “Isomerism” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-032",
@@ -1969,7 +2682,30 @@
     "sourceUrls": [
       "https://openstax.org/books/organic-chemistry/pages/31-summary"
     ],
-    "source": "Review references: https://openstax.org/books/organic-chemistry/pages/31-summary"
+    "source": "Review references: https://openstax.org/books/organic-chemistry/pages/31-summary",
+    "whyMatters": "This lesson turns “Polymers” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-033",
@@ -2032,7 +2768,30 @@
       "https://openstax.org/books/biology-2e/pages/3-4-proteins",
       "https://openstax.org/books/biology-2e/pages/6-5-enzymes"
     ],
-    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-4-proteins\nhttps://openstax.org/books/biology-2e/pages/6-5-enzymes"
+    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-4-proteins\nhttps://openstax.org/books/biology-2e/pages/6-5-enzymes",
+    "whyMatters": "This lesson turns “Proteins and enzymes” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-034",
@@ -2095,7 +2854,30 @@
       "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
       "https://openstax.org/books/biology-2e/pages/3-3-lipids"
     ],
-    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-2-carbohydrates\nhttps://openstax.org/books/biology-2e/pages/3-3-lipids"
+    "source": "Review references: https://openstax.org/books/biology-2e/pages/3-2-carbohydrates\nhttps://openstax.org/books/biology-2e/pages/3-3-lipids",
+    "whyMatters": "This lesson turns “Carbohydrates and lipids” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-035",
@@ -2157,7 +2939,30 @@
     "sourceUrls": [
       "https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
     ],
-    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
+    "source": "Review references: https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals",
+    "whyMatters": "This lesson turns “Coordination complexes” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-036",
@@ -2220,7 +3025,30 @@
       "https://www.who.int/publications/i/item/9789240045064",
       "https://www.usgs.gov/special-topics/water-science-school/science/conductivity-electrical-conductance-and-water"
     ],
-    "source": "Review references: https://www.who.int/publications/i/item/9789240045064\nhttps://www.usgs.gov/special-topics/water-science-school/science/conductivity-electrical-conductance-and-water"
+    "source": "Review references: https://www.who.int/publications/i/item/9789240045064\nhttps://www.usgs.gov/special-topics/water-science-school/science/conductivity-electrical-conductance-and-water",
+    "whyMatters": "This lesson turns “Water chemistry” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-037",
@@ -2283,7 +3111,30 @@
       "https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral",
       "https://www.usgs.gov/centers/national-minerals-information-center"
     ],
-    "source": "Review references: https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral\nhttps://www.usgs.gov/centers/national-minerals-information-center"
+    "source": "Review references: https://www.usgs.gov/faqs/what-difference-between-a-rock-and-a-mineral\nhttps://www.usgs.gov/centers/national-minerals-information-center",
+    "whyMatters": "This lesson turns “Minerals and ores” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-038",
@@ -2347,7 +3198,30 @@
       "https://www.usgs.gov/centers/national-minerals-information-center/gold-statistics-and-information",
       "https://www.nist.gov/pml/special-publication-811"
     ],
-    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/gold-statistics-and-information\nhttps://www.nist.gov/pml/special-publication-811"
+    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/gold-statistics-and-information\nhttps://www.nist.gov/pml/special-publication-811",
+    "whyMatters": "This lesson turns “Gold analysis” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-039",
@@ -2411,7 +3285,30 @@
       "https://www.usgs.gov/centers/national-minerals-information-center/africa-and-middle-east",
       "https://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf"
     ],
-    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/africa-and-middle-east\nhttps://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf"
+    "source": "Review references: https://www.usgs.gov/centers/national-minerals-information-center/africa-and-middle-east\nhttps://pubs.usgs.gov/myb/vol3/2019/myb3-2019-yemen.pdf",
+    "whyMatters": "This lesson turns “Yemen geology and sample documentation” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-040",
@@ -2473,7 +3370,30 @@
       "https://www.atsdr.cdc.gov/toxfaqs/tfacts8.pdf",
       "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
     ],
-    "source": "Review references: https://www.atsdr.cdc.gov/toxfaqs/tfacts8.pdf\nhttps://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health"
+    "source": "Review references: https://www.atsdr.cdc.gov/toxfaqs/tfacts8.pdf\nhttps://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health",
+    "whyMatters": "This lesson turns “Cyanide and lead hazards” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-041",
@@ -2535,7 +3455,30 @@
       "https://www.cdc.gov/niosh/silica/about/index.html",
       "https://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
     ],
-    "source": "Review references: https://www.cdc.gov/niosh/silica/about/index.html\nhttps://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html"
+    "source": "Review references: https://www.cdc.gov/niosh/silica/about/index.html\nhttps://www.cdc.gov/niosh/hierarchy-of-controls/about/index.html",
+    "whyMatters": "This lesson turns “Respirable crystalline silica” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "id": "lesson-042",
@@ -2597,7 +3540,30 @@
       "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1",
       "https://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines"
     ],
-    "source": "Review references: https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1\nhttps://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines"
+    "source": "Review references: https://www.ifc.org/en/insights-reports/2012/ifc-performance-standard-1\nhttps://www.ifc.org/en/insights-reports/general-environmental-health-and-safety-guidelines",
+    "whyMatters": "This lesson turns “Permits and environmental assessment” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Solubility and the solubility product",
@@ -2659,7 +3625,30 @@
       "10⁴ mol/L"
     ],
     "answer": 0,
-    "explanation": "Ksp≈s², so s=√10⁻⁸=10⁻⁴ mol/L."
+    "explanation": "Ksp≈s², so s=√10⁻⁸=10⁻⁴ mol/L.",
+    "whyMatters": "This lesson turns “Solubility and the solubility product” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Nuclear chemistry and radiation",
@@ -2721,7 +3710,30 @@
       "1/8"
     ],
     "answer": 2,
-    "explanation": "(1/2)³=1/8 of the original nuclei remain undecayed."
+    "explanation": "(1/2)³=1/8 of the original nuclei remain undecayed.",
+    "whyMatters": "This lesson turns “Nuclear chemistry and radiation” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Solids and crystals",
@@ -2783,7 +3795,30 @@
       "Ionic liquid"
     ],
     "answer": 0,
-    "explanation": "Carbon atoms form an extended network of covalent bonds."
+    "explanation": "Carbon atoms form an extended network of covalent bonds.",
+    "whyMatters": "This lesson turns “Solids and crystals” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Measurement uncertainty and statistics",
@@ -2845,7 +3880,30 @@
       "30 mg/L"
     ],
     "answer": 1,
-    "explanation": "The sum 30 divided by three readings is 10 mg/L."
+    "explanation": "The sum 30 divided by three readings is 10 mg/L.",
+    "whyMatters": "This lesson turns “Measurement uncertainty and statistics” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Green chemistry and life cycles",
@@ -2908,7 +3966,30 @@
       "100%"
     ],
     "answer": 0,
-    "explanation": "Atom economy=60/100×100=60%."
+    "explanation": "Atom economy=60/100×100=60%.",
+    "whyMatters": "This lesson turns “Green chemistry and life cycles” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   },
   {
     "title": "Integrated review: from sample to conclusion",
@@ -2972,6 +4053,29 @@
       "6000 g"
     ],
     "answer": 1,
-    "explanation": "Tonnes cancel in 2.0 t×3.0 g/t, leaving 6.0 g."
+    "explanation": "Tonnes cancel in 2.0 t×3.0 g/t, leaving 6.0 g.",
+    "whyMatters": "This lesson turns “Integrated review: from sample to conclusion” into a connected explanation that can be checked and applied safely.",
+    "keyIdeas": [
+      "Separate observation, measurement, model and interpretation.",
+      "Track variables, units, assumptions and evidence.",
+      "Connect the idea to a previous lesson before memorizing it."
+    ],
+    "commonMistakes": [
+      "Changing a chemical formula instead of a coefficient.",
+      "Generalizing from one example without checking conditions.",
+      "Treating a visual clue as complete proof."
+    ],
+    "safePractice": "Study on paper or with safe simulations. Real experiments require a licensed laboratory, supervision and protective equipment.",
+    "reflection": [
+      "What evidence would support this idea without being the only evidence?",
+      "Which variable should be measured or controlled?",
+      "What does the model explain and what still requires data?"
+    ],
+    "connections": [
+      "Connect symbols to the periodic table.",
+      "Use the glossary for new terms.",
+      "Review prerequisites before the quiz."
+    ],
+    "enrichmentVersion": 1
   }
 ]
