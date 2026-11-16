@@ -15,6 +15,8 @@ import bondLesson from './content-lessons/bond.json';
 import type { Lesson, LessonText, Locale, SimulationKind, Theme } from './lessonTypes';
 import { copy } from './i18n';
 import { glossary, goldStages } from './referenceData';
+import { LessonExperience } from './LessonExperience';
+import { SimulationLab } from './SimulationLab';
 
 type View = 'home' | 'lessons' | 'gold' | 'glossary' | 'progress' | 'settings' | 'lesson';
 type Settings = { locale: Locale; theme: Theme; fontScale: number };
@@ -90,8 +92,8 @@ export default function App() {
     <header className={`topbar ${menuOpen ? 'menu-open' : ''}`}>
       <button className="brand" onClick={() => navigate('home')} aria-label={c.nav.home}><span className="brand-mark"><Atom size={24} strokeWidth={1.8} /></span><span className="brand-copy"><strong>{c.brand.name}</strong><small>{c.brand.tagline}</small></span></button>
       <nav className="desktop-nav" aria-label={settings.locale === 'ar' ? 'التنقل الرئيسي' : 'Main navigation'}>{navItems.map((item) => <button key={item.id} className={`nav-link ${view === item.id || (view === 'lesson' && item.id === 'lessons') ? 'active' : ''}`} onClick={() => navigate(item.id)}>{item.label}</button>)}</nav>
-      <div className="top-actions"><button className="icon-button settings-shortcut" onClick={() => navigate('settings')} aria-label={c.nav.settings}><Settings2 size={20} /></button><button className="menu-trigger icon-button" onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? c.common.close : c.nav.lessons}>{menuOpen ? <X size={20} /> : <Menu size={20} />}</button></div>
-      {menuOpen && <nav className="mobile-menu">{navItems.map((item) => <button key={item.id} onClick={() => navigate(item.id)}>{item.icon}<span>{item.label}</span><ChevronLeft size={16} /></button>)}<button onClick={() => navigate('settings')}><Settings2 /><span>{c.nav.settings}</span><ChevronLeft size={16} /></button></nav>}
+      <div className="top-actions"><button className="icon-button settings-shortcut" onClick={() => navigate('settings')} aria-label={c.nav.settings}><Settings2 size={20} /></button><button className="menu-trigger icon-button" onClick={() => setMenuOpen(!menuOpen)} aria-label={settings.locale === 'ar' ? (menuOpen ? 'إغلاق القائمة' : 'فتح القائمة') : (menuOpen ? 'Close menu' : 'Open menu')} aria-expanded={menuOpen} aria-controls="mobile-navigation">{menuOpen ? <X size={20} /> : <Menu size={20} />}</button></div>
+      <nav id="mobile-navigation" className="mobile-menu" hidden={!menuOpen} aria-label={settings.locale === 'ar' ? 'قائمة التنقل' : 'Mobile navigation'}>{navItems.map((item) => <button key={item.id} onClick={() => navigate(item.id)}>{item.icon}<span>{item.label}</span><ChevronLeft size={16} /></button>)}<button onClick={() => navigate('settings')}><Settings2 /><span>{c.nav.settings}</span><ChevronLeft size={16} /></button></nav>
     </header>
     <main id="main-content">
       {view === 'home' && <HomePage c={c} locale={settings.locale} lessons={lessons} completed={completed} progress={percent} onOpen={openLesson} onNavigate={navigate} />}
@@ -147,7 +149,8 @@ function PageHeader({ eyebrow, title, description }: { eyebrow: string; title: s
 function LessonPage({ c, locale, lesson, text, done, saved, onComplete, onSave, onOpen, onBack }: { c: typeof copy.ar | typeof copy.en; locale: Locale; lesson: Lesson; text: LessonText; done: boolean; saved: boolean; onComplete: () => void; onSave: () => void; onOpen: (id: string) => void; onBack: () => void }) {
   const [choice, setChoice] = useState<number | null>(null);
   const [activeAnchor, setActiveAnchor] = useState('intro');
-  useEffect(() => setChoice(null), [lesson.id]);
+  const [activeConcept, setActiveConcept] = useState(0);
+  useEffect(() => { setChoice(null); setActiveConcept(0); }, [lesson.id]);
   const anchors = ['intro', 'objectives', 'map', 'explanation', 'equation', 'example', 'compare', 'simulation', 'applications', 'misconception', 'quiz', 'safety', 'summary', 'glossary'];
   const labels = [c.common.why, c.common.objective, c.common.conceptMap, c.common.explanation, c.common.equation, c.common.workedExample, c.common.compare, c.common.simulation, c.common.applications, c.common.misconception, c.common.quiz, c.common.safety, c.common.summary, c.common.glossary];
   useEffect(() => {
@@ -165,23 +168,23 @@ function LessonPage({ c, locale, lesson, text, done, saved, onComplete, onSave, 
   }, [lesson.id]);
   const activeSection = Math.max(0, anchors.indexOf(activeAnchor));
   const nextLesson = lessons[(lessons.findIndex((item) => item.id === lesson.id) + 1) % lessons.length];
-  return <div className={`page page-lesson lesson-${lesson.kind}`}>
+  return <div className={`page page-lesson lesson-${lesson.kind}`} data-lesson={lesson.id}>
     <button className="back-button" onClick={onBack}><ArrowLeft size={17} />{c.common.back}</button>
-    <div className="lesson-hero"><div className="lesson-hero-symbol">{lessonIcon(lesson.kind)}</div><div className="lesson-hero-copy"><div className="lesson-meta-line"><span>{text.subject}</span><i /><span>{text.level}</span><i /><span><Clock3 size={15} />{text.duration}</span></div><h1>{text.title}</h1><p>{text.summary}</p><div className="lesson-hero-actions"><button className={`button ${done ? 'button-complete' : 'button-primary'}`} onClick={onComplete}>{done ? <Check size={17} /> : <Target size={17} />}{done ? c.common.completed : c.common.markComplete}</button><button className={`button button-quiet ${saved ? 'is-saved' : ''}`} onClick={onSave}><Bookmark size={17} fill={saved ? 'currentColor' : 'none'} />{saved ? c.common.saved : c.common.save}</button></div></div></div>
+    <LessonExperience c={c} locale={locale} lesson={lesson} text={text} done={done} saved={saved} onComplete={onComplete} onSave={onSave} />
     <div className="lesson-reading-progress" aria-live="polite"><div><span>{locale === 'ar' ? `القسم ${activeSection + 1} من ${anchors.length}` : `Section ${activeSection + 1} of ${anchors.length}`}</span><strong>{labels[activeSection]}</strong></div><div className="reading-progress-track"><span style={{ width: `${((activeSection + 1) / anchors.length) * 100}%` }} /></div></div>
-    <div className="lesson-layout"><aside className="lesson-toc"><strong>{c.lesson.tableContents}</strong><small>{c.lesson.jumpTo}</small>{anchors.map((anchor, index) => <a key={anchor} className={activeAnchor === anchor ? 'active' : ''} aria-current={activeAnchor === anchor ? 'location' : undefined} href={`#${anchor}`}><span>{String(index + 1).padStart(2, '0')}</span>{labels[index]}</a>)}</aside>
-      <article className="lesson-body">
+    <div className="lesson-layout"><aside className={`lesson-toc lesson-toc-${lesson.kind}`}><strong>{c.lesson.tableContents}</strong><small>{c.lesson.jumpTo}</small>{anchors.map((anchor, index) => <a key={anchor} className={activeAnchor === anchor ? 'active' : ''} aria-current={activeAnchor === anchor ? 'location' : undefined} href={`#${anchor}`}><span>{String(index + 1).padStart(2, '0')}</span>{labels[index]}</a>)}</aside>
+      <article className={`lesson-body lesson-body-${lesson.kind}`}>
         <section id="intro" className="learning-card intro-card"><SectionLabel number="01" title={c.common.why} icon={<Sparkles />} /><h2>{text.goal}</h2><p className="lead-text">{text.why}</p><div className="prerequisite-box"><CircleHelp size={18} /><div><strong>{c.common.prerequisite}</strong><p>{text.prerequisite}</p></div></div></section>
         <section id="objectives" className="learning-card"><SectionLabel number="02" title={c.common.objective} icon={<Target />} /><h2>{c.common.takeaways}</h2><ul className="objective-list">{text.objectives.map((item, index) => <li key={item}><span>{String(index + 1).padStart(2, '0')}</span>{item}</li>)}</ul></section>
-        <section id="map" className="learning-card"><SectionLabel number="03" title={c.common.conceptMap} icon={<Network />} /><div className="concept-map">{text.conceptMap.map((node, index) => <div className="concept-node" key={node.label}><span className={`concept-node-icon node-${index}`}>{index === 0 ? <Atom /> : index === 1 ? <ArrowLeftRight /> : <Sparkles />}</span><strong>{node.label}</strong><small>{node.detail}</small>{index < text.conceptMap.length - 1 && <ChevronLeft className="concept-arrow" />}</div>)}</div></section>
+        <section id="map" className="learning-card"><SectionLabel number="03" title={c.common.conceptMap} icon={<Network />} /><InteractiveMindMap locale={locale} lessonTitle={text.title} nodes={text.conceptMap} activeIndex={activeConcept} onSelect={setActiveConcept} /></section>
         <section id="explanation" className="learning-card"><SectionLabel number="04" title={c.common.explanation} icon={<BookOpen />} /><div className="explanation-list">{text.explanation.map((item, index) => <article className="explanation-step" key={item.heading}><span className="step-number">{String(index + 1).padStart(2, '0')}</span><div><h3>{item.heading}</h3><p>{item.body}</p></div></article>)}</div></section>
         <section id="equation" className="learning-card equation-card"><SectionLabel number="05" title={c.common.equation} icon={<FlaskConical />} /><h2>{text.equation.heading}</h2><div className="equation-display" dir="ltr">{text.equation.expression}</div><p>{text.equation.note}</p><div className="symbol-list">{text.equation.symbols.map((symbol) => <div key={symbol.symbol}><b dir="ltr">{symbol.symbol}</b><span>{symbol.meaning}</span><small>{symbol.unit}</small></div>)}</div></section>
         <section id="example" className="learning-card example-card"><SectionLabel number="06" title={c.common.workedExample} icon={<Lightbulb />} /><h2>{text.workedExample.heading}</h2><p className="example-problem">{text.workedExample.problem}</p><div className="example-steps">{text.workedExample.steps.map((step, index) => <div key={step.label}><span>{index + 1}</span><div><strong>{step.label}</strong><p>{step.body}</p></div></div>)}</div><div className="example-answer"><Check size={18} /><div><strong>{c.common.answer}: {text.workedExample.answer}</strong><p>{text.workedExample.takeaway}</p></div></div></section>
         <section id="compare" className="learning-card"><SectionLabel number="07" title={c.common.compare} icon={<ArrowLeftRight />} /><h2>{text.comparison.heading}</h2><div className="comparison-table"><div className="comparison-row comparison-head">{text.comparison.columns.map((column) => <strong key={column}>{column}</strong>)}</div>{text.comparison.rows.map((row) => <div className="comparison-row" key={row.label}><strong>{row.label}</strong>{row.values.map((value, index) => <span key={`${row.label}-${index}`}>{value}</span>)}</div>)}</div></section>
-        <section id="simulation" className="learning-card simulation-card"><SectionLabel number="08" title={c.common.simulation} icon={<Atom />} /><Simulation c={c} locale={locale} kind={lesson.kind} /></section>
+        <section id="simulation" className="learning-card simulation-card"><SectionLabel number="08" title={c.common.simulation} icon={<Atom />} /><Simulation locale={locale} kind={lesson.kind} /></section>
         <section id="applications" className="learning-card"><SectionLabel number="09" title={c.common.applications} icon={<Microscope />} /><div className="application-grid">{text.applications.map((item, index) => <article key={item.title}><span>{index === 0 ? <Beaker /> : <Target />}</span><h3>{item.title}</h3><p>{item.body}</p></article>)}</div></section>
         <section id="misconception" className="learning-card misconception-card"><SectionLabel number="10" title={c.common.misconception} icon={<CircleHelp />} /><div className="myth-grid"><div><span>{locale === 'ar' ? 'قد تسمع' : 'You may hear'}</span><p>“{text.misconception.claim}”</p></div><div><Check size={19} /><div><strong>{locale === 'ar' ? 'التفسير الأدق' : 'A better explanation'}</strong><p>{text.misconception.correction}</p></div></div></div></section>
-        <section id="quiz" className="learning-card quiz-card"><SectionLabel number="11" title={c.common.quiz} icon={<Target />} /><h2>{text.quiz.question}</h2><div className="quiz-options">{text.quiz.options.map((option, index) => <button key={option} className={`${choice === index ? 'chosen' : ''} ${choice !== null && index === text.quiz.correctIndex ? 'is-correct' : ''}`} onClick={() => setChoice(index)}><span>{String.fromCharCode(65 + index)}</span><span>{option}</span>{choice !== null && index === text.quiz.correctIndex && <Check size={17} />}</button>)}</div>{choice !== null && <div className={`quiz-feedback ${choice === text.quiz.correctIndex ? 'success' : 'review'}`}><strong>{choice === text.quiz.correctIndex ? c.common.correct : c.common.tryAgain}</strong><p>{text.quiz.explanation}</p></div>}</section>
+        <section id="quiz" className="learning-card quiz-card"><SectionLabel number="11" title={c.common.quiz} icon={<Target />} /><h2>{text.quiz.question}</h2><div className="quiz-options">{text.quiz.options.map((option, index) => <button key={option} aria-pressed={choice === index} className={`${choice === index ? 'chosen' : ''} ${choice !== null && index === text.quiz.correctIndex ? 'is-correct' : ''}`} onClick={() => setChoice(index)}><span>{String.fromCharCode(65 + index)}</span><span>{option}</span>{choice !== null && index === text.quiz.correctIndex && <Check size={17} />}</button>)}</div><div className="quiz-live-region" role="status" aria-live="polite" aria-atomic="true">{choice === null ? '' : `${choice === text.quiz.correctIndex ? c.common.correct : c.common.tryAgain}. ${text.quiz.explanation}`}</div>{choice !== null && <div className={`quiz-feedback ${choice === text.quiz.correctIndex ? 'success' : 'review'}`}><strong>{choice === text.quiz.correctIndex ? c.common.correct : c.common.tryAgain}</strong><p>{text.quiz.explanation}</p></div>}</section>
         <section id="safety" className="learning-card safety-card"><SectionLabel number="12" title={c.common.safety} icon={<ShieldCheck />} /><h2>{text.safety.title}</h2><p>{text.safety.body}</p></section>
         <section id="summary" className="learning-card summary-card"><SectionLabel number="13" title={c.common.summary} icon={<Check />} /><div className="summary-grid">{text.summaryPoints.map((item, index) => <div key={item}><span>{String(index + 1).padStart(2, '0')}</span><p>{item}</p></div>)}</div></section>
         <section id="glossary" className="learning-card"><SectionLabel number="14" title={c.common.glossary} icon={<Layers3 />} /><div className="lesson-glossary">{text.glossary.map((term) => <article key={term.term}><strong>{term.term}</strong><p>{term.definition}</p></article>)}</div></section>
@@ -190,70 +193,32 @@ function LessonPage({ c, locale, lesson, text, done, saved, onComplete, onSave, 
   </div>;
 }
 
+function InteractiveMindMap({ locale, lessonTitle, nodes, activeIndex, onSelect }: { locale: Locale; lessonTitle: string; nodes: LessonText['conceptMap']; activeIndex: number; onSelect: (index: number) => void }) {
+  const active = nodes[activeIndex] ?? nodes[0];
+  return <div className="mindmap-lab">
+    <p className="mindmap-instruction">{locale === 'ar' ? 'اختر عقدة لتكشف فكرتها وعلاقتها بالدرس.' : 'Select a node to explore its idea and relation to the lesson.'}</p>
+    <div className="mindmap-board">
+      <div className="mindmap-hub"><span><Atom size={20} /></span><strong>{lessonTitle}</strong></div>
+      <div className="mindmap-branches" role="group" aria-label={locale === 'ar' ? 'عقد خريطة المفاهيم' : 'Concept map nodes'}>
+        {nodes.map((node, index) => <button key={node.label} className={`mindmap-node ${activeIndex === index ? 'selected' : ''}`} aria-pressed={activeIndex === index} aria-controls="mindmap-detail" onClick={() => onSelect(index)}>
+          <span className="mindmap-node-top"><span className="mindmap-node-icon">{index === 0 ? <Atom /> : index === 1 ? <ArrowLeftRight /> : <Sparkles />}</span><small>{String(index + 1).padStart(2, '0')}</small></span>
+          <strong>{node.label}</strong><span className="mindmap-node-preview">{node.detail}</span>
+        </button>)}
+      </div>
+    </div>
+    <article id="mindmap-detail" className="mindmap-detail" aria-live="polite" aria-atomic="true">
+      <span className="mindmap-detail-label"><Network size={15} />{locale === 'ar' ? 'الفكرة المختارة' : 'Selected concept'}</span>
+      <strong>{active.label}</strong><p>{active.detail}</p>
+    </article>
+  </div>;
+}
+
 function SectionLabel({ number, title, icon }: { number: string; title: string; icon: ReactNode }) {
   return <div className="section-label"><span>{number}</span><span className="section-label-icon">{icon}</span><strong>{title}</strong></div>;
 }
 
-function Simulation({ c, locale, kind }: { c: typeof copy.ar | typeof copy.en; locale: Locale; kind: SimulationKind }) {
-  const configs: Record<SimulationKind, { min: number; max: number; step: number; initial: number; labelAr: string; labelEn: string; unitAr: string; unitEn: string }> = {
-    'atomic-charge': { min: 0, max: 12, step: 1, initial: 6, labelAr: 'عدد الإلكترونات', labelEn: 'Electron count', unitAr: 'إلكترون', unitEn: 'electrons' },
-    energy: { min: -20, max: 120, step: 1, initial: 25, labelAr: 'درجة حرارة الماء عند ضغط جوي واحد', labelEn: 'Water temperature at 1 atm', unitAr: '°م', unitEn: '°C' },
-    ph: { min: 0, max: 14, step: 0.1, initial: 7, labelAr: 'قيمة الأس الهيدروجيني', labelEn: 'pH value', unitAr: 'pH', unitEn: 'pH' },
-    equilibrium: { min: 0, max: 100, step: 1, initial: 50, labelAr: 'كمية ناتج مضاف إلى نموذج الاتزان', labelEn: 'Product added to the equilibrium model', unitAr: '%', unitEn: '%' },
-    mole: { min: 0, max: 88, step: 0.1, initial: 44, labelAr: 'كتلة ثاني أكسيد الكربون', labelEn: 'Mass of carbon dioxide', unitAr: 'غ', unitEn: 'g' },
-    bond: { min: 0, max: 3.5, step: 0.1, initial: 1.2, labelAr: 'فرق السالبية الكهربائية التقريبي', labelEn: 'Approximate electronegativity difference', unitAr: 'ΔEN', unitEn: 'ΔEN' },
-  };
-  const config = configs[kind];
-  const [value, setValue] = useState(config.initial);
-  useEffect(() => setValue(config.initial), [kind]);
-  const current = getSimulationResult(kind, value, locale);
-  const displayValue = kind === 'ph' || kind === 'bond' || kind === 'mole' ? value.toFixed(1) : String(Math.round(value));
-  return <div className={`simulation-panel sim-${kind}`}><div className="simulation-head"><div><span className="live-pill"><i />{locale === 'ar' ? 'نموذج آمن' : 'Safe model'}</span><h2>{locale === 'ar' ? 'حرّك المتغير، ثم فسّر النتيجة' : 'Change one variable and interpret the result'}</h2><p>{locale === 'ar' ? 'هذا نموذج نوعي يساعد على التفكير، وليس بديلاً عن قياس تجريبي.' : 'This qualitative model supports reasoning; it is not a substitute for measurement.'}</p></div><span className="simulation-symbol">{lessonIcon(kind)}</span></div><SimulationArt kind={kind} value={value} />
-    <div className="simulation-control"><div className="simulation-value"><label htmlFor={`sim-${kind}`}>{locale === 'ar' ? config.labelAr : config.labelEn}</label><strong dir="ltr">{displayValue} <small>{locale === 'ar' ? config.unitAr : config.unitEn}</small></strong></div><input id={`sim-${kind}`} type="range" min={config.min} max={config.max} step={config.step} value={value} onChange={(event) => setValue(Number(event.target.value))} aria-label={locale === 'ar' ? config.labelAr : config.labelEn} /><div className="range-ends" dir="ltr"><span>{config.min}</span><span>{config.max}</span></div></div>
-    <div className="simulation-result"><span>{locale === 'ar' ? 'ما الذي نلاحظه؟' : 'What do we observe?'}</span><strong>{current.title}</strong><p>{current.body}</p></div><p className="simulation-footnote"><Lightbulb size={15} />{simulationNote(kind, locale)}</p><p className="screenreader-hint">{c.lesson.interactionHint}</p>
-  </div>;
-}
-
-function getSimulationResult(kind: SimulationKind, value: number, locale: Locale) {
-  if (kind === 'atomic-charge') {
-    const charge = 6 - Math.round(value);
-    if (locale === 'ar') return { title: charge === 0 ? 'ذرة كربون متعادلة' : `أيون كربون شحنته ${charge > 0 ? `${charge}+` : `${Math.abs(charge)}−`}`, body: `عدد البروتونات ثابت عند 6، والشحنة الصافية = 6 − ${Math.round(value)} = ${charge > 0 ? `${charge}+` : charge < 0 ? `${Math.abs(charge)}−` : '0'}. يتغير عدد الإلكترونات والشحنة، لكن هوية العنصر لا تتغير.` };
-    return { title: charge === 0 ? 'Neutral carbon atom' : `Carbon ion with charge ${charge > 0 ? `${charge}+` : `${Math.abs(charge)}−`}`, body: `The proton count stays at 6. Net charge = 6 − ${Math.round(value)} = ${charge > 0 ? `${charge}+` : charge < 0 ? `${Math.abs(charge)}−` : '0'}. Electron count and charge change, but the element identity does not.` };
-  }
-  if (kind === 'energy') {
-    const phaseAr = value < 0 ? 'جليد صلب' : value < 100 ? 'ماء سائل' : 'بخار ماء';
-    const phaseEn = value < 0 ? 'solid ice' : value < 100 ? 'liquid water' : 'water vapor';
-    return locale === 'ar' ? { title: phaseAr, body: value < 0 ? 'في هذا النموذج للماء النقي عند ضغط جوي واحد، تقع درجة الحرارة دون نقطة الانصهار التقريبية؛ تتحرك الجسيمات اهتزازياً حول مواقعها.' : value < 100 ? 'في هذا النموذج تكون الحالة السائلة؛ تتحرك الجسيمات وتغيّر جيرانها مع بقائها متقاربة.' : 'في هذا النموذج تقع الحرارة فوق درجة الغليان التقريبية للماء عند ضغط جوي واحد، وتكون الجسيمات متباعدة أكثر.' } : { title: phaseEn, body: value < 0 ? 'For pure water at approximately 1 atm, this is below the approximate melting point; particles mainly vibrate around positions.' : value < 100 ? 'The model shows liquid water: particles move and exchange neighbors while remaining close together.' : 'The model is above water’s approximate boiling point at 1 atm, so particles are much farther apart.' };
-  }
-  if (kind === 'ph') {
-    const group = value < 7 ? (locale === 'ar' ? 'محلول حمضي' : 'Acidic solution') : value > 7 ? (locale === 'ar' ? 'محلول قاعدي' : 'Basic solution') : (locale === 'ar' ? 'متعادل تقريباً' : 'Approximately neutral');
-    return { title: group, body: locale === 'ar' ? 'مقياس pH لوغاريتمي؛ فرق وحدة واحدة يقابل تغيراً بمقدار عشرة أضعاف في نشاط أيون الهيدرونيوم. لا تعني القيمة وحدها أن المحلول مركز أو آمن.' : 'The pH scale is logarithmic; a one-unit difference corresponds to a tenfold change in hydronium-ion activity. The value alone does not tell you concentration or safety.' };
-  }
-  if (kind === 'equilibrium') return value > 55 ? (locale === 'ar' ? { title: 'يميل النموذج نحو المتفاعلات', body: 'زيادة ناتج في نظام متزن تدفع الاستجابة النوعية نحو استهلاك جزء منه. ثابت الاتزان K لا يتغير بتغيير التركيز وحده عند ثبات درجة الحرارة.' } : { title: 'The model shifts toward reactants', body: 'Adding a product to an equilibrium system qualitatively favors a response that consumes some of it. At constant temperature, changing concentration alone does not change K.' }) : value < 45 ? (locale === 'ar' ? { title: 'ناتج أقل: قد يتكون المزيد منه', body: 'إزالة جزء من الناتج قد تجعل النظام يستجيب بتكوين المزيد منه. هذا وصف نوعي لمبدأ لوشاتيليه، وليس حساباً لتركيب الاتزان النهائي.' } : { title: 'Less product: the system may form more', body: 'Removing some product may cause the system to respond by forming more. This is a qualitative illustration of Le Châtelier’s principle, not a calculation of final composition.' }) : (locale === 'ar' ? { title: 'قريب من حالة البداية', body: 'عند عدم إحداث اضطراب كبير، تبقى تراكيز النظام ثابتة ظاهرياً بينما يستمر التفاعلان الأمامي والعكسي بالسرعة نفسها.' } : { title: 'Near the starting condition', body: 'Without a substantial disturbance, concentrations remain macroscopically steady while forward and reverse reactions continue at equal rates.' });
-  if (kind === 'mole') {
-    const n = value / 44.01; const particles = n * 6.02214076e23;
-    return locale === 'ar' ? { title: `${n.toFixed(3)} مول من CO₂ تقريباً`, body: `${value.toFixed(1)} g ÷ 44.01 g/mol = ${n.toFixed(3)} mol، أي نحو ${particles.toExponential(2)} جزيئاً باستخدام ثابت أفوجادرو.` } : { title: `About ${n.toFixed(3)} mol of CO₂`, body: `${value.toFixed(1)} g ÷ 44.01 g/mol = ${n.toFixed(3)} mol, or about ${particles.toExponential(2)} molecules using the Avogadro constant.` };
-  }
-  const type = value < 0.4 ? (locale === 'ar' ? 'تساهمية غير قطبية تقريباً' : 'approximately nonpolar covalent') : value < 1.8 ? (locale === 'ar' ? 'تساهمية قطبية غالباً' : 'often polar covalent') : (locale === 'ar' ? 'تزداد الصفة الأيونية' : 'increasing ionic character');
-  return locale === 'ar' ? { title: type, body: 'تقسيم تقريبي لفرق السالبية الكهربائية؛ نوع الترابط طيف مستمر، والحدود تختلف بين المراجع ولا تحدد وحدها خواص المادة.' } : { title: type, body: 'A rough classification by electronegativity difference. Bonding is a continuum; cutoffs vary among references and do not alone determine material properties.' };
-}
-
-function simulationNote(kind: SimulationKind, locale: Locale) {
-  if (kind === 'energy') return locale === 'ar' ? 'نقاط تحول الماء تقريبية وتتأثر بالضغط والمواد الذائبة.' : 'Water transition points are approximate and depend on pressure and dissolved substances.';
-  if (kind === 'ph') return locale === 'ar' ? 'التصنيف تقريبي للمحاليل المائية قرب درجة حرارة الغرفة.' : 'This classification is approximate for aqueous solutions near room temperature.';
-  if (kind === 'mole') return locale === 'ar' ? 'استخدمت كتلة مولية تقريبية لثاني أكسيد الكربون: 44.01 g/mol.' : 'The approximate molar mass used for carbon dioxide is 44.01 g/mol.';
-  if (kind === 'equilibrium') return locale === 'ar' ? 'لا يعرض النموذج تراكيز نهائية؛ يعتمد الاتزان على المعادلة والحرارة.' : 'The model does not calculate final concentrations; equilibrium depends on the reaction and temperature.';
-  if (kind === 'bond') return locale === 'ar' ? 'حدود التصنيف ليست قوانين فاصلة؛ استخدمها أداة تقريبية للفهم.' : 'Classification cutoffs are not sharp laws; use them only as a rough learning aid.';
-  return locale === 'ar' ? 'الشحنة بوحدات الشحنة الأولية؛ تبقى النواة ثابتة في هذا النموذج.' : 'Charge is given in elementary-charge units; the nucleus is fixed in this model.';
-}
-
-function SimulationArt({ kind, value }: { kind: SimulationKind; value: number }) {
-  if (kind === 'atomic-charge') return <div className="simulation-art atom-art"><div className="sim-orbit sim-orbit-a" /><div className="sim-orbit sim-orbit-b" /><div className="sim-nucleus"><span>6p⁺</span><small>6n⁰</small></div>{Array.from({ length: Math.round(value) }, (_, index) => <i className={`sim-electron electron-${index % 8}`} key={index} />)}</div>;
-  if (kind === 'energy') return <div className={`simulation-art particle-art ${value < 0 ? 'solid' : value < 100 ? 'liquid' : 'gas'}`}>{Array.from({ length: 12 }, (_, index) => <i key={index} style={{ '--particle-i': index } as unknown as CSSProperties} />)}<span>{Math.round(value)}°</span></div>;
-  if (kind === 'ph') return <div className="simulation-art ph-art"><div className="ph-spectrum" /><div className="ph-pointer" style={{ insetInlineStart: `${Math.max(0, Math.min(100, value / 14 * 100))}%` }} /><div className="ph-labels" dir="ltr"><span>0</span><span>7</span><span>14</span></div><strong>{value.toFixed(1)}</strong></div>;
-  if (kind === 'equilibrium') return <div className="simulation-art balance-art"><div className="balance-pan pan-a" style={{ transform: `translateY(${(value - 50) / 6}px)` }}><span>Reactants</span><i /><i /><i /></div><div className="balance-axis" /><div className="balance-pan pan-b" style={{ transform: `translateY(${(50 - value) / 6}px)` }}><span>Products</span><i /><i /><i /></div></div>;
-  if (kind === 'mole') return <div className="simulation-art mole-art"><div className="mole-container">{Array.from({ length: Math.max(1, Math.round(value / 7.34)) }, (_, index) => <i key={index} />)}</div><span className="mole-number">{(value / 44.01).toFixed(2)} mol</span><small>CO₂</small></div>;
-  return <div className="simulation-art bond-art"><div className="bond-atom atom-left"><span>δ⁺</span></div><div className="bond-cloud" style={{ opacity: 0.4 + Math.min(value / 3.5, 1) * 0.55 }}><i /><i /></div><div className="bond-atom atom-right"><span>δ⁻</span></div><div className="bond-labels"><small>{value.toFixed(1)} ΔEN</small><small>shared electron density</small></div></div>;
+function Simulation({ locale, kind }: { locale: Locale; kind: SimulationKind }) {
+  return <SimulationLab locale={locale} kind={kind} />;
 }
 
 function GoldPage({ c, locale, index, setIndex }: { c: typeof copy.ar | typeof copy.en; locale: Locale; index: number; setIndex: (index: number) => void }) {
